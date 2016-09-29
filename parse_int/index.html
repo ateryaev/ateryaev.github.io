@@ -1,0 +1,105 @@
+<html>
+	<style>
+		div {page-break-inside:avoid;}
+		 x{width:50%;float:left;margin-left:-1px;margin-top:-1px; padding:40px; box-sizing: border-box;
+			border:1px dashed gray;	}
+		* {font-family:verdana}
+		body {padding:0 40px}
+		* {font-family:monospace;font-size:30px;line-height:30px;}
+		
+		h2 {margin:5px 10px;color:#666;font-size:50%;}
+		
+		input {text-align:right;padding:5px;margin:5px;display:block;background:#fff;border:2px solid #000;}
+		input[readonly] {border:2px solid #eee;background:#eee;}
+		
+		span {display:block;position:absolute;padding:5px;margin:5px;color:#666;font-size:50%;}
+		div {padding:10px 0;}
+		div.nan {opacity:0.2;}
+	</style>
+	
+<script>
+		window.onload = function() {
+			var inp = document.getElementById("text1");
+			//var out_dec_to_dec = document.getElementById("text_1_1");
+			//out_dec_to_dec.value = inp.value;
+			
+			function sync() {
+				
+				var str = inp.value;
+				var int_10 = parseInt(str, 10);
+				var int_16 = parseInt(str, 16);
+				var int_02 = parseInt(str, 02);
+				
+				
+				document.getElementById("text_10_10").value = int_10.toString(10);
+				document.getElementById("text_10_16").value = int_10.toString(16);
+				document.getElementById("text_10_02").value = int_10.toString(2);
+				
+				document.getElementById("text_16_10").value = int_16.toString(10);
+				document.getElementById("text_16_16").value = int_16.toString(16);
+				document.getElementById("text_16_02").value = int_16.toString(2);
+				
+				document.getElementById("text_02_10").value = int_02.toString(10);
+				document.getElementById("text_02_16").value = int_02.toString(16);
+				document.getElementById("text_02_02").value = int_02.toString(2);
+				
+				document.getElementById("div_10").className=isNaN(int_10)?"nan":"";
+				document.getElementById("div_16").className=isNaN(int_16)?"nan":"";
+				document.getElementById("div_02").className=isNaN(int_02)?"nan":"";
+			}
+			
+			inp.onchange  = sync;
+			inp.onkeyup  = sync;
+			inp.onmouseup  = sync;
+			inp.oninput = inp.onpaste = sync;
+			
+			inp.select();
+			inp.focus()
+			
+			sync();
+		};
+</script>
+<body>
+	
+	<div>
+		
+		<div>
+		<h2>INPUT</h2>
+		<span>???</span>
+		<input type=text id=text1 value="255">
+		</div>
+		
+		<div id="div_10">
+		<h2>DEC to</h2>
+		<span>DEC</span>
+		<input type=text id=text_10_10 value="" readonly>
+		<span>HEX</span>
+		<input type=text id=text_10_16 value="" readonly>
+		<span>BIN</span>
+		<input type=text id=text_10_02 value="" readonly>
+		</div>
+		
+		<div id="div_16">
+		<h2>HEX to</h2>
+		<span>DEC</span>
+		<input type=text id=text_16_10 value="0x1234567890" readonly>
+		<span>HEX</span>
+		<input type=text id=text_16_16 value="0x1234567890" readonly>
+		<span>BIN</span>
+		<input type=text id=text_16_02 value="" readonly>
+		</div>
+		
+		<div id="div_02">
+		<h2>BIN to</h2>
+		<span>DEC</span>
+		<input type=text id=text_02_10 value="" readonly>
+		<span>HEX</span>
+		<input type=text id=text_02_16 value="" readonly>
+		<span>BIN</span>
+		<input type=text id=text_02_02 value="" readonly>
+		</div>
+		
+	</div>
+
+</body>
+</html>
