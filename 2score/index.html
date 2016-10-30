@@ -5,8 +5,87 @@
   <meta name="viewport" content="width=device-width">
   <title>2score</title>
   <script src="js/score_generator.js"></script>
+  <script src="js/bank.js"></script>
+<style>
+    body>xdiv {
+        width: 400px;
+        border: 1px solid black;
+        margin: 5px auto;
+        padding: 5px;
+    }
+    div.generator {
+            width:200px;height:200px;
+    margin:100px auto;
+    background:rgba(255,255,200,0.5);
+    border: 5px solid rgba(255,255,255,0.99);
+        xposition: absolute;
+        -webkit-transform: rotateZ(45deg);
+        color:#fff;
+        xbox-sizing:border-box;
+    }
+    div.income {
+        top:0;bottom:0;
+        left:0;right:0;
+        xbackxround: red;
+        position: absolute;
+        line-height: 200px;
+        xxwidth: 200px;
+        text-align:center;
+        -webkit-transform: rotateZ(-45deg);
+        font-size:30px;
+        font-family:tahoma;
+        
+    }
+    div.income:before {
+        content: "+";
+        position: absolute;
+        margin-left: -16px;
+        font-size: 16px;
+    }
+    div.timer {
+        top:0;bottom:0;
+        left:0;right:0;
+        xbackground: red;
+        position: absolute;
+        line-height: 100px;
+        padding-top:90px;
+        xxwidth: 200px;
+        text-align:center;
+        -webkit-transform: rotateZ(-45deg);
+        font-size:16px;
+        font-family:tahoma;
+    }
+    div.level {
+        top:0;bottom:0;
+        left:0;right:0;
+        xbackground: red;
+        position: absolute;
+        line-height: 100px;
+        padding-top:10px;
+        xxwidth: 200px;
+        text-align:center;
+        -webkit-transform: rotateZ(-45deg);
+        font-size:16px;
+        font-family:tahoma;
+    }
+</style>
+    
+<script>
+    
+</script>
 </head>
-<body>
+<body style="background-image:url(bg.jpg);background-position:center;">
 Game is here!
+<div id="div_total">
+    0
+</div>
+<div>
+<div class= "generator" style="">
+    <div class="level">01</div>
+    <div class="income">000001</div>
+    <div class="timer">00:05</div>
+</div>
+</div>
+    
 </body>
 </html>
