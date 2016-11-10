@@ -6,86 +6,183 @@
   <title>2score</title>
   <script src="js/score_generator.js"></script>
   <script src="js/bank.js"></script>
+
 <style>
-    body>xdiv {
-        width: 400px;
-        border: 1px solid black;
-        margin: 5px auto;
-        padding: 5px;
-    }
-    div.generator {
-            width:200px;height:200px;
-    margin:100px auto;
-    background:rgba(255,255,200,0.5);
-    border: 5px solid rgba(255,255,255,0.99);
-        xposition: absolute;
-        -webkit-transform: rotateZ(45deg);
-        color:#fff;
-        xbox-sizing:border-box;
-    }
-    div.income {
-        top:0;bottom:0;
-        left:0;right:0;
-        xbackxround: red;
-        position: absolute;
-        line-height: 200px;
-        xxwidth: 200px;
-        text-align:center;
-        -webkit-transform: rotateZ(-45deg);
-        font-size:30px;
-        font-family:tahoma;
-        
-    }
-    div.income:before {
-        content: "+";
-        position: absolute;
-        margin-left: -16px;
-        font-size: 16px;
-    }
-    div.timer {
-        top:0;bottom:0;
-        left:0;right:0;
-        xbackground: red;
-        position: absolute;
-        line-height: 100px;
-        padding-top:90px;
-        xxwidth: 200px;
-        text-align:center;
-        -webkit-transform: rotateZ(-45deg);
-        font-size:16px;
-        font-family:tahoma;
-    }
-    div.level {
-        top:0;bottom:0;
-        left:0;right:0;
-        xbackground: red;
-        position: absolute;
-        line-height: 100px;
-        padding-top:10px;
-        xxwidth: 200px;
-        text-align:center;
-        -webkit-transform: rotateZ(-45deg);
-        font-size:16px;
-        font-family:tahoma;
-    }
+	div {
+		box-sizing:border-box;
+	}
+	
+    div.tbl>div {
+		margin-bottom:20px;
+		padding:0;
+		width:100%;
+		height:50px;
+		line-height:20px;
+		text-align:center;
+	}
+	
+	div.tbl>div#div_total {
+		color:#000;
+		background:#fff;
+		padding-top:100px;
+		padding-bottom:10px;
+		height:160px;
+	}
+	
+	div.tbl>div#div_total>div {
+		color:#000;
+		background:transparent;
+	}
+	
+	div.tbl>div>div {
+		font-family:monospace;
+		font-size:12px;
+		xfloat:left;
+		padding:5px 10px;
+		color:#fff;
+		display:inline-block;
+		text-align:left;
+		width:185px;
+		xborder:1px solid red;
+	}
+	
+	
+	div.tbl>div>div:nth-child(1) {
+		text-align:right;
+		font-size:300%;
+		line-height:40px;
+		width:285px;
+	}
+	
+	div.tbl>div>div:nth-child(2) {
+		width:185px;
+	}
+	
+	div.tbl>div>div:nth-child(3) {
+		width:185px;
+		text-align:right;
+		
+		
+		background:#666;
+		color:#000;
+	}
+	div.tbl>div>div:nth-child(3)>div:nth-child(1) {
+		position:absolute;
+		text-align:left;
+	}
+	
+	div.tbl>div.upgradable>div:nth-child(3) {
+		background:#fff;
+		color:#000;
+	}
+	
+	div.tbl>div.locked>div:nth-child(2), div.tbl>div.locked>div:nth-child(1) {
+		color:#666;
+	}
+
+	
 </style>
-    
+
 <script>
     
 </script>
 </head>
-<body style="background-image:url(bg.jpg);background-position:center;">
-Game is here!
-<div id="div_total">
-    0
+<body style="background:#111;cbackground-image:url(bg.jpg);background-position:center;padding:0;margin:0;">
+<div class="tbl">
+	<div id="div_total">
+		
+		<div class="main_num">1,902</div>
+		<div class=""><br/>points available</div>
+		<div></div>
+	</div>
+	
+	<div class= "upgradable" style="">
+		<div class="income">
+			<div style="position:absolute;width:10px;xheight:10px;xbackground:#fff;xborder:2px solid white;font-size:20px;color:green;">&#9863;</div>
+			+3</div>
+		<div class="scheduler">every 5s<br/>next round in <b>4</b></div>
+		<div class="upgrade">
+			<div>LVL<br/>2</div>
+			<div>UPGRADE<br/>17</div>
+		</div>
+	</div>
+	
+	<div class= "" style="">
+		<div class="income">
+			<div style="position:absolute;text-align:left;font-size:12px;width:370px;right:50%;line-height:20px;color:green;"><!--i>Supervision Needed</i--></div>
+			+129</div>
+		<div class="scheduler">every 597s<br/>next round in <b>33</b></div>
+		<div class="upgrade">
+			<div>LVL<br/>2</div>
+			<div>UPGRADE<br/>1,000</div>
+		</div>
+	</div>
+	
+	<div class= "locked upgradable" style="">
+		<div class="income">
+			<div style="position:absolute;text-align:left;font-size:12px;width:370px;right:50%;line-height:20px;color:#666;"><!--i>Background Miner</i--></div>
+			+0</div>
+		<div class="scheduler">every 99s<br/>next round in <b>71</b></div>
+		<div class="upgrade">
+			<div></div>
+			<div>UNLOCK<br/>1,917</div>
+		</div>
+	</div>
+	
+	<div class= "locked" style="">
+		<div class="income">+0</div>
+		<div class="scheduler">every XXXs<br/>next round in <b>XXX</b></div>
+		<div class="upgrade">
+			<div></div>
+			<div>UNLOCK<br/>12,000</div>
+		</div>
+	</div>
+	
+
 </div>
-<div>
+<!--
+
+<div class= "generator upgradable" style="">
+	<div class="income">+28</div>
+    <div class="scheduler" >
+		<div>every 5s</div>
+		<div>next round in <b>4</b></div>
+	</div>
+	
+	<div class="upgrade">
+		<div><div style="float:left;">LVL</div>UPGRADE</div>
+		<div><div style="float:left;">2</div>12,000,917</div>
+	</div>
+</div>
+
+
 <div class= "generator" style="">
-    <div class="level">01</div>
-    <div class="income">000001</div>
-    <div class="timer">00:05</div>
+	<div class="income">+7<small style="font-size:50%;">...</small>170</div>
+    <div class="scheduler" >
+		<div>every 5-100s</div>
+		<div>next round in <b style="">7</b></div>
+	</div>
+	
+	<div class="upgrade">
+		<div><div style="float:left;">LVL</div>UPGRADE</div>
+		<div><div style="float:left;">1</div>2</div>
+	</div>
 </div>
+
+<div class= "generator locked" style="">
+	<div class="income">+XXX</div>
+    <div class="scheduler" >
+		<div>every XXXs</div>
+		<div>next round in <b>XXX</b></div>
+	</div>
+	
+	<div class="upgrade">
+		<div xstyle="font-size:12px">UNLOCK</div>
+		<div>2</div>
+	</div>
 </div>
+
+
     
 </body>
 </html>
