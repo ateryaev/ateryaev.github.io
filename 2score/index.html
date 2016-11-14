@@ -1,182 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>2score</title>
-  <script src="js/score_generator.js"></script>
-  <script src="js/bank.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, xminimum-scale=1.0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+	<meta name="apple-touch-fullscreen" content="yes"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="touch-fullscreen" content="yes"/>
 
-<style>
-	div {
-		box-sizing:border-box;
-	}
-	
-    div.tbl>div {
-		margin-bottom:20px;
-		padding:0;
-		width:100%;
-		height:50px;
-		line-height:20px;
-		text-align:center;
-	}
-	
-	div.tbl>div#div_total {
-		color:#000;
-		background:#fff;
-		padding-top:100px;
-		padding-bottom:10px;
-		height:160px;
-	}
-	
-	div.tbl>div#div_total>div {
-		color:#000;
-		background:transparent;
-	}
-	
-	div.tbl>div>div {
-		font-family:monospace;
-		font-size:12px;
-		xfloat:left;
-		padding:5px 10px;
-		color:#fff;
-		display:inline-block;
-		text-align:left;
-		width:185px;
-		xborder:1px solid red;
-	}
-	
-	
-	div.tbl>div>div:nth-child(1) {
-		text-align:right;
-		font-size:300%;
-		line-height:40px;
-		width:285px;
-	}
-	
-	div.tbl>div>div:nth-child(2) {
-		width:185px;
-	}
-	
-	div.tbl>div>div:nth-child(3) {
-		width:185px;
-		text-align:right;
-		
-		
-		background:#666;
-		color:#000;
-	}
-	div.tbl>div>div:nth-child(3)>div:nth-child(1) {
-		position:absolute;
-		text-align:left;
-	}
-	
-	div.tbl>div.upgradable>div:nth-child(3) {
-		background:#fff;
-		color:#000;
-	}
-	
-	div.tbl>div.locked>div:nth-child(2), div.tbl>div.locked>div:nth-child(1) {
-		color:#666;
-	}
+	<title>2score</title>
+  
+	<script src="../libs/divafw.js"></script>
+	<script src="../libs/notifications.js"></script>
+	<script src="js/score_generator.js"></script>
+	<script src="js/bank.js"></script>
+	<script src="game.js"></script>
 
-	
-</style>
-
-<script src="game.js"></script>
-
+	<style>
+		body{padding:0;margin:0;background:#111;}
+		div.view{position:absolute;text-align:center;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
+		div.view.scroll { z-index:-1;}
+		* {-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-user-select:none;
+			font-family:monospace,GeosansLight,GeosansLight,HelveticaNeue-CondensedBold,Helvetica Neue, Helvetica, HelveticaNeue-Light,ArialRoundedMTBold,times,tahoma,arial,Geometry, arial;
+			letter-spacing:0px;
+		}
+		#viewport>div {
+			xbox-shadow:0 0 0px 1px rgba(0,0,0,0.25);xborder:1px solid red;
+			webkit-transform:translate3d(0,0,0);
+		}
+	</style>
 </head>
-<body style="background:#111;cbackground-image:url(bg.jpg);background-position:center;padding:0;margin:0;">
-<div class="tbl">
-	<div id="div_total">
-		
-		<div class="main_num" id="BNK.TOTAL">1,902</div>
-		<div class=""><br/>points available</div>
-		<div></div>
-	</div>
-	
-	<div class= "upgradable" style="">
-		<div class="income" id="SG.INCOME">+3</div>
-		<div class="scheduler">every 5s<br/>next round in <b>4</b></div>
-		<div class="upgrade">
-			<div>LVL<br/>2</div>
-			<div>UPGRADE<br/>17</div>
-		</div>
-	</div>
-	<!--
-	<div class= "" style="">
-		<div class="income">
-			+129</div>
-		<div class="scheduler">every 597s<br/>next round in <b>33</b></div>
-		<div class="upgrade">
-			<div>LVL<br/>2</div>
-			<div>UPGRADE<br/>1,000</div>
-		</div>
-	</div>
-	
-	<div class= "locked upgradable" style="">
-		<div class="income">+0</div>
-		<div class="scheduler">every 99s<br/>next round in <b>71</b></div>
-		<div class="upgrade">
-			<div></div>
-			<div>UNLOCK<br/>1,917</div>
-		</div>
-	</div>
-	
-	<div class= "locked" style="">
-		<div class="income">+0</div>
-		<div class="scheduler">every XXXs<br/>next round in <b>XXX</b></div>
-		<div class="upgrade">
-			<div></div>
-			<div>UNLOCK<br/>12,000</div>
-		</div>
-	</div>
-	-->
 
-</div>
-<!--
-
-<div class= "generator upgradable" style="">
-	<div class="income">+28</div>
-    <div class="scheduler" >
-		<div>every 5s</div>
-		<div>next round in <b>4</b></div>
-	</div>
-	
-	<div class="upgrade">
-		<div><div style="float:left;">LVL</div>UPGRADE</div>
-		<div><div style="float:left;">2</div>12,000,917</div>
-	</div>
-</div>
-
-
-<div class= "generator" style="">
-	<div class="income">+7<small style="font-size:50%;">...</small>170</div>
-    <div class="scheduler" >
-		<div>every 5-100s</div>
-		<div>next round in <b style="">7</b></div>
-	</div>
-	
-	<div class="upgrade">
-		<div><div style="float:left;">LVL</div>UPGRADE</div>
-		<div><div style="float:left;">1</div>2</div>
-	</div>
-</div>
-
-<div class= "generator locked" style="">
-	<div class="income">+XXX</div>
-    <div class="scheduler" >
-		<div>every XXXs</div>
-		<div>next round in <b>XXX</b></div>
-	</div>
-	
-	<div class="upgrade">
-		<div xstyle="font-size:12px">UNLOCK</div>
-		<div>2</div>
-	</div>
-</div>
-
-
-    
-</body>
+<body oncontextmenu="return false;"><div id="viewport" style="position:fixed;top:0;left:0;bottom:0;right:0;"></div></body>
 </html>

@@ -19,7 +19,7 @@ function ScoreGenerator(bank) {
     }
     
     this.getIncomePeriod = function() {
-        return 5000; //every 5 sec
+        return 2000; //every 2 sec
     }
     
     this.getLevel = function() {
