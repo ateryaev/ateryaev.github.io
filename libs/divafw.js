@@ -69,6 +69,10 @@ AFW.View = function(p_bounds, p_bgcolor) {
 	this.getHtmlDiv = function() {
 		return htmlDiv;
 	}
+	
+	this.getStyle = function() {
+		return htmlDiv.style;
+	}
 
 	this.appendChild = function(view) {
 		this.getHtmlDiv().appendChild(view.getHtmlDiv());
