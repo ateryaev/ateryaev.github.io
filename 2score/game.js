@@ -3,7 +3,7 @@ var ScoreGeneratorUI = function(index) {
 	AFW.View.call(this,{top:10+index*70, left:0, right:0, height:60});
 	this.setForeground("#555");
 	
-	var lbl_income = new AFW.Label({top:0,left:0,right:"50%",height:40}, 40, "#fff", "right", "+2");
+	var lbl_income = new GameNumberLabel({top:0,left:0,right:"50%",height:40}, 40, "#fff", "right", "+");
 	lbl_income.getHtmlDiv().style.lineHeight = "40px"
 	lbl_income.getHtmlDiv().style.margin = "10px"
 	this.appendChild(lbl_income);
@@ -32,7 +32,9 @@ var ScoreGeneratorUI = function(index) {
 	lbl_level.getHtmlDiv().style.margin = "5px 10px"
 	btn_upgrade.appendChild(lbl_level);
 	
-	var lbl_upgrade_cost = new AFW.Label({right:0,left:0}, 12, "#000", "right", "UPGRADE<br>1<b style=font-size:50%>,</b>080");
+    
+    
+	var lbl_upgrade_cost = new GameNumberLabel({right:0,top:0}, 12, "#000", "right", "UPGRADE<br>");
 	lbl_upgrade_cost.getHtmlDiv().style.lineHeight = "20px"
 	lbl_upgrade_cost.getHtmlDiv().style.margin = "5px 10px"
 	btn_upgrade.appendChild(lbl_upgrade_cost);
@@ -54,7 +56,7 @@ var ScoreGeneratorUI = function(index) {
 	
 	
 	this.setIncome = function(num) {
-		lbl_income.setHtml("+"+num);
+		lbl_income.setGameNumber(num);
 	}
 	
 	this.setLevel = function(num) {
@@ -63,6 +65,7 @@ var ScoreGeneratorUI = function(index) {
 	
 	this.setUpgradeCost = function(num) {
 		lbl_upgrade_cost.setHtml("UPGRADE<br>"+num);
+        lbl_upgrade_cost.setGameNumber(num)
 	}
 	
 	this.setEvery = function(num) {
@@ -97,8 +100,8 @@ var ScoreGeneratorUI = function(index) {
 	
 }
 
-function GameNumberLabel(p_bounds, p_size, p_fgcolor, p_align) {
-	AFW.Label.call(this, p_bounds, p_size, p_fgcolor, p_align, "0");
+function GameNumberLabel(p_bounds, p_size, p_fgcolor, p_align, prefix) {
+	AFW.Label.call(this, p_bounds, p_size, p_fgcolor, p_align, prefix+"0");
 	
 	var value = 0;
 	var value_before = 0;
@@ -111,7 +114,15 @@ function GameNumberLabel(p_bounds, p_size, p_fgcolor, p_align) {
 		value_visible = v;
 		v = Math.round(v);
 		
-		this.setHtml(v);
+        str = (v%1000);
+        v=Math.floor(v/1000);
+        
+        while(v>0) {
+            str = "<span style=font-size:50%>,</span>" + str;
+            str = (v%1000)+str;
+            v=Math.floor(v/1000);
+        }
+		this.setHtml(prefix+str);
 	}
 	
 	
@@ -123,7 +134,7 @@ function GameNumberLabel(p_bounds, p_size, p_fgcolor, p_align) {
 		value_before = value_visible;
 		value = num;
 		
-		animation = ANIME.createAnimation(200, animate.bind(this));
+		animation = ANIME.createAnimation(150, animate.bind(this));
 
 		
 	}
@@ -157,15 +168,15 @@ window.onload = function() {
 	view_basic_income.appendChild(view_basic_income_num);
 	
 	*/
-	var lbl_points_availabel_num = new GameNumberLabel({bottom:0,right:"50%",height:40}, 40, "#fff", "right", "13<b style=font-size:50%>,</b>050");
+	var lbl_points_availabel_num = new GameNumberLabel({bottom:0,right:"50%",height:40}, 40, "#fff", "right", "");
 	//var lbl_points_availabel_num = new AFW.Label({bottom:20,left:0,right:50%,height:40}, 40, "#000", "center", "<span style=color:#ddd>000<b style=font-size:50%>,</b>000<b style=font-size:50%>,</b>0</span>50");
-	lbl_points_availabel_num.getStyle().margin = "10px"
+	lbl_points_availabel_num.getStyle().margin = "20px 10px"
 	lbl_points_availabel_num.getStyle().lineHeight = "40px"
 	view_title.appendChild(lbl_points_availabel_num);
 
 	var lbl_points_available_txt = new AFW.Label({bottom:0,left:"50%",height:20}, 12, "#fff", "left", "points available");
 	//var lbl_points_available_txt = new AFW.Label({bottom:0,left:0,right:0,height:20}, 12, "#000", "center", "points available");
-	lbl_points_available_txt.getStyle().margin = "10px"
+	lbl_points_available_txt.getStyle().margin = "20px 10px"
 	lbl_points_available_txt.getStyle().lineHeight = "20px"
 	view_title.appendChild(lbl_points_available_txt);
 	

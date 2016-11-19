@@ -19,7 +19,7 @@ function ScoreGenerator(bank) {
     }
     
     this.getIncomePeriod = function() {
-        return 1000;
+        return 2000;
     }
 	
 	//final function:
@@ -57,12 +57,12 @@ function ScoreGenerator2(bank) {
 	ScoreGenerator.call(this, bank);
 	
 	this.getIncomePeriod = function() {
-        return 1000;
+        return 10000;
     }
 	
 	this.getUpgradeCost = function() {
 		var lvl = this.getLevel();
-        return Math.round(Math.pow(1.2, lvl))+lvl+1; //1,2,4,8,16...
+        return 10*Math.round(Math.pow(1.2, lvl))+lvl; //1,2,4,8,16...
     }
 	
 	this.getIncome = function() {
