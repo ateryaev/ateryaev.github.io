@@ -133,13 +133,15 @@ AFW.Canvas = function(p_bounds, bg_color) {
 
 	var htmlCanvas = document.createElement("canvas");
 	htmlCanvas.style.display="block";
-	htmlCanvas.style.height="100%";
-	htmlCanvas.style.width="100%";
-	htmlCanvas.width = p_bounds.width;
-	htmlCanvas.height = p_bounds.height;
+	htmlCanvas.style.height=p_bounds.width +"px"
+	htmlCanvas.style.width= p_bounds.width +"px";
+	htmlCanvas.width = p_bounds.width*window.devicePixelRatio;
+	htmlCanvas.height = p_bounds.height*window.devicePixelRatio;
 	this.getHtmlDiv().appendChild(htmlCanvas);
 	
 	var context = htmlCanvas.getContext('2d');
+    
+    context.scale(window.devicePixelRatio, window.devicePixelRatio);
 	
 	/*
 	context.arc(40,40,30,0,3);
