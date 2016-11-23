@@ -8,7 +8,8 @@
 	<meta name="apple-touch-fullscreen" content="yes"/>
 	<meta name="format-detection" content="telephone=no"/>
 	<meta name="touch-fullscreen" content="yes"/>
-
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+	
 	<title>2score</title>
   
 	<script src="../libs/animator.js"></script>
@@ -19,13 +20,17 @@
 	<script src="game.js"></script>
 
 	<style>
-		body{padding:0;margin:0;background:#111;}
+		body{padding:0;margin:0;background:#fff;}
 		div.view{position:absolute;text-align:center;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
 		div.view.scroll { z-index:-1;}
 		* {-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-user-select:none;
-			font-family:monospace,GeosansLight,GeosansLight,HelveticaNeue-CondensedBold,Helvetica Neue, Helvetica, HelveticaNeue-Light,ArialRoundedMTBold,times,tahoma,arial,Geometry, arial;
-			letter-spacing:0px;
+			font-family:Lato, monospace,GeosansLight,GeosansLight,HelveticaNeue-CondensedBold,Helvetica Neue, Helvetica, HelveticaNeue-Light,ArialRoundedMTBold,times,tahoma,arial,Geometry, arial;
+			xletter-spacing:1px;
+			xfont-style:italic;
+			font-weight: 100;
+			
 		}
+		b {font-weight: 700;}
 		#viewport>div {
 			xbox-shadow:0 0 0px 1px rgba(0,0,0,0.25);xborder:1px solid red;
 			webkit-transform:translate3d(0,0,0);

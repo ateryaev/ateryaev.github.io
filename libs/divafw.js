@@ -62,9 +62,6 @@ AFW.View = function(p_bounds, p_bgcolor) {
 	var htmlDiv = document.createElement("div");
 	htmlDiv.className="view";
 	
-	function change_bounds_property(property, new_value) {
-			htmlDiv.style[property] = new_value;
-	}
 	
 	this.getHtmlDiv = function() {
 		return htmlDiv;
@@ -129,6 +126,33 @@ AFW.View = function(p_bounds, p_bgcolor) {
 	if (p_bounds) this.setBounds(p_bounds);
 	if (p_bgcolor) this.setBackground(p_bgcolor);
 	AFW.makeViewTouchable(this);
+}
+
+AFW.Canvas = function(p_bounds, bg_color) {
+	AFW.View.call(this,p_bounds, bg_color);
+
+	var htmlCanvas = document.createElement("canvas");
+	htmlCanvas.style.display="block";
+	htmlCanvas.style.height="100%";
+	htmlCanvas.style.width="100%";
+	htmlCanvas.width = p_bounds.width;
+	htmlCanvas.height = p_bounds.height;
+	this.getHtmlDiv().appendChild(htmlCanvas);
+	
+	var context = htmlCanvas.getContext('2d');
+	
+	/*
+	context.arc(40,40,30,0,3);
+	context.lineCap = 'round';
+	context.lineWidth = 4;
+	//context.lineTo(40,40);
+	context.fillStyle = 'blue';
+	context.stroke(); // or context.fill()
+	*/
+	this.getCanvasContext = function() {return context;}
+
+    
+
 }
 
 AFW.Label = function(p_bounds, p_size, p_fgcolor, p_align, p_html) {

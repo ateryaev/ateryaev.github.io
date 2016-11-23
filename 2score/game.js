@@ -3,7 +3,7 @@ var ScoreGeneratorUI = function(index) {
 	AFW.View.call(this,{top:10+index*70, left:0, right:0, height:60});
 	this.setForeground("#555");
 	
-	var lbl_income = new GameNumberLabel({top:0,left:0,right:"50%",height:40}, 40, "#fff", "right", "+");
+	var lbl_income = new GameNumberLabel({top:0,left:0,right:"50%",height:40}, 40, "#fff", "right", "<span style=opacity:0.5>+</span>");
 	lbl_income.getHtmlDiv().style.lineHeight = "40px"
 	lbl_income.getHtmlDiv().style.margin = "10px"
 	this.appendChild(lbl_income);
@@ -114,11 +114,13 @@ function GameNumberLabel(p_bounds, p_size, p_fgcolor, p_align, prefix) {
 		value_visible = v;
 		v = Math.round(v);
 		
-        str = (v%1000);
+        str = (v%1000)+"";
         v=Math.floor(v/1000);
         
         while(v>0) {
-            str = "<span style=font-size:50%>,</span>" + str;
+			var zeros = 3-str.length%4;
+			str = Array(zeros+1).join("0") + str;
+            str = "," + str;
             str = (v%1000)+str;
             v=Math.floor(v/1000);
         }
@@ -127,7 +129,7 @@ function GameNumberLabel(p_bounds, p_size, p_fgcolor, p_align, prefix) {
 	
 	
 	this.setGameNumber = function(num) {
-		
+		//num += 10001022
 		value = value_visible;
 		ANIME.complete(animation);
 		
@@ -147,13 +149,13 @@ window.onload = function() {
 	//var view_bg = new AFW.View({top:0,left:"50%",right:0,bottom:0}, "#333");
 	//AFW.appendChild(view_bg);
 	
-	var view_title = new AFW.View({top:0,left:0,right:0,height:"50%"}, "#111");
+	var view_title = new AFW.View({top:0,left:0,right:0,height:"50%"}, "#000");
 	//var view_title = new AFW.View({top:0,left:0,right:0,height:"50%"}, "transparent");
-	AFW.appendChild(view_title);
+	//AFW.appendChild(view_title);
 	
 	var view_content = new AFW.View({bottom:0,left:0,right:0,height:"50%"}, "#333");
 	//var view_content = new AFW.View({bottom:0,left:0,right:0,height:"50%"}, "transparent");
-	AFW.appendChild(view_content);
+	//AFW.appendChild(view_content);
 	
 	/*
 	var view_basic_income = new AFW.View({bottom:120,left:0,right:0,height:80,width:80}, "#222");
@@ -168,17 +170,47 @@ window.onload = function() {
 	view_basic_income.appendChild(view_basic_income_num);
 	
 	*/
-	var lbl_points_availabel_num = new GameNumberLabel({bottom:0,right:"50%",height:40}, 40, "#fff", "right", "");
-	//var lbl_points_availabel_num = new AFW.Label({bottom:20,left:0,right:50%,height:40}, 40, "#000", "center", "<span style=color:#ddd>000<b style=font-size:50%>,</b>000<b style=font-size:50%>,</b>0</span>50");
-	lbl_points_availabel_num.getStyle().margin = "20px 10px"
-	lbl_points_availabel_num.getStyle().lineHeight = "40px"
-	view_title.appendChild(lbl_points_availabel_num);
+	
+	var view_circle = new AFW.Canvas({top:30,left:0,right:0,height:80,width:80}, "#fff");
+	//view_circle.getStyle().borderRadius = "50%"
+	//view_circle.getStyle().border = "8px solid #eee"
+	
+	var ctx = view_circle.getCanvasContext();
+	
+	ctx.beginPath();
+	//ctx.lineCap = 'round';
+	ctx.lineWidth = 6;
+	ctx.strokeStyle = '#eee';
+	ctx.arc(40,40,30, 0, 8);
+	ctx.stroke();
 
-	var lbl_points_available_txt = new AFW.Label({bottom:0,left:"50%",height:20}, 12, "#fff", "left", "points available");
+	ctx.beginPath();
+	ctx.lineWidth = 6;
+	ctx.strokeStyle = '#ccc';//'rgba(0,0,0,0.5)';
+	ctx.arc(40,40,30, 0, 0.5);
+	ctx.stroke();
+	
+	AFW.appendChild(view_circle);
+	
+	var lbl_circle = new AFW.Label({top:0,right:0,left:0,bottom:0}, 12, "#000", "center", "<b>+1,090</b>");
+	lbl_circle.getStyle().lineHeight = "12px"
+	view_circle.appendChild(lbl_circle);
+	
+	var view_points = new AFW.View({top:110,left:0,right:0,height:80}, "#fff");
+	//view_points.getStyle().margin = "2px"
+	AFW.appendChild(view_points);
+	
+	var lbl_points_availabel_num = new GameNumberLabel({top:20,right:0,left:0,height:40}, 40, "#222", "center", "7,100,08");
+	//var lbl_points_availabel_num = new AFW.Label({bottom:20,left:0,right:50%,height:40}, 40, "#000", "center", "<span style=color:#ddd>000<b style=font-size:50%>,</b>000<b style=font-size:50%>,</b>0</span>50");
+	lbl_points_availabel_num.getStyle().margin = "10px"
+	lbl_points_availabel_num.getStyle().lineHeight = "40px"
+	view_points.appendChild(lbl_points_availabel_num);
+
+	var lbl_points_available_txt = new AFW.Label({top:0,right:0,left:0,height:20}, 12, "#222", "center", "<b>points");
 	//var lbl_points_available_txt = new AFW.Label({bottom:0,left:0,right:0,height:20}, 12, "#000", "center", "points available");
-	lbl_points_available_txt.getStyle().margin = "20px 10px"
+	lbl_points_available_txt.getStyle().margin = "10px"
 	lbl_points_available_txt.getStyle().lineHeight = "20px"
-	view_title.appendChild(lbl_points_available_txt);
+	view_points.appendChild(lbl_points_available_txt);
 	
 	
 	
