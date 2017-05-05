@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NetWalk</title>
+    
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="viewport" content="width=device-width,maximum-scale=2.6,initial-scale=1,user-scalable=no"> 
+	<meta name="format-detection" content="telephone=no">
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+	<link href="css/main.css"      rel="stylesheet" type="text/css" />
+	<link href="css/menu.css"      rel="stylesheet" type="text/css" />
+	<link href="css/game.css"      rel="stylesheet" type="text/css" />
+	<link href="css/transitions.css"      rel="stylesheet" type="text/css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/transitions.js"></script>
+	<script src="js/NotificationCenter.js"></script>
+	<script src="js/helpers.js"></script>
+	<script src="js/cell.js"></script>
+	<script src="js/GameFieldController.js"></script>
+	<script src="js/GameStorage.js"></script>
+	<script src="js/GameModel.js"></script>
+	<script src="js/ui_helper.js"></script>
+	<script src="js/buttons.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/sounds.js"></script>
+
+<script>
+
+function IOS(operation, params) {
+	if (!params) params="";
+	var urlstr = 'ios://'+operation+'/' + params;
+
+	window.location.href=urlstr;
+	//console.log(urlstr);
+	if (operation=='iad') {
+		window.setTimeout(function(){NC.postNotification('MSG_AD_END');}, 500);
+		
+	}
+}
+
+var GAME_MODE = ["Nightmare", "Ultra-Violence", "Hurt me plenty", "Hey, not too rough", "Too young to loose", "Tutorial"];
+var SIZE = 77;
+var FLAG_CLASSES=["top", "right", "bottom", "left"];
+    
+
+
+$(document).ready(function() {
+
+    
+    //var curentZoom = 1.0;
+    window.onresize = function() {
+        var viewport = document.querySelector("body>div");// window.document.getElementById("screen");
+        viewport.style.margin="auto";
+        viewport.style.right="0";
+        viewport.style.left="0";
+        viewport.style.top="0";
+        viewport.style.bottom="0";
+        var deviceWidth = window.outerWidth; //document.documentElement.clientWidth*curentZoom;
+        var deviceHeight = window.outerHeight; //document.documentElement.clientHeight*curentZoom;
+        var renderWidth = 768;
+        var renderHeight = 1024;
+        //
+        //console.log("resized: "+deviceWidth + "/" + renderWidth);
+
+        var metaElement = document.querySelector("meta[name=viewport]");
+        var needScaleW= (deviceWidth/renderWidth);
+        var needScaleH= (deviceHeight/renderHeight);
+        var needScale = Math.min(needScaleW, needScaleH);
+        
+        metaElement.content = "initial-scale="+(Math.round(needScale*100)/100.0)+", user-scalable=no,maximum-scale=100.0";
+
+        //curentZoom = needScale;
+        //console.log(metaElement.content)
+    }
+    window.onresize();
+    
+    
+    
+    
+    
+	for(var j=0; j<ROWS; j++) {
+		for(var i=0; i<COLS; i++) {
+			$("#game_div").append("<div class='cell "+((j+i)%2==0?"odd":"")+"' id='cell_"+i+"_"+j+"' style='position:absolute;top:"+(j*SIZE)+"px;left:"+(i*SIZE)+"px;"+(i==COLS-1?"width:75px;":"")+"'></div>");
+			$("#cell_"+i+"_"+j).append("<div class=cell_content><div class=v_part/><div class=h_part/></div>");
+			$("#cell_"+i+"_"+j).append("<div class=cell_fg xstyle='-webkit-animation-delay:"+(Math.random()*2.0)+"s;'/>");
+			var cell_tmp = GM.getCell(i, j);
+			cell_tmp.data.$cell = $("#cell_"+i+"_"+j);
+		}
+	}
+	for(var i=0; i<100; i++) {
+		$("#view_main_shadow").append("<div style='-webkit-transition-delay:"+(0.1+(Math.random()*0.5))+"s;opacity:"+(Math.random()*1.0)+";-webkit-transform:translate3d("+(Math.random()*768.0)+"px,"+(Math.random()*1024.0)+"px,0) rotate("+(Math.random()*360.0)+"deg) scale("+(Math.random()*1.0)+");'></div>");
+	}
+	//init();
+	window.onload = function() {window.setTimeout(init, 100);}
+});
+</script>
+</head>
+<body><div id="screen" class="xmenu inactive">	
+	<div id="view_game" style="background:url(img/bg.jpg);">
+		<div id="game_div"  class="pause_animation"></div>
+		<div id="div_game_header" style="border-top-left-radius:2px;border-top-right-radius:2px;">
+			<a data-action="showMenu()" class="main-button" style="right:0;margin:15px;margin-top:35px;">
+				<div style="border-width:0;width:3px;height:13px;top:50%;left:50%;margin:-6px -6px;"></div>
+				<div style="border-width:0;width:3px;height:13px;top:50%;left:50%;margin:-6px 4px;"></div>
+			</a>
+			<div id="div_level" class="title">
+				<span id="lbl_game_mode">Undefined</span>
+				<div class="subtitle">mode</div>
+			</div>
+			<div id="div_taps" class="title" >
+				<span id="lbl_taps_count">---</span>
+				<div class="subtitle" id="lbl_record">best is 28 taps</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_shadow paused" id="view_main_shadow"><span id="spinner"></span></div>
+	
+	<div id="view_menu" class="popup hidden">
+			<div class="title">Netwalk <sup style="background:#888;color:#eee;padding:2px;font-size:10px;border-radius:1px;box-shadow: 0 0 0px 1px rgba(255,255,255,1),">HD</sup>
+				<a id="btn_menu_close" data-action="hideMenu()" class="main-button" style="">
+					<div style="width:3px;height:16px;top:50%;left:50%;margin:-8px -1px;-webkit-transform:rotate(45deg);"></div>
+					<div style="width:3px;height:16px;top:50%;left:50%;margin:-8px -1px;-webkit-transform:rotate(-45deg);"></div>
+				</a>
+			</div>
+			<div class="popup_content">
+				<a data-action="showSubMenu('#view_menu_newgame')">New Game</a>
+				<a data-action="showSubMenu('#view_menu_settings')">Settings</a>
+				<a data-action="showSubMenu('#view_menu_about')">About</a>
+			</div>
+			<div class="popup_shadow"></div>
+	</div>
+
+	<div id="view_menu_newgame" class="popup hidden">
+			<div class="title">New Game
+				<a data-action="backToMenu()" class="main-button" style="right:auto;left:0;">
+					<div style="width:12px;height:3px;top:50%;left:50%;margin:-1px -6px;-webkit-transform-origin:1px 50%;-webkit-transform:rotate(45deg);"></div>
+					<div style="width:12px;height:3px;top:50%;left:50%;margin:-1px -6px;-webkit-transform-origin:1px 50%;-webkit-transform:rotate(-45deg);"></div>
+				</a>
+			</div>
+			<div class="popup_content">
+				<a data-action="startNewGame(0)">Too young to loose</a>
+				<a data-action="startNewGame(1)">Hey, not too rough</a>
+				<a data-action="startNewGame(2)">Hurt me plenty</a>
+				<a data-action="startNewGame(3)">Ultra-Violence</a>
+				<a data-action="startNewGame(4)">Nightmare</a>
+			</div>
+			<div class="popup_shadow"></div>
+	</div>
+
+	<div id="view_menu_settings" class="popup hidden">
+			<div class="title">Settings
+			<a data-action="backToMenu()" class="main-button" style="right:auto;left:0;">
+				<div style="width:12px;height:3px;top:50%;left:50%;margin:-1px -6px;-webkit-transform-origin:1px 50%;-webkit-transform:rotate(45deg);"></div>
+				<div style="width:12px;height:3px;top:50%;left:50%;margin:-1px -6px;-webkit-transform-origin:1px 50%;-webkit-transform:rotate(-45deg);"></div>
+				</a>
+			</div>
+			<div class="popup_content">
+				<a data-action="GameStorage.setSoundOn(!GameStorage.isSoundOn());syncSettingsWithView();" style="text-align:left;">Sound<span style="text-align:left;float:right" id="lbl_settings_sound">On</span></a>
+				<a data-action="GameStorage.setMusicOn(!GameStorage.isMusicOn());syncSettingsWithView();SetBgMusic(GameStorage.isMusicOn());" style="text-align:left;">Music<span style="text-align:left;float:right" id="lbl_settings_music">Off</span></a>
+				<a data-action="GameStorage.setRotateRight(!GameStorage.isRotateRight());syncSettingsWithView();" style="text-align:left;">Rotate<span style="text-align:left;float:right" id="lbl_settings_rotate_right">Right</span></a>
+			</div>
+			<div class="popup_shadow"></div>
+	</div>
+	
+	<div id="view_menu_newgame_sure" class="popup hidden">
+			<div class="title">Sure?
+			<a data-action="backToNewGame()" class="main-button" style="right:auto;left:0;">
+				<div style="width:12px;height:3px;top:50%;left:50%;margin:-1px -6px;-webkit-transform-origin:1px 50%;-webkit-transform:rotate(45deg);"></div>
+				<div style="width:12px;height:3px;top:50%;left:50%;margin:-1px -6px;-webkit-transform-origin:1px 50%;-webkit-transform:rotate(-45deg);"></div>
+				</a>
+				<a data-action="startNewGameSure()" class="main-button" style="">
+				<div style="border-width:0;width:3px;height:12px;top:45%;left:45%;margin:-4px 1px;-webkit-transform-origin:100% 100%;-webkit-transform:rotate(-45deg);"></div>
+				<div style="border-width:0;width:3px;height:16px;top:45%;left:45%;margin:-8px 0px;-webkit-transform-origin:0% 100%;-webkit-transform:rotate(45deg);"></div>
+				</a>
+			</div>
+			<div class="popup_content">
+				If you really want to start new game then your progress in the current game will be lost forever.
+			</div>
+			<div class="popup_shadow"></div>
+	</div>
+
+	<div id="view_menu_about" class="popup hidden">
+			<div class="title">About
+			<a data-action="backToMenu()" class="main-button" style="right:auto;left:0;">
+				<div style="width:12px;height:3px;top:50%;left:50%;margin:-1px -6px;-webkit-transform-origin:1px 50%;-webkit-transform:rotate(45deg);"></div>
+				<div style="width:12px;height:3px;top:50%;left:50%;margin:-1px -6px;-webkit-transform-origin:1px 50%;-webkit-transform:rotate(-45deg);"></div>
+				</a>
+			</div>
+			<div class="popup_content">
+			<b style="color:#aaa;">How To Play</b><br><br>
+			Your job is to rotate all the pieces so that every dot is connected to the mine dot by pipes and there are no lose ends in your network.<br><br> 
+			Of course, the less work you need to do to complete your network the better, so Netwalk is scored by the number of turns it takes you to rotate everything into place.
+			
+			<br><br><b style="color:#aaa;">Credits</b><br><br>
+			The game created by Anton Teryaev:<br> <a href="http://teryaev.blogspot.com/" style="display:block;text-align:right;font-size:18px;line-height:20px;xpadding:0;">teryaev.blogspot.com</a>
+			<br>
+			Implementation inspired by:<br> <a href="http://phonegap.com/" style="display:block;font-size:18px;line-height:20px;text-align:right;">phonegap.com</a>
+			<br>
+			Free sounds, music from:<br> <a href="http://www.freesfx.co.uk/" style="display:block;font-size:18px;line-height:20px;text-align:right;">freesfx.co.uk</a>
+			<br>
+			Thanks to Svetlana, Artem, Alexander and Dave ;-).
+			
+			</div>
+			
+			<div class="popup_shadow"></div>
+	</div>
+	
+	
+	
+	<div id="view_game_solved" class="popup hidden">
+		<div class="title">Solved
+			<a id="btn_back_to_menu_from_game_solved" class="main-button">
+				<div style="border-width:0;width:3px;height:12px;top:45%;left:45%;margin:-4px 1px;-webkit-transform-origin:100% 100%;-webkit-transform:rotate(-45deg);"></div>
+				<div style="border-width:0;width:3px;height:16px;top:45%;left:45%;margin:-8px 0px;-webkit-transform-origin:0% 100%;-webkit-transform:rotate(45deg);"></div>
+			</a>
+		</div>
+		<div class="popup_content" style="xbackground:#a72;xpadding-top:0px;">
+			 <div style="line-height:50px;">Turns
+			 	<div id="lbl_taps_count_total" style="float:right;">198</div>
+			 </div>
+			 <div style="line-height:50px;">Could be
+			 	<div id="lbl_taps_count_needed" style="float:right;">198</div>
+			 </div>
+			 <div style="line-height:50px;">Useless Turns
+			 	<div id="lbl_taps_count_useless" style="float:right;">198</div>
+			 </div>
+		</div>
+	</div>
+	
+	
+</div></body></html>

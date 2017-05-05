@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<!--meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=2.0, xminimum-scale=1.0, user-scalable=no"/-->
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-touch-fullscreen" content="yes"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="touch-fullscreen" content="yes"/>
+
+
+<style>
+    body{padding:0;margin:0;background:#000;}
+    body>div{padding:0;margin:auto;background:#fff;position:absolute;top:0;left:0;bottom:0;right:0;}
+</style>
+
+<script>
+    var WebApp = {};
+    WebApp.setViewPortSize = function(w, h) {
+        this.viewport = {width:w, height:h};
+    }
+    window.onload = function() {
+        var webapp_content = window.document.getElementById("webapp_content");
+        webapp_content.style.maxWidth="200px";
+        //webapp_content.style.minWidth="330px";
+        webapp_content.style.maxHeight="100px";
+        console.log(webapp_content+"loaded!");
+        
+        var curentZoom = 1.0;
+        window.onresize = function() {
+            
+            var deviceWidth = document.documentElement.clientWidth*curentZoom;
+            var renderWidth = 200;
+            //
+            
+            console.log("resized: "+deviceWidth + "/" + renderWidth);
+            
+            var metaElement = document.querySelector("meta[name=viewport]");
+            metaElement.content = "initial-scale="+(deviceWidth/200)+", user-scalable=no,maximum-scale=100.0";
+            
+            curentZoom = (deviceWidth/200);
+            console.log(metaElement.content)
+        }
+        
+        
+        window.onresize();
+        
+        if (WebApp.onload) WebApp.onload();
+    }
+    
+    
+    
+    WebApp.setViewPortSize(200,200);
+    
+    WebApp.onload = function() {
+        
+    }
+    
+    
+</script>
+    
+<body>
+    <div id="webapp_content">
+        <div style="position:absolute;width:10px;height:10px;background:red;bottom:0;"></div>
+        <div style="position:absolute;width:10px;height:10px;background:red;top:0;right:0"></div>
+        <h1 style="text-align:right">header</h1>
+        <center>test2</center>
+    </div>
+</body>
+</html>

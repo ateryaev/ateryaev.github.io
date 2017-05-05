@@ -3,6 +3,7 @@ AFW = {}
 AFW.appendChild = function(view) {
 	var root_view = document.getElementById("viewport");
 	root_view.appendChild(view.getHtmlDiv());
+    return view;
 }
 
 AFW.removeChild = function(view)  {

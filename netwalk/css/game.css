@@ -1,0 +1,100 @@
+
+#view_game {
+	background: #000;
+}
+.menu #view_game {
+	x-webkit-filter:blur(3px);
+}
+#div_game_header {
+	box-sizing:border-box;
+	padding-top: 20px;
+	margin:0px;
+	margin-right:0px;
+	xoverflow:hidden;
+	background:rgba(255,255,255,0.8);
+	box-shadow: inset 0 0 15px 0px rgba(255,255,255,0.25), inset 0 0 0px 1px rgba(255,255,255,0.25);
+	xborder-bottom:1px solid #f8f8f8;
+	height:99px;86px;
+}
+#div_game_header>a {
+	opacity: 1;
+	-webkit-transition:opacity 0.2s 0.4s, -webkit-transform 0.2s 0.4s, background 0.2s 0.2s;
+	-webkit-transform:translate3d(0px,0px,0px);
+}
+#div_game_header>a.pressed{
+	-webkit-transition:opacity 0.2s 0.4s, -webkit-transform 0.2s 0.4s, background 0.0s 0.0s;
+}
+.inactive #div_game_header>a {
+	opacity: 0;
+	-webkit-transform:translate3d(50px,0,0px);
+}
+#view_game .title {
+	-webkit-transform-origin: 50% 75%;
+	-webkit-transform:translate3d(0,0px,0px);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	background: transparent;
+	opacity:1;
+	display: block;
+	box-shadow:none;
+}
+
+
+.inactive #view_game .title {
+	-webkit-transform:translate3d(0px,-50px,0px);
+	opacity:0;
+}
+
+#view_game #div_taps.title {
+	-webkit-transition-delay: 0.2s;
+}
+
+
+
+.title {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	font-size: 21px;
+	line-height:24px;
+	padding: 20px 15px;
+	color:#333;
+	background:#eee;
+	padding:28px 15px;
+	box-shadow: inset 0 0 15px 0px rgba(255,255,255,1), inset 0 0 0px 1px rgba(255,255,255,1);
+}
+#view_game .title {
+	padding-bottom:0;
+	margin:0 1px;
+}
+.subtitle {font-size: 12px; padding:0px 0px; color:#444;margin-top: -3px;}
+
+#div_level {
+	xfont-weight:bold;
+	position: absolute;
+	left: 0;
+	text-align: left;
+	xcolor: #000;
+	
+}
+#div_taps {
+	position: absolute;
+	right: 200px;
+	left: 200px;
+	text-align: center;
+}
+
+#screen>div.popup_shadow {
+	background:#220;rgba(0,0,0,0.0);
+	opacity: 0;
+	top:-10000px;
+	margin:0px;
+	border-radius: 2px;
+	-webkit-transition:opacity 0.3s, top 0 0.3s;
+}
+#screen.menu>div.popup_shadow {
+	-webkit-animation-timing-function: ease-in-out;
+	opacity: 0.75;
+	top:0;
+	-webkit-transition:opacity 0.3s, top 0 0s;
+
+	
+}
