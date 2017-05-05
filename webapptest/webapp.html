@@ -2,7 +2,7 @@
 <html>
 <meta charset="utf-8">
 <!--meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=2.0, xminimum-scale=1.0, user-scalable=no"/-->
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+<meta name="viewport" content="initial-scale=2.0, user-scalable=no"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 <meta name="apple-touch-fullscreen" content="yes"/>
@@ -16,10 +16,52 @@
 </style>
 
 <script>
-    var WebApp = {};
-    WebApp.setViewPortSize = function(w, h) {
-        this.viewport = {width:w, height:h};
+    
+    function AUTO_VIEWPORT() {
+        
+        var curentZoom = 1.0;
+        //var output = document.querySelector("#output");
+        //output.innerHTML = (screen.width + " % " + document.documentElement.clientWidth);
+        window.onresize = function() {
+            var viewport = document.querySelector("body>div");// window.document.getElementById("screen");
+            //output.innerHTML = (screen.width + " % " + screen.availWidth+"%"+window.innerWidth);
+            viewport.style.margin="auto";
+            viewport.style.right="0";
+            viewport.style.left="0";
+            viewport.style.top="0";
+            viewport.style.bottom="0";
+            var deviceWidth = Math.round(document.documentElement.clientWidth*curentZoom);//window.outerWidth;
+            var deviceHeight = Math.round(document.documentElement.clientHeight*curentZoom);//window.outerHeight;
+            var renderWidth = 200;
+            var renderHeight = 100;
+            viewport.style.width = renderWidth+"px";
+            viewport.style.height = renderHeight+"px";
+            //
+            //console.log("resized: "+deviceWidth + "/" + renderWidth);
+
+            var metaElement = document.querySelector("meta[name=viewport]");
+            var needScaleW= (deviceWidth/renderWidth);
+            var needScaleH= (deviceHeight/renderHeight);
+            var needScale = Math.min(needScaleW, needScaleH);
+
+            curentZoom = needScale;
+            //window.setTimeout(function() {
+                metaElement.content = "initial-scale="+(Math.round(needScale*10000)/10000.0)+", user-scalable=no,maximum-scale=100.0";
+            //}, 10);
+            
+            console.log(metaElement.content);
+        }
+        window.onresize();   
     }
+    
+    
+    
+    
+    window.onload = function() {
+        AUTO_VIEWPORT();
+    }
+    
+    /*
     window.onload = function() {
         var webapp_content = window.document.getElementById("webapp_content");
         webapp_content.style.maxWidth="200px";
@@ -47,6 +89,7 @@
         window.onresize();
         
         if (WebApp.onload) WebApp.onload();
+        
     }
     
     
@@ -56,7 +99,7 @@
     WebApp.onload = function() {
         
     }
-    
+    */
     
 </script>
     
@@ -65,7 +108,7 @@
         <div style="position:absolute;width:10px;height:10px;background:red;bottom:0;"></div>
         <div style="position:absolute;width:10px;height:10px;background:red;top:0;right:0"></div>
         <h1 style="text-align:right">header</h1>
-        <center>test2</center>
+        <center id="output">test2</center>
     </div>
 </body>
 </html>

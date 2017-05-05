@@ -5,7 +5,7 @@
     
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<meta name="viewport" content="width=device-width,maximum-scale=2.6,initial-scale=1,user-scalable=no"> 
+	<meta name="viewport" content="maximum-scale=1,initial-scale=1,user-scalable=no"> 
 	<meta name="format-detection" content="telephone=no">
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
@@ -29,6 +29,7 @@
 <script>
 
 function IOS(operation, params) {
+    return;
 	if (!params) params="";
 	var urlstr = 'ios://'+operation+'/' + params;
 
@@ -46,21 +47,25 @@ var FLAG_CLASSES=["top", "right", "bottom", "left"];
     
 
 
-$(document).ready(function() {
+function AUTO_VIEWPORT() {
 
-    
-    //var curentZoom = 1.0;
+    var curentZoom = 1.0;
+    //var output = document.querySelector("#output");
+    //output.innerHTML = (screen.width + " % " + document.documentElement.clientWidth);
     window.onresize = function() {
         var viewport = document.querySelector("body>div");// window.document.getElementById("screen");
+        //output.innerHTML = (screen.width + " % " + screen.availWidth+"%"+window.innerWidth);
         viewport.style.margin="auto";
         viewport.style.right="0";
         viewport.style.left="0";
         viewport.style.top="0";
         viewport.style.bottom="0";
-        var deviceWidth = window.outerWidth; //document.documentElement.clientWidth*curentZoom;
-        var deviceHeight = window.outerHeight; //document.documentElement.clientHeight*curentZoom;
+        var deviceWidth = Math.round(document.documentElement.clientWidth*curentZoom);//window.outerWidth;
+        var deviceHeight = Math.round(document.documentElement.clientHeight*curentZoom);//window.outerHeight;
         var renderWidth = 768;
         var renderHeight = 1024;
+        viewport.style.width = renderWidth+"px";
+        viewport.style.height = renderHeight+"px";
         //
         //console.log("resized: "+deviceWidth + "/" + renderWidth);
 
@@ -68,15 +73,19 @@ $(document).ready(function() {
         var needScaleW= (deviceWidth/renderWidth);
         var needScaleH= (deviceHeight/renderHeight);
         var needScale = Math.min(needScaleW, needScaleH);
-        
-        metaElement.content = "initial-scale="+(Math.round(needScale*100)/100.0)+", user-scalable=no,maximum-scale=100.0";
 
-        //curentZoom = needScale;
-        //console.log(metaElement.content)
+        curentZoom = needScale;
+        //window.setTimeout(function() {
+            metaElement.content = "initial-scale="+(Math.round(needScale*10000)/10000.0)+", user-scalable=no,maximum-scale=100.0";
+        //}, 10);
+
+        //alert(metaElement.content);
     }
-    window.onresize();
-    
-    
+    window.onresize();   
+}
+$(document).ready(function() {
+
+    AUTO_VIEWPORT();
     
     
     
