@@ -29,11 +29,11 @@
 <script>
 
 function IOS(operation, params) {
-    return;
+    //return;
 	if (!params) params="";
 	var urlstr = 'ios://'+operation+'/' + params;
 
-	window.location.href=urlstr;
+	// window.location.href=urlstr;
 	//console.log(urlstr);
 	if (operation=='iad') {
 		window.setTimeout(function(){NC.postNotification('MSG_AD_END');}, 500);
