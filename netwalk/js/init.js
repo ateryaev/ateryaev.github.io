@@ -175,8 +175,8 @@ function init() {
 	syncModelWithView();
 
 	function syncSettingsWithView() {
-		$("#lbl_settings_sound").html(GameStorage.isSoundOn()?"On":"Off");
-		$("#lbl_settings_music").html(GameStorage.isMusicOn()?"On":"Off");
+		//$("#lbl_settings_sound").html(GameStorage.isSoundOn()?"On":"Off");
+		//$("#lbl_settings_music").html(GameStorage.isMusicOn()?"On":"Off");
 		$("#lbl_settings_rotate_right").html(GameStorage.isRotateRight()?"Right":"Left");
 		$("#screen").removeClass("rotate_right");
 		$("#screen").removeClass("rotate_left");

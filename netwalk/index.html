@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html manifest="netwalk.manifest">
   <head>
     <title>NetWalk</title>
-    
+    <link rel="apple-touch-icon" href="Icon76@2x.png">
+    <link rel="icon" sizes="152x152" href="Icon76@2x.png">
+      
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<meta name="viewport" content="maximum-scale=1,initial-scale=1,user-scalable=no"> 
@@ -167,8 +169,8 @@ $(document).ready(function() {
 				</a>
 			</div>
 			<div class="popup_content">
-				<a data-action="GameStorage.setSoundOn(!GameStorage.isSoundOn());syncSettingsWithView();" style="text-align:left;">Sound<span style="text-align:left;float:right" id="lbl_settings_sound">On</span></a>
-				<a data-action="GameStorage.setMusicOn(!GameStorage.isMusicOn());syncSettingsWithView();SetBgMusic(GameStorage.isMusicOn());" style="text-align:left;">Music<span style="text-align:left;float:right" id="lbl_settings_music">Off</span></a>
+				<a data-action-na="GameStorage.setSoundOn(!GameStorage.isSoundOn());syncSettingsWithView();" style="text-align:left;opacity:0.3">Sound<span style="text-align:left;float:right" id="lbl_settings_sound">Off</span></a>
+				<a data-action-na="GameStorage.setMusicOn(!GameStorage.isMusicOn());syncSettingsWithView();SetBgMusic(GameStorage.isMusicOn());" style="text-align:left;opacity:0.3">Music<span style="text-align:left;float:right" id="lbl_settings_music">Off</span></a>
 				<a data-action="GameStorage.setRotateRight(!GameStorage.isRotateRight());syncSettingsWithView();" style="text-align:left;">Rotate<span style="text-align:left;float:right" id="lbl_settings_rotate_right">Right</span></a>
 			</div>
 			<div class="popup_shadow"></div>
