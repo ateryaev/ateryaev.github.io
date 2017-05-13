@@ -49,45 +49,52 @@ var FLAG_CLASSES=["top", "right", "bottom", "left"];
     
 
 
-function AUTO_VIEWPORT() {
+function AUTO_VIEWPORT(renderWidth, renderHeight, viewport) {
 
+    var USING_META_VIEWPORT = (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch);
+    //var viewport = document.querySelector("body>div");// window.document.getElementById("screen");
+    var metaElement = document.querySelector("meta[name=viewport]");
     var curentZoom = 1.0;
+    viewport.style.width = renderWidth+"px";
+    viewport.style.height = renderHeight+"px";
+    viewport.style.margin="auto";
+    viewport.style.right="0";
+    viewport.style.left="0";
+    viewport.style.top="0";
+    viewport.style.bottom="0";
+    viewport.style.position="fixed"
+    
     //var output = document.querySelector("#output");
     //output.innerHTML = (screen.width + " % " + document.documentElement.clientWidth);
     window.onresize = function() {
-        var viewport = document.querySelector("body>div");// window.document.getElementById("screen");
-        //output.innerHTML = (screen.width + " % " + screen.availWidth+"%"+window.innerWidth);
-        viewport.style.margin="auto";
-        viewport.style.right="0";
-        viewport.style.left="0";
-        viewport.style.top="0";
-        viewport.style.bottom="0";
-        var deviceWidth = Math.round(document.documentElement.clientWidth*curentZoom);//window.outerWidth;
-        var deviceHeight = Math.round(document.documentElement.clientHeight*curentZoom);//window.outerHeight;
-        var renderWidth = 768;
-        var renderHeight = 1024;
-        viewport.style.width = renderWidth+"px";
-        viewport.style.height = renderHeight+"px";
-        //
-        //console.log("resized: "+deviceWidth + "/" + renderWidth);
-
-        var metaElement = document.querySelector("meta[name=viewport]");
+        
+        var deviceWidth = Math.round(document.documentElement.clientWidth*curentZoom);
+        var deviceHeight = Math.round(document.documentElement.clientHeight*curentZoom);
         var needScaleW= (deviceWidth/renderWidth);
         var needScaleH= (deviceHeight/renderHeight);
         var needScale = Math.min(needScaleW, needScaleH);
 
-        curentZoom = needScale;
-        //window.setTimeout(function() {
+        if (USING_META_VIEWPORT) {
+            curentZoom = needScale;
             metaElement.content = "initial-scale="+(Math.round(needScale*10000)/10000.0)+", user-scalable=no,maximum-scale=100.0";
-        //}, 10);
-
-        //alert(metaElement.content);
+        }
+        else {
+            //viewport.style.transform = "scale("+needScale+")";
+            if (needScale>1) {
+                needScale = Math.floor(needScale);
+            }
+            document.querySelector("body").style.zoom = needScale;
+            
+            //document.querySelector("body").style.transformOrigin = "50% 50%";
+            //document.querySelector("body").style.transform = "scale("+needScale+")";
+        }
     }
+
     window.onresize();   
 }
 $(document).ready(function() {
 
-    AUTO_VIEWPORT();
+    AUTO_VIEWPORT(768, 1024, document.querySelector("#screen"));
     
     
     
@@ -118,10 +125,11 @@ $(document).ready(function() {
   ga('create', 'UA-98722094-2', 'auto');
   ga('send', 'pageview');
 </script>
+<div style="position:absolute;right:0;bottom:0;color:#333;padding:2px;">20170513</div>
 <div id="screen" class="xmenu inactive">	
 	<div id="view_game" style="background:url(img/bg.jpg);">
 		<div id="game_div"  class="pause_animation"></div>
-		<div id="div_game_header" style="border-top-left-radius:2px;border-top-right-radius:2px;">
+		<div id="div_game_header" style="border-top-left-radius:2px;border-top-right-radius:2px;margin-right:1px">
 			<a data-action="showMenu()" class="main-button" style="right:0;margin:15px;margin-top:35px;">
 				<div style="border-width:0;width:3px;height:13px;top:50%;left:50%;margin:-6px -6px;"></div>
 				<div style="border-width:0;width:3px;height:13px;top:50%;left:50%;margin:-6px 4px;"></div>

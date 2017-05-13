@@ -157,9 +157,7 @@ function init() {
 	
 	BUTTONS_UI.createButtonsFor($("#btn_back_to_menu_from_game_solved"), function(){
 		hideToRight($("#view_game_solved"), function() {
-			$("#view_main_shadow").addClass("paused");
-			//$("#view_main_shadow").addClass("loading");
-			//animateTeardown(showFromLeft, $("#view_menu"));
+			$("#view_main_shadow").addClass("paused"); 
 			animateTeardown(function() {IOS('iad');});
 		});
 	});

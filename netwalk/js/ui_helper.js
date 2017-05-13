@@ -60,15 +60,16 @@ function normalize_jevent(jevent, container) {
 		myevent.pageY = myevent.touches[0].pageY;
 		myevent.pageX = myevent.touches[0].pageX;
 	}
-	myevent.X = myevent.pageX;
-	myevent.Y = myevent.pageY;
+    var z = document.body.style.zoom?document.body.style.zoom*1:1;
+	myevent.X =  myevent.pageX/z;
+	myevent.Y = myevent.pageY/z;
     
 	if (container) {
 		var o = container[0].getBoundingClientRect();//container.position();
 		myevent.X -=o.left;
 		myevent.Y -=o.top;
-        console.log(myevent.X, myevent.Y, container[0].getBoundingClientRect())
-        console.log(myevent.X, myevent.Y, container.position().left)
+        //console.log(myevent.X, myevent.Y, container[0].getBoundingClientRect())
+        //console.log(myevent.X, myevent.Y, container.position().left)
 	}
     
 	return myevent;

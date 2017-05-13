@@ -87,7 +87,7 @@
 	opacity: 0;
 	top:-10000px;
 	margin:0px;
-	border-radius: 2px;
+	xborder-radius: 2px;
 	-webkit-transition:opacity 0.3s, top 0 0.3s;
 }
 #screen.menu>div.popup_shadow {

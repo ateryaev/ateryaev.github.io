@@ -10,7 +10,7 @@
 	xbottom:0;
 	height:auto;
 	display:table;
-	background: red;
+	background: transparent;
 }
 #screen>div.popup .popup_content {
 	text-align:left;
