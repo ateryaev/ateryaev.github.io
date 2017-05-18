@@ -4,7 +4,8 @@
 <!--meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, xminimum-scale=1.0, user-scalable=no"/-->
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<!--meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 <meta name="apple-touch-fullscreen" content="yes"/>
 <meta name="format-detection" content="telephone=no"/>
 <meta name="touch-fullscreen" content="yes"/>
@@ -31,16 +32,31 @@
     
 </script>
 <style>
-    * {font-family:verdana;font-size:15px;}
+    * {font-family:Helvetica,tahoma;font-size:15px;}
     * {box-sizing:border-box;}
-    
-    #result {
-        margin-top: 60px;
+    i.fa {display: block;
+        line-height:60px;
+        width:60px;
+        text-align: center;
+        #background: red;
+        padding:0;
+        margin: 0;
+        font-size:15px;
+        position: absolute;
     }
-    #result>div {border-bottom: 2px dotted #222;}
+    #result {
+        xmargin-top: 60px;
+        overflow-y:auto;
+        -webkit-overflow-scrolling: touch;
+        position:absolute;
+        top:60px;left:0;right:0;bottom:0;
+    }
+    #result>div {
+        #border-bottom: 2px dotted #222;
+    }
     #result>div>div {
         xmargin-left: 40px;
-        padding: 10px 45px;
+        padding: 10px 10px;
         padding-right:10px;
         line-height: 20px;
         xborder-bottom:1px solid #eee;
@@ -51,54 +67,67 @@
        background:#222;
         color:#fff;
     }
+    input:focus {
+        outline: 2px solid #888;
+        #border-radius: 2px;
+        #border: 1px solid red;
+    }
 </style>
     
 <body >
-    <div id="webapp_content" style="xpadding:79px 0px;
-                    ">
+    <div id="webapp_content" style="">
         
-        <div style="position:fixed;
+        <div style="position:absolute;
                     height:60px;
-                    z-index:2;
+                    xz-index:2;
                     left:0;right:0;top:0px;
-                    border-bottom:2px solid #222
+                    xborder-bottom:2px solid red;
+                    background:#fff;
+                    box-shadow: 0 2px 1px rgba(0,0,0,0.15);
                     ">
             <i class="fa fa-bars" style="position:absolute;
-                                         left:10px;
-                                         top:10px;
-                                         xfloat:right;line-height:40px;font-size:25px;xmargin:10px"></i>
+                                         left:0px;
+                                         top:0px;
+                                         "></i>
             <i class="fa fa-times-circle" style="position:absolute;
-                                         right:15px;
-                                         top:10px;
-                                         xfloat:right;line-height:40px;font-size:15px;xmargin:10px"></i>
-            <input type="text" style="
-                                      
-                                      padding:0 45px;
-                                      line-height:58px;
-                                      width:100%; calc(100% - 10px);
-                                      border:0px;" value="test"/>
+                                         right:0px;
+                                         top:0px;
+                                         font-size:15px;"></i>
+            <input type="text"
+                   placeholder="start typing..."
+                   autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                   style="xmargin:0;
+                                      border-radius:0;
+                                      background:#eee;
+                                      padding:5px 10px;
+                                      margin-top:10px;
+                                    margin-left:   60px;
+                                      line-height:30px;
+                                      width:calc(100% - 70px);
+                                      border:0px;" 
+                   value=""/>
             
             
         </div>
-        <div id="result">
+        <div id="result" style="">
         
         <div id="favorites">
-            <div><i class="fa fa-star-o" style="float:right;line-height:40px;font-size:25px"></i>
+            <div><i class="fa fa-star-o" style="right:0;margin-top:-10px;"></i>
                 Россия<br>Москва
             </div>
-            <div><i class="fa fa-star-o" style="float:right;line-height:40px;font-size:25px"></i>Финляндия<br>Хельсинки</div>
-            <div><i class="fa fa-star-o" style="float:right;line-height:40px;font-size:25px"></i>США<br>Вашингтон</div>
+            <div><i class="fa fa-star" style="right:0;margin-top:-10px;"></i>Финляндия<br>Хельсинки</div>
+            <div><i class="fa fa-star-o" style="right:0;margin-top:-10px;"></i>США<br>Вашингтон</div>
     </div>
         <div id="all">
             <div>Россия<br>Москва</div>
             <div>Финляндия<br>Хельсинки</div>
             <div>Франция<br>Париж</div>
             <div>Швеция<br>Стокгольм</div>
-            <div>Беларусь<br>Минск</div>
+            <div><i class="fa fa-star" style="right:0;margin-top:-10px;"></i>Беларусь<br>Минск</div>
             <div>Россия<br>Москва</div>
             <div>Финляндия<br>Хельсинки</div>
             <div>Франция<br>Париж</div>
-            <div>Швеция<br>Стокгольм</div>
+            <div><i class="fa fa-star" style="right:0;margin-top:-10px;"></i>Швеция<br>Стокгольм</div>
             <div>Беларусь<br>Минск</div>
             <div>Россия<br>Москва</div>
             <div>Финляндия<br>Хельсинки</div>
