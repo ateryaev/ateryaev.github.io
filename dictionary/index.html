@@ -14,7 +14,7 @@
     
 <style>
     
-    body{padding:0;margin:0;background:#fff;}
+    body{padding:0;margin:0;background:#fff;overflow-y: hidden;}
     
     body>div{padding:0;xmargin:auto;xbackground:#eee;position:absolute;top:0;left:0;bottom:0;right:0;}
 </style>
@@ -56,7 +56,7 @@
     }
     #result>div>div {
         xmargin-left: 40px;
-        padding: 10px 10px;
+        padding: 10px 20px;
         padding-right:10px;
         line-height: 20px;
         xborder-bottom:1px solid #eee;
@@ -73,7 +73,19 @@
         #border: 1px solid red;
     }
 </style>
-    
+
+    <script>
+        window.addEventListener("beforeorientationchange", function() {
+            document.querySelector("input").blur();
+      
+}, false);
+        window.addEventListener("orientationchange", function() {
+            document.querySelector("input").blur();
+      
+}, false);
+             window.onresize = function() {document.querySelector("input").blur();};
+        
+    </script>
 <body >
     <div id="webapp_content" style="">
         
@@ -86,22 +98,24 @@
                     box-shadow: 0 2px 1px rgba(0,0,0,0.15);
                     ">
             <i class="fa fa-bars" style="position:absolute;
-                                         left:0px;
+                                         right:0px;
                                          top:0px;
                                          "></i>
             <i class="fa fa-times-circle" style="position:absolute;
-                                         right:0px;
+                                         right:60px;
+                                                 width:50px;
                                          top:0px;
-                                         font-size:15px;"></i>
+                                         xfont-size:15px;color:#222;"></i>
             <input type="text"
-                   placeholder="start typing..."
+                   placeholder="Search in Country Capitals"
                    autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
                    style="xmargin:0;
                                       border-radius:0;
                                       background:#eee;
                                       padding:5px 10px;
+                                      padding-right:40px;
                                       margin-top:10px;
-                                    margin-left:   60px;
+                                      margin-left:10px;
                                       line-height:30px;
                                       width:calc(100% - 70px);
                                       border:0px;" 
