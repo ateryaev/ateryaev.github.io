@@ -9,12 +9,13 @@
 <meta name="format-detection" content="telephone=no"/>
 <meta name="touch-fullscreen" content="yes"/>
 
-
-<style>
-    * {font-size:30px;}
-    body{padding:0;margin:0;background:#000;}
+<link rel="stylesheet" href="font-awesome.min.css">
     
-    body>div{padding:0;xmargin:auto;background:#ddd;position:absolute;top:0;left:0;bottom:0;right:0;}
+<style>
+    
+    body{padding:0;margin:0;background:#fff;}
+    
+    body>div{padding:0;xmargin:auto;xbackground:#eee;position:absolute;top:0;left:0;bottom:0;right:0;}
 </style>
 
 <script>
@@ -29,62 +30,119 @@
    
     
 </script>
+<style>
+    * {font-family:verdana;font-size:15px;}
+    * {box-sizing:border-box;}
+    
+    #result {
+        margin-top: 60px;
+    }
+    #result>div {border-bottom: 2px dotted #222;}
+    #result>div>div {
+        xmargin-left: 40px;
+        padding: 10px 45px;
+        padding-right:10px;
+        line-height: 20px;
+        xborder-bottom:1px solid #eee;
+        
+        
+    }
+    #favorites {
+       background:#222;
+        color:#fff;
+    }
+</style>
     
 <body >
-    <div id="webapp_content">
-        <div style="position:absolute;height:60px;background:#eee;left:0;right:0;top:0;box-sizing:border-box;">
-            <input type="text" style="
-                                      box-sizing:border-box;
-                                      display:block;
-                                      position:absolute;
-                                      top:0px;
-                                      bottom:0;
-                                      left:0;
-                                      right:0;
-                                      margin:5px;
-                                      padding:5px;
-                                      width: calc(100% - 10px);
-                                      border:0px;" value="test"/>
-        </div>
-        <div style="box-sizing:border-box;position:absolute;background:#fff;left:0;right:0;top:60px;bottom:0;padding:10px;
-                    margin:2px;
-                    	overflow-y:auto;
-	-webkit-overflow-scrolling: touch;">
-            test1 - test2<br>
-            test2 - test3<br>
-            test3<br>
-            test4<br>
-            test5<br>
-            test6<br>
-            test7<br>
-            test8<br>
-            test9<br>
-            test10<br>
-            test11<br>
-            test1 - test2<br>
-            test2 - test3<br>
-            test3<br>
-            test4<br>
-            test5<br>
-            test6<br>
-            test7<br>
-            test8<br>
-            test9<br>
-            test10<br>
-            test11<br>
-            test1 - test2<br>
-            test2 - test3<br>
-            test3<br>
-            test4<br>
-            test5<br>
-            test6<br>
-            test7<br>
-            test8<br>
-            test9<br>
-            test10<br>
-            test11<br>
-        </div>
+    <div id="webapp_content" style="xpadding:79px 0px;
+                    ">
         
+        <div style="position:fixed;
+                    height:60px;
+                    z-index:2;
+                    left:0;right:0;top:0px;
+                    border-bottom:2px solid #222
+                    ">
+            <i class="fa fa-bars" style="position:absolute;
+                                         left:10px;
+                                         top:10px;
+                                         xfloat:right;line-height:40px;font-size:25px;xmargin:10px"></i>
+            <i class="fa fa-times-circle" style="position:absolute;
+                                         right:15px;
+                                         top:10px;
+                                         xfloat:right;line-height:40px;font-size:15px;xmargin:10px"></i>
+            <input type="text" style="
+                                      
+                                      padding:0 45px;
+                                      line-height:58px;
+                                      width:100%; calc(100% - 10px);
+                                      border:0px;" value="test"/>
+            
+            
+        </div>
+        <div id="result">
+        
+        <div id="favorites">
+            <div><i class="fa fa-star-o" style="float:right;line-height:40px;font-size:25px"></i>
+                Россия<br>Москва
+            </div>
+            <div><i class="fa fa-star-o" style="float:right;line-height:40px;font-size:25px"></i>Финляндия<br>Хельсинки</div>
+            <div><i class="fa fa-star-o" style="float:right;line-height:40px;font-size:25px"></i>США<br>Вашингтон</div>
+    </div>
+        <div id="all">
+            <div>Россия<br>Москва</div>
+            <div>Финляндия<br>Хельсинки</div>
+            <div>Франция<br>Париж</div>
+            <div>Швеция<br>Стокгольм</div>
+            <div>Беларусь<br>Минск</div>
+            <div>Россия<br>Москва</div>
+            <div>Финляндия<br>Хельсинки</div>
+            <div>Франция<br>Париж</div>
+            <div>Швеция<br>Стокгольм</div>
+            <div>Беларусь<br>Минск</div>
+            <div>Россия<br>Москва</div>
+            <div>Финляндия<br>Хельсинки</div>
+            <div>Франция<br>Париж</div>
+            <div>Швеция<br>Стокгольм</div>
+            <div>Беларусь<br>Минск</div>
+            <div>Россия<br>Москва</div>
+            <div>Финляндия<br>Хельсинки</div>
+            <div>Франция<br>Париж</div>
+            <div>Швеция<br>Стокгольм</div>
+            <div>Беларусь<br>Минск</div>
+            <div>Россия<br>Москва</div>
+            <div>Финляндия<br>Хельсинки</div>
+            <div>Франция<br>Париж</div>
+            <div>Швеция<br>Стокгольм</div>
+            <div>Беларусь<br>Минск</div>
+            <div>Россия<br>Москва</div>
+            <div>Финляндия<br>Хельсинки</div>
+            <div>Франция<br>Париж</div>
+            <div>Швеция<br>Стокгольм</div>
+            <div>Беларусь<br>Минск</div>
+            <div>Россия<br>Москва</div>
+            <div>Финляндия<br>Хельсинки</div>
+            <div>Франция<br>Париж</div>
+            <div>Швеция<br>Стокгольм</div>
+            <div>Беларусь<br>Минск</div>
+            <div>Россия<br>Москва</div>
+            <div>Финляндия<br>Хельсинки</div>
+            <div>Франция<br>Париж</div>
+            <div>Швеция<br>Стокгольм</div>
+            <div>Беларусь<br>Минск</div>
+            <div>Россия<br>Москва</div>
+            <div>Финляндия<br>Хельсинки</div>
+            <div>Франция<br>Париж</div>
+            <div>Швеция<br>Стокгольм</div>
+            <div>Беларусь<br>Минск</div>
+            <div>Россия<br>Москва</div>
+            <div>Финляндия<br>Хельсинки</div>
+            <div>Франция<br>Париж</div>
+            <div>Швеция<br>Стокгольм</div>
+            <div>Беларусь<br>Минск</div>            
+
+        </div>
+        </div>
     </div>
 </body>
 </html>
