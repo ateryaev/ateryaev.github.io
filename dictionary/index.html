@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
+<title>Dictionary</title>
 <meta charset="utf-8">
-<!--meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, xminimum-scale=1.0, user-scalable=no"/-->
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <!--meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/-->
 <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
@@ -10,267 +10,29 @@
 <meta name="format-detection" content="telephone=no"/>
 <meta name="touch-fullscreen" content="yes"/>
 
-<link rel="stylesheet" href="font-awesome.min.css">
-    
-    
-<style>
-    #result, i {-webkit-user-select: none}
-    input {-webkit-tap-highlight-color: rgba(0,0,0,0);}
-    body{padding:0;margin:0;background:#fff;overflow-y: hidden;}
-    
-    body>div{padding:0;xmargin:auto;xbackground:#eee;position:absolute;top:0;left:0;bottom:0;right:0;}
-</style>
+<link rel="stylesheet" href="./css/font-awesome.min.css">
+<link href="./css/main.css" rel="stylesheet"/>
+<script src="./js/dict.js"></script>
+<script src="./js/dict_manager.js"></script>
+<script src="./js/main.js"></script>
 
-<script>
     
-   
-    var dict = [["United Arab Emirates","Abu Dhabi"],
-               ["Nigeria","Abuja"],
-               ["Abkhazia","Sukhumi"],
-               ["Afghanistan","Kabul"],
-               ["Akrotiri and Dhekelia","Episkopi Cantonment"],
-               ["Albania","Tirana"],
-               ["Nigeria","Abuja"],
-               ["Abkhazia","Sukhumi"],
-               ["Afghanistan","Kabul"],
-               ["Akrotiri and Dhekelia","Episkopi Cantonment"],
-               ["Albania","Tirana"],
-                ["Nigeria","Abuja"],
-               ["Abkhazia","Sukhumi"],
-               ["Afghanistan","Kabul"],
-               ["Akrotiri and Dhekelia","Episkopi Cantonment"],
-               ["Albania","Tirana"],
-                ["Nigeria","Abuja"],
-               ["Abkhazia","Sukhumi"],
-               ["Afghanistan","Kabul"],
-               ["Akrotiri and Dhekelia","Episkopi Cantonment"],
-               ["Albania","Tirana"],
-                ["Nigeria","Abuja"],
-               ["Abkhazia","Sukhumi"],
-               ["Afghanistan","Kabul"],
-               ["Akrotiri and Dhekelia","Episkopi Cantonment"],
-               ["Albania","Tirana"],
-                ["Nigeria","Abuja"],
-               ["Abkhazia","Sukhumi"],
-               ["Afghanistan","Kabul"],
-               ["Akrotiri and D<u>h</u>ekelia","Episkopi Cantonment"],
-               ["Albania","Tirana"],
-               
-               ];
-    function onStarClick(o) {
-        var now = o.parentElement.className;
-        o.parentElement.className = now==""?"star":"";
-        return false;
-    }
-    window.onload = function() {
-        var fav = window.document.querySelector("#fav");
-        var all = window.document.querySelector("#all");
-        var result = window.document.querySelector("#result");
-        var input = window.document.querySelector("input");
-        
-        result.ontouchstart = function() {
-            //console.log(this.scrollTop)
-            if (this.scrollTop == 0) this.scrollTop = 1;
-        }
-        
-        
-        function refresh(tofind) {
-            tofind = tofind.toLowerCase();
-            var fav_html = "";
-            var all_html = "";
-            for(var i=0;i<dict.length;i++) {
-                var item0 = dict[i][0];
-                var item1 = dict[i][1];
-                if (tofind!="") {
-                    var idx0 = item0.toLowerCase().startsWith(tofind);
-                    var idx1 = item1.toLowerCase().startsWith(tofind);
-                    
-                    if ((!idx0)&&(!idx1)) continue;
-                    //var idx = item0.indexOf(tofind);
-
-                    if (idx0) {
-                        item0 = "<u>"+item0.substr(0,tofind.length)+"</u>" +item0.substr(tofind.length)
-                    }
-                    if (idx1) {
-                        item1 = "<u>"+item1.substr(0,tofind.length)+"</u>" +item1.substr(tofind.length)
-                    }
-                    
-                }
-                
-                if (i<5) {
-                    fav_html += "<div class=star><span>"+item0+"</span><span>"+item1+"</span>";
-                    fav_html += "<i class='fa fa-star-o' ontouchend='return onStarClick(this)'></i><i class='fa fa-star star' ontouchend='return onStarClick(this)'></i></div>";
-                }
-                
-                
-                if (i%4) all_html += "<div><span>"+item0+"</span><span>"+item1+"</span>"
-                else all_html += "<div class=star><span>"+item0+"</span><span>"+item1+"</span>"
-                
-                all_html += "<i class='fa fa-star-o' onclick=onStarClick(this)></i><i class='fa fa-star star' onclick=onStarClick(this)></i></div>";
-                
-            }
-            fav.innerHTML = fav_html;
-            all.innerHTML = all_html;
-        }
-        refresh("");
-        input.focus();
-        
-        input.oninput = function() {
-            refresh(input.value.trim())
-            result.scrollTop = 1;
-        }
-        //ontouchstart='this.focus()'
-        //input.onclick = function(e) {e.preventDefault();}
-        //input.onmousedown = function(e) {e.preventDefault();}
-        input.addEventListener("touchstart", function(e) {
-            this.className="focused";
-            window.setTimeout(function(){input.focus()}, 0);
-            
-        }, false);
-        //input.ontouchstart=
-        input.onfocus = function(e) {this.className="focused";}
-        input.onblur = function(e) {this.className="";}
-        input.className="focused"
-    }
-    
-   
-    
-</script>
-    
-    
-    
-<style>
-    * {font-family:Helvetica,tahoma;font-size:15px;}
-    * {box-sizing:border-box;}
-    i.fa {display: block;
-        line-height:60px;
-        width:60px;
-        text-align: center;
-        #background: red;
-        padding:0;
-        margin: 0;
-        font-size:15px;
-        position: absolute;
-    }
-    #result {
-        xmargin-top: 60px;
-        overflow-y:auto;
-        -webkit-overflow-scrolling: touch;
-        position:absolute;
-        top:60px;left:0;right:0;bottom:0;
-    }
-   
-    #result>div>div {
-        xmargin-left: 40px;
-        padding: 10px 20px;
-        xpadding-right:10px;
-        line-height: 20px;
-        border-bottom:1px dashed #eee;
-        
-        
-    }
-    
-    ##result>div>div:nth-child(odd) {
-        background: rgba(0,0,0,0.05);
-        xborder-left: 2px dotted gray;
-            
-    }
-    #result>div>div>i.fa {
-        display: none;
-        xbackground: red;
-        right:0;
-        margin-top: -50px;
-        display: none;    
-    }
-    #result>div>div>i.fa.star {display: none;}
-    #result>div>div>i.fa { display: inline-block;}
-    
-    #result>div>div.star>i.fa {display: none;}
-    #result>div>div.star>i.fa.star { display: inline-block;}
-    
-    
-    #result>div>div>span {
-        display: block;
-        xwidth: calc(50% - 40px);
-        xoutline: 1px solid red;
-        xbackground: #000;
-        xpadding: 10px;
-        xline-height: 20px;
-        margin-right: 50px;
-        xmargin-top: 0px;
-        xborder-left:2px solid gray;
-    }
-   
-    input[type=text] {
-        -webkit-appearance: none;
-        appearance:none;
-        border-radius:0;
-        background:#eee;
-        padding:5px 10px;
-        padding-right:40px;
-        margin-top:10px;
-        margin-left:10px;
-        line-height:26px;
-        width:calc(100% - 70px);
-        border: 2px solid #fff;
-        xbox-shadow:none !important;
-        
-    }
-    input[type=text]:focus, input[type=text]:active, input[type=text].focused {
-        border: 2px solid #888;
-        outline: 0px solid #888;
-        
-    }
-    
-    
-</style>
-
-    <script>
-        /*
-        window.addEventListener("beforeorientationchange", function() {
-            document.querySelector("input").blur();
-      
-}, false);
-        window.addEventListener("orientationchange", function() {
-            document.querySelector("input").blur();
-          
-}, false);
-           */  
-        
-    </script>
-<body >
+<body>
     <div id="webapp_content" style="">
-        
-        <div style="position:absolute;
-                    height:60px;
-                    xz-index:2;
-                    left:0;right:0;top:0px;
-                    xborder-bottom:2px solid #333;
-                    background:#fff;
-                    border-bottom:1px dashed #eee;
-                    ">
-            <i class="fa fa-bars" style="position:absolute;
-                                         right:0px;
-                                         top:0px;
-                                         "></i>
+        <div style="position:fixed;height:60px;left:0;right:0;top:0px;border-bottom:1px dashed #eee;">
+            <!--i class="fa fa-bars" style="position:absolute;right:0px;top:0px;"></i-->
             <i class="fa fa-times-circle" style="position:absolute;
-                                         right:60px;
-                                                 width:50px;
+                                         right:0px;
+                                         width:60px;
                                          top:0px;
                                          xfont-size:15px;color:#222;"></i>
-            <input type="text"
-                   placeholder="Search in Country Capitals"
-                   autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
-                   
-                   />
-            
+            <input type="text" placeholder="Search in Country Capitals"
+                   autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
             
         </div>
         <div id="result" style="">
-            <div id="fav">
-            </div>
-            <div id="all">
-            </div>
+            <div id="fav"></div>
+            <div id="all"></div>
         </div>
     </div>
 </body>

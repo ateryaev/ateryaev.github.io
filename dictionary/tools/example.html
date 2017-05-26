@@ -1,0 +1,604 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Cловарь / РУССКО-ФИНСКИЙ и ФИНСКО-РУССКИЙ словарь онлайн</title>
+<link rel="shortcut icon" href="http://www.fin2rus.ru/favicon.ico" />
+<meta name="keywords" content="русско-финский словарь, финско-русский словарь, онлайн словарь финского языка, финский язык, финско-русско-финский переводчик онлайн" />
+<meta name="description" content="" />
+<base href="http://www.fin2rus.ru/" />
+<link rel="alternate" type="application/rss+xml" title="RSS (РУССКО-ФИНСКИЙ и ФИНСКО-РУССКИЙ словарь онлайн)" href="http://www.fin2rus.ru/rss/" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if lte IE 7]><link rel="stylesheet" href="style_ie.css" type="text/css" media="screen" /><![endif]-->
+<script type="text/javascript">
+<!-- 
+function addsymbolf(symbol){
+  document.sform.words.focus();
+  document.sform.words.value=document.sform.words.value+symbol;
+}
+// -->
+</script>
+<script type="text/javascript" src="jquery/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="js/keyboard/keyboard.js"></script>
+<link rel="stylesheet" type="text/css" href="js/keyboard/keyboard.css" />
+
+<script src="jquery/jquery.suggest.js" type="text/javascript"></script>
+<script src="jquery/jquery.dimensions.js" type="text/javascript"></script>
+<script src="jquery/jquery.bgiframe.min.js" type="text/javascript"></script>
+<link href="jquery/jquery.suggest.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="body">
+<script type="text/javascript" src="lib/JsHttpRequest/JsHttpRequest.js"></script>
+
+
+	
+<div id="wrapper">
+	<div id="header">
+		<!-- Logo -->
+		<div id="logo">
+			<img src="img/logo.gif" alt="Финско-Русский словарь онлайн" />
+			<h1><a href="http://www.fin2rus.ru/" title="РУССКО-ФИНСКИЙ и ФИНСКО-РУССКИЙ словарь онлайн">РУССКО-ФИНСКИЙ и ФИНСКО-РУССКИЙ онлайн словарь</a></h1>
+			<span id="slogan">Терминов в словаре 53 377</span>		
+		</div>	
+		<!-- end Logo -->
+		
+		<!--Menu -->
+		<div id="menu">
+			<ul><li><a href="http://www.fin2rus.ru/band/"  id="current"><span>Cловарь</span></a></li>
+<li><a href="http://www.fin2rus.ru/article/"><span>Блоги</span></a></li>
+<li><a href="http://www.fin2rus.ru/users/"><span>Люди</span></a></li>
+<li><a href="http://www.fin2rus.ru/abc/"><span>Финский алфавит</span></a></li>
+<li><a href="http://www.fin2rus.ru/suomen_kieli/"><span>Финский язык</span></a></li>
+<li><a href="http://www.fin2rus.ru/about/"><span>О проекте</span></a></li>
+</ul>
+		</div>
+		<!-- end Menu -->		
+		
+		<!--User -->
+		<div id="user">
+			
+<a href="http://www.fin2rus.ru/come_in/"><span>Вход</span></a> <a href="http://www.fin2rus.ru/register/"><span>Регистрация</span></a>
+
+
+
+
+
+		</div>
+		<!-- end User -->
+		
+	</div><!-- #header-->
+	
+<script type="text/javascript">
+   function resizeimage (){
+	jQuery('.commenttext img').each(function(i){
+	    var blockwidth = jQuery('.commenttext').width();
+	    var imgwidth = jQuery(this).width();
+	    if(imgwidth >= blockwidth){
+	    	jQuery(this).width(blockwidth);
+	    }
+	});
+   }
+jQuery(document).ready(function() {
+   resizeimage();
+});
+jQuery(window).resize(function(){
+	resizeimage();
+});
+
+</script>
+ 
+
+	<!-- Alfavit -->
+		<div id="alfavit">
+			<p>
+				<b id="rus"><img src="img/ico/rus.gif" alt="" /> Русский (с русского на финский)</b> 
+				<span><a href='http://www.fin2rus.ru/band/?charname=А' title='А' class='small big'>А</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Б' title='Б' class='small big'>Б</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=В' title='В' class='medium big'>В</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Г' title='Г' class='small big'>Г</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Д' title='Д' class='small big'>Д</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Е' title='Е' class='smallest big'>Е</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Ж' title='Ж' class='smallest big'>Ж</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=З' title='З' class='small big'>З</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=И' title='И' class='smallest big'>И</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Й' title='Й' class='smallest big'>Й</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=К' title='К' class='medium big'>К</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Л' title='Л' class='smallest big'>Л</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=М' title='М' class='small big'>М</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Н' title='Н' class='medium big'>Н</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=О' title='О' class='small big'>О</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=П' title='П' class='largest big'>П</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Р' title='Р' class='small big'>Р</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=С' title='С' class='large big'>С</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Т' title='Т' class='small big'>Т</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=У' title='У' class='small big'>У</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Ф' title='Ф' class='smallest big'>Ф</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Х' title='Х' class='smallest big'>Х</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Ц' title='Ц' class='smallest big'>Ц</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Ч' title='Ч' class='smallest big'>Ч</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Ш' title='Ш' class='smallest big'>Ш</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Щ' title='Щ' class='smallest big'>Щ</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Э' title='Э' class='smallest big'>Э</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Ю' title='Ю' class='smallest big'>Ю</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charname=Я' title='Я' class='smallest big'>Я</a></span>
+ 
+			</p>
+			<p>
+				<b id="fin"><img src="img/ico/fin.gif" alt="" /> Suomi (с финского на русский)</b> 
+				<span><a href='http://www.fin2rus.ru/band/?charlatname=A' title='A' class='medium big'>A</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=B' title='B' class='smallest big'>B</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=C' title='C' class='smallest big'>C</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=D' title='D' class='smallest big'>D</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=E' title='E' class='small big'>E</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=F' title='F' class='smallest big'>F</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=G' title='G' class='smallest big'>G</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=H' title='H' class='small big'>H</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=I' title='I' class='smallest big'>I</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=J' title='J' class='smallest big'>J</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=K' title='K' class='largest big'>K</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=L' title='L' class='medium big'>L</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=M' title='M' class='small big'>M</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=N' title='N' class='smallest big'>N</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=O' title='O' class='smallest big'>O</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=P' title='P' class='medium big'>P</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=Q' title='Q' class='smallest big'>Q</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=R' title='R' class='small big'>R</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=S' title='S' class='medium big'>S</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=T' title='T' class='small big'>T</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=U' title='U' class='smallest big'>U</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=V' title='V' class='small big'>V</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=W' title='W' class='smallest big'>W</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=X' title='X' class='smallest big'>X</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=Y' title='Y' class='smallest big'>Y</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=Z' title='Z' class='smallest big'>Z</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=%C3%80' title='À' class='smallest big'>À</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=%C3%84' title='Ä' class='smallest big'>Ä</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=%C3%85' title='Å' class='smallest big'>Å</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?charlatname=%C3%96' title='Ö' class='smallest big'>Ö</a></span>
+ 
+			</p>
+		</div>
+	<!-- end Alfavit -->
+
+	<div id="middle">
+		<div id="container">	
+			 
+			<div id="content">
+				<div id="site_path"><a href="http://www.fin2rus.ru/">Главная</a> <i>/</i> <a href="http://www.fin2rus.ru/band/" class="more">Cловарь</a></div>
+
+				<!-- Search form -->
+						<div class="block search_form">
+			<form method="get" name="sform" action="search/" id="first">
+				<p><input type="text" value="ваше слово.." onblur="if (this.value == '') {this.value = 'ваше слово..';}" onfocus="if(this.value == 'ваше слово..') {this.value = '';}" id="suggest" name="words" autocomplete="off" class="keyboardInput" /></p>
+				<p><input type="image" src="img/submit.gif" name="submit" alt="Перевести" /></p>
+			</form>
+			<ul id="complit" style="display: none;"></ul>
+			<div id="virtualkey">
+				<input type="button" onClick="addsymbolf('ä');" value="ä" />
+				<input type="button" onClick="addsymbolf('ö');" value="ö" />
+				<input type="button" onClick="addsymbolf('å');" value="å" />
+			</div>
+		</div>
+<script type="text/javascript"> jQuery.noConflict();   jQuery(function() {  jQuery("#suggest").suggest("jquery/search.php", { onSelect: function() {jQuery("#first").submit()}}); });</script>
+
+				<!-- end Search form -->
+
+				
+								
+
+				<div class="post">
+					
+
+
+
+<div class="posttext">
+	<div class="translate"><a href="http://www.fin2rus.ru/band/post-961/"><b class='terms'>аборт</b></a> в переводе на финский <sup>*</sup>&nbsp;<b>abortti</b></div>
+	<ul class="post_info">
+		
+		<li class="date">
+			Автор: <a href="http://www.fin2rus.ru/profile/1/">Väinämöinen</a> </span>
+		</li>
+		
+		<li>Опубликовано 2008-10-13</li>
+		<li>
+			в разделе <a href="http://www.fin2rus.ru/band/club-1/">Термины</a>
+		</li>
+		
+	</ul>
+	
+	
+		<br/><b>Варианты перевода</b>
+		<ul><li><a href="http://www.fin2rus.ru/search/?words=raskaudenkeskeytys">raskaudenkeskeytys</a></li><li><a href="http://www.fin2rus.ru/search/?words=keskenmeno">keskenmeno</a></li></ul>
+	
+	
+</div>
+
+	<br class="clear" />
+	<p class="tags">Тематики: <a href="http://www.fin2rus.ru/band/?tagname=медицина">медицина</a> </p>
+
+
+
+
+<div class="posttext">
+	<div class="translate"><a href="http://www.fin2rus.ru/band/post-976/"><b class='terms'>абортивное средство </b></a> в переводе на финский <sup>*</sup>&nbsp;<b>lähdettämiskeino</b></div>
+	<ul class="post_info">
+		
+		<li class="date">
+			Автор: <a href="http://www.fin2rus.ru/profile/1/">Väinämöinen</a> </span>
+		</li>
+		
+		<li>Опубликовано 2008-10-13</li>
+		<li>
+			в разделе <a href="http://www.fin2rus.ru/band/club-1/">Термины</a>
+		</li>
+		
+	</ul>
+	
+	
+		<br/><b>Варианты перевода</b>
+		<ul><li><a href="http://www.fin2rus.ru/search/?words=abortiivikeino">abortiivikeino</a></li></ul>
+	
+	
+</div>
+
+	<br class="clear" />
+	<p class="tags">Тематики: <a href="http://www.fin2rus.ru/band/?tagname=медицина">медицина</a> </p>
+
+
+
+
+<div class="posttext">
+	<div class="translate"><a href="http://www.fin2rus.ru/band/post-977/"><b class='terms'>абортивное средство </b></a> в переводе на финский <sup>*</sup>&nbsp;<b>abortiivikeino</b></div>
+	<ul class="post_info">
+		
+		<li class="date">
+			Автор: <a href="http://www.fin2rus.ru/profile/1/">Väinämöinen</a> </span>
+		</li>
+		
+		<li>Опубликовано 2008-10-13</li>
+		<li>
+			в разделе <a href="http://www.fin2rus.ru/band/club-1/">Термины</a>
+		</li>
+		
+	</ul>
+	
+	
+		<br/><b>Варианты перевода</b>
+		<ul><li><a href="http://www.fin2rus.ru/search/?words=lähdettämiskeino">lähdettämiskeino</a></li></ul>
+	
+	
+</div>
+
+	<br class="clear" />
+	<p class="tags">Тематики: <a href="http://www.fin2rus.ru/band/?tagname=медицина">медицина</a> </p>
+
+
+
+
+<div class="posttext">
+	<div class="translate"><a href="http://www.fin2rus.ru/band/post-4190/"><b class='terms'>абортивный</b></a> в переводе на финский <sup>*</sup>&nbsp;<b>abortiivinen</b></div>
+	<ul class="post_info">
+		
+		<li class="date">
+			Автор: <a href="http://www.fin2rus.ru/profile/1/">Väinämöinen</a> </span>
+		</li>
+		
+		<li>Опубликовано 2009-04-02</li>
+		<li>
+			в разделе <a href="http://www.fin2rus.ru/band/club-1/">Термины</a>
+		</li>
+		
+	</ul>
+	
+	
+		<br/><b>Варианты перевода</b>
+		<ul><li><a href="http://www.fin2rus.ru/search/?words=abortiivi-">abortiivi-</a></li></ul>
+	
+	
+</div>
+
+	<br class="clear" />
+	<p class="tags">Тематики: <a href="http://www.fin2rus.ru/band/?tagname=медицина">медицина</a> <a href="http://www.fin2rus.ru/band/?tagname=заболевания">заболевания</a> <a href="http://www.fin2rus.ru/band/?tagname=здоровье">здоровье</a> <a href="http://www.fin2rus.ru/band/?tagname=гинекология">гинекология</a> <a href="http://www.fin2rus.ru/band/?tagname=акушерство">акушерство</a> <a href="http://www.fin2rus.ru/band/?tagname=беременность">беременность</a> </p>
+
+
+
+
+<div class="posttext">
+	<div class="translate"><a href="http://www.fin2rus.ru/band/post-80781/"><b class='terms'>абортивный</b></a> в переводе на финский <sup>*</sup>&nbsp;<b>abortiivi-</b></div>
+	<ul class="post_info">
+		
+		<li class="date">
+			Автор: <a href="http://www.fin2rus.ru/profile/1/">Väinämöinen</a> </span>
+		</li>
+		
+		<li>Опубликовано 2009-04-02</li>
+		<li>
+			в разделе <a href="http://www.fin2rus.ru/band/club-1/">Термины</a>
+		</li>
+		
+	</ul>
+	
+	
+		<br/><b>Варианты перевода</b>
+		<ul><li><a href="http://www.fin2rus.ru/search/?words=abortiivinen">abortiivinen</a></li></ul>
+	
+	
+</div>
+
+	<br class="clear" />
+	<p class="tags">Тематики: <a href="http://www.fin2rus.ru/band/?tagname=медицина">медицина</a> <a href="http://www.fin2rus.ru/band/?tagname=заболевания">заболевания</a> <a href="http://www.fin2rus.ru/band/?tagname=здоровье">здоровье</a> <a href="http://www.fin2rus.ru/band/?tagname=гинекология">гинекология</a> <a href="http://www.fin2rus.ru/band/?tagname=акушерство">акушерство</a> <a href="http://www.fin2rus.ru/band/?tagname=беременность">беременность</a> </p>
+
+
+
+
+<div class="posttext">
+	<div class="translate"><a href="http://www.fin2rus.ru/band/post-979/"><b class='terms'>абортивный метод (лечения)</b></a> в переводе на финский <sup>*</sup>&nbsp;<b>abortiivihoito</b></div>
+	<ul class="post_info">
+		
+		<li class="date">
+			Автор: <a href="http://www.fin2rus.ru/profile/1/">Väinämöinen</a> </span>
+		</li>
+		
+		<li>Опубликовано 2008-10-13</li>
+		<li>
+			в разделе <a href="http://www.fin2rus.ru/band/club-1/">Термины</a>
+		</li>
+		
+	</ul>
+	
+	
+	
+</div>
+
+	<br class="clear" />
+	<p class="tags">Тематики: <a href="http://www.fin2rus.ru/band/?tagname=медицина">медицина</a> </p>
+
+
+
+
+<div class="posttext">
+	<div class="translate"><a href="http://www.fin2rus.ru/band/post-69769/"><b class='terms'>Абоский мирный договор</b></a> в переводе на финский <sup>*</sup>&nbsp;<b>Turun rauha</b></div>
+	<ul class="post_info">
+		
+		<li class="date">
+			Автор: <a href="http://www.fin2rus.ru/profile/36/">kielinero</a> </span>
+		</li>
+		
+		<li>Опубликовано 2008-12-26</li>
+		<li>
+			в разделе <a href="http://www.fin2rus.ru/band/club-1/">Термины</a>
+		</li>
+		
+	</ul>
+	
+	
+	
+</div>
+
+	<br class="clear" />
+	<p class="tags">Тематики: <a href="http://www.fin2rus.ru/band/?tagname=война">война</a> <a href="http://www.fin2rus.ru/band/?tagname=военное дело">военное дело</a> <a href="http://www.fin2rus.ru/band/?tagname=боевые действия">боевые действия</a> <a href="http://www.fin2rus.ru/band/?tagname=политика">политика</a> <a href="http://www.fin2rus.ru/band/?tagname=международные отношения">международные отношения</a> <a href="http://www.fin2rus.ru/band/?tagname=дипломатия">дипломатия</a> <a href="http://www.fin2rus.ru/band/?tagname=история">история</a> </p>
+
+
+
+
+<div class="posttext">
+	<div class="translate"><a href="http://www.fin2rus.ru/band/post-980/"><b class='terms'>абразив</b></a> в переводе на финский <sup>*</sup>&nbsp;<b>tahkoamisaine</b></div>
+	<ul class="post_info">
+		
+		<li class="date">
+			Автор: <a href="http://www.fin2rus.ru/profile/1/">Väinämöinen</a> </span>
+		</li>
+		
+		<li>Опубликовано 2008-10-13</li>
+		<li>
+			в разделе <a href="http://www.fin2rus.ru/band/club-1/">Термины</a>
+		</li>
+		
+	</ul>
+	
+	
+		<br/><b>Варианты перевода</b>
+		<ul><li><a href="http://www.fin2rus.ru/search/?words=tahkoamisaineet">tahkoamisaineet</a></li></ul>
+	
+	
+</div>
+
+	<br class="clear" />
+	<p class="tags">Тематики: <a href="http://www.fin2rus.ru/band/?tagname=строительство">строительство</a> <a href="http://www.fin2rus.ru/band/?tagname=техника">техника</a> </p>
+
+
+
+
+<div class="posttext">
+	<div class="translate"><a href="http://www.fin2rus.ru/band/post-982/"><b class='terms'>абразивная обработка</b></a> в переводе на финский <sup>*</sup>&nbsp;<b>hankaus</b></div>
+	<ul class="post_info">
+		
+		<li class="date">
+			Автор: <a href="http://www.fin2rus.ru/profile/1/">Väinämöinen</a> </span>
+		</li>
+		
+		<li>Опубликовано 2008-10-13</li>
+		<li>
+			в разделе <a href="http://www.fin2rus.ru/band/club-1/">Термины</a>
+		</li>
+		
+	</ul>
+	
+	
+	
+</div>
+
+	<br class="clear" />
+	<p class="tags">Тематики: <a href="http://www.fin2rus.ru/band/?tagname=строительство">строительство</a> <a href="http://www.fin2rus.ru/band/?tagname=техника">техника</a> </p>
+
+
+
+
+<div class="posttext">
+	<div class="translate"><a href="http://www.fin2rus.ru/band/post-986/"><b class='terms'>абразивное истирание</b></a> в переводе на финский <sup>*</sup>&nbsp;<b>hankaus</b></div>
+	<ul class="post_info">
+		
+		<li class="date">
+			Автор: <a href="http://www.fin2rus.ru/profile/1/">Väinämöinen</a> </span>
+		</li>
+		
+		<li>Опубликовано 2008-10-13</li>
+		<li>
+			в разделе <a href="http://www.fin2rus.ru/band/club-1/">Термины</a>
+		</li>
+		
+	</ul>
+	
+	
+	
+</div>
+
+	<br class="clear" />
+	<p class="tags">Тематики: <a href="http://www.fin2rus.ru/band/?tagname=техника">техника</a> </p>
+<div id="pagelister"><a href='http://www.fin2rus.ru/band/page-10/'>...</a><a href='http://www.fin2rus.ru/band/page-11/'>11</a><a href='http://www.fin2rus.ru/band/page-12/'>12</a><a href='http://www.fin2rus.ru/band/page-13/'>13</a><a href='http://www.fin2rus.ru/band/page-14/'>14</a><b>15</b><a href='http://www.fin2rus.ru/band/page-16/'>16</a><a href='http://www.fin2rus.ru/band/page-17/'>17</a><a href='http://www.fin2rus.ru/band/page-18/'>18</a><a href='http://www.fin2rus.ru/band/page-19/'>19</a><a href='http://www.fin2rus.ru/band/page-20/'>20</a><a href='http://www.fin2rus.ru/band/page-21/'>...</a></div>
+				</div>
+		
+			</div><!-- #content-->
+		</div><!-- #container-->
+
+		<div class="sidebar sr">
+			
+
+			<p><img src="userfiles/banner/aspiranto.gif" alt="Высшее образование в Европе и Азии" onclick="window.location='http://www.aspiranto.ru/'" style="cursor:pointer;" /></p>
+
+<!-- ==================================== -->
+
+<!-- Яндекс.Директ -->
+<script type="text/javascript"><!--
+yandex_partner_id = 53150;
+yandex_site_bg_color = 'FFFFFF';
+yandex_site_charset = 'utf-8';
+yandex_ad_format = 'direct';
+yandex_font_size = 1;
+yandex_direct_type = 'vertical';
+yandex_direct_border_type = 'ad';
+yandex_direct_limit = 2;
+yandex_direct_header_bg_color = 'FEEAC7';
+yandex_direct_bg_color = 'EFEFEF';
+yandex_direct_border_color = 'ccc';
+yandex_direct_title_color = '0000CC';
+yandex_direct_url_color = '006600';
+yandex_direct_all_color = '0000CC';
+yandex_direct_text_color = '000000';
+yandex_direct_hover_color = '0066FF';
+var yandex_direct_favicon = true;
+document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');
+//--></script>
+	
+			<!-- Tags -->
+			<div class="block_other">
+				<h2>Словари по тематикам</h2>
+				<p class="cloud"><span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B0%D0%BD%D0%B0%D1%82%D0%BE%D0%BC%D0%B8%D1%8F' title='анатомия' class='medium'>анатомия</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5+%D0%B4%D0%B5%D0%BB%D0%BE' title='банковское дело' class='smallest'>банковское дело</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81' title='бизнес' class='smallest'>бизнес</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B1%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0' title='ботаника' class='small'>ботаника</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B2%D0%B5%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0' title='вещества' class='smallest'>вещества</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5+%D0%B4%D0%B5%D0%BB%D0%BE' title='военное дело' class='smallest'>военное дело</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B2%D1%80%D0%B5%D0%BC%D1%8F' title='время' class='smallest'>время</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8F' title='гастрономия' class='smallest'>гастрономия</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B3%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F' title='география' class='smallest'>география</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B5%D0%B4%D0%B0' title='еда' class='small'>еда</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%B5' title='животные' class='smallest'>животные</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B7%D0%B0%D0%B1%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F' title='заболевания' class='small'>заболевания</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B7%D0%B2%D1%83%D0%BA%D0%B8' title='звуки' class='smallest'>звуки</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8C%D0%B5' title='здоровье' class='small'>здоровье</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B7%D0%BE%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F' title='зоология' class='smallest'>зоология</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%B8%D0%BD%D0%B2%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D1%8C' title='инвентарь' class='smallest'>инвентарь</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BA%D1%83%D0%BB%D0%B8%D0%BD%D0%B0%D1%80%D0%B8%D1%8F' title='кулинария' class='smallest'>кулинария</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0' title='лингвистика' class='smallest'>лингвистика</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BB%D1%8E%D0%B4%D0%B8' title='люди' class='small'>люди</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B' title='материалы' class='smallest'>материалы</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0' title='медицина' class='largest'>медицина</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5' title='оборудование' class='small'>оборудование</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5' title='общение' class='small'>общение</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F' title='отношения' class='smallest'>отношения</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4+%D0%BF%D0%BE+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%83' title='перевод по запросу' class='smallest'>перевод по запросу</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BF%D0%B8%D1%89%D0%B0' title='пища' class='small'>пища</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0' title='политика' class='smallest'>политика</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BF%D1%80%D0%B0%D0%B2%D0%BE' title='право' class='smallest'>право</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B8' title='профессии' class='small'>профессии</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%80%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F' title='растения' class='small'>растения</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%80%D0%B5%D0%BB%D0%B8%D0%B3%D0%B8%D1%8F' title='религия' class='smallest'>религия</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%81%D0%BF%D0%BE%D1%80%D1%82' title='спорт' class='smallest'>спорт</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE' title='строительство' class='smallest'>строительство</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0' title='техника' class='small'>техника</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BB%D1%8F' title='торговля' class='smallest'>торговля</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82' title='транспорт' class='smallest'>транспорт</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%84%D0%B0%D1%83%D0%BD%D0%B0' title='фауна' class='small'>фауна</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0' title='физика' class='smallest'>физика</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D1%8B' title='финансы' class='smallest'>финансы</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%84%D0%BB%D0%BE%D1%80%D0%B0' title='флора' class='small'>флора</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%84%D1%80%D0%B0%D0%B7%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F' title='фразеология' class='smallest'>фразеология</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%85%D0%B0%D1%80%D0%B0%D0%BA%D1%82%D0%B5%D1%80' title='характер' class='smallest'>характер</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%85%D0%B0%D1%80%D0%B0%D0%BA%D1%82%D0%B5%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0' title='характеристика' class='smallest'>характеристика</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0' title='человеческие качества' class='smallest'>человеческие качества</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%87%D1%83%D0%B2%D1%81%D1%82%D0%B2%D0%B0' title='чувства' class='small'>чувства</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0' title='экономика' class='small'>экономика</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%8D%D0%BC%D0%BE%D1%86%D0%B8%D0%B8' title='эмоции' class='small'>эмоции</a></span>
+ <span><a href='http://www.fin2rus.ru/band/?tagname=%D1%8E%D1%80%D0%B8%D1%81%D0%BF%D1%80%D1%83%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D1%8F' title='юриспруденция' class='smallest'>юриспруденция</a></span>
+ </p>
+				<a href="http://www.fin2rus.ru/tags/">Все тематики словаря</a>
+			</div>
+			<!-- end Tags -->
+			
+		</div><!-- .sidebar.sr -->
+	</div><!-- #middle-->
+	<div id="footer">
+	<p><a href="http://www.fin2rus.ru/">РУССКО-ФИНСКИЙ и ФИНСКО-РУССКИЙ словарь онлайн</a> | <a href="listat/">Статистика</a> | <a href="adv/">Реклама</a> | <a href="contacts/">Контакты</a></p>
+	
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "http://counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+
+";"+Math.random();//--></script><!--/LiveInternet-->
+
+<!--Rating@Mail.ru COUNTER--><script language="JavaScript" type="text/javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer)
+js=10//--></script><script language="JavaScript1.1" type="text/javascript"><!--
+a+=';j='+navigator.javaEnabled()
+js=11//--></script><script language="JavaScript1.2" type="text/javascript"><!--
+s=screen;a+=';s='+s.width+'*'+s.height
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)
+js=12//--></script><script language="JavaScript1.3" type="text/javascript"><!--
+js=13//--></script><script language="JavaScript" type="text/javascript"><!--
+d.write('<IMG src="http://d3.cf.b7.a1.top.mail.ru/counter'+
+'?id=1569746;js='+js+a+';rand='+Math.random()+
+'" height="1" width="1" alt="top.mail.ru" border="0" />')
+if(11<js)d.write('<'+'!-- ')//--></script><noscript><img
+src="http://d3.cf.b7.a1.top.mail.ru/counter?js=na;id=1569746"
+height="1" width="1" alt="top.mail.ru" border="0" /></noscript><script language="JavaScript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>')//--></script><!--/COUNTER-->
+
+<!--LiveInternet logo--><a href="http://www.liveinternet.ru/click"
+target=_blank><img src="http://counter.yadro.ru/logo?44.6"
+title="LiveInternet"
+alt="" border=0 width=31 height=31></a><!--/LiveInternet-->
+
+<!--Rating@Mail.ru LOGO--><a target=_top
+href="http://top.mail.ru/jump?from=1569746"><img
+SRC="http://d3.cf.b7.a1.top.mail.ru/counter?id=1569746;t=211;l=1"
+border=0 height=31 width=88
+alt="Рейтинг@Mail.ru"/></a><!--/LOGO-->
+	<p style="float: right"></p>
+	<p>&copy; 2008, <a href="http://www.26info.ru/">сайт разработан в студии «ИнфоМастер»</a></p>
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6217672-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
