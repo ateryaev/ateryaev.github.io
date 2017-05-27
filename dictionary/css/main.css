@@ -19,23 +19,41 @@ i.fa {display: block;
     xmargin-top: 60px;
     overflow-y:auto;
     -webkit-overflow-scrolling: touch;
-    position:absolute;
+    position:fixed;
     top:60px;left:0;right:0;bottom:0;
 }
 
-#result>div>div {
+#result>div>div, #load_next, #load_prev {
     xmargin-left: 40px;
     padding: 10px 20px;
     xpadding-right:10px;
     line-height: 20px;
-    border-bottom:1px dashed #eee;
+    xborder-bottom:1px solid #ddd;
+    #border-left: 3px solid rgba(0,0,0,0.05);
+    #border-right: 3px solid rgba(0,0,0,0.05);
 
 
 }
+ 
+#result>div>div.notmatch{
+    background: #eee;
+    color: #999;
+}
+#load_next b, #load_prev b {
+    color: #999;
+}
+#load_next.pressed b, #load_prev.pressed b{
+    color: #000;
+}
 
-##result>div>div:nth-child(odd) {
-    background: rgba(0,0,0,0.05);
-    xborder-left: 2px dotted gray;
+#load_next, #load_prev {
+    border: 0px;
+}
+#result>div>div:nth-child(odd) {
+    xbackground: rgba(0,0,0,0.05);
+    #border-left: 3px solid rgba(0,0,0,0.1);
+    #border-right: 3px solid rgba(0,0,0,0.1);
+    xpadding-left:15px;
 
 }
 #result>div>div>i.fa {

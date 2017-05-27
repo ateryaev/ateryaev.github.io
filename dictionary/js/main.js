@@ -7,53 +7,90 @@ function onStarClick(o) {
 }
 
 window.onload = function() {
-    var fav = window.document.querySelector("#fav");
+    var load_next = window.document.querySelector("#load_next");
+    var load_prev = window.document.querySelector("#load_prev");
+    //load_prev.style.display="none";
+    
+    var clear_btn = window.document.querySelector("#clear_btn");
     var all = window.document.querySelector("#all");
     var result = window.document.querySelector("#result");
     var input = window.document.querySelector("input");
 
+    var start_idx = 0;
+    var num_of_records = 0;
+    var tofind = "";
 
-
-    function refresh(tofind) {
-        tofind = tofind.toLowerCase();
-        var fav_html = "";
-        var all_html = "";
-        var totalFound = 0;
-        //var first = findFirst(tofind);
-        var first = dictman.findFirstIdx(tofind);
-        console.log("!!!!!!!!!"+first)
-        for(var i=first;i<dictman.getLength()&&i<first+100;i++) {
-            
-            var item0 = dictman.getWordFrom(i);
-            var item1 = dictman.getWordTo(i);
-            
-            if (!dictman.normalizeString(item0).startsWith(dictman.normalizeString(tofind))) {
-                console.log(item0.toLowerCase(), tofind)
-                break;
-            }
-            totalFound++;
-            item0 = "<u>"+item0.substr(0,tofind.length)+"</u>" +item0.substr(tofind.length)
-            
-            all_html += "<div class=star><span>"+item0+"</span><span>"+item1+"</span>"
-            all_html += "<!--i class='fa fa-star-o' onclick=onStarClick(this)></i><i class='fa fa-star star' onclick=onStarClick(this)></i--></div>";
-
+    function appendRecord(idx, tofind) {
+        var item0 = dictman.getWordFrom(idx);
+        var item1 = dictman.getWordTo(idx);
+        
+        var d = document.createElement("div");
+        
+        if (!dictman.isItemStartFrom(idx, tofind)) {
+            d.className = "notmatch";
         }
-        console.log("Total: "+totalFound);
-        
-        all_html += "<div style=text-align:center;color:gray;background:#eee>total:"+totalFound+"</div>";
-        
-        fav.innerHTML = fav_html;
-        all.innerHTML = all_html;
+        //txt = "<span>"+item0+"</span><span ><i>"+item1+"</i></span>"
+        d.innerHTML = "<span>"+item0+"</span><span ><i>"+item1+"</i></span>";
+        all.appendChild(d);
     }
-    refresh("");
+    
+    function showMaxFromIdx(idx, tofind) {
+        for(var i=idx;i<dictman.getLength()&&i<idx+6;i++) {
+            appendRecord(i, tofind);
+            num_of_records++;
+        }
+    }
+    
+    function refresh(str) {
+        tofind = str;//tofind.toLowerCase();
+        all.innerHTML = "";
+        var first = dictman.findFirstIdx(tofind);
+        start_idx = first;
+        num_of_records = 0;
+        console.log("FIRST MATCH OF "+tofind+": "+first)
+        showMaxFromIdx(first, tofind);
+    }
+    
+    function loadMoreResults() {
+        showMaxFromIdx(start_idx+num_of_records, tofind);
+    }
+    
+    load_next.onmousedown = load_next.ontouchstart = function(e) {
+        e.stopPropagation();
+        if (this.className=="pressed") return;
+
+        input.blur();
+        this.className="pressed";
+        window.setTimeout(function() {
+            load_next.className="";
+            loadMoreResults();
+        }, 100);
+    }
 
     input.oninput = function() {
-        refresh(input.value.trim())
-        result.scrollTop = 1;
+        var val = input.value.trim();
+        refresh(val)
+        //result.scrollTop = 1;
+        clear_btn.style.display = val==""?"none":"block";
     }
+
+    window.document.querySelector("form").onsubmit = function() {
+        console.log("submit")
+        input.blur();
+        return false;
+    }
+    input.value = "psi"
+    input.oninput();
     //ontouchstart='this.focus()'
     //input.onclick = function(e) {e.preventDefault();}
     //input.onmousedown = function(e) {e.preventDefault();}
+    
+    clear_btn.ontouchend = clear_btn.onmouseup = function() {
+        input.value = "";
+        input.focus();
+        input.oninput();
+    }
+    
     input.addEventListener("touchstart", function(e) {
         this.className="focused";
         window.setTimeout(function(){input.focus()}, 0);
@@ -61,16 +98,19 @@ window.onload = function() {
     }, false);
 
     //body.ontouchstart  = function(e) {e.preventDefault();}
-    result.ontouchstart = function(e) {
-        //console.log(this.scrollTop)
+    all.ontouchstart = function(e) {
+        console.log(this.scrollTop)
         e.stopPropagation();
         input.blur();
-        if (this.scrollTop == 0) this.scrollTop = 1;
+        if (result.scrollTop == 0) result.scrollTop = 1;
     }
 
 
     //input.ontouchstart=
-    input.onfocus = function(e) {this.className="focused";}
+    input.onfocus = function(e) {
+        this.className="focused";
+        //this.setSelectionRange(0, this.value.length);
+    }
     input.onblur = function(e) {this.className="";}
     input.className="focused"
     window.setTimeout(function(){input.focus()}, 0);

@@ -19,20 +19,26 @@
     
 <body>
     <div id="webapp_content" style="">
-        <div style="position:fixed;height:60px;left:0;right:0;top:0px;border-bottom:1px dashed #eee;">
+        <div style="position:fixed;height:60px;left:0;right:0;top:0px;border-bottom:1px solid #eee;z-index:2;">
             <!--i class="fa fa-bars" style="position:absolute;right:0px;top:0px;"></i-->
-            <i class="fa fa-times-circle" style="position:absolute;
+            <i id="clear_btn" class="fa fa-times-circle" style="position:absolute;
                                          right:0px;
                                          width:60px;
                                          top:0px;
-                                         xfont-size:15px;color:#222;"></i>
-            <input type="text" placeholder="Search in Country Capitals"
-                   autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+                                         xfont-size:15px;color:#999;"></i>
+            <form><input type="text" placeholder="suomi - русский"
+                   autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/></form>
             
         </div>
         <div id="result" style="">
+            <div id="load_prev" style=text-align:center;>
+                <b class='fa fa-sort-up'></b>
+            </div>
             <div id="fav"></div>
             <div id="all"></div>
+            <div id="load_next" style=text-align:center;>
+                <b class='fa fa-sort-down'></b>
+            </div>
         </div>
     </div>
 </body>

@@ -11,7 +11,15 @@ function DictMan(dict) {
         str = str.replace(new RegExp('å', 'g'), 'a');
         return str;
     }
-    this.normalizeString = nrm;
+    
+    
+    this.isItemStartFrom = function(idx, tofind) {
+        
+        var item0 = nrm(this.getWordFrom(idx));
+        var str = nrm(tofind);
+        return item0.startsWith(str);
+    }
+    
     function compare(a,b) {
         a = nrm(a);
         b = nrm(b);
@@ -19,12 +27,6 @@ function DictMan(dict) {
         else if (a>b) return 1;
         return 0;
     }
-    
-    /*function compareArr(a,b) {
-        //return compare(a[1],b[1]);
-        return compare(a[0],b[0]);
-    }*/
-   // dict.sort(compare);
     
     this.getLength = function() {return len;}
     
@@ -82,7 +84,8 @@ function DictMan(dict) {
         //console.log(dict[idx][1], tofind, dict[idx][1].startsWith(tofind));
         if (!nrm((this.getWordFrom(idx))).startsWith(tofind)) {
             console.log("NOTHING?");
-            return len;
+            //return len;
+            return this.findFirstIdx(tofind.substr(0,tofind.length-1));
         }
 
         //console.log(idx + ">>" +dict[idx][1]+":"+cmp +": ("+idx0+","+idx+","+idx1+")");
