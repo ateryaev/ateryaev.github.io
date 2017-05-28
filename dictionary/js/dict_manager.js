@@ -67,8 +67,8 @@ function DictMan(dict) {
         var idx = Math.floor(idx1/2);
         var cmp = compare(tofind, this.getWordFrom(idx));
 
-        //var i=0;
-        while (!(idx==0 || (cmp<=0 && compare(tofind, this.getWordFrom(idx-1))>0))) {
+        var i=0;
+        while (!(idx==0 || idx==len-1 || (cmp<=0 && compare(tofind, this.getWordFrom(idx-1))>0))) {
 
             if (cmp>0) {
                 idx0 = idx;
@@ -76,11 +76,14 @@ function DictMan(dict) {
                 idx1 = idx;
             }
             idx = idx0+Math.floor((idx1-idx0)/2);
+            if (idx==idx0) idx = idx1;
             cmp = compare(tofind, this.getWordFrom(idx));
-            //if (i > 100) break;
-            //i++;
+            if (i > 50) break;
+            i++;
         }
-
+        
+        console.log("find "+tofind+" in "+i+" steps ", idx, len);
+        //return 0;
         //console.log(dict[idx][1], tofind, dict[idx][1].startsWith(tofind));
         if (!nrm((this.getWordFrom(idx))).startsWith(tofind)) {
             console.log("NOTHING?");
@@ -89,8 +92,8 @@ function DictMan(dict) {
         }
 
         //console.log(idx + ">>" +dict[idx][1]+":"+cmp +": ("+idx0+","+idx+","+idx1+")");
-        if (idx>0) console.log(idx, this.getWordFrom(idx-1), this.getWordFrom(idx));
-        else console.log(idx, this.getWordFrom(idx));
+        //if (idx>0) console.log(idx, this.getWordFrom(idx-1), this.getWordFrom(idx));
+        //else console.log(idx, this.getWordFrom(idx));
         return idx;
         //console.log("------");
     }

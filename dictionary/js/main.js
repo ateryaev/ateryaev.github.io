@@ -9,7 +9,7 @@ function onStarClick(o) {
 window.onload = function() {
     var load_next = window.document.querySelector("#load_next");
     var load_prev = window.document.querySelector("#load_prev");
-    //load_prev.style.display="none";
+    load_prev.style.display="none";
     
     var clear_btn = window.document.querySelector("#clear_btn");
     var all = window.document.querySelector("#all");
@@ -20,7 +20,7 @@ window.onload = function() {
     var num_of_records = 0;
     var tofind = "";
 
-    function appendRecord(idx, tofind) {
+    function appendRecord(idx) {
         var item0 = dictman.getWordFrom(idx);
         var item1 = dictman.getWordTo(idx);
         
@@ -34,8 +34,8 @@ window.onload = function() {
         all.appendChild(d);
     }
     
-    function showMaxFromIdx(idx, tofind) {
-        for(var i=idx;i<dictman.getLength()&&i<idx+6;i++) {
+    function showMaxFromIdx(idx) {
+        for(var i=idx;i<dictman.getLength()&&i<idx+50;i++) {
             appendRecord(i, tofind);
             num_of_records++;
         }
@@ -70,7 +70,7 @@ window.onload = function() {
     input.oninput = function() {
         var val = input.value.trim();
         refresh(val)
-        //result.scrollTop = 1;
+        result.scrollTop = 0;
         clear_btn.style.display = val==""?"none":"block";
     }
 
@@ -79,7 +79,7 @@ window.onload = function() {
         input.blur();
         return false;
     }
-    input.value = "psi"
+    input.value = ""
     input.oninput();
     //ontouchstart='this.focus()'
     //input.onclick = function(e) {e.preventDefault();}
@@ -97,14 +97,14 @@ window.onload = function() {
 
     }, false);
 
-    //body.ontouchstart  = function(e) {e.preventDefault();}
+    /*
     all.ontouchstart = function(e) {
         console.log(this.scrollTop)
         e.stopPropagation();
         input.blur();
         if (result.scrollTop == 0) result.scrollTop = 1;
     }
-
+    */
 
     //input.ontouchstart=
     input.onfocus = function(e) {
