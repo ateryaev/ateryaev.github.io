@@ -71,13 +71,18 @@ function DictMan(dict) {
         while (!(idx==0 || idx==len-1 || (cmp<=0 && compare(tofind, this.getWordFrom(idx-1))>0))) {
 
             if (cmp>0) {
+                if (idx==idx0) idx = idx1;
                 idx0 = idx;
             } else {
+                if (idx==idx1) idx = idx0;
                 idx1 = idx;
+                
             }
             idx = idx0+Math.floor((idx1-idx0)/2);
             if (idx==idx0) idx = idx1;
+            
             cmp = compare(tofind, this.getWordFrom(idx));
+            console.log("find "+tofind+" ", idx0, idx, idx1);
             if (i > 50) break;
             i++;
         }

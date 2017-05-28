@@ -28,6 +28,8 @@ window.onload = function() {
         
         if (!dictman.isItemStartFrom(idx, tofind)) {
             d.className = "notmatch";
+        } else {
+          //  item0 = "<u>"+(item0.substr(0,tofind.length))+"</u>"+item0.substr(tofind.length)
         }
         //txt = "<span>"+item0+"</span><span ><i>"+item1+"</i></span>"
         d.innerHTML = "<span>"+item0+"</span><span ><i>"+item1+"</i></span>";
@@ -87,8 +89,8 @@ window.onload = function() {
     
     clear_btn.ontouchend = clear_btn.onmouseup = function() {
         input.value = "";
-        input.focus();
-        input.oninput();
+        input.blur();
+        window.setTimeout(function(){input.focus();input.oninput();}, 0);
     }
     
     input.addEventListener("touchstart", function(e) {
@@ -97,14 +99,14 @@ window.onload = function() {
 
     }, false);
 
-    /*
+    
     all.ontouchstart = function(e) {
-        console.log(this.scrollTop)
+        //console.log(this.scrollTop)
         e.stopPropagation();
         input.blur();
-        if (result.scrollTop == 0) result.scrollTop = 1;
+        //if (result.scrollTop == 0) result.scrollTop = 1;
     }
-    */
+    
 
     //input.ontouchstart=
     input.onfocus = function(e) {
