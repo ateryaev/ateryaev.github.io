@@ -17,8 +17,11 @@ sys.setdefaultencoding('utf8')
 #a-hinnan merkki << собака
 #A-tila << резол
 
-#python better.py  | LC_ALL='C' sort --ignore-case | uniq -i > better.txt
+#cat dict3.txt > dict4.txt
+#cat fi-ru-omegawiki.txt | sed -e 's/\(.*\)\t\(.*\)/\2 == \1/'| sed -e 's/;/ = /g' >>dict4.txt
 #python better.py  | uniq -i > better.txt
+#python ./tojs.py > ../js/dict.js
+
 def nrm(str):
     str = re.sub('\([^\)]*\)','', str)
     str = re.sub('\[[^\]]*\]','', str)
@@ -29,11 +32,13 @@ def nrm(str):
     str = str.replace(' :)', '')
     str = str.replace('  ', ' ')
     str = str.replace('  ', ' ')
+    str = str.replace('"', '')
+    str = str.replace('\'', '')
     
     str = str.strip()
     return str
 
-fname = "dict3.txt"
+fname = "dict4.txt"
 
 #print ("var DICT = [")
 
@@ -67,6 +72,7 @@ for u in range(0, len(content)):
             if len(w1.split("-"))>1 and len(w2.split(" "))>1: continue
             if len(w1.split("-"))>1 and len(w2.split("-"))>1: continue
             if len(w1.split(" "))>1 and len(w2.split("-"))>1: continue
+            if len(w1.split(","))>1 or len(w2.split(","))>1: continue
             if w2=="1 köyryselkäisyys" or w2=="2 kyttyräselkäisyys": continue
             if w2=="A-tila": continue
             if w2=="3PL" or w2=="4PL" or w2=="50-vuotispäivä": continue

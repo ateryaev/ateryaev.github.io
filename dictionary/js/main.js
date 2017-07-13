@@ -29,7 +29,7 @@ window.onload = function() {
         if (!dictman.isItemStartFrom(idx, tofind)) {
             d.className = "notmatch";
         } else {
-          //  item0 = "<u>"+(item0.substr(0,tofind.length))+"</u>"+item0.substr(tofind.length)
+            item0 = "<u>"+(item0.substr(0,tofind.length))+"</u>"+item0.substr(tofind.length)
         }
         //txt = "<span>"+item0+"</span><span ><i>"+item1+"</i></span>"
         d.innerHTML = "<span>"+item0+"</span><span ><i>"+item1+"</i></span>";

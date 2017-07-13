@@ -1,0 +1,5235 @@
+(ilman) typen sidonta ; typen sidonta	фиксация азота
+(joen) ranojen t. matalikkojen suojelu	защита берегов
+(kansan)talousteoria	экономическая теория
+(rahan) pesu	прачечные
+(sisäinen) laskentatoimi	управление финансовой отчетностью
+(tehtaan) käyttövesi; tehdastusvesi	техническая вода
+(tieteellinen) nimistö, sanaluettelo	номенклатура
+(tuotteen) elinkaari	цикл жизни продукта
+(veden) saanto	дренаж
+AOX-pitoisuus	показатель абсорбции органических галогенов
+Aasia	Азия
+Abhasia	Абхазия
+Abidjan	Абиджан
+Abuja	Абуджа
+Adelaide	Аделаида
+Afganistan	Афганистан
+Afrikka	Африка
+Ahvenanmaan maakunta	Аландские острова
+Aigeianmeri ; Egeanmeri	Эгейское море
+Ala-Saksi	Нижняя Саксония
+Albania	Албания
+Algeria	Алжир ; Алжжирская Народная Демократическая Республика ; Алжирская Народная Демократическая Республика
+Amerikan Samoa	Американское Самоа
+Amerikan Yhdysvallat ; Yhdysvallat	Соединённые Штаты Америки ; США
+Ames-testi	тест Эймса
+Amsterdam	Амстердам
+Andorra	Андорра
+Angola	Ангола
+Anguilla	Ангилья
+Antigua ja Barbuda	Антигуа и Барбуда
+Arabiemiirikunnat	Объединённые Арабские Эмираты
+Argentiina	Аргентина
+Arizona	Аризона
+Armenia	Армения
+Aruba	Аруба
+Ateena	Афины
+Atlantin valtameri	Атлантический океан
+Australia	Австралия
+Azerbaidžan	Азербайджан
+Bahama	Багамы
+Bahrain	Бахрейн
+Baijeri	Бавария
+Baleaarit	Балеарские острова
+Bangladesh	Бангладеш
+Barbados	Барбадос
+Belgia	Бельгия
+Belize	Белиз
+Belmopan	Бельмопан
+Benin ; Benin	Бенин
+Berliini	Берлин
+Bermuda	Бермуды
+Bern	Берн
+Betlehem	Вифлеем
+Bhutan	Бутан
+Birmingham	Бирмингем
+Bolivia	Боливия
+Bonn	Бонн
+Borneo	Борне́о ; Калимантан
+Bosnia ja Hertsegovina ; Bosnia-Hertsegovina	Босния и Герцеговина
+Botswana	Ботсвана
+Bouvet'nsaari	Буве
+Brasilia	Бразилия
+Brittiläinen Intian valtameren alue	Британская территория в Индийском океане
+Brunei	Бруней
+Bulgaria	Болгария
+Burkina Faso	Буркина-Фасо
+Burundi	Бурунди
+CD-ROM	лазерный диск
+CD-ROM-hakupalvelu	поисковый сервис на лазерных дисках CD-ROM
+CFC-yhdisteet	частично галогенизированные хлорфторуглероды
+CFC-yhdisteiden ja halonien kieltäminen	запрет на хлорфторуглероды и галон
+Chihuahua	Чиуауа
+Chile	Чили
+Cookinsaaret	Кука острова
+Costa Rica	Коста-Рика
+DDR ; Saksan demokraattinen tasavalta	ГДР ; Германская Демократическая Республика
+DDT	ДДТ
+DNA	ДНК ; дезоксирибонуклеиновая кислота
+Dagestan	Дагестан
+Dakar	Дакар
+Delaware	Делавэр
+Djibouti	Джибути
+Dominica	Доминика
+Dominikaaninen tasavalta	Доминиканская Республика
+Dublin	Дублин
+EU:n neuvosto	Совет ЕС
+EY:n asetus	постановление, нормативный документ ЕС
+EY:n asetus olemassaolevista kemikaaleista	постановление ЕС по известным химикатам
+EY:n direktiivi	директива ЕС
+EY:n direktiivi jätehuollosta	директива ЕС по утилизации отходов
+EY:n direktiivi torjunta-aineista	директива ЕС по биоцидам
+EY:n direktiivi vesiensuojelusta	директива ЕС по защите вод
+EY:n ministerineuvosto	Совет Министров ЕС (Совет Европейского Союза)
+EY:n perustamissopimus	"Римский Договор" ; Римский Договор
+EY:n politiikka	политика ЕС
+EY:n ympäristömerkki	экологическая маркировка в ЕС
+Ecuador	Эквадор
+Eesti	Эстония
+Egypti	Египет
+El Salvador	Сальвадор
+Englanti	Англия
+Eritrea	Эритрия
+Espanja	Испания
+Etelä-Aasia	Южная Азия
+Etelä-Afrikka ; Etelä-Afrikan tasavalta	Южная Африка ; Южно-Африканская Республика ; ЮАР
+Etelä-Amerikka	Южная Америка
+Etelä-Korea	Южная Корея
+Eteläinen jäämeri	Антарктический (Южный) океан ; Антарктический океан ; Южный океан
+Etelänapamanner	Антарктика
+Etiopia	Эфиопия
+Euratom	Евратом
+Euroopan komissio	Европейская Комиссия
+Euroopan parlamentti	Европейский Парламент
+Euroopan sisämarkkinat	внутренний европейский рынок
+Euroopan unioni	Европейский Союз
+Euroopan valuuttajärjestelmä	Европейская валютная система
+Euroopan valuuttarahasto	Европейский валютный фонд
+Euroopan yhteisöjen tuomioistuin	Европейский Суд
+Euroopan yhteisöt	Европейские Сообщества
+Euroopan ympäristökeskus	Европейское агентство по охране окружающей среды
+Euroopan ympäristöneuvosto	Европейский Совет по охране окружающей среды
+Eurooppa	Европа
+Falklandinsaaret	Фолклендские острова
+Fidži	Фиджи
+Filippiinit	Филиппины
+Flanderi	Фландрия
+Flevoland	Флеволанд
+Fuji	Фудзи
+Färsaaret	Фарерские острова
+Gabon	Габон
+Gaborone	Габороне
+Gambia ; Gambia ; Gambia ; Gambia ; Gambia ; Gambia	Гамбия
+Gazan kaista	Сектор Газа
+Georgia	Грузия
+Ghana	Гана
+Gibraltar	Гибралтар
+Global Environment Facility -ohjelma	"Глобальный экологический фонд" - ГЭФ ; Глобальный экологический фонд ; ГЭФ
+Grenada	Гренада
+Grönlanti	Гренландия
+Guadeloupe	Гваделупа
+Guam	Гуам
+Guatemala	Гватемала
+Guinea	Гвинея
+Guinea-Bissau	Гвинея-Бисау
+Guyana ; Guyanan kooperatiivinen tasavalta	Гайана
+H5N1	Подтип H5N1 вируса гриппа A ; A(H5N1) ; H5N1
+Haag	Гаага
+Haiti	Гаити
+Hannover	Ганновер
+Herkules	Геркулес
+Herkules ; Herakles	Геркулес
+Hollanti ; Alankomaat	Голландия
+Honduras	Гондурас
+Härkä	Телец
+IMCO:n koodijärjestelmä	код ИМКО (Межправительственная морская консультативная организация)
+ISO-standardi	стандарт ИСО (Международной организации по стандартизации) ; стандарт ИСО
+Indonesia	Индонезия
+Intia	Индия
+Intian valatmeri	Индийский океан
+Irak	Ирак
+Iran	Иран
+Irlanti	Ирландия
+Islanti	Исландия
+Iso koira	Большой Пёс
+Iso-Britannia	Великобритания
+Ison-Britannian ja Pohjois-Irlannin yhdistynyt kuningaskunta ; Yhdistynyt kuningaskunta	Великобритания ; Соединённое Королевство Великобритании и Северной Ирландии
+Israel	Израиль
+Italia	Италия
+Itä-Aasia	Восточная Азия
+Itä-Afrikka	Восточная Африка
+Itä-Eurooppa	Восточная Европа
+Itä-Timor	Восточный Тимор
+Itävalta	Австрия
+Jakarta ; Indonesia	Джакарта
+Jamaika	Ямайка
+Japani	Япония
+Jemen	Йемен
+Jerevan	Ереван ; Эривань
+Jordania	Иордания
+Joulu	Рождество
+Joulusaari	Остров Рождества
+Jousimies	Стрелец
+Jugoslavia	Югославия
+Jupiter	Юпитер
+Kaakkois-Aasia	Юго-Восточная Азия
+Kaakkois-Aasian valtioiden liitto	АСЕАН
+Kabo-Verdo	Кабо-Верде
+Kairo ; Kairo ; Kairo	Каир
+Kaksoset	Близнецы
+Kambodža	Камбоджа
+Kamerun	Камерун
+Kanada	Канада
+Kansainvälinen tuomioistuin	Международный Суд
+Kansainvälinen valuuttarahasto	Международный валютный фонд
+Karibian meri	Карибский регион
+Karibianmeri	Карибское море
+Kaspian meri	Каспийское море
+Kassiopeia	Кассиопея
+Kazakstan	Казахстан
+Kenia	Кения
+Keski-Aasia	Центральная Азия
+Keski-Afrikan tasavalta	Центрально-африканская Республика
+Keski-Afrikka	Центральная Африка
+Keski-Amerikka	Центральная Америка
+Khartum	Хартум
+Kiina	Китай
+Kioto	Киото
+Kirgisia	Киргизстан
+Kiribati	Кирибати
+Kolumbia	Колумбия
+Komorit	Коморские острова
+Kongon demokraattinen tasavalta ; Kinshasan Kongo ; Kongo-Kinshasa	Демократическая Республика Конго
+Kongon tasavalta	Республика Конго
+Korfu	Корфу
+Kosovo	Косово и Метохия
+Kotka	Орёл
+Krakova	Краков
+Krapu	Рак
+Kreikka	Греция
+Kroatia	Хорватия
+Kuuba	Куба
+Kuwait	Кувейт
+Kypros	Кипр
+Kööpenhamina ; Köpis	Копенгаген
+Lagos	Лагос
+Laos	Лаос
+Latvia	Латвия
+Lausanne	Лозанна
+Leijona	Лев
+Lesotho	Лесото
+Libanon	Ливан
+Liberia	Либерия
+Libya	Ливия
+Liechtenstein	Лихтенштейн ; Княжество Лихтенштейн
+Liettua	Литва
+Linnunrata	Млечный Путь
+Lontoo	Лондон
+Luxemburg	Люксембург
+Länsi-Aasia	Западная Азия
+Länsi-Eurooppa	Западная Европа
+Maa	Земля
+Maan ja Auringon suhteet	взаимосвязь Земли и Солнца
+Madagaskar	Мадагаскар
+Makedonia	Македония
+Malawi	Малави
+Malediivit	Мальдивы
+Malesia	Малайзия
+Mali	Мали
+Malta	Мальта
+Mansaari	Остров Мэн
+Markovin ketju ; Markov-ketju	цепь Маркова
+Marokko	Марокко
+Marshallinsaaret	Маршалловы острова
+Martinique	Мартиника
+Mauritania	Мавритания
+Mauritius	Маврикий
+Mayotte	Майотта
+Mekka	Мекка
+Meksiko	Мексика
+Merkurius	Меркурий
+Mikronesia	Микронезия
+Milano	Милан
+Milwaukee	Милуоки
+Moldova	Молдова
+Monaco	Монако
+Mongolia	Монголия
+Montenegro	Черногория
+Montserrat	Монтсеррат
+Mosambik	Мозамбик
+Moskova	Москва
+Musta meri	Черное море
+Myanmar	Мьянма
+München	Мюнхен
+Nairobi	Найроби
+Namibia	Намибия
+Napoli	Неаполь
+Nauru	Науру
+Nepal	Непал
+Neptunus	Нептун
+New York	Нью-Йорк
+Nicaragua	Никарагуа
+Niger	Нигер
+Nigeria	Нигерия
+Niue	Ниуэ
+Norja	Норвегия
+Norsunluurannikko	Кот-д'Ивуар
+Nuuk	Нук
+Oinas	Овен
+Oman	Оман
+Orléans	Орлеан
+Oseania	Океания
+Oslo	Осло
+PR-suhteet	общественные связи
+Pakistan	Пакистан
+Palau	Палау
+Panama	Панама
+Papua-Uusi-Guinea	Папуа-Новая Гвинея
+Paraguay	Парагвай
+Paratiisilintu	Райская Птица
+Peking	Пекин
+Peru	Перу
+Philadelphia	Филадельфия
+Pohjoinen jäämeri	Северный Ледовитый океан
+Pohjois- ja Etelä-Amerikka	Америка
+Pohjois-Afrikka	Северная Африка
+Pohjois-Amerikka	Северная Америка
+Pohjois-Atlantti	северная часть Атлантического океана
+Pohjois-Irlanti	Северная Ирландия
+Pohjois-Korea	Северная Корея
+Portugali	Португалия
+Puerto Rico	Пуэрто-Рико
+Puola	Польша
+Päiväntasaajan Guinea	Экваториальная Гвинея
+Qatar	Катар
+Raamattu	Библия
+Ranska	Франция
+Ranskan Guayana	Французская Гвиана
+Ranskan Polynesia	Французская Полинезия
+Ranskan eteläiset ja antarktiset alueet	Teritoriile australe şi antarctice franceze ; Французские Южные и Антарктические Территории
+Rhône	Рона
+Romania	Румыния
+Rooma	Рим
+Ruotsi	Швеция
+Sahalin	Сахалин
+Saint-Pierre ja Miquelon	Сен-Пьер и Микелон
+Saksa	Германия
+Saksi	Саксония
+Salomonsaaret	Соломоновы острова
+Sambia	Замбия
+Samoa	Самоа
+San Marino	Сан Марино
+Sansibar	Занзибар
+Saturnus	Сатурн
+Saudi-Arabia	Саудовская Аравия
+Seine	Сена
+Senegal	Сенегал
+Serbia	Сербия
+Serbia ja Montenegro	Сербия и Черногория
+Seychellit	Сейшелы
+Sierra Leone	Сьерра-Леоне
+Singapore	Сингапур
+Skorpioni	Скорпион
+Skotlanti	Шотландия
+Slovakia	Словакия
+Slovenia	Словения
+Sotši	Сочи
+Sri Lanka	Шри-Ланка
+Sudan	Судан
+Suomi ; Suomen Tasavalta	Финляндия
+Suriname	Суринам
+Sveitsi	Швейцария
+Syyria	Сирия
+Tadžikistan	Таджикистан
+Taiwan	Тайвань
+Tansania	Танзания
+Tanska	Дания
+Teheran	Тегеран
+Tennessee	Теннесси
+Thaimaa	Таиланд
+Thüringen	Тюрингия
+Togo	Того
+Tokio	Токио
+Tonga	Тонга
+Toronto	Торонто
+Tunisia	Тунис
+Turkki	Турция
+Turkmenistan	Туркменистан
+Tšad	Чад
+Tšekki ; Tšekin tasavalta	Чехия
+Uganda	Уганда
+Ukraina	Украина
+Unkari	Венгрия
+Uranus	Уран
+Utah	Юта
+Uusi-Kaledonia	Новая Каледония
+Uusi-Seelanti	Новая Зеландия
+Vaduz	Вадуц
+Valko-Venäjä	Беларусь ; Белоруссия
+Vatikaanivaltio	Государство-город Ватикан
+Venetsia	Венеция
+Venezuela	Венесуэла
+Venus	Венера
+Venäjä	Ryssland ; Россия ; Российская Федерация
+Vesimies	Водолей
+Volga	Волга
+Vuoristo-Karabah	Нагорный Карабах
+Välimeren alue	средиземноморский регион
+Välimeren ilmasto	средиземноморский климат
+Välimeren metsikkö, puu	средиземноморский лес
+Välimeren metsä	средиземноморский лес
+Välimeri	Средиземное море
+Wales	Уэльс
+Wallis- ja Futunasaaret	Острова Уоллис и Футуна
+Wikipedia	Википедия
+Wikisanakirja	Викисловарь
+Wyoming	Вайоминг
+Yhdistyneet Kansakunnat	Организация Объединенных Наций
+Zimbabwe	Зимбабве
+aakkosto	алфавит
+aamiainen ; aamupala	завтрак
+aapasuo ; letto ; mutasuo	фен
+aarniometsä	коренной (первичный) лес
+aavikko ; autiomaa	пустыня
+aavikko(heinä)sirkka ; aavikkoheinäsirkka ; aavikkosirkka	саранча
+aavikkoilmasto	пустынный климат
+aavikoituminen	опустынивание
+aavikoitumisen valvonta	контроль за опустыниванием
+abioottinen tekijä	абиотический фактор
+adaptoida ; mukauttaa	приспособить
+adjektiivi	имя прилагательное
+adoptointi	усыновление
+adsorptio ; pintaan pidättyminen ; pintaan pidätys	адсорбция
+adverbi	наречие
+aerobinen käsittely	аэробная обработка
+aerobinen prosessi	аэробный процесс
+aerobiologia	аэробиология
+aerodynaaminen melu	аэродинамический шум
+aerosoli	аэрозоль
+aforismi	афоризм
+afrikaans	африкаанс
+agorafobia	aгорафобия ; aгорафобия
+agroekosysteemi	агросистема
+agronomia	агрономия
+ahdistelija	противник
+ahne	алчный
+aids	СПИД
+aika	время
+aikakauslehti	журнал
+aikavyöhyke	часовой пояс
+aikuinen	взрослый человек
+aikuiskoulutus	обучение взрослого населения
+aineen tasapaino	баланс материи
+aineensiirto ; joukkoliikenne	движение масс
+aineenvaihdunta	метаболизм
+aineiden käyttäytyminen	свойства веществ
+aineiden ominaisuudet	свойства материалов
+aineiden rekisteröinti	учет веществ
+ainemenekki	потребление сырья
+aistein havaittava ominaisuus	органолептическое свойство
+aivolisäke	гипофиз
+aivotulehdus	энцефалит
+ajoittainen melu	прерывистый звук
+ajojää	паковый лед
+ajoverkkokalastus	дрифтерный лов
+akku ; paristo, akku ; paristo	аккумулятор
+akku ; varaaja	аккумуляторная батарея
+akne	угреватость
+akordi	правила судопроизводства
+aksiomi	аксиома
+aktiivihiili, tehohiili	активированный уголь
+aktiivinen osallistuminen	активное участие
+aktinidi	актиниды
+aktinium	актиний
+aktivisti	активист
+aktivoitu liete, aktiiviliete ; aktivoitu liete ; aktiiviliete	активный ил
+akustiikka	акустика
+akustinen laatu	акустическое свойство
+akustinen ominaisuus	акустические свойства
+akvaario	аквариум
+akvamariini	аквамарин
+al nature  julkinen teollisuus- ja kaupallinen laitos	государственный орган для решения вопросов коммерции и промышленности
+alahuone	Нижняя Палата
+alaikäinen	несовершеннолетний
+albinismi	aльбинизм
+alfasäteily	альфа-излучение
+algoritmi	алгоритм
+alhainen teknologia	технология низкого уровня
+alhaisina pitoisuuksina esiintyvä saaste	микрозагрязняющее вещество
+alibi	алиби
+alifaattinen hiilivety	алифатический углеводород
+alifaattinen yhdiste	алифатическое соединение
+aliravitsemus, vajaaravitsemus	недоедание
+alisyklinen hiilivety	алициклический углеводород
+alisyklinen yhdiste	алициклическое соединение
+alivirtaama	минимальный речной сток
+alkaani	алкан
+alkaliparisto	щелочной элемент питания
+alkeisopetus, perusasteen koulutus	начальное образование
+alkeistumalliset	прокариотный
+alkemia	алхимия
+alkemisti	алхимик
+alkio	эмбрион
+alkio ; itu, itiö, alkio, mikrobi ; itu ; itiö ; mikrobi	микроб
+alkoholi	алкоголь
+alkoholismi	алкоголизм
+alkoholisti	алкоголик
+alkuaineet ; alkuaine	химический элемент ; элемент
+alkueläimet	простейшие
+alkukoulutus	начальное образование
+alkuperäinen tietous	врожденное знание
+alkutuotanto	сектор сырья и сельскохозяйственной продукции
+alkyyliyhdiste	алкильное соединение
+allas	бассейн
+allegoria	аллегория
+allergia	аллергия
+allergian aiheuttaja	аллерген
+allotropia	аллотропия
+alluviaalitasanko	аллювиальная равнина
+almanakka	альманах
+altistuma, riskin jäämä	остаточный риск
+altistus	время облучения
+alue	регион
+alue ; alue; pinta-ala ; pinta-ala	географические рамки действия юридического документа
+alueellinen lainsäädäntö	региональный закон/закон провинции
+alueellinen sopimus	региональная конвенция
+alueellinen sääntely	региональный нормативный документ
+alueellinen viranomainen	провинциальная/региональная власть ; региональная власть ; провинциальная власть
+alueellinen viranomainen	региональная власть
+alueelliset tilastot	региональная статистика
+aluekehitys	региональное развитие
+aluelainsäädäntö	региональный закон
+aluerakenne	региональная структура
+aluesuunnittelu	региональное планирование
+aluevedet	водоем, находящийся в собственности государства
+aluevesiin kuulumattomat vedet	частный водоем
+alumiini	алюминий
+alumiinioksidi	глинозем
+alumiinipitoisuus	содержание алюминия
+alumiinisäiliö	алюминиевый контейнер
+alumiiniteollisuus	алюминиевая промышленность
+amalgaama	амальгама
+ambulanssi	скорая помощь
+amerikium	америций
+amerikkalainen jalkapallo	американский футбол
+ametisti	аметист
+amfiteatteri	амфитеатр
+amiini	амин
+aminohappo	аминокислота
+ammatillinen asema	профессиональный статус
+ammatti ; elinkeino ; kaupankäynti ; kauppa	торговля ; торговля как вид деятельности
+ammatti ; työ	профессия ; работа ; оккупация
+ammattikalastus	промышленная рыбная ловля
+ammattiliitto	профсоюз
+ammattitauti	профессиональное заболевание
+ammoniakki	аммиак
+ammoniakkiutuminen ; ammonifikaatio	аммонификация
+ammonium	аммоний
+ampiainen	оса
+amplitudi	aмплитуда
+anaerobinen käsittely	анаэробная обработка
+anaerobinen prosessi	анаэробный процесс
+anakonda	анаконда
+analogia	аналогия
+analyysi	анализ
+analyysi ; analyysi, määritys, koe ; koe ; määritys	качественный и количественный анализ
+analyysimenetelmä	аналитический метод
+analyysiohjelma	программа анализа
+analyyttinen kemia	аналитическая химия
+analyyttiset varusteet	аналитическое оборудование
+anarkia	анархия
+anarkismi	aнархизм
+anatomia	анатомия
+anime	аниме
+anioni	анион
+anis	анис
+ankka	утка
+ankkuri	якорь
+annos ; annostaa	доза
+annos ; annostus	дозировка
+annos, joka ei aiheuta havaittavaa vaikutusta	"не имеет выраженного действия"
+annos-vaikutus-suhde	взаимоотношение дозы и эффекта
+anomusoikeus	право подать петицию
+anoppi	тёща
+antaa satoa ; sato	урожай
+antarktinen ekosysteemi	экосистема Антарктики
+antenni	антенна
+antibiootti ; antibioottinen	антибиотик
+antihiukkanen	античастица
+antilooppi	антилопа
+antimoni	сурьма
+antropologi	антрополог
+antropologia	антропология
+antropologinen suojelualue	антропологический заповедник
+apartheid	апартеид
+apatia	апатия
+apoptoosi	апоптоз
+apostoli	апостол
+appelsiini	апельсин
+apteekki	аптека
+arabia	арабский
+argon	аргон
+aristokratia	аристократия
+aritmetiikka	арифметика
+arkeologi	археолог
+arkeologia	археология
+arkeologinen	археологический
+arkeologinen kaivauspaikka	археологическая площадка
+arkisto	архив
+arkkiherttua	эрцгерцог
+arkkipiispa	архиепископ
+arkkitehtuuri	архитектура
+arkkityyppi	архетип
+arktinen ekosysteemi	экосистема Арктики
+armenialainen ; armenia	армянский
+aromaattinen aine	ароматическое вещество
+aromaattinen hiilivety	ароматический углеводород
+aromaattinen yhdiste	ароматические соединения
+aromi(aine)	вкусовая добавка
+arsenikki	мышьяк
+arviointi	оценка
+arviointi ; risteily; arviointi ; risteily	круизы и морские путешествия
+arviointimenetelmä	метод оценки
+arviointiperuste	критерий оценки
+arvo; määrä; noteeraus; aste; vauhti ; vauhti ; vauhti ; tahti	скорость
+arvokas	ценный
+arvon muutos	изменение стоимости
+arvovaltainen	авторитетный
+asbesti	асбест
+asbestisementti	асбестоцемент
+asbestoosi	асбестоз
+ase	оружие
+aseistautuminen ; varustelu	вооружение
+aselepo	перемирие
+asema	станция
+asennettujen järjestelmien hyväksyminen	разрешение на использование промышленной установки
+asento	поза
+asetehtaiden muuttaminen muuhun tuotantoon	конверсия вооружений
+asettaa näytteille; antaa lääkettä	экспонат
+asetus	подзаконный акт
+asetus	приказ министерства
+asetus	регулирование
+asetus ; määräys, asetus, päätös; tuomioistuinratkaisu ; päätös ; määräys ; tuomioistuinratkaisu	декрет
+asetus enimmäisrajoista	нормативный документ по ПДК
+asevarikko	арсенал
+asevoimat	вооруженные силы
+asfaltti	асфальт
+asiakirja	документ
+asiakirjat ; lait ; teot ; toimenpiteet	акт
+asiakirjatyyppi	тип документа
+asiakirjojen lainaus	выдача документов
+asiakirjojen luettelointi	индексация документации
+asiakirjojen tarkastus	проверка записей
+asiantuntijajärjestelmä	экспертная система
+askeetti	аскет
+astatiini	астат
+asteittainen kehitys, kehityskulku	эволюция
+astenosfääri	астеносфера
+asteriski	звёздочка
+asteroide	астероид
+astma	астма
+astrofysiikka	астрофизика
+astrologi	астролог
+astrologia	астрология
+astrometria	астрометрия
+astronomi	астроном
+asturia	астурийский ; астурлеонский
+asu	наряд
+asuinalue	жилой район
+asuinalue, jossa liikennettä on vähennetty	жилой район с дорогами, оборудованными устройствами по контролю за скоростью
+asuinrakennus	жилой дом
+asuinseudultaan siirtymään joutunut henkilö	перемещенное лицо
+asukas	житель
+asukastiheys	плотность населения
+asuminen, asuntoasiat ; asuminen ; asuntoasiat	дома и жилищное строительство
+asumisen laatua koskeva normi	стандарт качества жилища
+asumistiheys	плотность городской застройки
+asunto	жилище
+asunto ; asunto, huoneisto ; huoneisto	услуги по проживанию
+asunto-oloja koskeva lainsäädäntö	законодательство в области жилищного строительства
+asunto-olojen parantaminen	улучшение качества жилища
+asuntovaunu, matkailuperävaunu	передвижной дом
+asutus	колонизация
+asutus(taajama) ; asutuskeskus	населенный пункт
+asutusohjelma	программа жилищного строительства
+asymmetrinen	асимметричный
+asymptootti	асимптота
+ateisti	атеист
+atolli	атолл
+atomi	атом
+atomiräjähdys	ядерный взрыв (авария) ; ядерный взрыв
+atomiytimen halkeamisreaktio	ядерный распад
+atratsiini	атразин
+audiovisuaalinen esitys	аудиовизуальное представление
+audiovisuaaliset varusteet	аудиовизуальное оборудование
+audiovisuaaliset viestintävälineet	аудиовизуальные средства
+auer, sumentaa ; auer	дымка
+aura	плуг
+auringon säteily	солнечная радиация
+auringonpaisteen kesto	продолжительность солнечного дня
+aurinkoenergia	солнечная энергия
+aurinkoenergiatekniikka	технология использования солнечной энергии
+aurinkokenno, aurinkopari	солнечная батарея
+aurinkokeräin	солнечный коллектор
+aurinkovoimala, aurinkovoimalaitos ; aurinkovoimala ; aurinkovoimalaitos	электростанция ; электростанция, работающая от энергии солнца ; работающая от энергии солнца
+auto	автомобиль
+autonrengas	автомобильная шина
+autoritaarinen	авторитарный
+autoteollisuus	автомобильная промышленность
+avaruus	космос ; космос (астрон.)
+avaruusilmailu	астронавтика
+avaruusmatka	космический полет
+avioero	развод
+avolouhinta	открытые горные разработки
+avolouhos	карьер
+avomeren miinoitus	глубоководная разработка полезных ископаемых
+avomeri	открытое море
+avomeri ; avomeri; suuret syvänteet ; suuret syvänteet	открытое море
+avomerikalastus	рыбная ловля в открытом море
+avomerikalastus ; syvänmerenkalastus	рыболовство в открытом море
+avustaa	ассистировать
+avustusmääräraha	денежная помощь
+azerbaidžani	азербайджанский
+bakteereita tappava aine	бактерицид
+bakteerit	бактерии
+bakteriologia	бактериология
+bakteriologinen pilaantuminen	бактериологическое загрязнение
+balladi	баллада
+banaani	банан
+barium	барий
+barometri	барометр
+baseball	бейсбол
+baseline-tarkkailu	базовый мониторинг
+baski	баскский
+beatifikaatio	беатификация
+beetasäteily	бета-излучение
+bengali	бенгальский
+bensiini	бензин ; моторное топливо
+bensiiniasema	заправочная станция
+bensiinimoottori	бензиновый двигатель
+bensiinin lyijypitoisuutta koskeva laki	закон об уровне содержания свинца в автомобильном топливе
+bentseeni	бензин
+bentsopyreeni	бензопирен
+berkelium	берклий
+beryllium	бериллий
+betoni; konkreettinen ; betoni ; konkreettinen	бетон
+betonituoteteollisuus	производство изделий из бетона
+bibliografia; kirjaluettelo ; bibliografia ; kirjaluettelo	библиография
+bibliografiset tiedot	библиографическая информация
+bibliografisten tietojen järjestelmä	библиографическая информационная система
+biodynaaminen viljely	применение в сельскохозяйственной деятельности только органических удобрений
+bioetiikka	биоэтика
+biofysiikka	биофизика
+biogeokemiallinen kierto	биохимический цикл
+biokaasu	биогаз
+biokemia	биохимия
+biokemiallinen hapentarve	биохимическое потребление кислорода
+biokemiallinen menetelmä	биохимический метод
+biokemialliset aineet	биохимическое вещество
+biokemialliset prosessit	биохимический процесс
+biokenoosi	биоценоз
+bioklimatologia	биоклиматология
+biologia	биология
+biologinen analyysi	биологический анализ
+biologinen ase	биологическое оружие
+biologinen hajo(tta)minen	биодеградация
+biologinen indikaattori	биологический индикатор
+biologinen indikaattori	биоиндикатор
+biologinen jätekaasun puhdistus	биологическая очистка отработанного газа
+biologinen jäteveden käsittely	биологическая переработка жидких отходов
+biologinen jätteidenkäsittely	биологическая утилизация отходов
+biologinen kehitys	биологическое  развитие
+biologinen koe	биологический опыт
+biologinen käsittely, biologinen puhdistus	биологическая обработка
+biologinen ominaisuus	биологические свойства
+biologinen perintö	биологическое наследие
+biologinen saaste	биологическое заражение
+biologinen saaste	биологическое загрязняющее вещество
+biologinen saastuminen	биологическое загрязнение
+biologinen suodatin	бактериальный слой
+biologinen torjunta	биологические меры борьбы с вредителями
+biologinen tuotanto	биологическое производство
+biologinen vaikutus	биологический эффект
+biologinen valvonta	биологический мониторинг
+biologiset prosessit	биологический процесс
+biologiset resurssit	биологический ресурс
+biologiset tieteet	науки о жизни
+bioluminointi, elävän organismin fosforoiminen ; bioluminointi ; elävän organismin fosforoiminen	биолюминесценция
+biomassa	биомасса
+biomassaenergia	энергия биомассы
+biomi	биом
+bioottinen indeksi	биотический индекс
+bioottinen tekijä	биотический фактор
+biopolttoaine	биотопливо
+bioreaktori	биореактор
+biorytmi	биоритм
+biosfääri, eliökehä	биосфера
+biosfäärialue	биосферный заповедник
+biosuodatus	биофильтрация
+biosynteesi	биосинтез
+biotekniikka	биоинженерия
+biotekniikka	биотехнология
+biotekninen vaara	биотехнологическая угроза
+biotoopin t. elinalueen menetys	потеря биотопа
+biotooppi, luontotyyppi	биотоп
+biotooppiluokitus	законодательный акт по вопросам биотопа
+bioturvallisuus	биобезопасность
+bitumi	битум
+blogi	блог
+bohrium	борий
+bonsai	бонсай
+boori	бор
+botaniikka	ботаника
+bretoni	бретонский
+bromi	бром
+bruttokansantuote	валовый внутренний продукт
+bruttokansantuote	валовый национальный продукт
+budjettipolitiikka	бюджетная политика
+bulgaria	болгарский
+bulgarialainen	болгарин ; болгарка
+byrokratia	бюрократия
+cerium	церий
+cesium	цезий
+chihuahua	чихуахуа
+choklad	шШоколад ; шоколад
+curium	кюрий
+darmstadtium	дармштадтий
+dehydratoitu liete	высушенный ил
+dekantointi, kuortaminen	сцеживание
+delegoitu johtaminen	делегированное управление
+delfiini	дельфин
+demografinen muutos, väestöllinen muutos	движение населения
+demokratia	демократия
+dendrokronologia ; vuosirengasajoitus	дендрохронология
+desibeli	децибел
+desinfioimisaine	дезинфицирующее средство
+desinfiointi	дезинфекция
+desorptio	десорбция
+destruktio	утилизация трупов животных
+deuterium	Дейтерий
+dialyysi, mikrosuodatus	диализ
+diatomi, yksisoluinen levä, piilevä	диатомея
+dieselmoottori	дизельный двигатель
+dieselpolttoaine	дизельное топливо ; дизель
+digitointi, numerisointi	оцифровка
+dioksiini	диоксин
+direktiivi	директива
+dokumentointi, asiakirja-aineisto	документация
+dokumentointijärjestelmä	система документирования
+dokumenttielokuva	документальный фильм
+dromedaari	дромадер
+dubnium	дубний
+dysprosium	диспрозий
+dyyni, lentohiekka ; dyyni ; lentohiekka	дюна
+dyyni, lentohiekkasärkkä ; dyyni ; lentohiekkasärkkä	песчаная дюна
+edustus	представление
+eetteri; dietyylieetteri ; eetteri ; dietyylieetteri	эфир
+ehkäisevä tiedotus	предупреждающая информация
+ehkäisevä toimenpide	профилактическая мера
+ehkäisevän terveydenhuollon toimenpide	профилактическая здравоохранительная мера
+ei mitään	ничто
+ei-kohdeorganismi	организм, не являющийся объектом действия пестицида
+ei-konventionaalinen energia	нетрадиционный источник энергии
+ei-metallinen mineraali	неметаллический минерал
+ei-rautametalliteollisuus	цветная металлургия
+einsteinium	эйнштейний
+ekoalue	экозона
+ekofysiologia	экофизиология
+ekokatastrofi	экологическая катастрофа
+ekologia	экология
+ekologiaan liittyvä pediatria	экопедиатрия
+ekologinen arviointi	экологическая оценка
+ekologinen inventointi	экологическая инвентаризация
+ekologinen kehitys	экоразвитие
+ekologinen kirjanpito	бухгалтерский учет природоохранной деятельности
+ekologinen käytävä	"коридор" для животных
+ekologinen lokero	экологическая ниша
+ekologinen parametri	экологический параметр
+ekologinen rakennus	"зеленое" жилище
+ekologinen runsaus	экологическое изобилие
+ekologinen sopeutuminen	экологическая адаптация
+ekologinen tasa-arvon puute	экологическое неравенство
+ekologinen tasapaino	экологический баланс
+ekologinen tekijä	экологический фактор
+ekologinen yhteisö	экологическое сообщество
+ekologisesti herkkä alue	экологически нестабильный регион
+ekologisten kokonaisuuksien tutkimus	экология сообществ
+ekomarkkinointi	экологическая торговля
+ekomuseo	экомузей
+ekosysteemi	экосистема
+ekosysteemin analyysi	анализ экосистем
+ekosysteemin rappeutuminen	деградация экосистем
+ekosysteemin tutkimus	исследования экосистем
+ekosysteemityypit	тип экосистемы
+ekotoksikologia	экотоксикология
+ekotoksikologinen arviointi	экотоксикологическая оценка
+ekotoksisuus	экотоксичность
+ekoturismi	экотуризм
+ekotyyppi, paikallistyyppi	экотип
+eksakti tiede	точная наука
+eksoottinen laji	экзотический вид
+ekvivalenttiannos	эквивалентная доза
+elektrolyysi	электролиз
+elektroniikka	электроника
+elektroninen materiaali	материал, используемый в электронике
+elektroniset jätteet	отходы электронной промышленности
+elektronisten tietojen vaihto	обмен электронными данными
+elektrosavusumu	электросмог
+elementti ; kenno ; komero	гальвани́ческий элеме́нт ; элемент питания
+elin	орган
+elinehto	условия жизни
+elinkaari	жизненный цикл
+elinkeinoelämän kehitys; teollisuusrakennus	промышленное развитие
+elinkeinotoiminnan luokittelu	классификация бизнеса
+elintarvikehygienia	гигиена продуктов питания
+elintarvikekauppa	торговля продуктами питания
+elintarvikekuljetus	транспортировка продуктов питания
+elintarvikelisäaine	пищевая добавка
+elintarviketeollisuus	пищевая промышленность
+elintarviketuotanto	производство сельскохозяйственных продуктов питания
+elintaso	стандарт жизни
+elintila	жизненное пространство
+elinympäristö	жизненная среда
+elinympäristön tuhoutuminen	разрушение природной среды
+eliömaantiede	биогеография
+eliömaantieteelliset alueet	биогеографический регион
+eliöntorjunta-aine	антиводорослевый реагент
+eliöntorjunta-aine	биоцид
+elohopea	ртуть
+elokuu ; kylvökuu ; mätäkuu	август
+elokuva	кинофильм
+elollisen luonnon monimuotoisuus	биоразнообразие
+eloton ympäristö	абиотическая среда
+elvytys, uudistuminen	восстановление
+elvytyssuunnitelma	план восстановления природных ресурсов
+eläimet	животное
+eläimistö	фауна
+eläimistön turmeltuminen	вырождение фауны
+eläinbiologia	биология животных
+eläinekologia	экология животных
+eläinfysiologia	физиология животных
+eläinjäte	отходы животноводства
+eläinkanta	популяция животных
+eläinkauppa	торговля животными
+eläinkoe	эксперименты над животными
+eläinlaji	животные виды
+eläinlajien takaisinistutus	повторное заселение видов животных
+eläinlajin tuominen uuteen ympäristöön	заселение видов животных
+eläinmelu	шум, производимый животными
+eläinoppi, eläintiede ; eläintiede ; zoologia	зоология
+eläinperintö	наследие животного мира
+eläinravinto	корм для животных
+eläinsuoja	помещения для содержания животных
+eläintarha	зоологический сад
+eläintarha	заповедник животных
+eläintauti	болезни животных
+eläinten elinpaikka	природная среда обитания животных
+eläinten käyttäytyminen	поведение животных
+eläinten lanta	навоз
+eläinten lisääntyminen	репродукция животных
+eläinten muutto, vaellus	миграция животных
+eläinten oikeudet	права животных
+eläinten ravitsemus	питание животных
+eläinten ruokinta	кормление животных
+eläinten siirtäminen	перемещение животных
+eläinten suojelu	защита животных
+eläinten ulosteet	экскременты животных
+eläintensuojelu	защита животных
+eläintuotanto	производство животноводческой продукции
+eläintuote	животноводческая продукция
+eläinvahinko	ущерб, наносимый животными
+eläinvarat	животные ресурсы
+elämänlaatu	качество жизни
+elämäntapa	стиль жизни, образ жизни ; стиль жизни ; образ жизни
+embryogeneesi, alkionkehitys, sikiönkehitys	эмбриогенез
+emulgoiminen	образование эмульсии
+emulsio	эмульсия
+emäksinen maaperä	щелочная почва
+emäksiset ; ryhmän I alkuaineet	химический элемент группы I
+emäksisyys	основность (хим.)
+emäs	основа
+energia	энергия
+energiahuolto	управление в области производства энергии
+energiahuolto	снабжение энергией
+energiahyötysuhde	эффективность использования энергии
+energiahäviö	потеря энергии
+energialainsäädäntö	законодательство в области использования энергии
+energiamarkkinat	рынок энергоресурсов
+energian ja lämmön suhde	КПД двигателя
+energian jakelujärjestelmä	система распределения энергии
+energian käyttö	использование энергии
+energian muuntaminen	преобразование энергии
+energian tarve	потребности в энергии
+energian vaikutus ympäristöön	воздействие производства энергии на окружающую среду
+energian varastointi	запасы энергии
+energiankulutus	потребление энергии
+energianlähde	источник энергии
+energianlähdemateriaali	энергоноситель
+energiansäästö	экономия энергии
+energiantuotanto	производство энергии
+energiapolitiikka	энергетическая политика
+energiaprosessi	энергетический процесс
+energiatalous	энергетика
+energiatase	энергетический баланс
+energiatekniikka	энергетическая технология
+energiateollisuus	производство энергии
+energiatyyppi	тип энергии
+energiavarat, energianlähteet	энергетический ресурс
+englanti	английский
+englantilainen puutarha	английский сад
+enkeli	ангел
+ennuste	прогноз
+ennustetiedot	данные прогноза
+ensisijaistaminen ympäristön näkökulmasta	экологический приоритет
+enterovirus	энтеровирус
+entsyymi	энзим
+epidemiologia, kulkutautioppi ; epidemiologia ; kulkutautioppi	эпидемиология
+epigrammi	эпиграмма
+epilepsia	эпилепсия
+episentrumi	эпицентр
+epähyöty	баланс интересов личности и общества
+epämetallit	неметаллический
+epämuodostuma	порок развития
+epämääräinen oikeudellinen käsite	неопределенная правовая концепция
+epäonnistunut	неудачный
+epäorgaaninen kemia	неорганическая химия
+epäorgaaninen lannoite	неорганическое удобрение
+epäorgaaninen saaste	неорганическое загрязняющее вещество
+epäorgaaniset aineet	неорганическое вещество
+epäpuhtauksien kulkeutumisväylä	пути распространения загрязняющих веществ
+epäsuora aiheuttaja	скрытый источник стоков
+epäviralliset neuvottelut	неформальные переговоры
+erbium	эрбий
+ergonomia	эргономика
+erilaistuminen; porrastaminen ; erilaistuminen ; porrastaminen	биологическая дифференциация
+eristys	изоляция
+eroosio	эрозия
+eroosio ; maanpinnan aleneminen; eroosio ; maanpinnan aleneminen	деградация, разложение ; разложение ; деградация
+eroosion valvonta	контроль за эрозией
+erotin, separaattori; eristin	сепаратор
+es  Euroopan yhteisöjen tuomioistuin	Суд Европейского Союза
+esikäsittely, esioikeudenkäynti	предварительные слушания
+esikäsittely, esipuhdistus	первичная обработка
+espanja	испанский ; испанский язык
+esperanto	эсперанто
+estetiikka	эстетика
+estoaine; pelote	сдерживающий фактор
+estuaaribiologia	биология эстуариев
+etanoli, etyylialkoholi	этанол
+etiikka	этика
+etikka	уксус
+etnografia	этнография
+etnologia	этнология
+etologia	этология
+etsaus, syövytys	травление
+etsausaine	вещество для травления
+etu	банковский процент
+etujen tasapainottaminen	баланс интересов
+etuosto-oikeus, ennakko-osto-oikeus ; etuosto-oikeus ; ennakko-osto-oikeus	преимущественное право покупки
+etuosto-oikeusalue	район преимущественного права покупки (земельного участка)
+eturistiriita	конфликт интересов
+eturyhmä	группа по интересам
+eurooppalainen luonnonsuojelualue	европейский природный заповедник
+eurooppalainen normi	европейский стандарт
+europium	eвропий ; европий
+evapotranspiraatio, kokonaishaihdunta	испарение воды в атмосферу
+eväjalkaiset	ластоногие
+fagotti	фагот
+farmakokinetiikka	фармакокинетика
+farmakologia	фармакология
+farmaseutti	аптекарь
+fasaani	фазан
+fenoli	фенол
+fermium	Фермий ; фермий
+feromoni	феромон
+filmi ; ohut kalvo	кинофильм
+filmi, ohut kalvo ; filmi ; ohut kalvo	кинофильм
+filologia	филология
+filosofia	философия
+finanssilaki	финансовое право
+flaami	фламандский
+fluidistorijärjestelmä; fluidistoritekniikka	струйная технология
+fluoraus, fluorin lisääminen juomaveteen	фторирование
+fluori	фтор
+fobia	фобия
+fosfaatin korvike	заменитель фосфатов
+fosfaatin poisto	замещение фосфатов
+fosfaatti	фосфат
+fosfaattilannoite	фосфорное удобрение
+fosfori	фосфор
+fossiili, kivettymä ; fossiili ; kivettymä	ископаемое
+fossiilinen polttoaine	ископаемое топливо
+fotokemiallinen aine	фотохимический агент
+fotokemiallinen hapetin	фотохимический окислитель
+fotokemiallinen saaste	фотохимическое загрязнение
+fotokemiallinen savusumu	фотохимический смог
+fotokemiallinen tuote	фотохимический продукт
+fotoni	фотон
+fotosynteesi	фотосинтез
+frankium	Франций ; франций
+freoni	фреон
+freoni	хлорфторуглероды
+friisi	Фризский ; фризский
+furaani	фуран
+fysiikka	физика
+fysikaalinen kemia	физическая химия
+fysikaalinen käsittely	физические методы обработки отходов
+fysikaalinen muutos	физическое изменение
+fysikaalinen saaste	физический загрязнитель
+fysikaalinen saaste	физическое загрязнение
+fysikaaliset prosessit	физический процесс
+fysikaaliskemiallinen analyysi	физико-химический анализ
+fysikaaliskemiallinen käsittely	физико-химическая обработка
+fysikaaliskemiallinen puhdistus	физико-химическая очистка
+fysikaaliskemialliset prosessit	физико-химический процесс
+fysiologia	физиология
+fytomassa	фитомасса
+fytotoksisuus	фитотоксичность
+fyysinen maantiede, luonnonmaantiede	физическая география
+fyysinen suunnittelu	планирование окружающей физической среды
+fyysiset ominaisuudet	физическое свойство
+fääri	фарерский
+gadolinium	гадолиний
+galicia	галисийский
+gallium	галлий
+galvanoiminen	гальванизация
+gammasäteily	гамма-излучение
+gasoholi ; gasoholi, polttoaineseos, jossa bensiiniin on lisätty alkoholia	бензоспирт
+geeni	ген
+geenipooli, populaation geenistö ; geenipooli	генофонд
+geeniteknologia	генная инженерия
+geeniteknologiaa koskeva lainsäädäntö	законодательство в области генной инженерии
+geneettinen monimuotoisuus	генетическое разнообразие
+geneettinen muuntelu	генетическая вариация
+geneettinen muutos	изменение генов
+geneettinen tieto	генная информация
+geneettisesti muutettu organismi	генетически модифицированный организм
+geneettiset voimavarat	генетический ресурс
+genomi	геном
+genotoksisuus	генотоксичность
+genotyyppi	генотип
+geofysiikka	геофизика
+geofysikaalinen ympäristö	геофизическая среда
+geologia	геология
+geologinen suuronnettomuus	геологическое бедствие
+geologiset prosessit	геологический процесс
+geometrinen korjaus	поправки на геометрию
+geomorfinen prosessi	геоморфический процесс
+georgia	грузинский
+geotekniikka	геотехнология
+geotekniikka	геотехника
+geotiede	наука о Земле
+germanium	германий
+geysiri	гейзер
+giljotiini ; giljotiini ; giljotiini	гильотина
+glaukooma	глаукома
+globaali lämpeneminen	глобальное потепление
+glykolyysi	гликолиз
+golf	гольф
+gongi	гонг
+gorilla	горилла
+graniitti	гранит
+granulometria, rakeisuuden tutkimus	гранулометрия
+gravitoni	гравитон
+gudžarati	гуджарати ; гуджаратский ; гуярати
+gy  yhteinen ympäristönsuojelutekniikka	интегрированная природоохранная технология
+haaremi	гарем
+haarukka	вилка
+hafnium	гафний
+hahmon tunnistus	распознавание образов
+hai	акула
+haihdunta	транспирация
+haihtumaton aine	нелетучее вещество
+haihtuminen	испарение
+haihtuva aine	летучее вещество
+haihtuvuus; epävakaisuus	летучесть
+haikara	цапля
+haikara	аист
+haiku	ха́йку ; хо́кку
+haima	поджелудочная железа
+haittavero	налог на охрану окружающей среды
+haja-asutusalue	незастроенные районы
+hajaantuminen, hajonta ; hajaantuminen ; hajonta	дисперсия
+hajanainen lähde	различные источники загрязнения
+hajanainen saaste	загрязнение из различных источников
+hajareisin	верхом
+hajareisin	расставив ноги
+hajauttaminen	децентрализация
+hajoaminen, maatuminen ; hajoaminen ; maatuminen	разложение
+hajoamistuote	продукт разложения
+hajoavuus	способность к разложению
+hajonnan arviointi	расчет дисперсии
+haju, tuoksu ; haju ; haju ; tuoksu	запах
+hajusaaste	загрязнение, воздействующее на органы обоняния
+hallinnollinen asiakirja	действие администрации
+hallinnollinen elin	административный орган
+hallinnollinen julkinen laitos	государственный орган для решения административных вопросов
+hallinnollinen menettely	административная процедура
+hallinnollinen määräys	административный приказ
+hallinnollinen ohje	административная подготовка
+hallinnollinen organisaatio	административная организация
+hallinnollinen raja	административная граница
+hallinnollinen toimivalta	компетентность административного персонала
+hallinnollinen työ	административная должность
+hallinnollisten asiakirjojen saatavuus	доступ к административным документам
+hallintasuunnitelma, johtamissuunnitelma ; hallintasuunnitelma ; johtamissuunnitelma	план управления
+hallintatekniikka	метод управления
+hallinto	администрация ; управление
+hallinto-oikeus	административное право
+hallintosanktio	административная санкция
+hallituksen neuvoa-antava elin	консультативный орган при правительстве
+hallituksen politiikka	политика правительства
+hallituksen vastuu	ответственность правительства
+hallitus	правительство (кабинет министров)
+hallitusmuoto	форма государственного правления
+hallitusrakennus	правительственное здание
+hallusinaatio	галлюцинация
+haloformi	галоформ
+halogeeni ; ryhmän VII alkuaineet	химический элемент группы VII
+halogenoitu difenyyli	галогенизированный бифенил
+halogenoitu fenoli	галогенизированный фенол
+halogenoitu hiilivety	галогенизированный углеводород
+halogenoitu saaste	галогенизированное загрязняющее вещество
+halogenoitu yhdiste	галогенизированное соединение
+halpa asuminen	низкозатратное жилищное строительство
+hammaslääketiede	стоматология
+hammaslääkäri	зубной врач
+hanhi	гусь
+hankaava	абразивный
+hanke	проект
+hankinta	приобретение
+hankinta ; tarjonta ; toimitus	предложение
+hapan laskeuma	кислотные осадки
+hapettava aine, hapetin	окисляющий агент
+hapettumisen vähentäminen	снижение окисления
+hapettuva aine	материал, способный к окислению
+hapetus, hapenpoisto	оксигенация
+hapetus, hapettuminen	реакция окисления
+hapot	кислота
+happamoituminen	подкисление
+happamuus	кислотность
+happamuusaste	уровень кислотности
+happi	кислород
+happipitoisuus	содержание кислорода
+happosade, hapan sade	кислотный дождь
+harmonikka	гармоника ; гармонь
+harppuuna	гарпун
+harvinainen laji	редкие виды
+hassium	xассий
+hautajaiset	похороны
+hautominen	высиживание яиц
+havaintosatelliitti	спутник слежения
+havumetsä	хвойный лес
+havupuu	хвойное дерево
+havupuun neulanen ; lehti	лист
+havupuut	хвойные
+hedelmä	фрукт
+hedelmänviljely	выращивание фруктов
+hedelmäpuu	фруктовое дерево
+hedelmättömyys ; hedelmättömyys, steriliteetti ; steriliteetti	биологическая стерилизация
+hegemonia	гегемония
+heijastuma; peilaus	отражение
+heinäkasvit	травянистые растения
+heinäkuu	июль
+heinäsirkat	кузнечик
+helikopteri	вертолёт
+helium	гелий
+helmikuu	февраль
+helposti syttyvä aine	легковоспламеняющееся вещество
+helppo	лёгкий
+hematologia	гематология
+hengenpelastaja	лейб-гвардия
+hengitys	респирация
+hengityselimet	респираторная система
+hengityselinten sairaus	респираторное заболевание
+hengitysilma	респираторный воздух
+heprea	иврит
+hera	сыворотка
+hermojärjestelmä	нервная система
+hermostolle myrkyllisyys	нейротоксичность
+heroiini	героин
+herätyskello	будильник
+heterosyklinen yhdiste	гетероциклическое вещество
+hevonen	лошадь
+hevonen ; ratsu	конь
+hevoset	лошадиный
+hidas	медленный
+hiekka	песок
+hiekkakuoppa	добыча гравия
+hieno	штраф
+hienomekaniikka	точное машиностроение
+hiihto	лыжный спорт
+hiilen nesteytys	ожижение угля
+hiili	углерод
+hiili	уголь
+hiilidioksidi	диоксид углерода
+hiilidioksidivero	налог на выброс диоксид углерода
+hiilihydraatti	углевод
+hiilimonoksidi	моноксид углерода
+hiilipohjainen energia	производство энергии на основе угля
+hiilitekniikka	гидрогенизация угля
+hiiliteollisuus	угольная промышленность
+hiilivedyn säilytystankki	хранилище углеводородных материалов
+hiilivety	углеводород
+hiilivoimalaitos, kivihiilivoimala	теплоэлектростанция, работающая на угле
+hiippakunta ; hiippakunta	епархия
+hiiva	дрожжи
+hiljaisempana aikana matkustaminen	внепиковые поездки
+hindi	хинди
+hinta	цена
+hintapolitiikka	политика в области ценообразования
+hiominen ; jauhaminen	измельчение
+hirmumyrsky	ураган
+hisoriallinen kohde, muinaismuistomerkki	историческое место
+historia	история
+historiallinen kehitys	эволюция в процессе истории
+historiallinen keskus	исторический центр
+historian tutkimus	исследование истории
+hitsaus	сварка
+hiukkanen	частица
+hiukkaserotin	сепаратор частиц
+hiutaloittamisaine; höytelöittämisaine	флоккулянт
+hivenaineet, hivenalkuaineet	элемент в следовом количестве
+hoitaa	ухаживать
+hoitaa	уделять внимание
+hoito, hallinto, johtaminen, käsittely	управление
+hoito, terapia ; hoito ; terapia	терапия
+hoitosopimus; johtamissopimus	контракт на управление
+hollanti	нидерландский
+holmium	гольмий
+homeostaasi	гомеостаз
+hopea	серебро ; аргентум
+horisontti	горизонт
+hormoni	инкреть
+hotelliala	гостиничная индустрия
+housut	брюки
+huhtikuu	апрель
+huilu	флейта
+humanistiset tieteet	науки о человеке
+humanitaarinen apu	гуманитарная помощь
+hunaja	мёд
+huoli ympäristöstä	экологическая озабоченность
+huolitsija, huolintaliike	экспедитор
+huominen	завтра
+huoneilman, sisäilman saastuminen	загрязнение воздуха в помещении
+huonekalut ; kalusteet	мебель
+huonekaluteollisuus	производство мебели
+huuhtelu ; huuhtelu, huuhtelupuhdistus ; huuhtelupuhdistus	промывка
+huuli	губа
+huulipuna ( ; huulipuna	помада
+huvilaivamatkailu	речные и морские круизы
+huvipuisto	парк развлечений
+hybridisointi, hybridisaatio	гибридизация
+hydrauliikka, nestemekaniikka	гидравлика
+hydraulinen rakennelma	гидравлическая конструкция
+hydrobiologia	гидробиология
+hydrogeologia	гидрогеология
+hydrografia; merenkartoitus	гидрография
+hydrografinen allas	гидрографический бассейн
+hydrografinen verkko	гидрографическая система
+hydrologinen suuronnettomuus	гидрологическое бедствие
+hydrolyysi	гидролиз
+hydrometeorologia	гидрометеорология
+hygienia	гигиена
+hylätty ajoneuvo	брошенный автомобиль
+hylätty maa-alue	заброшенная промышленная площадка
+hymy	улыбка
+hyperteksti	гипертекст
+hyvinvointi, korkeasuhdanne ; hyvinvointi ; korkeasuhdanne	экономическое процветание
+hyvä hallinta	правильный менеджмент
+hyväksyminen, vahvistaminen	признание действительным
+hyväksyminen,hyväksyntä ; hyväksyminen ; hyväksyntä	одобрение
+hyväksyntä	согласие
+hyväksyä	соглашаться
+hyvää iltaa	добрый вечер
+hyvää joulua ; hauskaa joulua	С Рождеством Христовым
+hyvää ruokahalua	приятного аппетита
+hyökkäys	атака ; нападение
+hyökkäävä	нападающий
+hyönteiset	насекомое
+hyönteismyrkky	инсектицид
+hyönteissyöjät	насекомоядное
+hyötyajoneuvo	грузовое транспортное средство
+hyötyorganismi	полезный организм
+hyötyosuus	биополезность
+häikäistä	ослеплять
+häkeltynyt	ошеломлённый
+hälytys	тревога
+hämmästys	удивление
+hämmästyttävä	удивительный
+hämmästyttää	удивлять
+hämähäkinverkko	паутина
+hämähäkit	паук
+hämähäkki	паук
+hän	он
+häpeissään	пристыженный
+häpykieli ; klitoris	клитор
+hätäapu	помощь при чрезвычайной ситуации
+hätäapu suuronnettomuuksissa	помощь при стихийных бедствиях ; помощь
+hätäoikeus, pakkotilaoikeus, poikkeuslaki	закон в области регулирования чрезвычайных ситуаций
+höyry ; savu ; savu, höyry, savustaa, savuta ; savustaa ; savuta	дым
+höyrykattila, höyrynkehitin, höyrygeneraattori ; höyrykattila ; höyrynkehitin ; höyrygeneraattori	паровой котел
+höyryn paine, vesihöyryn osapaine	давление пара
+ideologia	идеология
+ido	идо
+idän ja lännen suhteet	взаимоотношения "Восток-Запад"
+idän ja lännen välinen kauppa	торговля между Востоком и Западом
+idätys; itäminen ; idätys ; itäminen	прорастание
+ihminen ; henkilö	человек
+ihminen ; mies	человек
+ihmisasutusten hallinta	управление населенными пунктами
+ihmisasutusten ympäristönäkökohdat	экологический аспект населенных пунктов
+ihmisekologia	экология человека
+ihmisen aiheuttama ilmastonmuutos	изменение климата как следствие деятельности человека
+ihmisen aiheuttama suurvahinko	бедствия ; бедствия, вызванные деятельностью человека ; вызванные деятельностью человека
+ihmisen asuinympäristö	среда обитания человека
+ihmisen fysiologia	физиология человека
+ihmisen terveys	здоровье человека
+ihmisen toiminta	деятельность человека
+ihmisoikeudet	гражданские права
+ihmisruumis	человеческое тело
+ihmisten muutto	миграция людей
+ihmisten sairaus	болезни человека
+iho ; nahka	кожа
+ikkuna	витрина ; иллюминатор ; иллюминатор ; люк ; окно
+ikä	возраст
+ikääntynyt henkilö	пожилой человек
+ilma	воздух
+ilma-alus, lentokone ; ilma-alus ; lentokone	летательный аппарат
+ilmailulainsäädäntö	правила воздушных перевозок
+ilmaisin, tunnistin	детектор
+ilmakehä	атмосфера
+ilmakehän aineosa	компонент атмосферы
+ilmakehän fysikaaliset ilmiöt	физика атмосферы ; Физика атмосферы
+ilmakehän hiukkaset	атмосферная частица
+ilmakehän kemia	химия атмосферы
+ilmakehän kerrostus	слои атмосферы
+ilmakehän koostumus	состав атмосферы
+ilmakehän otsoni	атмосферный озон
+ilmakehän palauttaminen ennalleen	поправки на атмосферу
+ilmakehän rakenne	структура атмосферы
+ilmakehän seuranta	мониторинг атмосферы
+ilmakehässä tapahtuva prosessi	атмосферный процесс
+ilmakehää tutkivat tieteet	наука об атмосфере
+ilmakehään vaikuttava aerosoli	атмосферный аэрозоль
+ilmakuljetus	воздушные перевозки
+ilmakuva	аэрофотоснимок
+ilmakuvaus	аэрофотосъемка
+ilmaliikenne	движение воздушного транспорта
+ilmaliikennelainsäädäntö	законы в области воздушного транспорта
+ilmamelu	шум от находящихся в воздухе источников
+ilman ja veden vuorovaikutus	взаимодействие "воздух-вода"
+ilman kiertokulku	циркуляция атмосферы
+ilman laadun hallinta	управление качеством воздуха
+ilman laadun seuranta	мониторинг качества воздуха
+ilman laadun valvonta	контроль за качеством воздуха
+ilman laatu	качество воздуха
+ilman liikkeet; ilmakuljetus	движение воздуха
+ilman lämpötila	температура воздуха
+ilman saastuminen	загрязнение воздуха
+ilman saastuminen	загрязнение атмосферы
+ilmansaaste	вещество, загрязняющее воздух
+ilmasto	климат
+ilmastointi	кондиционирование воздуха
+ilmastokoe	климатический эксперимент
+ilmaston muutos	локальное климатическое изменение
+ilmastonmuutos	изменение климата
+ilmastonsuojelu	защита климата
+ilmastotiede	климатология
+ilmastotyyppi	тип климата
+ilmastovaikutus	влияние климата
+ilmastovarat	климатический ресурс
+ilmastovyöhyke	климатическая зона
+ilmastus	аэрация
+ilmatilan suunnittelu	аэрокосмическое планирование
+ilmavoimajohto	воздушная линия электропередачи - ЛЭП
+ilmiön peruuttamattomuus	необратимость какого-либо явления
+ilmoitus ; mainos	реклама
+ilmoitus ; tiedotus	извещение
+ilmoitus, tiedotus; ilmoittaminen	уведомление
+ilmoitusvelvollisuus	обязательство информировать
+ilotulite	фейерверк
+ilves	рысь
+imeytyminen	абсорбция
+imeytyminen	поглощение
+immissio; immissiovahinko	иммиссия
+immissioennuste	прогноз иммиссии
+immissiokuormitus	иммиссионная нагрузка
+immission enimmäispitoisuus	максимальная концентрация иммиссии
+immissionvalvonta	контроль за иммиссией
+immissionvalvontalaki	закон, регулирующий контроль за иммиссией
+immissioraja	лимит иммиссии
+immissiovahinko	ущерб в результате иммиссии
+immuniteetti; koskemattomuus ; koskemattomuus ; immuniteetti	иммунитет
+immuniteettianalyysi	иммунопроба
+immunologia	иммунология
+immuunijärjestelmä	иммунная система
+immuunijärjestelmän sairaus	иммунологическое заболевание
+impaktori	импактор
+impulssikohina, impulssimelu	импульсные помехи
+in vitro -analyysi (pullossa)	испытание в искусственной среде
+in vivo -analyysi (elävässä elimistössä)	испытание на живом организме
+indium	индий
+indonesia	индонезийский
+inertiksi muunto	инертизация
+inertti jäte	инертные отходы
+infektio	инфекция
+inflaatio	инфляция
+informaatio ; tieto	информация
+infrapunasäteily	инфракрасное излучение
+infraääni	инфразвук
+insinööri	инженер
+insinöörityö	инженерная работа
+institutionaalinen rakenne	организационная структура
+institutionaalinen toiminta	ведомственная деятельность
+internet	Интернет
+internet-palvelujen tarjoaja	провайдер услуг Интернета
+internetin hakupalvelu	информационное обслуживание на базе Интернета
+interpolaatio, väliarvolasku	интерполяция
+interventiorahasto	фонд непредвиденных расходов
+investointi ympäristönsuojeluun	инвестиции для контроля за загрязнением
+ioninvaihdin	ионообменник
+ioninvaihto	ионный обмен
+ionisoimaton säteily	неионизирующее излучение
+ionisoiva säteily	ионизирующее излучение
+ionit	ион
+ionosfääri	ионосфера
+iridium	иридий
+irlanti	ирландский
+islam	ислам
+islanti	исландский
+isohaarahaukka	красный коршун
+isoisä	дед
+isomeeri	изомер
+isopihtihännät	уховертка
+isotooppi	изотоп
+istukka	плацента
+istutus	посадка деревьев
+isä	отец, батюшка, падре ; отец ; батюшка ; падре
+italia	итальянский
+itiökantaiset	базидиомицеты
+itiökasvit	споровые
+itse kohteessa, "paikan päällä" tapahtuva ; itse kohteessa ; "paikan päällä" tapahtuva	"на месте" ; на месте
+itsemurha	самоубийство
+itsevaltius	самодержавие
+itsevarma	настойчивый
+ituplasma	зародышевая плазма
+jade	нефрит
+jaguaari	ягуар
+jakauma, jakaminen	распределение
+jakki	як
+jakolasku	деление
+jaksollinen järjestelmä	Периодическая система элементов
+jalankulkualue, kävelyalue ; jalankulkualue ; kävelyalue	пешеходная зона
+jalka	нога
+jalkapallo	футбол
+jalkapöytä	подъём
+jalostamo	рафинировочный завод
+jalostetut maataloustuotteet	переработанная сельскохозяйственная продукция
+jalostus	переработка
+jalostustekniikka	производственная технология
+jano	жажда
+japani	японский
+jatkokoulutus; aikuiskoulutus	непрерывное образование
+jatkuva kuormitus	постоянное загрязнение
+jatkuvuus, pysyvyys	химическая инерция
+jauhamisjäännökset	шлифовально-мельничные отходы
+jazz	джаз
+jaĥto	яхта
+jiddiš	идиш
+jodi	йод
+joen uoma	русло реки
+joensuu	эстуарий
+joensuun saastuminen	загрязнение эстуария
+johdinauto	троллейбус
+johtavuus (sähkön, lämmön) ; sähkönjohtavuus ; johtavuus	проводимость
+johto	трубопровод
+johto ; kaapeli, johto, vaijeri ; kaapeli ; vaijeri	кабель
+johto ; putki, johto ; putki	труба
+joki	река
+jokivarat	речной ресурс
+jokivesi	речная вода
+joukkoliikenteen ajoneuvo	средство общественного транспорта
+joukkotiedotusvälineet	средства массовой информации
+joukkovirkistystoiminta	массовый отдых
+joulukuu ; talvikuu	декабрь
+joulukuusi ; joulupuu	новогодние ёлки
+jousi	лук
+jousimies	лучник
+joustava suhtautuminen ympäristönsuojeluun	гибкий подход к вопросам охраны окружающей среды
+joustavuus	эластичность
+judo	дзюдо
+julkinen	общественность
+julkinen hankinta	государственные закупки
+julkinen keskustelu	общественная дискуссия
+julkinen kuuleminen	общественные слушания
+julkinen laitos	государственный орган
+julkinen liikenne	общественный транспорт
+julkinen osallistuminen	участие общественности
+julkinen palvelu	общественное сооружение
+julkinen rahoitus	государственное финансирование
+julkinen rakennus	общественное здание
+julkinen sektori	государственный сектор
+julkinen tehtävä	общественная функция
+julkinen tiedotuskampanja	информационная кампания по оповещению общественности
+julkinen toimenpide	действия общественности
+julkinen tutkimus	общественный запрос
+julkinen työ	предприятия, находящиеся на государственном бюджете
+julkisen ja yksityisen sektorin yhteistyöhanke	предприятие с государственным и частным капиталом
+julkisen sektorin tuki	государственная помощь
+julkiset menot, valtion menot	государственные расходы
+julkiset tiedot	общедоступная информация
+julkisoikeus, julkinen oikeus	общественное право
+juna; opettaa, harjoittaa ; opettaa ; juna ; harjoittaa	поезд
+juoda	пить
+juoksevaksi tekeminen; pyörrekerrostus	флюидизация
+juoma	напиток
+juomateollisuus	производство напитков
+juomaveden puhdistus	обработка питьевой воды
+juomaveden suojelualue	охраняемая территория вокруг источника питьевой воды
+juomavesi	питьевая вода
+juomavesivarasto; juomavesihuolto ; juomavesivarasto ; juomavesihuolto	обеспечение питьевой водой ; питьевое водоснабжение
+juuri	корень
+juusto	сыр
+juutalaisuus	иудаизм ; иудейство
+jyrsijät	грызун
+jyräysmelu	дорожный шум
+jyvä ; jyvä; vilja; rae ; vilja ; rae	зерно
+jyvä ; siemen	семя
+jäkälien kartoitus	составление карт лишайников
+jäkälät	лишайник
+jäljennös; uusimistuotanto; jälkipainos	репродукция (биологическая)
+jälkikäsittely	доочистка
+jälkipoltto	дожигание
+jälkipolvet	потомство
+jälleenhankintakustannus	стоимость замещения (экон.)
+jännite	напряжение
+järjellisyys ; kohtuullisuus	разумность
+järjestys ; määräys	приказ
+järjestys; määräys ; järjestys ; määräys	приказ
+järjestö; organisaatio ; järjestö ; organisaatio	организация
+järven saastuminen	загрязнение озер
+järvi	озеро
+järviallas	озерный бассейн
+jäte ; jätteet	отходы
+jäte ; roskat	подстилка для скота
+jätehuoltolaki	закон в области утилизации отходов
+jätekaasu	газообразные промышленные отходы
+jätekaasun denitrifiointi	денитрификация газовых отходов
+jäteliejukomposti	компост из сточного ила и отходов
+jätepolttoaine	топливо, произведенное из отходов
+jäteveden käsittely	система прудов для очистки сточных вод
+jäteveden puhdistus	очистка сточных вод
+jätevesi	сточные воды
+jätevesi ; jätevesi; laskujoki; normaalipäästö ; laskujoki ; normaalipäästö	сточная вода
+jäteöljy ; muta, lieju. liete; jäteöljy ; muta ; lieju ; liete	ил
+jätteen kaivaminen maahan	утилизация мусора в землю
+jätteen puhdistaminen	остаточные продукты очистки
+jätteen upottaminen mereen	сброс в открытое море
+jätteenpolton jäännös	остатки после сжигания отходов
+jätteenpoltto	сжигание отходов
+jätteenpolttouuni	мусоросжигатель
+jätteiden kaato valtamereen	сброс мусора в море
+jätteiden kaato; polkumyynti ; jätteiden kaato ; polkumyynti	сброс мусора
+jätteidenkuljetusauto	автомобиль для сбора мусора
+jää	лед
+jäähdyttäminen, jäähdytys	охлаждение
+jäähdytys	охлаждение
+jäähdytysaine	охлаждающий агент
+jäähdytysteollisuus	работа холодильных установок
+jäähdytystorni	охлаждающая башня
+jäähdytysvesi	охлаждающая вода
+jäähdytysöljy	охлаждающее масло
+jääkaappi	холодильник
+jääkarhu	белый медведь
+jäännösanalyysi	анализ остатков
+jäännösjäte	остаток после переработки отходов
+jäännösjätelieju	остаточный сточный ил
+jäännösten kierrätys	вторичное использование остатков
+jäätelö ; jätski	мороженое
+jäätikkö	ледник
+jäätiköntutkimus, jäätikkötiede	гляциология
+jäävuori	айсберг
+kaaosteoria	теория хаоса
+kaasu	газ
+kaasu-, bensiinimoottori	газовый двигатель
+kaasujohto	газовый трубопровод
+kaasukromatografia	газовая хроматография
+kaasukäyttöinen laitos	теплостанция, работающая на газе
+kaasulaitos	газовый завод
+kaasumainen ilman saastuttaja	газообразный загрязнитель воздуха
+kaasumainen tila	газообразное состояние
+kaasun nesteytyminen, nesteytys	сжижение газа
+kaasun saanti; kaasuvarasto	запасы газа
+kaasunpoisto kaatopaikasta	отвод газа из мусорной ямы
+kaasunpuhdistus	газоочистка
+kaasuseos	газовая смесь
+kaasusäiliö	газохранилище
+kaasutus ; savustus	фумигация
+kaasuunnus, kaasutus	газификация
+kaasuverkko	газопроводная система
+kaasuyhtiö	газовая компания
+kaatopaikan kaasu	биогаз
+kaatopaikan peittäminen	засыпка мусорной ямы
+kaatopaikan pohjan eristäminen	гидроизоляция мусорной ямы
+kaatopaikan suotovesi	жидкость, образовавшаяся в мусорной яме
+kaatopaikka	свалка отходов
+kaatopaikka ; kaatopaikka, täyttömaa ; täyttömaa	мусорная яма
+kaava, maankäyttösuunnitelma	план использования земли
+kaavoitus, maankäytön suunnittelu	планирование землепользования
+kaavoituslainsäädäntö	законы в области планирования
+kaavoitustoimenpide, suunnittelutoimenpide	мера планирования
+kadmium	кадмий
+kahdeksan	восемь
+kahdenvälinen sopimus	двусторонняя конвенция
+kahluupaikka ; kahlaamo ; kahlauspaikka	брод
+kahvi	кофе
+kainalo	подмышка
+kaislat ; ruo'ot	тростник
+kaivauskasa	отвал
+kaivauspaikka	площадка для земляных работ
+kaivauspuoli	склон котлована
+kaivettu onkalo	выкопанная яма
+kaivo	скважина
+kaivo ; lähde ; lähde, kaivo	фонтан
+kaivoksen täytös	сброс отходов в шахты
+kaivos	шахта
+kaivosjäte	шахтные отходы
+kaivosjäte ; kuona; kaivosjäte ; kuona; ; kuona	шлак
+kaivoskenttä	район горных разработок
+kaivoslaki	закон в области разработки полезных ископаемых
+kaivospaikkojen kunnostus	рекультивация земель после завершения разработок
+kaivosteollisuus	добывающая промышленность
+kaivosteollisuus	горная промышленность
+kaivostoiminta merellä	шельфовое бурение
+kaivostoimintaa koskeva määräys	нормативный документ, регулирующий разработку полезных ископаемых ; нормативный документ разработку полезных ископаемых ; регулирующий разработку полезных ископаемых
+kaivostuote	продукт разработки полезных ископаемых
+kakkonen ; kaksi	двойка
+kaksi	два
+kaksisiipiset	двукрылый
+kaksoisjätehuolto	принцип раздельного сбора городского мусора
+kaksoistalous	многоукладная экономика
+kaksoistähti	двойная звезда
+kaktus	кактус
+kalakanta	рыбные запасы
+kalakuolema	смертельные болезни рыб
+kalanviljely	разведение рыб
+kalanviljelyn vaikutus ympäristöön	воздействие аквакультуры на окружающую среду
+kalaparvi ; koulu ; koulu	школа
+kalastuksen rakenne	структура рыбопромысловой отрасли
+kalastuksen vaikutus ympäristöön	воздействие рыболовства на окружающую среду
+kalastuksen valvonta	управление рыболовством
+kalastus	рыболовство
+kalastus	рыбная ловля
+kalastusalus	рыболовецкое судно
+kalastuslaki	законы в области рыболовства
+kalastuslupa	лицензия на рыбную ловлю
+kalastuspaikka	район промышленного рыболовства
+kalastuspolitiikka	политика в области рыболовства
+kalat	рыба
+kalatalous	экономика рыболовства
+kalatalous, kalastuselinkeino	рыболовная промышленность
+kalatauti	болезнь рыб
+kalavarat	рыбные ресурсы
+kalibrointi	калибровка
+kalifornium	калифорний
+kaliiperi	калибр
+kalilannoite	калийное удобрение
+kalium	калий
+kalja ; olut	пиво
+kalkki	известь
+kalkkikivi	известняк
+kalkkuna	индейка ; индюк
+kallio	порода
+kallio ; kallio, rantatörmä ; rantatörmä	скала
+kallo ; pääkallo	череп
+kalojen myrkyllisyys	яд рыб
+kalojen suojelualue	водоем для спортивной рыбной ловли
+kalsium	кальций
+kalsiumpitoisuus	содержание кальция
+kalvo, soluketto, mineraalin pintakerros ; kalvo ; soluketto ; mineraalin pintakerros	мембрана
+kamera	фотоаппарат
+kana ; kukko	курица ; курица ; куры ; куры ; петух ; петух
+kanalinnut	куриные
+kanava	канал
+kanavan sulku	шлюз
+kanavointi	системы распределения
+kangas	ткань
+kangas ; kudos ; silkkipaperi	ткань
+kangas ; nummi, kangas ; nummi	вересковые пустоши
+kaniini	кролик
+kanjoni	каньон
+kannada	каннада
+kannanvaihtelu; populaatiodynamiikka	динамика численности и структуры населения
+kannustin saastuttamisen ehkäisemiseksi	стимулирование борьбы с загрязнением окружающей среды
+kannustinrahasto	фонд экономического стимулирования
+kannustusvero	стимулирующий налог
+kansa	люди
+kansainvälinen apu	международная помощь
+kansainvälinen harmonisointi	международная гармонизация
+kansainvälinen jakelu, jakauma	международное распределение
+kansainvälinen julkisoikeus	публичное международное право
+kansainvälinen järjestö	международная организация
+kansainvälinen kauppa	международная торговля
+kansainvälinen kilpailukyky	международная конкурентоспособность
+kansainvälinen konflikti	международный конфликт
+kansainvälinen oikeus	международное право
+kansainvälinen politiikka	международная политика
+kansainvälinen sopimus	международное соглашение
+kansainvälinen standardointi	международная стандартизация
+kansainvälinen talousoikeus	международный экономический закон
+kansainvälinen tasapaino	международный баланс
+kansainvälinen turvallisuus	международная безопасность
+kansainvälinen työnjako	международное разделение труда
+kansainvälinen vertailu	международная сделка
+kansainvälinen vesiväylä	международный водный путь
+kansainvälinen yhteistyö	международное сотрудничество
+kansainvälinen yksityisoikeus	национальный закон, касающийся иностранных юридических и физических лиц
+kansainvälinen yleissopimus	международная конвенция
+kansainvälisesti tärkeä ekosysteemi	экосистема международного значения
+kansainväliset suhteet	международные отношения
+kansainväliset ympäristösuhteet	международные отношения по вопросам окружающей среды
+kansalainen	гражданин
+kansalaisaloite	гражданская инициатива
+kansalaisjärjestö	неправительственная организация
+kansalaisoikeudet	гражданские права
+kansalaistietoisuus	осведомленность граждан
+kansallinen kalansuojelualue	национальный рыбный заказник
+kansallinen lainsäädäntö	национальное законодательство
+kansallinen ympäristötilinpito	финансовая оценка национальных экологических проблем
+kansallispuisto	национальный парк
+kansallistaminen	национализация
+kansanmurha	геноцид
+kansanperinne	народная традиция
+kansanperinne	фольклор
+kansantalouden tilinpito	национальная система бухгалтерского учета
+kansantalous	национальная экономика
+kansantalous ; kansantalous, taloustiede ; taloselämä ; taloustiede	экономика ; экономика (наука)
+kansanterveys	общественное здравоохранение
+kansanäänestys	референдум
+kantokyky, kuormitettavuus	допустимая нагрузка
+kapselointi, kotelointi, eristys	инкапсуляция
+karate	каратэ
+karbonaatti; saturoida	карбонат
+kardinaali	кардинал
+kardiologia	кардиология
+karhu	медведь
+karhut	медвежьи
+karja	скот
+karja	домашний скот
+karjala	карельский
+karjan- t. kasvinjalostustekniikka	методы животноводства
+karjanhoito	животноводство
+karjanhoito	разведение домашнего скота на фермах
+karjanhoito ; karjatalous	разведение домашнего скота
+karjankasvatus; hyötäminen ; karjankasvatus ; hyötäminen	разведение растений и животных
+karjatila	молочная ферма
+karrieeri	карьера
+karsiminen, leikkaaminen	обрезка веток
+karsinogeeni	канцероген
+karsinogeenisyys	канцерогенность
+karsinogeenisyyskoe	тест на канцерогенность
+karstimaa	карст
+kartanpiirustus	картография
+kartasto	атлас
+kartografinen numeerinen tietojärjestelmä	цифровая система ГИС
+kartografinen tietojärjestelmä numeerisessa muodossa	цифровой формат ГИС
+kartografisen tietojärjestelmän laboratorio	лаборатория ГИС
+kartografisen tietojärjestelmän numeerinen tekniikka	цифровые средства ГИС
+kartoittaa	официальный документ
+kartoitus	картография
+kartta	карта
+kartta, merikortti	карта-график
+karvoitus	волосы
+kastanja	каштан
+kastelujärjestelmä	ирригационная система
+kasvain	опухоль
+kasvainoppi	онкология
+kasvatus	воспитание
+kasvatustiede, pedagogiikka ; pedagogiikka ; kasvatusoppi ; kasvatustiede	педагогика
+kasveilla käytävä kauppa	торговля растениями
+kasvi ; taimet	растение
+kasvibiologia	биология растений
+kasviekologia	экология растений
+kasvifysiologia	физиология растений
+kasvihuoneilmiö	парниковый эффект
+kasvihuonekaasu	газ, способствующий парниковому эффекту
+kasvihuoneviljely	парниковое хозяйство
+kasvilaji	растительные виды
+kasvilajin tuominen uuteen ympäristöön	заселение видов растений
+kasvilajin uudelleen tuominen ympäristöön	повторное заселение видов растений
+kasvillisuuden ja eläimistön muodostuminen laivan pohjaan	обрастание ракушками и водорослями
+kasvimyrkky, rikkaruohomyrkky	гербицид
+kasvin lisääntyminen	репродукция растений
+kasvin osa; laitoksen osa	часть растения
+kasvinjalostus	разведение растений
+kasvinsuojelu	защита посевов
+kasvinsuojelu	защита растений
+kasvinsuojelutuote	продукт для защиты растений
+kasvinsyöjä	травоядное животное
+kasvintuotanto	производство зерновых культур
+kasvintuotanto	заводское производство
+kasvinvalinta	селекция растений
+kasviperintö	наследие растительного мира
+kasviplankton	фитопланктон
+kasvisosiologia	фитосоциология
+kasvisto	реестр флоры
+kasvisto	флора
+kasvisto	популяция растений
+kasviston palauttaminen	восстановление флоры
+kasviston turmeltuminen	вырождение флоры
+kasvitauti	болезнь растения
+kasvitautioppi	фитопатология
+kasvitekstiilikuitu	растительное волокно
+kasvitiede ; botaniikka	ботаника
+kasvitieteellinen puisto	ботанический сад
+kasvitieteellinen puutarha	ботанический заповедник
+kasvitieteellinen puutarha	ботанический сад
+kasvivarat	растительный ресурс
+kasviyhdyskunta	популяция растений
+kasviöljy	растительное масло
+kasvumaa	гумус
+kasvuympäristö, elinpaikka ; kasvuympäristö ; elinpaikka	естественная среда
+katalaani	каталонский
+katalysaattori, katalyyttinen jälkipoltin	каталитический конвертер
+katalyysi	катализ
+katalyytti; katalysaattori ; katalyytti ; katalysaattori	катализатор
+katapultti ; heittokone	катапульта
+kate ; saldo ; tase	баланс
+kationi, positiivisesti varautunut ioni ; kationi	катион
+katto ; katto ; katto ; ulkokatto ; ulkokatto ; ulkokatto	крыша
+kaukana keskustasta sijaitseva paikoitusalue	периферийная часть природного заповедника
+kaukokartoitus, kaukoanalyysi	дистанционное зондирование
+kaukokartoituskeskus	центр дистанционного зондирования
+kaukolaina	выдача по межбиблиотечному обмену
+kaukoliikenne	движение транспорта дальнего следования
+kaukoliikenne	транспорт дальнего следования
+kaukolämmitys	районное централизованное теплоснабжение
+kaukolämpölaitos	коммунальная отопительная установка
+kaukomittaus	телеметрия
+kaunokirjoitus	каллиграфия
+kaupallinen liikenne	движение грузового транспорта
+kaupallisen toiminnan aiheuttama melu	шум от производственной деятельности
+kaupallistuminen	коммерциализация
+kaupan ja teollisuuden edistäminen	поддержка торговли и промышленности
+kaupankäynti ; kauppa	торговля
+kauppa	магазин (торг.) ; магазин
+kauppa ja kulutus	торговля и потребление
+kauppa, liiketoimi	коммерческая сделка
+kauppaliike, kaupallinen yritys	оптовая и розничная торговля
+kauppamerenkulku	торговое мореплавание
+kauppaoikeus, talousoikeus	коммерческое право
+kauppapuutarhan pito	производство овощей и фруктов для продажи
+kauppias	торговец
+kaupungin kaatopaikka	городская свалка
+kaupungin keskusta	городской центр
+kaupungin laitamilla oleva tila	пригородная территория
+kaupungistuminen	урбанизация
+kaupunki	город
+kaupunki ; kaupunki, kunta ; kunta	муниципалитет
+kaupunkialue	большой город с пригородами
+kaviaari	икра
+kavioeläimet	копытные
+kazakki	казахский
+kehittyneet maat	развитая страна
+kehitysalue, rakenteilla oleva alue	развивающийся район
+kehitysapu	помощь развитию
+kehityskaava	модель развития
+kehityslinja	динамический график
+kehitysmaat	развивающаяся страна
+kehitysmaat	наименее развитая страна
+kehitysmalli	образец развития
+kehitysyhteistyö	сотрудничество в области содействия развитию
+keihäs	копьё
+keijusto, plankton	планктон
+keinokastelu	ирригация ; орошение
+keinokasteluviljely	ирригационное земледелие
+kemia	химия
+kemiallinen analyysi	химический анализ
+kemiallinen ase	химическое оружие
+kemiallinen hapentarve	химическое потребление кислорода
+kemiallinen jäte	химические отходы
+kemiallinen koostumus	химический состав
+kemiallinen käsittely	химическая обработка
+kemiallinen laitos	здание для химического производства
+kemiallinen lannoite	химическое удобрение
+kemiallinen laskeuma	химические осадки
+kemiallinen pesu, kuivapesu; kuivarikastus	химическая чистка
+kemiallinen puhdistus	химическая дезактивация
+kemiallinen saaste	химическое загрязнение
+kemiallinen saastuminen	химическое заражение
+kemiallinen saastuttaja	химическое загрязняющее вещество
+kemiallinen syövyttävyys	подверженность химической коррозии
+kemiallinen tehdas	химический завод
+kemiallinen tuholaisten torjunta	борьба с вредителями химическими методами
+kemiallinen tuote	химический продукт
+kemiallinen vaara	риск от химического воздействия
+kemiallinen yhdiste ; yhdiste	соединение ; xимическое соединение
+kemiallinen, kemikaali ; kemiallinen ; kemikaali	химикат
+kemialliset ominaisuudet	химические свойства
+kemialliset prosessit	химический процесс
+kemialliset rakenteet	химическая структура
+kemialliset reaktiot	химическая реакция
+kemian teollisuus	химическая промышленность
+kemikaaleja koskeva politiikka	политика в области химии
+kemikaalilaki	закон в области использования химикатов
+kemisorptio, kemiallinen adsorptio	хемосорбция
+kenkä	обувь
+kenttäkoe, koe työn suorituspaikalla	полевые испытания
+kenttätutkimus	полевое исследование
+keramiikka	керамика
+keramiikkateollisuus	производство керамических изделий
+kerosiini, paloöljy	керосин
+kerrostalo	многоквартирный жилой дом
+kerrostalo, tornitalo	высотное здание
+kerrostuma; sakkautua ; kerrostuma ; sakkautua	осадок
+kerrostuminen, sedimenttikivilajien muodostuminen ; kerrostuminen ; sedimenttikivilajien muodostuminen	седиментация (геол.) ; седиментация
+kertakäyttöinen säiliö	безоборотная тара
+kertamenetelmä, eräprosessi	периодический процесс
+kertomus ministerille	доклад министру
+kertyminen ympäristöön	бионакопление
+keräyspaperi, jätepaperi	макулатура
+keskiasteen koulutus	среднее образование
+keskittäminen	централизация
+keskiviikko	среда
+keskushallinto	правительство федерального уровня
+keskuspuistoalue	центральная часть природного парка
+keskusteluryhmä, uutisryhmä ; keskusteluryhmä ; uutisryhmä	телеконференция
+kestokulutushyödyke, kestohyödyke	товары длительного пользования
+kestävän kehityksen periaate	принцип устойчивости
+kesytetty eläin	домашнее животное
+kesä	лето
+kesäkuu ; suvikuu	июнь
+keuhkosairaus	заболевание легких
+kevyt polttoöljy	бытовое топливо
+khmer	кмер
+kidetiede	кристаллография
+kiehumispiste	точка кипения
+kielioppi	грамматика
+kielitiede ; lingvistiikka	лингвистика
+kielto, kieltäminen ; kielto ; kieltäminen	запрет
+kierrätetty materiaali, uusiomateriaali	материал из утилизированных отходов
+kierrätettävyys	способность к вторичному использованию
+kierrätettävä muovi	пластмасса, пригодная для вторичного использования
+kierrätetystä materiaalista rakentaminen	строительство из вторичных материалов
+kierrätyksen hallinta	управление жизненным циклом продукта
+kierrätyksen hallintaa ja jätteitä koskeva laki	закон в области вторичного использования отходов
+kierrätys	вторичное использование отходов
+kierrätysmahdollisuudet	потенциал вторичного использования
+kierrätyssuhde	коэффициент вторичного использования
+kierrätysteollisuus	промышленная переработка твердых отходов
+kierto	циркуляция водных слоев
+kiertoposti	циркулярное письмо
+kiertouuni, viertouuni	роторная печь
+kiihtyvyys	ускорение
+kiintymys	привязанность
+kiitos	благодарность
+kilogramma	килограмм
+kilpailu	биологическая конкуренция
+kilpailukoe	конкурсный отбор
+kilpailukyky	конкурентоспособность
+kilpailun vääristyminen	нарушение условий конкуренции
+kilpailuoikeus	закон о конкуренции
+kilpikonnat	сухопутная черепаха
+kimalainen	шмель
+kipsi; kalsiumsulfaattidihydraatti ; kipsi ; kalsiumsulfaattidihydraatti	гипс
+kirahvi	жираф
+kirja ; rahkasuo	книга
+kirjaamisvelvollisuus	обязательная регистрация
+kirjailijanura	авторство
+kirjain	буква
+kirjallisuuden arviointi	оценка литературы
+kirjallisuus	литература
+kirjallisuustietopankki	литературный банк данных
+kirjallisuustutkimus	исследование литературы
+kirjanorja	букмол
+kirjanpito	бухгалтерский учет
+kirjanpito	бухгалтерия
+kirjanpitomenetelmä	система бухучета
+kirjapainotyö	полиграфический комбинат
+kirjasto	библиотека
+kirjastopalvelu	библиотечное обслуживание
+kirjoittaa	писать
+kirjoituspöytätutkimus	кабинетное исследование
+kirjometalli, ei-rautametalli	цветной металл
+kirkko	церковь
+kirput	блоха
+kirurgia	хирургия
+kissaeläimet	кошачьи
+kiteytyminen	кристаллизация
+kitkerä	едкий
+kivennäisaine	минеральное вещество
+kivennäisvesi	минеральная вода
+kivennäisöljy, mineraaliöljy	минеральное масло
+kivettyminen, mineralisoituminen ; kivettyminen ; mineralisoituminen	минерализация
+kivi	камень
+kivihiilen jalostus	обогащение угля
+kivihiilen louhiminen	добыча угля
+kivihiili, puuhiili	черный уголь
+kiviöljy, raakaöljy; paloöljy; petroli ; raakaöljy ; petroli ; kiviöljy ; paloöljy	нефть
+klarinetti	кларнет
+kleptomania	клептомания
+kliininen oire	клинический симптом
+klisee	клише
+kloonaus	клонирование
+kloorattu hiilivety	хлорированный углеводород
+klooraus	хлорирование
+kloori	хлор
+kloorifenoli	хлорофенол
+kloorinpoisto	дехлорирование
+kloorivetyhappo, suolahappo	соляная кислота
+kloridi	хлорид
+klorofylli ; lehtivihreä	хлорофилл
+kloroosi, viherkato ; kloroosi ; viherkato	хлороз
+koagulaatio	коагуляция
+koboltti	кобальт
+kodifioiminen	кодификация
+kodinkone, kotitalouslaite	бытовой прибор
+koe	тест
+koetehdas, koelaitos	опытный завод
+kofeiini	кофеин
+kohde; aihe ; kohde ; aihe ; teema	предмет
+kohdentaminen; määräraha ; kohdentaminen ; määräraha	распределение
+kohdentamissuunnitelma	планирование распределения материально-сырьевых ресурсов
+kohderyhmä	целевая аудитория
+kohinaspektri	спектр звука
+koira	собака
+koiraeläin	псовый
+kokaiini	кокаин
+kokeellinen tutkimus	экспериментальное изучение
+kokeilu	эксперимент
+koksi	кокс
+kolesteroli	холестеринc
+kolibakteerit	колибактерии
+kolikko ; lantti ; myntti	монета
+kolloidi, kolloidinen	коллоид
+kolloidinen tila	коллоидное состояние
+kolme ; kolmonen	три
+kolorimetria, värinmittaustutkimus ; kolorimetria ; värinmittaustutkimus	колориметрия
+kombilaitos	тепловая электростанция на различных видах топлива
+komeetta	комета
+kommunismi	коммунизм
+kompensaatiopolitiikka	политика зачета уровней выбросов
+kompleksinmuodostaja	соединяющий реагент
+kompleksiyhdiste	формирование сложного соединения (хим.)
+kompostointi, mullastus	компостирование
+kompostoitava jäte	компостные отходы
+koneiden valmistus	производство машин и механизмов
+koneisto	машины и оборудование
+konekaivu, ruoppaus; ruoppausjäte	землечерпательные работы
+konekivääri	пулемёт
+koneteollisuus, koneenrakennusteollisuus	производство механических приборов
+kongressi	конгресс
+konsulttitoiminta, neuvonanto	консультативная практика
+koodi	кодекс
+koordinaatisto	система координат
+koordinointi	координация
+koota	созывать
+koppisiemeniset l. hedelmäkasvit ; kukkivat kasvit	покрытосеменные ; цветочное растение
+koralliriutta	коралловый риф
+koralliriuttalaguuni	лагуна кораллового рифа
+korallit	коралл
+korea	корейский
+koripallo	баскетбол
+korjaus; hyvitys; tasoittaa ; oikaisu	возмещение ущерба
+korjausliiketoiminta	услуги по ремонту
+korkea vuori	высокая гора
+korkeus	высота ; высота (геогр.)
+korkki	пробка
+korni	корнуэльский
+korologia; floristinen korologia	хорология
+korroosio, syöpyminen	коррозия
+korroosionestoaine	ингибитор коррозии
+korva	ухо
+korvaaminen, vaihtaminen, korvike	замещение (физич.)
+korvaus	компенсация
+korvaus ; korvaus, hyvitys ; hyvitys	компенсация
+kosmeettinen teollisuus	производство косметики
+kosminen säteily	космическое излучение
+kosmologia	kосмология
+kosteus	влага
+kotieläin	животное, выращиваемое на ферме
+kotilot	брюхоногие
+kotimaankauppa	внутренняя торговля
+kotimainen teknologia	технология, приемлемая для местных условий
+kotipuutarha	личный огород
+kotisivu	домашняя страница в Интернете
+kotitalouden melu	бытовой шум
+kotitalouksien tuottama saaste	загрязнение бытовыми отходами
+kotitalousjätteen kaatopaikka	свалка бытового мусора
+kotitalouskemikaali	бытовой химикат
+kotitalousmenot	расходы семейного бюджета
+kotitaloustavara	бытовые товары
+koulutuksen suunnittelu	планирование в области образования
+koulutus	образование
+koulutusjärjestelmä	система образования
+koulutuskeskus	учебный центр
+koulutuspolitiikka	политика в области образования
+koulutustaso	уровень образования
+koulutustie	учебная тропа
+kovakuoriaiset	жук
+kovuus	твердость
+kreikka	греческий
+kreivikunta, piirikunta, lääni ; kreivikunta ; piirikunta ; lääni	графство
+kriisinhallinta	кризисное управление
+kriittinen taso	критический уровень
+kroatia	хорватский
+krokotiilit	крокодил
+kromatografia	хроматография
+kromatografinen analyysi	хроматографический анализ
+kromi	хром
+kromosomi	хромосома
+krusifiksi	распятие
+krypton	криптон
+ksenon	ксенон
+ksylofoni	ксилофон
+kuitu	волокно
+kuitukasvi	текстильная сельскохозяйственная культура
+kuiva laskeuma	сухое осаждение
+kuiva maa	аридные (засушливые) земли
+kuivatislaus, pyrolyysi ; kuivatislaus ; pyrolyysi	пиролиз
+kuivatus padon avulla; padon kuivatus	спуск водохранилища
+kuivatus, ojitus, salaojitus	дренаж
+kuivatus, salaojitus	осушение
+kuivatusvesi; hulevesi	поверхностная вода
+kuivuminen	высыхание
+kuivuminen, kuivatus	сушка
+kuivuuden valvonta	борьба с засухой
+kuivuus (pitkäaikainen) ; kuivuus	засуха
+kukka	цветок
+kukkakaali	conopidă ; цветная капуста
+kukkivat kasvit	цветочное растение
+kukkula	холм
+kuljetustapa	вид транспорта
+kulkeutuminen	транспорт
+kulkulaitos	система связи
+kulkuneuvo	транспортное средство
+kulkusirkka ; heinäsirkka	саранчук
+kulkutaudit	эпидемия
+kulmakarva	бровь
+kulottaminen, kulotus	огневая культивация
+kulottunut ruoho	засушливая земля
+kulta	золото
+kultalevät	хризофита
+kulttuuri ; sivistys	культура
+kulttuurin kehitys	культурное развитие
+kulttuurinen indikaattori	"культурный" показатель
+kulttuuripalvelu	учреждение культуры
+kulttuuripalvelujen saatavuus	доступ к культурным ценностям
+kulttuuriperintö	культурное наследие
+kulttuuripolitiikka	политика в области культуры
+kuluttajansuoja	защита потребителя
+kuluttajaryhmä	группа потребителей
+kuluttajavalistus	информация для потребителя
+kuluttajien käyttäytyminen	поведение потребителя
+kulutus	потребление
+kulutushyödyke	потребительский продукт
+kulutusjäte	бытовые отходы
+kulutustapa, kulutusmalli	структура потребления
+kulutustavara	потребительские товары
+kumi	резина
+kuningatar	королева ; царица
+kunnallinen puhtaanapito	муниципальные услуги по уборке
+kunnallinen vedenjakelujärjestelmä	городская система водопровода
+kunnallinen vesihuolto	городская система управления водоснабжением
+kunnallinen ympäristöpolitiikka	муниципальная политика в области окружающей среды
+kunnallinen ympäristösuunnitelma	городской план охраны окружающей среды
+kunnallisoikeus	муниципальный закон
+kunnallistaso	муниципальный уровень
+kunnanhallitus, paikallishallinto ; kunnanhallitus ; paikallishallinto	местное правительство
+kunnossapito	содержание и техническое обслуживание
+kuntoutus	восстановление
+kuolemanrangaistus	смертная казн
+kuolio	некроз
+kuolio	гангрена
+kuolleiden hautaus	погребальные услуги
+kuolleisuus	смертность
+kuorma-auto	грузовой автомобиль
+kuormitusalue	районы напряженной экологической обстановки
+kupari	медь
+kuplapolitiikka (päästöjä koskeva kauppajärjestely) ; kuplapolitiikka	политика зачета уровней выброса
+kuppa	сифилис
+kurkku	огурец
+kustannukset	расходы
+kustannukset	стоимость
+kustannus-hyötyanalyysi	анализ эффективности
+kustannushyöty	"затраты-выгоды"
+kustannusten lisäys	увеличение расходов
+kustannusten vähennys	снижение расходов
+kuu	луна
+kuu ; kuukausi	месяц
+kuu ; tekokuu ; tekokuu; kuu; etäis-	спутник
+kuulemismenettely	процедура слушания
+kuulo	слух
+kuuloelimistö	органы слуха
+kuulon tarkkuus	острота слуха
+kuulonsuojaus	защита слуха
+kuulovamma	потеря слуха
+kuuluvuus, äänekkyys	громкость
+kuuma vesi	горячая вода
+kuumavesikattila	котел
+kuumennin, lämmitin, keittolaite	нагревательный прибор
+kuumuus	тепло
+kuunteluasema	станция мониторинга
+kuuro ; kuulovammainen	глухой
+kuvan parantaminen	усиление изображений
+kuvan suodatus	фильтрация изображений
+kuvanmittaus	фотограмметрия
+kuvanveistäjä	скульптор
+kuvernööri ; päällikkö	губернатор
+kuvien luokitus	классификация изображений
+kyllästysaine	пропитывающее вещество
+kyllästäminen	пропитка
+kylmä	холод
+kylä	деревня
+kymmenen	десять
+kymri	валлийский
+kynttilä	свечка ; свеча
+kysymys	вопрос
+kysyntä ja tarjonta	спрос и предложение
+kysyntä; vaatimus ; kysyntä ; vaatimus	спрос
+kyyhky ; pulu	голубь
+kyynärpää	локоть
+kädelliset	примат
+kämmen	ладонь
+käsittely markkinoita varten	предпродажная подготовка товара
+käsityö	ручная работа
+käsityöteollisuus	кустарное производство
+käydä	посещать
+käyminen	ферментация
+käyttäjä	пользователь
+käyttäytyminen	поведение
+käyttäytymismalli	манера поведения
+käyttäytymistieteet	наука о поведении живых организмов
+käytävä	коридор
+käytöstä poistettu sotilasalue	заброшенная военная площадка
+käännekerros	инверсионный слой
+käänteinen järjestys; invertoiminen ; käänteinen järjestys ; invertoiminen	инверсия
+käänteisosmoosi	реверсный осмос
+kääntäminen ; käännös	перевод
+kääntää	переводить
+kääntää pois	отводить
+käärmeet	змея
+kölivesi, pilssivesi ; kölivesi ; pilssivesi	трюмная вода
+köyhdyttäminen	обнищание
+köyhyys	бедность
+köynnöskasvi	вьющееся растение
+köysi, viiva, linja, rivi, raja, reitti, ala	линия вектора
+laadunvalvonta	контроль за качеством
+laadunvarmistus	гарантия качества
+laajamittainen karjanhoito	экстенсивные методы ведения фермерского хозяйства
+laajennusohjelma	программа укрупнения
+laajentumispolitiikka	политика укрупнения
+laakso	долина
+laatutaso, laadullinen taso	стандарт качества
+laatutavoite	качественный целевой показатель
+laatutodistus	сертификация качества
+laboratorio	лаборатория
+laboratorioiden vertailu	внутрилабораторные сравнения результатов исследований
+laboratoriojäte	отходы лабораторий
+laboratoriokoe	лабораторный эксперимент
+laboratoriokoe	лабораторный опыт
+laboratoriotekniikka	лабораторный метод
+laboratoriotutkimus	лабораторное исследование
+laguuni	лагуна
+lahdeke, luonnon valkama; puro ; puro ; lahdeke ; luonnon valkama ; poukama	небольшой залив
+lahdelma, avoin satama ; lahdelma ; avoin satama	пещера
+lahja	пожертвование
+laidun	пастбищное угодье
+laiduntaminen; laidunmaa ; laiduntaminen ; laidunmaa	пастбище
+laimennettu happo, laimea happo	разбавленная кислота
+laimennus; lievennys ; laimennus ; lievennys	мера по снижению уровня отрицательного воздействия
+lain täytäntöönpano	приведение в исполнение закона
+lainkäyttöviranomainen	судебный орган
+lainmuutos	изменение закона
+lainsäädännön yhtenäistäminen	гармонизация права
+lainsäädäntö	законодательство ; законотворческая деятельность
+lainsäädäntöelin	законодательная власть
+lainsäädäntöluonnos	проект законодательного документа
+lainsäädäntötoimivalta	законодательная правоспособность
+lainsäädäntöä koskeva tieto	информация о законодательстве
+lainsäätämisjärjestys	законодательная процедура
+lainsäätämisvalta	полномочие на законодательную деятельность
+laissa suojeltu oikeus	право, охраняемое законом
+lait	закон
+laitoksen kunnostus	ремонт технических установок
+laiton teko; epäoikeudenmukainen teko	неправильное действие
+laitos, johon tarvitaan hyväksyntä	установка, требующая специального разрешения
+laitosten optimointi	оптимизация установок
+laitostuminen	институционализация
+laiva	корабль
+laivanrakennus	производство энергетического оборудования для судов
+laji	виды
+lajien suojelu	охрана видов
+lajin ekologia	автоэкология
+laki	право
+laki ympäristövaikutusten arvioinnista	законы, регулирующие экологическую экспертизу
+lakiluonnos	проект закона
+lakimiesammatti	юрист как профессия
+lakiteksti	юридический текст
+lakka; lakata, kiillottaa ; lakka ; lakata ; kiillottaa	лак
+lammas	овца
+lammaspaimen	пастух
+lammikko, amme ; amme ; lammikko	заводь
+lampaat	овечьи
+lampi	пруд
+lamppu	лампа
+lannantuotanto	производство навоза
+lannoite	удобрение
+lannoite ; lanta, lannoite; lannoittaa (karjanlannalla) ; lanta ; lannoittaa	навоз
+lannoitteita koskeva laki	законы в области использования удобрений
+lantaani	лантан
+lapsenlapsi	внук
+lapsi	ребенок
+lapsikuolleisuus	детская смертность
+laser	лазер
+lasi	стекло
+lasite; lasittaa; kiilto ; lasite ; lasittaa ; kiilto	ледяная корка
+lasiteollisuus	стекольная промышленность
+lasivilla	стекловолокно
+laskenta	калькуляция
+laskentamenetelmä	метод калькуляции
+laskettelurinne	лыжня
+laskeuma	выпадение осадков из атмосферы
+laskeuma ; laskeuma; kertymä ; kertymä	выпадение осадков
+laskuvarjo	парашют
+lastenlääkäri	педиатр
+latina	латинский ; латынь
+latvia	латышский
+lauantai	суббота
+laululintu	певчая птица
+lawrencium	лоуренсий
+lehdet, lehvistö ; lehdet ; lehvistö	листва
+lehmä	корова
+lehtikato, lehtien tuhoutuminen	дефолиация
+lehtimetsä	лиственный лес
+lehtipuu	лиственное дерево
+lehtipuu	широколиственное дерево
+lehtisalaatti ; salaatti	салат
+leijona	лев
+leipuri	пекарь
+leipä	хлеб
+leiri	лагерь
+leirintäalue	площадка для кемпинга
+leirintäalue	кемпинг
+leivinjauhe	разрыхлитель
+lemmikkieläin	домашнее животное
+lentokenttä	аэропорт
+lentomelu	шум, производимый летательными аппаратами
+lentopallo	волейбол
+lentoposti	авиапочта
+lentopöly	мелкая пыль
+lentotuhka	летучая зола
+lentoturvallisuus	воздушная безопасность
+leopardi	леопард
+lepakot	рукокрылые
+leukakoukulliset	клешневидный
+leukemia	лейкемия
+leveysaste	широта
+levittää; hajaantua; hajaantunut ; levittää ; hajaantua ; hajaantunut	диффузия
+leväkukinta	рост водорослей
+leväkukinta	"красный" прилив
+levämyrkky	алгицид
+levät	водоросль
+liberalismi	либерализм
+lieju, loka, muta ; muta ; lieju ; loka	ил
+lierot	земляной червь
+lietelanta, lantavesi	жидкий навоз
+liettua	литовский
+liettymä, tulvamaa ; liettymä ; tulvamaa	наводнение
+lievennys; rasite; nautintaoikeus; vaja	сервитут
+ligniitti, ruskohiili	лигнит
+liha	мясо
+lihakarja	мясной скот
+lihaksisto	мышечная система
+lihansyöjät	плотоядный
+liiallinen hyväksikäyttö	чрезмерная эксплуатация природных ресурсов
+liiallinen lannoittaminen	избыточное внесение минеральных удобрений
+liikakalastus	рыбная ловля, истощающая ресурсы водоема
+liikalaiduntaminen	чрезмерный выпас
+liikalihava	то́лстый
+liikenne	движение транспорта
+liikenne	транспортировка
+liikennemelu	дорожный шум
+liikennevälineet, kulkuyhteys	средства связи
+liikenneyhteys, tietoliikenneyhteys ; liikenneyhteys ; tietoliikenneyhteys	связь
+liikenteen vaikutus ympäristöön	воздействие транспорта на окружающую среду
+liikepolitiikka	политика в области развития бизнеса
+liiketaloustiede	экономика предпринимательства
+liiketoiminta	бизнес
+liiketoiminta	вид хозяйственной или коммерческой деятельности
+liima	клей
+liima ; liima, liima-aine ; liima-aine	адгезивные вещества
+liitos ; nivelliitos	сустав
+liittohallituksen laki	федеральный закон
+liittohallitus	федеральное правительство
+liittovaltion viranomainen	федеральная власть
+liittymätie ; sisääntulotie	подъездные дороги
+liitu	мел
+lilpirauhanen ; kilpirauhanen	шитовидная железа
+lineaarinen äänen lähde	линейный источник звука
+linja-auto	автобус
+linja-autoasema	автобусная остановка
+linkoaminen	центрифугирование
+linna	за́мок
+linnunhoito	птицеводство
+linnusto	авифауна
+linnut	птица
+linssi	линза
+linssi	цечевица
+lintuhäkki	птичник
+lintujen rauhoitusalue	заповедник для птиц
+lintujen suojelu	охрана птиц
+lintulaji	виды птиц
+liottaminen	пропитка
+lipeä	щелок
+lipidi	липид
+liskot	ящерица
+lisäaine	добавки
+lisäaineen päivittäinen saanti ilman terveydellistä vaaraa	допустимая суточная норма потребления
+lisälaite	насадка
+lisäpakkaus	дополнительная упаковка
+lisätä	увеличивать
+lisäys	реакция присоединения
+lisääntymisen manipulointi	манипулирование репродукцией
+lisääntymisprosessi, leviämisprosessi	процесс распространения через среду
+litium	литий
+litografia	литография
+litosfääri, kivikehä ; litosfääri ; kivikehä	литосфера
+liuennut orgaaninen hiili	растворенный органический углерод
+liukenematon aine	нерастворимое вещество
+liukoisuus	растворимость
+liuonnut happi	растворенный кислород
+liuotin	растворитель
+liuottaminen	разрешающая способность
+liuotus, liukeneminen; purkaminen	растворение
+lohi	лосось ; сёмга
+loimuava; käyristyvä	сжигание в факеле газов
+loistutkimus	паразитология
+lokakuu	октябрь
+lokki	чайка
+loma	отпуск
+lomakylä	место отдыха
+lomamökki	дом в сельской местности, хутор
+lopullinen säilytyspaikka	захоронение отходов
+louhinta	разработка карьеров
+lounas ; lounas ; lounas ; lounas ; lounas	обед ; обед ; обед ; обед ; обед
+lukea	читать
+lukihäiriö	дислексия
+luksi	люкс
+lumi	снег
+lumivyöry	снежная лавина
+lumivyöry ; lumivyöry, maavyöry, kivivyöry ; maavyöry ; kivivyöry	лавина
+lumivyöryjen torjunta	защита от схода лавин
+lunastusoikeuden menetetyksi julistaminen	лишение должника права выкупа заложенного им имущества
+luokitus	классификация
+luokka	категория
+luola	пещера
+luonnollinen arvo	природная ценность
+luonnollinen lannoite	природное удобрение
+luonnollinen vaara	природный риск
+luonnollisten vaarojen analyysi	анализ природного риска
+luonnollisten vaarojen ehkäisy	снижение природных рисков
+luonnon elvyttäminen	восстановление фауны
+luonnon kiertokulku	биологический цикл
+luonnon radioaktiivisuus	естественная радиоактивность
+luonnonkaasu ; maakaasu	природный газ
+luonnonkivi	природный камень
+luonnonkuitu	волокно природного происхождения
+luonnonmaisema	естественная среда
+luonnonmateriaali	природный материал
+luonnonmetsä	естественный лес
+luonnonmuistomerkki	памятник природы
+luonnonmullistuksen vaara	опасность стихии
+luonnononnettomuus	стихийное бедствие
+luonnonperinnön arviointi	оценка природного наследия
+luonnonperintö	природное наследие
+luonnonpuisto	биологический заповедник
+luonnonpuisto	природный парк
+luonnonpuisto	региональный природный парк
+luonnonpuistometsä	лесной биологический заповедник
+luonnonsuojelu	сохранение природы
+luonnonsuojelu	защита природы
+luonnonsuojelualue	природный заповедник
+luonnonsuojelujärjestö	учреждение, занимающееся вопросами сохранения природы
+luonnonsuojelulainsäädäntö	законодательство в области сохранения природы
+luonnonsuojeluohjelma	программа сохранения природы
+luonnontieteet	естественная наука
+luonnontieteet	физическая наука
+luonnontunne	любовь к природе
+luonnonvarainen alue	природная зона
+luonnonvarainen eläimistö	дикая фауна
+luonnonvarainen eläin	дикое животное
+luonnonvarainen kasvi	дикорастущее растение
+luonnonvaraisten alueiden suojelu	охрана природных зон
+luonnonvarareservi	ресурсный запас
+luonnonvarat	природный ресурс
+luonnonvarojen hallinta	управление природными ресурсами
+luonnonvarojen hyväksikäyttö	эксплуатация ресурсов
+luonnonvarojen laadun heikkeneminen	деградация природных ресурсов
+luonnonvarojen suojelu	сохранение природных ресурсов
+luonnonympäristö	естественная окружающая среда
+luonnossa hajoamaton saaste	биологически неразлагаемое загрязняющее вещество
+luonnossa hajoava saaste	биодеградирующее загрязняющее вещество
+luonnossa hajoavuus	способность к биодеградации
+luontainen uudistuminen, metsittyminen	естественная регенерация
+luonto, villieläimet ja luonnonkasvit	дикая природа
+luontoon ja maisemaan puuttuminen	вмешательство в природный ландшафт
+luontotyypin suojelu	защита биотопов
+luontotyyppiverkosto	система биотопов
+luotijuna	скоростной поезд
+luotsaus, luotsimaksu	пилотаж
+luotto	кредит
+luottoapu	кредитная помощь
+luottopolitiikka	кредитная политика
+lupa	разрешение
+lupa ; valtuutus	санкционирование
+lupaava	благоприятный
+lusikka	ложка
+luteet	клоп
+lutetium	лютеций
+luvanmyöntämismenettely	процедура лицензирования
+lyhenne	сокрaщение
+lyhentää	сокращать
+lyhyen ajan tavarat	товары с коротким сроком использования
+lyhytaikaiskoestus; pikakoestus	экспресс-анализ
+lyhytkiertoviljely	агролесоводство
+lyijy	свинец
+lyijy-yhdiste	соединение свинца
+lyijykynä	карандаш
+lymfaattinen elimistö	лимфатическая система
+lysimetria	лизиметрия
+lähde	родник
+lähdevesi	вода из родника
+lähes ; melkein	почти
+lähestymistapa	подход
+lähijoukkoliikenne	пригородный транспорт
+lähiympäristön melu	шум от расположенного по соседству источника
+lähiö	пригород
+lämmitys	теплоснабжение
+lämmityslaitos, lämpökeskus	теплостанция
+lämmön hankinta	обеспечение теплом
+lämmön ja sähkön yhteistuotanto	одновременная генерация тепла и электричества
+lämmönakkumulaatio	хранение тепла
+lämpö- ja voimalaitos	теплоэлектростанция
+lämpöpumppu	тепловой насос
+lämpötila	температура
+lämpövoimala	тепловая станция
+läpäisevyys	водопроницаемость
+lääkekasvi	лекарственное растение
+lääketeollisuuden jäte	фармацевтические отходы
+lääketeollisuus	фармацевтическая промышленность
+lääketiede	медицина
+lääketiede	медицинская наука
+löytäminen, toteaminen ; löytäminen ; toteaminen	обнаружение
+maa	земля
+maa-alue ; territorio, maa-alue ; territorio	территория
+maa-alueen nosto	повышение уровня участка земли
+maahan perustuva toiminta	хозяйственная деятельность на суше
+maailma	мир
+maailmanlaajuinen malli	глобальная модель
+maailmanlaajuinen näkökulma	глобальный аспект
+maailmanlaajuinen yleissopimus	глобальная конвенция
+maailmanperintöön kuuluva alue	памятник мировой культуры
+maakaasun talteenotto	добыча природного газа
+maakaasun tutkimus	разведка природного газа
+maakirjarekisteri, lainhuutorekisteri	регистр земель
+maakuljetus	сухопутный транспорт
+maakunta	провинция
+maalaamo	покрасочная мастерская
+maalaustoiminta	покраска как вид коммерческой деятельности
+maali	краска
+maalikauppa; maalarin työhuone	магазин для продажи красок и аналогичной продукции
+maaliskuu	март
+maalla sijaitsevista lähteistä aiheutuva meren saastuminen	загрязнение моря в результате хозяйственной деятельности на суше
+maalla tapahtuva interventio	вмешательство на суше
+maan arvo	цена земли
+maan ekologia	экология земли
+maan hallinta ja suunnittelu	планирование и управление землепользованием
+maan kate, viherlannoite; kompostimulta	мульча
+maan kuori	земная кора
+maan saastuminen	загрязнение земель
+maan saneeraus	рекультивация земель
+maan saneeraus vuoristoalueilla	восстановление земли в горных районах
+maan ääriviivoja noudattava viljely	сельскохозяйственные работы, осуществляемые по контуру
+maanalainen rautatie	метро
+maanantai	понедельник
+maanhallintainterventioalue	район с правом проведения проверки использования земли
+maanisäkäs	сухопутное млекопитающее
+maanjäristyksen aiheuttama aalto	цунами
+maanjäristys	землетрясение
+maanjärjestely	региональное планирование
+maankaivaminen ; maarakennus	раскопки (процесс) ; раскопки
+maankäyttö	развитие земель
+maankäyttö	расселение на суше
+maankäyttö	землепользование
+maankäyttöjärjestelmä	режим использования земли
+maankäyttösuunnitelma	план развития
+maankäytön luokitus	классификация землепользования
+maankäytön suunnittelu	планирование земель
+maanlämpöenergia	геотермальная энергия
+maanmittaus, geodesia	геодезия
+maanosa	континент
+maansuojelu	сохранение земель
+maantiede	география
+maantieteellinen projektio	географическая проекция
+maantieteen tietojärjestelmä	географическая информационная система
+maanvaltaus	земляной покров
+maanvieremä, vieremä ; maanvieremä ; vieremä	оползень
+maanviljelys	земледелие
+maanviljelys ilman kastelulaitteita	агротехнические приемы для засушливых районов
+maanviljelys ja karjanhoito samalla tilalla	смешанное фермерское хозяйство
+maanviljelyskoneisto ; maatalousvälineistö	сельскохозяйственное оборудование ; сельскохозяйственные машины
+maanviljelystekniikka	агротехнические методы
+maanviljelytekniikka	сельскохозяйственные методы
+maaomaisuuden vuokraaminen	сдача внаем недвижимости
+maaoravat	азиатский ; сибирский бурундук
+maapallon muodostumiseen liittyvä tekijä	почвенный фактор
+maapalsta	отвод земельных участков
+maaperä	почва
+maaperä	педосфера
+maaperän lannoitus	удобрение почвы
+maaperän muodostus	формирование земель
+maaperäoppi	почвоведение
+maaperäoppi, maatiede, maaperägeologia	почвоведение
+maaperää koskeva tieto	данные дистанционного зондирования
+maaperää koskeva tieto	информация, относящаяся к дистанционному зондированию
+maaseutu, haja-asutusalue	сельский район
+maassamuutto	внутренняя миграция
+maastoauto	внедорожник
+maatalouden aiheuttama saastuminen	сельскохозяйственное загрязнение
+maatalouden jätevesi	сельскохозяйственные стоки
+maatalouden kehyssuunnitelma	перспективный сельскохозяйственный план
+maatalouden rakenne	основные фонды сельского хозяйства
+maatalouden suunnittelu	планирование сельского хозяйства
+maatalouden suurvahinko	бедствие, наносящее вред сельскому хозяйству
+maatalouden tuhoeläin	сельскохозяйственные вредители
+maatalouden tuotantokeinot	средства сельскохозяйственного производства
+maatalouden vaikutus ympäristöön	воздействие сельскохозяйственной деятельности на окружающую среду
+maatalouden vesirakennus	агротехника
+maataloudesta saatavat elintarvikkeet	производство продуктов питания в сельском хозяйстве
+maatalous	сельское хозяйство
+maatalous	сельскохозяйственная эксплуатация
+maatalous ; maatalous	сельское хозяйство ; сельское хозяйство
+maatalous ja karjankasvatus	сельское хозяйство и животноводство
+maatalousbiotekniikka	сельскохозяйственная биотехнология
+maatalousekologia	экология сельского хозяйства
+maataloushydrauliikka	мелиорация
+maatalousjätteet	отходы сельского хозяйства
+maatalouskemikaali	агрохимикат
+maatalouskiinteistö, tila	объект недвижимости в сельском хозяйстве
+maatalouslainsäädäntö	сельскохозяйственное право
+maatalousmaisema	сельскохозяйственный ландшафт
+maatalousmeteorologia	агрометеорология
+maatalouspolitiikka	сельскохозяйственная политика
+maatalousrakennus	жилой дом на ферме
+maatalousteollisuus	промышленная ферма
+maataloustiede, maanviljelystaloustiede	экономика сельского хозяйства
+maataloustuotannollinen arvo	цена на сельхозпродукцию
+maataloustuotannon aliarvostus; maatalousmaan aliarvostus	занижение цен на сельскохозяйственную продукцию
+maataloustuotannon säännöstely	регулирование сельскохозяйственного производства
+maataloustuotanto	сельскохозяйственное производство
+maataloustuote	сельскохозяйственная продукция
+maatalousvarasto	хранение сельскохозяйственной продукции
+maatalousvälineistö	сельскохозяйственное оборудование
+maatalouteen liittyvä teollisuus	агроиндустрия
+maataloutta koskeva ympäristölainsäädäntö	законодательство в области сельского хозяйства
+maatila	ферма
+maatilamatkailu, -lomailu ; maatilamatkailu	загородный туризм
+maatilan hoito	управление в сельском хозяйстве
+maavero, kiinteistövero	налог на землю
+magneettinauha	магнитная лента
+magnesium	магний
+magnetismi	магнетизм
+maha ; vatsa	желудок
+mahdollinen	осуществимый
+mahdollinen saastumisalue	ареал потенциального загрязнения
+maisema	ландшафт
+maisema kaivostoiminnan jälkeen	ландшафт земной поверхности после завершения горных работ
+maisema-arkkitehtuuri	ландшафтная архитектура
+maisemaekologia	экология ландшафта
+maiseman elpyminen	восстановление ландшафта
+maiseman käyttö	использование ландшафта
+maiseman muutos	изменение ландшафта
+maiseman osa	компонент ландшафта
+maisemanhoito, maisemansuunnittelu	управление ландшафтом
+maisemankulutus	изменение ландшафта в результате его использования
+maisemansuojelu	сохранение ландшафта
+maisemansuojelu	защита ландшафта
+maisemansuojelupolitiikka	политика сохранения ландшафта
+maisemansuunnittelu	планирование ландшафта
+maissa	на берег
+maito	молоко
+maitotalous	молочная промышленность
+maitotaloustuote	молочный продукт
+majoneesi	майонез
+makea ; makoisa	сладкий
+makea, suolaton vesi ; makea vesi	пресная вода
+makean veden ekosysteemi	пресноводная экосистема
+makean veden organismi	пресноводный организм
+makean veden pilaantuminen	ухудшение качества пресных вод
+makean veden saastuminen	загрязнение пресной воды
+makedonia	македонский
+makeutusaine; vaahdotuskemikaali	подсластитель
+makrilli	скумбрия ; макрель
+makroskooppinen	макроскопический
+makrotalouden tavoite	макроэкономическая цель
+makrotaloustiede	макроэкономика
+maksa	печень
+malajalam	малайялам ; малаялам
+malaria	малярия
+malli	модель
+mallisuunnittelu	чертеж
+malmi	руда
+malmiesiintymä, mineraalilöydös ; malmiesiintymä ; mineraalilöydös	месторождение полезных ископаемых
+mandariinikiina	мандаринский
+mangaani	марганец
+mango	манго
+mangrovepuu	мангровый лес
+mannerilmasto	континентальный климат
+mannerjalusta	континентальный шельф
+mansikka	клубника ; земляника
+markkinahinta	рыночная цена
+markkinamuoto	организация рынка
+markkinat	рынок
+markkinatalous	рыночная экономика
+markkinatutkimus	исследование рынка
+markkinatutkimus	изучение рынка
+markkinointi	маркетинг
+marmori; marmoroida; prekambrikalkkikivi ; marmori ; marmoroida ; prekambrikalkkikivi	мрамор
+marraskuu	ноябрь
+marsu	морская свинка
+masuuni	доменная печь
+matalalla korkeudella lentäminen	полет на малой высоте
+matalikko ; rantapenger	берег
+matelijat ; matelijat ; matelijat	рептилии ; рептилии ; рептилии
+matemaattinen analyysi	математический анализ
+matemaattinen menetelmä	математический метод
+materiaali ; materiaalit ; aine	материал ; материалы
+materiaalin elinaika	жизненный цикл материала
+materiaalitiede	материаловедение
+matka	путешествие
+matkailu ; turismi	туризм
+matkailun vaikutus ympäristöön	воздействие туризма на окружающую среду
+matkustajaliikenne	пассажирский транспорт
+matto	ковëр
+mausoleumi	мавзолей
+mehiläiset	пчела
+mehiläishoitaja	пчеловод
+mehiläishoito	пчеловодство
+mehiläisten suojelu	охрана пчел
+meitnerium	мейтнерий
+mekaaninen värähtely	механическая вибрация
+mekaaniset varusteet	механическое оборудование
+mekko ; leninki	платье
+melodia	мелодия
+melu	шум
+melua koskeva lainsäädäntö	законодательство в области регулирования уровня шума
+melualtistussuunnitelma	план мер борьбы с шумом
+meluanalyysi	анализ шума
+meluemissio; melupäästö	шумовыделение
+melueste	звукоотражающий барьер
+meluhäiriö ; melusaaste	шумовое раздражение
+meluimmissio	иммиссия шума
+melun vaikutus terveyteen	воздействие шума на здоровье
+melunmittaus	измерение шума
+meluntorjunta	контроль за уровнем шума
+meluntorjunta	защита от шума
+melunvaimennus; kohinanvaimennus	снижение уровня шума
+melupäästömaksu	налог на превышение допустимого уровня шума
+melusaaste	шумовое загрязняющее вещество
+melusaaste	шумовое загрязнение
+melutaso	уровень шума
+meluton teknologia	бесшумная технология
+mendelevium	менделевий
+menetelmä	метод
+menettelyoikeus, prosessioikeus	процессуальный закон
+menetys ; tappio ; vahinko	убыток
+mennä	ходить ; идти ; ездить ; ехать
+menora	менора
+mereltä padolla suojattu alamaa	польдер
+meren ekosysteemi	морская экосистема
+meren eläimistö	морская фауна
+meren lahti; suuri malmikerros ; merenlahti	залив
+meren lämpötila	температура океана
+meren saastuminen	загрязнение моря
+merenkulku	навигация
+merenkulku	морская навигация
+merenkulkuun liittyvä vaara	опасность при навигации
+merenlahti; laakeripuu; laakso ; lahti	бухта
+merenpinnan kohoaminen	повышение уровня моря
+merenpinta	уровень моря
+merenranta	морской берег
+merentutkimus, valtameritiede ; merentutkimus ; valtameritiede	океанография
+meressä elävä organismi	морской организм
+meri ; meri	море ; море
+meribiologia	морская биология
+meriekologia	экология моря
+merien pohjassa elävät organismit	бентос
+merien uimavesi	морская вода, пригодная для купания
+merigeologia	морская геология
+merikalastus	морская рыбная ловля
+merikartta	морская карта
+merikuljetus	морской транспорт
+merilaki, merioikeus	морское право
+meriluonnonpuisto	морской парк
+merinisäkäs	морское млекопитающее
+merisuojelualue	морской заповедник
+merivesi	морская вода
+meriviljely, (kalan ym) kasvatus meressä	морская культура
+merivirtaukset	циркуляция океана
+merivirtaus	океаническое течение
+meriympäristö	морская окружающая среда
+meriympäristön seuranta	мониторинг моря
+merkintä	маркировка
+merkitsemispakko	обязательство маркировать
+merkitsin; leimauskone; ilmaisin	индикатор
+merkityksellisyys	беременность
+metaani, suokaasu ; metaani ; suokaasu	метан
+metaanintuotto; metanaatio	метанирование
+metaboliitti	метаболит
+metafysiikka	метафизика
+metainformaatio	метаинформация
+metallijäte	металлические отходы
+metallimalmi	металлосодержащий минерал
+metallioksidi	оксид металла
+metalliseos	сплав
+metallit	металл
+metallituote	металлический продукт
+metallituoteteollisuus	производство металлических изделий
+metallo-orgaaninen yhdiste	металлсодержащее органическое соединение
+metallurgia	mеталлургия
+metallurginen teollisuus	металлургия
+metanoli	метанол
+meteori ; meteori ; meteori ; meteori ; meteori ; tähdenlento	метеор ; метеор ; метеор ; метеор ; метеор
+meteoriitti	метеорит
+meteorologinen parametri	метеорологический параметр
+meteorologinen suuronnettomuus	стихийное бедствие, связанное с атмосферными процессами
+meteorologinen tutkimus	метеорологические исследования
+metodologiat	методология
+metrojuna	поезд метро
+metrojuna	скоростной поезд, следующий транзитом
+metrologia	метрология
+metsitys, metsän istuttaminen ; metsitys ; metsän istuttaminen	облесение
+metsitys, metsän istutus	лесовосстановление
+metsuri	лесоруб
+metsä	лес
+metsäekologia	экология лесов
+metsän ekosysteemi	экосистема леса
+metsän hyväksikäyttö	эксплуатация лесных ресурсов
+metsän kaataminen	сведение лесов
+metsän pilaantuminen	истощение лесных ресурсов
+metsän tuholainen	лесной вредитель
+metsänhakkuu	рубка
+metsänsuojelu	защита лесов
+metsänviljely, metsänhoito ; metsänviljely ; metsänhoito	древоводство
+metsänviljelytekniikka	методы искусственного воспроизводства
+metsäpalo, kulo	лесной пожар
+metsäpalojen ehkäisy	предотвращение лесных пожаров
+metsäpeitteen tuhoutuminen	разрушение лесного покрова
+metsäpolitiikka	политика в области лесного хозяйства
+metsästys	охота
+metsästyslupa	лицензия на охоту
+metsätalouden vaikutus ympäristöön	воздействие лесоводства на окружающую среду
+metsätalous	лесное хозяйство
+metsätalous	лесоводство
+metsätalous, metsänhoito	управление лесным хозяйством
+metsätalouslainsäädäntö	законодательство в области лесного хозяйства
+metsätalouslaki	закон в области лесного хозяйства
+metsätaloustiede	экономика лесного хозяйства
+metsätaloustuote	лесопродукция
+metsäteollisuus	лесная промышленность
+metsätuotanto	производство лесопродукции
+metsävahinkojen arviointi	инвентаризация ущерба, нанесенного лесам
+metsävarat	лесные ресурсы
+metsävarat ; metsävarat; metsänsuojelualue ; metsänsuojelualue	лесной заповедник
+metsävaurio	ущерб, нанесенный  лесам
+miekka	меч
+mielipide	мнение
+mielipidetiedustelu	опрос мнения
+mielipidetutkimus	опрос общественного мнения
+mies	муж
+mikro-organismi, mikrobi	микроорганизм
+mikroaalto	микроволна
+mikrobiologia	микробиология
+mikrobiologinen analyysi	микробиологический анализ
+mikroekosysteemi	микроэкосистема
+mikroelektroniikka	микроэлектроника
+mikrofoni	микрофон
+mikroilmasto, pienilmasto	микроклимат
+mikroilmastotiede	микроклиматология
+mikroskoopin käyttö	микроскопия
+mikrosuodatus	микрофильтрация
+mikrotietokone	микрокомпьютер
+mineraali	минерал
+mineraalijäte	отвальные породы
+mineraalikuitu	минеральное волокно
+mineraalin louhinta	добыча полезных ископаемых
+mineraalipitoinen maanparannusaine	минеральная добавка
+mineraalisaaste	загрязнение в результате горных работ
+mineraaliteollisuus	горнодобывающая промышленность
+mineraalivarat, mineraalirikkaudet	минеральный ресурс
+mineralogia, kivennäistiede ; mineralogia ; kivennäistiede	минералогия
+minihame	мини-юбка
+minimikustannussuunnittelu	низкозатратное планирование
+ministerin valtuudet	компетенция министра
+ministeriö	министерство
+ministeriön rakennus	здание министерства
+minuutti	минута
+minä	я
+mistraali	мистраль
+mittaus	измерение
+mittausmenetelmä	метод измерений
+mittausohjelma	программа измерений
+mittausväline	измерительный инструмент
+molekyylibiologia	молекулярная биология
+molybdeeni	молибден
+monen tekijän aiheuttama saastuminen	смешанное загрязнение
+monenvälinen sopimus	многостороннее соглашение
+monikansallinen yritys	многонациональная компания
+monikulmio	полигон
+monikäyttöinen alue	земля различного хозяйственного назначения
+monispektriskanneri	многоспектральное сканирующее устройство
+monopoli, yksinoikeus	монополия
+monumentti; rajapyykki	памятник
+moottori	двигатель
+moottoriajoneuvo	автомобиль
+moottoriajoneuvojen aiheuttama saaste	загрязнение выхлопными газами автомобилей
+moottoriajoneuvon pakokaasu	выхлопные газы автомобилей
+moottoriajoneuvoteollisuus	автомобильная промышленность
+moottorialkoholi	топливный спирт
+moottorin polttoaine	автомобильное топливо
+moottoripyörä	мотоцикл
+moottoritie, pikatie	шоссе
+morfiini	морфин
+morfologia, muoto-oppi ; morfologia ; muoto-oppi	морфология
+mosaiikki	монтаж спутниковых или аэрофотоснимков
+moskeija	мечеть
+muinaismuisto, muistomerkki	исторический памятник
+muistomerkkien suojelu	сохранение памятников
+mukavuuslippu	"удобный" флаг
+multimediatekniikka	мультимедийная технология
+muna	яйцо
+munasarja	яичники
+munuainen	почка
+muotoilu, suunnittelu; mallintaminen ; suunnittelu ; muotoilu ; mallintaminen	моделирование
+muovi	пластмасса
+muovijäte	пластмассовые отходы
+mursu	морж
+murtovesi, puolisuolainen vesi ; murtovesi ; puolisuolainen vesi	солоноватая вода
+museo	музей
+musiikki	музыка
+musikaali	мюзикл
+muste	чернила
+mustekala	осьминог
+mutaatio, muutos	мутация
+mutaation läpikäyneiden mikro-organismien päästö	выброс мутированных микроорганизмов
+mutageeni	мутаген
+mutageenisyys	способность вызывать мутацию
+mutageenisyystestaus	тест на способность вызывать мутацию
+mutantti	мутант
+muuli	мул
+muurahainen	муравей
+muurari	каменщик
+muuraus, kivityö	каменная кладка
+muusikko	музыкант
+muutoksenhaku	апелляция
+muutoksenhakumenettely	процедура апелляции
+muuttolintu	мигрирующая птица
+mylly	мельница
+myrkky	яд
+myrkky ; toksiini	токсин
+myrkyllinen aine	токсичное вещество
+myrkyllisyys	токсичность
+myrkyttömäksi tekeminen, myrkyn poisto ; myrkyttömäksi tekeminen ; myrkyn poisto	обезвреживание ядовитых веществ
+myrkytys	отравление ядом
+myrsky	гроза
+myytti	миф
+myytävä sato	товарная сельскохозяйственная культура
+myöhemmäksi siirtynyt vaikutus	эффект переноса
+myös korkeita puita kasvava vesakko	выращивание подлеска
+mädätetty liete, mädätysliete ; mädätetty liete ; mädätysliete	биологически переработанный осадок сточных вод
+mädätys ; syövyttävä liuotus	биологическая переработка
+mänty	сосна
+määritelmä	определение
+määritysmenetelmä	метод детерминации
+määräpaikka	пункт назначения при транспортировке
+määrätä	назначать
+määräys elektronisista jätteistä	нормативный документ, регулирующий утилизацию отходов электронной промышленности
+määräys, johtosääntö	указ
+määrääminen; resepti ; määrääminen ; resepti	право давности
+naamioida	камуфляж
+naftaleenikiteet	соль
+nahka	кожа
+nahkateollisuus	кожевенная промышленность
+nainen	женщина
+napa	пупок
+napaseutu	полярный регион
+nappiparisto	элемент питания
+natrium	натрий
+nauraa	смеяться
+nelikulmio	четырёхугольник
+nelitahtimoottori	четырехтактный двигатель
+neliö ; aukio	площадь
+neljä	четвёрка
+neljä ; nelonen	четыре
+neljäkäs	ромб
+nenä	нос
+nenäliina	платок
+neodyymi	неодим
+neon	неон
+nepali	непальский
+nepotismi	непотизм
+neptunium	нептуний
+neste	жидкость
+nestemäinen jäte	жидкие отходы
+nestemäinen tila	состояние жидкости
+nesteytetty kaasu	сжиженный газ
+nettovähennyksen ottaminen huomioon päästötasoa arvioitaessa	политика зачета уровней выбросов
+neurologia	неврология
+neutralointi	нейтрализация
+neuvonta	консультация ; совет, консультация ; совет
+neuvottelu, konsultaatio ; neuvottelu ; konsultaatio	консультация
+neva	трясина
+niemi	мыс
+niemimaa	полуостров ; полуострво
+niitto	скашивание трав
+niitty	луг
+nikkeli	никель
+nilkka	лодыжка ; щиколотка
+nilviäiset	моллюск
+niobium	ниобий
+nisäkkäät	млекопитающее
+nitraatti	нитрат
+nitrifikaatio	нитрификация
+nitrosamiini	нитрозамин
+nitroyhdiste	нитросоединение
+niveljalkaiset	артроподы
+niveljalkaiset	членистые
+nivelmadot	кольчатые черви
+niveltulehdus	артрит
+nobelium	нобелий
+noki, noeta	сажа
+nolla	нуль ; ноль
+nopea liikenne	скоростной транспорт
+nopea reaktori	реактор на быстрых нейтронах
+nopeiden junien rautatie	высокоскоростная железная дорога
+nopeus	скорость
+normi, perusmalli; vaatimustaso; rahakanta ; normi ; perusmalli ; vaatimustaso ; rahakanta	стандарт
+normi, standardi ; normi ; standardi	норма
+normien purkaminen	либерализация
+norsueläimet	хоботные
+norsunluu	слоновая кость
+noudattaa ; totella	подчиняться
+nousu	восхождение
+nousuvesi	уровень прилива
+novial	новиаль
+nuijapää	головастик
+nukke	кукла
+nukleiinihappo	нуклеиновая кислота
+numeerinen kuvankäsittelyjärjestelmä	цифровая система обработки изображений
+numeerinen kuvankäsittelytekniikka	методы обработки цифровых изображений
+numeerinen maamalli	цифровая модель земной поверхности
+nuolenkärki	наконечник
+nuoli	стрела
+nuori	молодежь
+nuori metsä, vesakko ; nuori metsä ; vesakko	подлесок
+nuotti	ноты
+nurmi	пастбищные угодья
+nurmi	газон
+näköalapaikka	зона защиты ландшафта
+nälkä ; nälkä ; nälkä	голод ; голод ; голод
+nälänhätä	голод
+näppäimistö	клавиатура
+näyttämö	сцена
+näätäeläimet	куница
+off-site ; paikan ulkopuolella	вне площадки или объекта
+ohjelma	программа
+ohjelma ; politiikka ; politiikka, menettelytapa, ohjelma ; menettelytapa	политика (линия поведения) ; политика
+ohjelmisto	программное обеспечение
+ohjelmiston kehitys	разработка программных средств
+ohjesääntö	обычаи и практика
+ohmi	ом
+ohra	ячмень
+oikeudellinen apu	судебная помощь
+oikeudellinen perusta	юридическая основа
+oikeudellinen sääntely	правовое постановление, нормативный документ
+oikeudenkäynti	судебное разбирательство
+oikeudenkäyttöalue, tuomiovalta ; oikeudenkäyttöalue ; tuomiovalta	юрисдикция
+oikeus	правосудие
+oikeusjärjestelmä	юридическая система
+oikeusjärjestelmän organisaatio	организация правовой системы
+oikeuslaitos, tuomioistuinlaitos	судебная система
+oikeusmenettely	юридическая процедура
+oikeussuojakeino	юридическое средство
+oikeustiede, juridiikka	юриспруденция
+oikeustiede, juridiikka ; oikeustiede ; juridiikka	право ; право (научн.)
+oikeustieteen ala	отрасль права
+oikeustoimi	юридический акт
+oikeusvertailu	сравнительное право
+oja	канава
+oja ; oja; pato ; pato	дамба
+ojaverkosto; kuivatusjärjestelmä	водосборная система
+oksa	ветка ; сук
+oksidit	оксид
+oktaavi	октава
+olemassaolevat kemikaalit	известный химикат
+oligarquia ; oligarkia	олигархия
+oligopoli	олигополия
+oliivi	маслина ; оливка
+omaisuuden suojelu	защита собственности
+omavastuu	персональная ответственность
+omena	яблоко
+omena ; omenapuu	яблоня
+ominainen	атрибут ; свойство ; качество ; особенность ; признак
+ominaisuus; tuntomerkki ; ominaisuus ; tuntomerkki	атрибут
+omistaminen	владение
+omistus	право собственности
+ommella	шить
+on-line-palvelu	обслуживание "он-лайн"
+ongelmajätteen vienti	экспорт опасных отходов
+onkiminen	спортивная рыбная ловля
+onnellista uutta vuotta	с Новым годом
+onnettomuuden aiheuttaja	причина аварии
+onnettomuudet	авария
+onnettomuusvyöhyke	зона бедствия
+onteloeläimet	кишечнополостные
+ontologia	онтология
+oomega	омега
+oopiumi	опий
+ooppera	опера
+operetti	opereta ; оперетта
+opettaa	учить
+opettaja	учитель ; учительница
+opetuksen järjestäminen	профессиональная организация преподавателей и учителей
+opetus	обучение
+opetus, harjoitus	профессиональное обучение
+opetusoppi	дидактика
+opinkappale ; oppi	доктрина
+oppilaitos	образовательное учреждение
+oppisuunnitelma	кадровая анкета
+optimismi ; optimismi ; optimismi	оптимизм ; оптимизм ; оптимизм
+orgaaninen aine	органическое вещество
+orgaaninen fosforiyhdiste	фосфорорганическое соединение
+orgaaninen halogeeniyhdiste	галогенсодержащее органическое соединение
+orgaaninen happiyhdiste	кислородсодержащее органическое соединение
+orgaaninen hiili	органический углерод
+orgaaninen jäte	органические отходы
+orgaaninen kemia	органическая химия
+orgaaninen klooriyhdiste	хлорсодержащее органическое соединение
+orgaaninen liuotinaineseos	органический растворитель
+orgaaninen rikkiyhdiste	сероорганическое соединение
+orgaaninen saaste	органическое загрязняющее вещество
+orgaaninen saaste	органическое загрязнение
+orgaaninen typpi	органический азот
+orgaaninen typpiyhdiste	азотсодержащее органическое соединение
+orgaaniset aineet	органическое вещество
+organisaatioiden oikeusmuoto	юридическая форма организаций
+organismien satunnainen leviäminen	выброс биоматериала в результате аварий
+organismien vapauttaminen, päästäminen	выпуск микроорганизмов в окружающую среду
+organismit	организм
+orkidea ; kämmekkä	орхидея
+ornitologia	орнитология
+orpo	сирота
+ortografia	орфография
+osallistuminen	участие
+osmium	oсмий
+osmoosi	осмос
+osoitettavuus	способность демонстрировать
+osoitin; luettelo; hakemisto ; osoitin ; luettelo ; hakemisto	перечень
+osoitin; mittari; ilmaisin	показатель
+ostaa	покупать
+osteri	устрица
+osterinviljely	разведение устриц
+osto	закупка
+ostoskeskus	торговый центр
+otsoni	озон
+otsonikerroksen tuhoutuminen	разрушение озонового слоя
+otsonikerros	озоновый слой
+otsonituhopotentiaali	потенциал озоноразрушения
+otsonointi; otsonoituminen	озонизация
+outo	странный
+ovela	хитроумный
+ovi	дверь
+paavi	папа римский
+padon t. penkereen vahvistus	укрепление дамб
+pahoinvointi	тошнота
+paikalla tapahtuva jäteveden puhdistus	очистка стоков "на месте"
+paikallinen kehitys	развитие регионов
+paikallinen laji	эндемические виды
+paikallinen lämmön hankinta	местное теплоснабжение
+paikallinen matkustajaliikennepalvelu	местный пассажирский транспорт
+paikallinen resurssien hyödyntäminen	использование местных ресурсов
+paikallinen virkistystoiminta	отдых в конкретной местности
+paikalliset raha-asiat	финансирование на местном уровне
+paikallishallinnon politiikka	политика местных властей
+paikallisliikenne	местный транспорт
+paikallistason metsän istuttaminen	местное облесение
+paikallisviranomaiset	местная власть
+paikka	место
+paikoitusalue	предоставление услуг парковки ; стоянка ; парковка
+paimentolainen	кочевник
+paine	давление
+painelaite	оборудование под давлением
+paino	вес
+paino ; puristaa; sanomalehdistö; paino ; puristaa ; sanomalehdistö	пресса
+painostusryhmä	группа влияния
+painuma, (maan) vajoaminen	проседание почвы
+paise	абсцесс
+pajut	ива
+pakana	язычник
+pakkaaminen; päällys	упаковка
+pakkanen ; kuura ; huurre	иней
+pakkausjäte	использованная упаковка
+pakkausteollisuus	оборудование и материалы для упаковки
+pakkolunastus	экспроприация
+pakkotoimenpiteet; toimeenpano ; toimeenpano ; pakkotoimenpiteet	приведение в исполнение
+pakolainen	беженец
+pakopaikka; suojaava saareke; refugio ; pakopaikka; ; pakopaikka ; suojaava saareke ; refugio	экологическое убежище
+palamisjäte, palamisjäännös	продукты нагара
+palautuminen, siirtyminen; seuraanto	передача обязанностей, функций, ответственности и пр.
+palautus, uudelleen tuominen ; palautus ; uudelleen tuominen	повторное заселение вида
+palautusvaade	право подать иск на реституцию
+palavuus, tulenarkuus, syttyvyys	способность к горению
+paleoekologia	палеоэкология
+paleoklimatologia	палеоклиматология
+paleontologia	палеонтология
+palindromi	палиндром
+paljassiemeniset	голосеменные
+palkka	зарплата ; жалованье
+palkkapolitiikka	политика в области оплаты труда
+palkkio, maksu ; palkkio ; maksu	плата
+palladium	палладий
+palmu ; palmupuu	пальма
+palokuntalainen ; palomies	брандмейстер ; огнеборец ; пожарный
+palolaitos	пожарная служба
+palontorjunta	пожарная безопасность
+paloturvallisuusvaatimus	требование пожарной безопасности
+palvelusektori	сектор торговли и услуг
+pandemia	пандемия
+panttijärjestelmä pakkauksille	депозит за возвратную тару
+panttivanki	заложник
+paperi	бумага
+paperiteollisuus	бумажная промышленность
+papu	боб
+papukaija	попугай
+paraabeli	парабола
+parametrit, tunnusluvut	параметр
+parasiitti	паразит
+parempi	лучше
+paristojen hävittäminen	утилизация использованных аккумуляторов
+parlamentin kertomus	парламентский доклад
+parlamentti	парламент
+parlamenttikeskustelu	парламентские дебаты
+paroni	барон
+parsa	спаржа
+parturi ; kampaaja	парикмахер ; цирюльник
+pasifisti	пацифист
+patentti	патент
+patikkapolku	туристическая тропа
+pato, sulku	дамба
+patoaminen; särkkäkalastus; pankkitoiminta	банковские операции
+patologia	патология
+patologinen vaikutus	патологический эффект
+paviaani	бабуин
+peittauslaitos ; syövytyslaitos	завод по травлению металлов
+pekoni	бекон
+pelargoni	герань
+pelastusjärjestelmä	система спасения
+pelastuspalvelu	служба спасения
+peli	игра
+pelko	благоговение
+pellon piennar	поворотная полоса (с/х) ; поворотная полоса
+pelottelu, pelote; estoaine	устрашение
+pelto, kenttä ; pelto ; kenttä	поле
+peltojen viljely	возделывание сельскохозяйственных земель
+peltokasvien tuholaisvaiva	инвазия посевов сельскохозяйственных культур
+peltovahinko	ущерб, нанесенный полям
+pensaikko, tiheikkö	маквис
+pensas	кустарник
+pensasaita	живая изгородь
+pensasmaisema	бокаж
+pentakloorifenoli	пентахлорофенол
+per capita -tiedot	статистические данные на душу населения
+perhe	семья
+perheoikeus	семейное право
+perhesuunnittelu	планирование семьи
+perhoset	бабочка ; мотылёк
+perhoset	чешуйчатокрылые
+periaate, jonka mukaan saastuttajan olisi maksettava	принцип "загрязнитель платит"
+perinnöllinen vaikutus, geneettinen vaikutus	генетический эффект
+perinnöllisyystiede	генетика
+perinnön hallinta	популизм
+perjantai	пятница
+peroksiasetyylinitraatti	пероксилацетилнитрат
+persia	персидский ; фарси
+peruna	картофель
+perusrakenne, infrastruktuuri	инфраструктура
+perustuslaki	конституция
+perustuslaki	конституционное право
+pesiminen	гнездование
+pesimisalue	район гнездования
+pesivä lintu	птица в период размножения
+pessimismi	пессимизм
+pesuaine	стиральный порошок
+petolintu	хищная птица
+petrokemian teollisuus	нефтехимическая промышленность
+peukalo	большой палец
+peura, metsäkauris ; metsäkauris ; peura	олень
+phishing	фишинг
+piano	фортепиано
+piemonte	пьемонтезский
+pihka, hartsi	смола
+pihkainen kasvi	смолосодержащее растение
+piikivi	кремень
+piikkinahkaiset	иглокожие
+piipunpääteknologia	технологии переработки стоков и отходов на конечной стадии производства
+piiru; kvarttaus; näytteen otto neljänneksittäin ; piiru ; kvarttaus ; näytteen otto neljänneksittäin	разделка туш животных
+piispa	епископ
+pikku ; pikku ; pieni	маленький ; небольшой
+pikkulapsi, pienokainen ; pikkulapsi ; pienokainen	ребенок
+pikkusormi	мизинец
+pikseli, kuva-alkio, kuvaelementti ; pikseli ; kuva-alkio ; kuvaelementti	пиксел
+pilkkoutumistuote, hajaantumistuote	продукт разложения
+pilottihanke	пилотный проект
+pilssiöljy	трюмная нефть
+pilvi	облако
+pinaatti	шпинат
+pingviini	пингвин
+pinnanmuodostus	форма земной поверхности
+pinnanmuoto-oppi ; geomorfologia	геоморфология
+pintajännitys	напряжение поверхности
+pintakasvillisuuden poisto	вырубка кустарников
+piste	координата
+pistesäteilijä; pistelähde, yksikkölähde	конкретный источник загрязнения
+pistiäiset, kalvosiipiset ; pistiäiset ; kalvosiipiset	перепончатокрылые
+pistokas	черенок
+pistokoe	разовое испытание
+pitkän aikavälin kokeilu	долгосрочный эксперимент
+pitkän aikavälin vaikutus	долгосрочное воздействие
+pitoisuus	концентрация
+pituusaste	долгота
+pizza ; pitsa	пицца
+planeetta	планета
+plasmatekniikka	плазменная технология
+platina	платина
+plutonium ; plutonium ; plutonium	плутоний ; плутоний ; плутоний
+pohjajaealue	слой бентоса
+pohjaveden käyttö	эксплуатация подземных водных ресурсов
+pohjaveden laatu	качество подземных вод
+pohjaveden otto	добыча подземных вод
+pohjaveden saastuminen	загрязнение подземных вод
+pohjaveden suojelu	защита подземных вод
+pohjaveden vaarantuminen	угроза состоянию подземных вод
+pohjavesi	подземные воды
+pohjavettä johtava kerros	водоносный пласт
+pohjoisen ja etelän suhteet	взаимоотношения "Север-Юг"
+poikkeusvero	исключительный налог
+poisto	удаление
+poistokaasu, pakokaasu	выхлопной газ
+poistokaasulaite	труба для сброса отходов
+pojanpoika ; tyttärenpoika	внук
+poliisi	полиция
+poliisilaki	законы, регламентирующие деятельность полиции
+poliisivaltuudet	право осуществлять охрану порядка
+poliittinen doktriini	политическая доктрина
+poliittinen ekologia	политическая экология
+poliittinen ideologia	политическая идеология
+poliittinen järjestö	политическая организация
+poliittinen maantiede	политическая география
+poliittinen neuvonta	политическое совещание (процесс)
+poliittinen puolue	политическая партия
+poliittinen valta	политическая власть
+politiikan suunnittelu	планирование политики
+politiikan suuntaviivat	основные ориентиры политики
+politiikan väline	инструмент политики
+politiikan yhtenäistäminen	интеграция политики
+politiikka	политика, политическая жизнь ; политика ; политическая жизнь
+polku	путь
+polku ; polku, jalankulkutie ; jalankulkutie	тропинка
+polkupyörä	велосипед
+polkupyörätie	велосипедная дорожка
+polonium	полоний
+polttaminen, kuumentaminen; ampuminen	обжиг
+polttoaine	топливо
+polttoaineen koostumus	состав топлива
+polttoaineen kulutus	потребление топлива
+polttoaineen lisäaine	топливная добавка
+polttoainetankin asennus	установка топливного бака
+polttokaasu, savukaasu	выхлопной газ
+polttokenno	топливный элемент
+polttomoottori	двигатель внутреннего сгорания
+polttopuu	дрова
+polttoöljy, raskas maaöljytuote ; polttoöljy ; raskas maaöljytuote	топливные нефтепродукты
+polybromattu bifenyyli	полибромированный бифенил
+polyeteenitereftalaatti	полиэтилентерефталат
+polykloorattu bifenyyli	полихлорированный бифенил
+polykloorattu terfenyyli	полихлорированный терфенил
+polyklooribentsofuraani	полихлорированный дибензофуран
+polyklooridibentso-p-dioksiini	полихлордибензо-пара-диоксин
+polymeeri	полимер
+polymerointi, polymeroituminen	полимеризация
+polysyklinen aromaattinen hiilivety	полициклический ароматический углеводород
+polysyklinen hiilivety	полициклический углеводород
+polyvinyylikloridi	поливинилхлорид
+ponnistus	попытка
+populaatio	популяция
+populaatioekologia	экология популяции
+poraus ; rivikylvö ; rivilannoitus	бурение
+porauslaitteisto	буровая установка
+pormestari	мэр
+portugalilainen ; portugali	португальский
+positroni	позитрон
+posliini	фарфор ; порцелан
+postinjakaja	почтальон
+potaska; kaliumhydroksidi	поташ
+praseodyymi	празеодим
+presidentti	президент
+primäärienergian kulutus	первичное потребление энергии
+prinssi	принц
+prometium	прометий
+prostituutio	проституция
+protaktinium	протактиний
+proteiini	белок
+proteiinituote	белковый продукт
+psykiatri	психиатр
+psykologia	психология
+psykologinen stressi	психологический стресс
+psykologinen vaikutus	психологический эффект
+psykosomaattinen sairaus	психосоматическое заболевание
+psykosomaattinen vaikutus	психосоматический эффект
+psyykkinen vaikutus	психический эффект
+puhdas tekniikka	чистая технология
+puhdistus	очистка
+puhdistus ; sterilointi ; sterilointi, kaasun poisto, puhdistus ; kaasun poisto	дезактивация
+puhdistus maan läpi	естественная очистка почвы
+puhdistus radioaktiivisesta saasteesta	дезактивация радиоактивного загрязнения
+puhdistuskyky	очистительная способность
+puhdistuslaitos	очистное оборудование
+puhdistuslaitos	очистной завод
+puhe	речь
+puhelin	телефон
+puhtaanapito-osasto	отдел очистки
+puhtaus	чистота
+puiden poisto maapaikasta	расчистка земель
+puitelainsäädäntö	рамочное законодательство
+pukea	одевать
+pukeutua	наряжать
+pullonkorkki	крышка для бутылки
+pumppaus	выкачивание
+pumppu	насос
+punkit	клещ
+puola	польский
+puoleensavetävä	привлекательный
+puoliintumisaika, puoliintumisikä	период полураспада
+puolijohde	полупроводник
+puolimetalli	металлоид
+puolustaa	отстаивать
+puolustus	защита
+puriini	пурин
+puristava, puristaminen; kiireellinen	отжим
+puristin, kompressori	компрессор
+puristus; tiiviste ; puristus ; tiiviste	компрессия
+purku-, raivausliike	снос зданий и сооружений как вид деятельности
+purkujäte	мусор от сноса зданий и сооружений
+puro	ручей
+pussieläimet	сумчатые
+putkilokasvit	трахеофит
+putous	водопад
+puu	дерево
+puuhiili, kasvihiili, eläinhiili ; puuhiili ; kasvihiili ; eläinhiili	древесный уголь
+puunmittausoppi	дендрометрия
+puutarha	сад
+puutarhajäte	растительные отходы сада
+puutarhanhoito, puutarhaviljely	огородничество
+puutarhuri	садовник
+puutavaralaji	изделие из древесины
+puuvilla	хлопок
+pyraleeni	пирален
+pyrkimys	стремление
+pysyvä orgaaninen saaste	стойкое органическое загрязняющее вещество
+pysäköintialue	автомобильная стоянка
+pyörremyrsky	торнадо
+pyörremyrsky	тайфун
+pyörremyrsky	циклон
+pyörresintrauskylpy; leijukuivatin; leijukerros	псевдоожиженный слой
+päihtymys; rohdoksen aiheuttama myrkytys	интоксикация
+päivyri	дневник
+päiväntasaaja	экватор
+päiväntasaajan ilmasto	экваториальный климат
+päiväys; ajoittaminen ; päiväys ; ajoittaminen	датирование
+pääasiallinen ravinto, tärkein ravinto	основные продукты питания
+pääjalkaiset	цефалоподы
+pääkaupunki	столица
+päällyskasvusto, perifyton	перифитон
+päällyste, peite, kuori ; peite ; päällyste ; kuori	покрытие
+päällystys, pintakerros ; päällystys ; pintakerros	покрытие
+päämäärien ristiriita	конфликт целей
+pääoman vapaa liikkuvuus	свободное движение капитала
+päärynä	груша
+pääsiäinen	Пасха
+päästö	выброс
+päästö ilmakehään	атмосферный выброс
+päästö veteen	выброс в воду
+päästöennuste	прогноз выбросов
+päästöjen vähennys	снижение выбросов
+päästöjä koskevat tiedot	данные по выбросам
+päästökerroin	фактор выброса
+päästön lähde	источник выбросов
+päästönormit	стандарт на выбросы
+päästörekisteri	регистр выбросов
+päästötilanne	ситуация с выбросами
+päästövähennysten hyvitysjärjestelmä	финансовый аспект снижения выбросов
+päätöksentekoprosessi	процесс принятия решения
+päätöksenteon tuki	поддержка процесса принятия решений
+päätös	решение
+päätöslauselma	резолюция
+päätöstukijärjestelmä	система обеспечения принятия решений
+pöly	пыль
+pölynimuri	пылесос
+pölynpoisto	удаление пыли
+pöytä	стол
+pöytäkirja	протокол
+raaka-aine	сырье
+raaka-aineen varmistaminen	обеспеченность сырьем
+raakavesi	сырая вода
+raakaöljy	сырая нефть
+raakuus	зверство
+rabbi	раввин ; ребе ; рав ; рабби ; рэб
+radio	радио
+radio-ohjelma	радиовещательная программа
+radioaktiivinen aine	радиоактивное вещество
+radioaktiivinen alkuaine	радиоэлемент
+radioaktiivinen jäte	радиоактивные отходы
+radioaktiivinen laskeuma	радиоактивные осадки
+radioaktiivinen merkkiaine	радиоактивный изотоп
+radioaktiivinen päästö	выбросы радиоактивных отходов
+radioaktiivinen saaste	радиоактивное загрязняющее вещество
+radioaktiivinen saastuminen	радиоактивное заражение
+radioaktiivisen jätteen kaatopaikka	сброс радиоактивных отходов
+radioaktiivisuus	радиоактивность
+radionuklidi	радионуклид
+radium	радий
+radon	радон
+raffinointi	очистка
+raha-asiat; valtionvarat	финансы
+rahallinen apu	финансовая помощь
+rahallinen arviointi	финансовая оценка
+rahallinen avustus	финансовая помощь
+rahallinen avustus, maksuosuus	финансовый вклад
+rahallinen korvaus	финансовая компенсация
+rahamarkkinat	финансовый рынок
+rahamarkkinat	рынок краткосрочных финансовых обязательств
+rahasto	финансовый фонд
+rahatalous	монетарная экономика
+rahoitus	финансирование
+rahoitusinstrumentti, -väline	финансовый инструмент
+rahtikirja, toimitusilmoitus	уведомление об отправке
+raideliikenne	движение железнодорожного транспорта
+raja	граница
+raja-arvo	предельная величина
+rajakuormitus, kriittinen kuormitus ; rajakuormitus ; kriittinen kuormitus	критическая нагрузка
+rajan ylitys	пересечение границы
+rajapinta, rajakerros, rajavyöhyke ; rajapinta ; rajakerros ; rajavyöhyke	пограничный слой
+rajoittaminen	сдерживание (ядерная энергетика) ; сдерживание
+rakeet, sataa rakeita ; rakeet ; sataa rakeita	град
+rakennelma	строение
+rakenneosa	строительный элемент
+rakennettu alue, asutusalue ; rakennettu alue ; asutusalue	застроенная территория
+rakennettu ympäristö	созданная среда
+rakennus	здание ; постройка
+rakennus, jossa ei asuta	административное здание
+rakennusaine	строительный материал
+rakennusaineteollisuus	промышленность стройматериалов
+rakennusjärjestys, rakennusmääräys	нормативный документ в области строительства
+rakennusjäte	отходы строительства
+rakennuskaavoitus	планирование строительства
+rakennuslaitteet	строительное оборудование
+rakennuslupa	разрешение на строительство
+rakennuslupa	разрешение на планирование
+rakennusmaa, rakennustontti	земля под строительство
+rakennusmelu	строительный шум
+rakennuspaikan valmistelutyöt	подготовка строительной площадки
+rakennuspalvelu	строительная услуга
+rakennuspinta-ala; rakennusalue ; rakennuspinta-ala ; rakennusalue	строительные площади
+rakennuspolitiikka	политика в области строительства
+rakennustekniikka	строительная технология
+rakennusten entisöinti	реконструкция зданий
+rakennusten tuhoaminen	снос зданий
+rakennusteollisuus	строительная индустрия
+rakennustyö	строительная работа
+rakennustyömaa, rakennustontti ; rakennustyömaa ; rakennustontti	строительная площадка
+rakentaminen ; tekniikka; rakentaminen; koneoppi ; tekniikka ; koneoppi	инжиниринг
+raketin ajoaine; ponnekaasu	пропеллент
+rakkaus	любовь
+rakkula	волдырь
+ramadan	Рамадан
+rangaistus ympäristövahingosta	штраф за ущерб, нанесенный окружающей среде
+rannan suuntainen hiekkasärkkä	песчаная коса
+rannikko ; ranta	берег
+rannikko-, merivartiosto	спасательная служба на воде
+rannikko-; rantamaa; litoraalinen ; rantamaa ; litoraalinen	литораль
+rannikkoalue	береговая зона
+rannikkokalastus	прибрежное рыболовство
+rannikkomeri ; rantavesi	прибрежные воды
+rannikkovyöhykkeen suunnittelu	планирование прибрежных зон
+rannikkoympäristö	прибрежная среда
+rannikoiden suunnittelu	освоение морских прибрежных районов
+rannikon ekosysteemi	прибрежная экосистема
+ranska	французский
+ranskalainen	француз
+ranskalaistyylinen puutarha	французский сад
+rantariutta, valliriutta	барьерный риф
+rantojen saastuminen	загрязнение побережий
+rantojen suojelu	охрана прибрежных районов
+raportointiprosessi	процесс подготовки отчета
+rapsi	рапс
+rasitus, kuormitus, jännitys; sivupuristus ; rasitus ; kuormitus ; jännitys ; sivupuristus	стресс
+raskaiden tavaroiden kuljetus	крупнотоннажный грузовой автотранспорт
+raskasmetalli	тяжелый металл
+raskasmetallikuormitus	загрязнение тяжелыми металлами
+rasteri	растр
+rasvahakuinen aine	липофильное вещество
+rasvanpoisto	удаление жира
+rauha	мир
+rauhan turvaaminen	миротворческие усилия
+rauhoitusalue	охотничий заказник
+rauta	железо
+rauta- ja terästeollisuus	производство чугуна и стали
+rautaromu	металлический скрап
+rautatehdasteollisuus	производство чугуна
+rautateollisuus	черная металлургия
+rautatie	железная дорога
+rautatieajoneuvo	железнодорожное транспортное средство
+rautatieasema	железнодорожная станция
+rautatiekuljetus	железнодорожный транспорт
+rautatieverkko	сеть железных дорог
+ravinne	питательное вещество
+ravinne	средство питания
+ravinnepitoisuus	питательный состав
+ravinnetasapaino	питательный баланс
+ravinnon kiertokulku	питательный цикл
+ravinnon perusvaatimus	потребности в основных продуктах питания
+ravinnontarve	потребности в продуктах питания
+ravinteiden poisto	удаление питательных веществ
+ravinto	питание
+ravintoketju	пищевая цепь
+ravintorasva	пищевой жир
+ravintotaso	трофический уровень
+ravintotekniikka	технология в области производства продуктов питания
+ravintotiede	наука о продуктах питания
+reaktiokinetiikka	кинетика химических реакций
+reaktori	реактор
+reaktorin turvallisuus	безопасность реактора
+reaktorisydämen sulaminen	плавление стержня (атомн. энерг.) ; плавление стержня
+reflektometria	рефлектометрия
+rehevöityminen	эвтрофикация
+rehu	фураж
+rehukasvi	фуражная сельскохозяйственная культура
+rehukasvi	фуражная культура
+rehulaki	закон в области производства и использования кормов
+rehun saastuminen	заражение кормов
+rekisteröinti; ilmoittautuminen ; rekisteröinti ; ilmoittautuminen	регистрация
+rekisteröintimenettely	процедура регистрации
+rekisteröity maa-alue	зарегистрированный объект охраны окружающей среды
+relaatiotietokanta	реляционная база данных
+reliefi, korkokuva, kohokuva	рельеф земли
+renaturaatio	восстановление природной системы
+rengas (liikenne) ; rengas	автопокрышка
+renium	рений
+resurssien hinnoittelupolitiikka	ценовая политика в отношении ресурсов
+resurssijohtaminen	управление ресурсами
+resurssit ; voimavarat	ресурс ; ресурсы
+reunamaa	маргинальная земля
+riepu; kova rakennuskivi; murskata malmi ; riepu ; kova rakennuskivi ; murskata malmi	тряпка
+riippumattomuus	независимость
+riisi	рис
+riista	объект охоты
+riistää	узурпировать
+riita-asia, käräjöinti ; riita-asia ; käräjöinti	судебный процесс
+riittävä ruuan saanti	достаточное обеспечение продуктами питания
+rikastettu uraani; väkevöity uraani ; rikastettu uraani ; väkevöity uraani	обогащенный уран
+rikastus	обогащение
+rikastus ; väkevöinti	концентрация
+rikin poisto polttoaineesta	десульфуризация (обессеривание) топлива
+rikinpoisto	десульфуризация (обессеривание)
+rikkaruoho	сорняк
+rikki	сера
+rikkidioksidi	диоксид серы
+rikkipitoisuus	концентрация серы
+rikkominen, loukkaaminen; särö ; rikkominen ; loukkaaminen ; särö	нарушение (юридич.) ; нарушение
+rikollisuus	преступление
+rikos	преступление
+rikos ympäristöä vastaan	правонарушение по отношению к окружающей среде
+rikoslaki	уголовное право
+rikosoikeudellinen vastuu	уголовная ответственность
+rikosoikeusprosessi	процедура уголовного права
+rinnakkaispoltto	одновременное сжигание отходов
+rinne	подъём
+rinne, mäki ; rinne ; mäki	склон
+rintamaito	грудное молоко
+ristikuvaus	регистрация изображений
+ristiriita	конфликт
+ristiriitainen käyttö	конфликт по вопросу права на использование
+riutta	риф
+rodium	родий
+rohdos, lääkeaine ; rohdos ; lääkeaine	лекарство
+rokotus	вакцинация
+romania	румынский
+roskapönttö	мусорный контейнер
+rotujen väliset suhteet	расовые взаимоотношения
+rubidium	рубидий
+rubiini	рубин
+ruisku	шприц
+ruoansulatus,	пищеварение
+ruoansulatuskanava	желудочно-кишечный тракт
+ruohikkopalo	травяные пожары
+ruohot	травы
+ruoka	пища
+ruoka-aine, elintarvike	продукт питания
+ruopattu aine	осадок, полученный в результате землечерпательных работ
+ruotsi	шведский
+rupisammakot	жаба
+ruskohiilen louhinta	добыча лигнита
+rutenium	рутений
+rutherfordium	рузерфордиум
+ruuan laatu	качество продуктов питания
+ruuan ravintoarvot	питательная ценность продуктов
+ruuan saastuminen	заражение продуктов питания
+ruuan säilytys	сохранение продуктов питания
+ruuan säteilytys	облучение продуктов питания
+ruuan varastointi	государственные резервы продуктов питания
+ruuanjalostusteollisuus	пищевая обрабатывающая промышленность
+ruuansaaste	вещество, загрязняющее продукты питания
+ruudutus	географическая привязка
+ruusu	роза
+ruuvi	винт
+ruuvimeisseli	отвертка
+ryhmäkäyttäytyminen	поведение групп населения
+ryhmän 0 alkuaineet	химический элемент нулевой группы
+ryhmän II alkuaineet (alkaliset maametallit) ; ryhmän II alkuaineet ; alkaliset maametallit	химический элемент группы II
+ryhmän III alkuaineet	химический элемент группы III
+ryhmän IV alkuaineet	химический элемент группы IV
+ryhmän V alkuaineet	химический элемент группы V
+ryhmän VI alkuaineet	химический элемент группы VI
+räjähdys; männän työtahti ; männän työtahti ; räjähdys	взрыв
+räjähtävä; räjähdysaine	взрывчатое вещество
+räme ; suo	болото
+röntgenium	рентгений
+s ihmisasutusten sosioekonominen näkökohta	социально-экономический аспект населенных пунктов
+saaliin määrä	улов
+saalistaja	хищник
+saaren ekosysteemi	островная экосистема
+saari	остров
+saaristo	архипелаг
+saastealtistus	воздействие загрязняющих веществ
+saasteanalyysi	анализ загрязняющих веществ
+saastearviointi	оценка загрязняющих веществ
+saasteen fysikaalinen mittaus	физическое измерение уровня загрязнения
+saasteen hajautuminen	распыление загрязняющих веществ
+saasteen hajoaminen	разложение загрязняющих веществ
+saasteen imeytyminen	абсорбция загрязняющих веществ
+saasteen immobilisointi, kiinnittäminen	иммобилизация загрязняющих веществ
+saasteen kasautuminen	накопление загрязняющих веществ
+saasteen kehittyminen	эволюция загрязнения
+saasteen kemiallinen mittaus	химическое измерение уровня загрязнения
+saasteen kerrostuminen	отложение загрязняющих веществ
+saasteen kulkeutuminen	перемещение загрязняющих веществ
+saasteen mittaus	измерение загрязнения
+saasteen muodostus	формирование загрязняющего вещества
+saasteen poisto	удаление загрязняющих веществ
+saasteen uudelleen mobilisointi	повторная мобилизация загрязняющих веществ
+saasteen vaikutus	воздействие загрязнения
+saasteen virtaus	поток загрязняющих веществ
+saasteen vähentäminen	снижение содержания загрязняющих веществ
+saasteen vähentäminen	снижение уровня загрязнения
+saasteenesto	регулирование выбросов
+saasteindikaattori	индикатор загрязнения
+saastejakauma	распределение загрязняющих веществ
+saastekuorma	загрязненность
+saastekustannukset	стоимость загрязнения
+saastenormi	норма загрязнения
+saastepitoisuus	концентрация загрязняющих веществ
+saastepäästö	выброс загрязняющих веществ
+saastepäästö	иммиссия загрязняющих веществ
+saastetyyppi	тип загрязняющего вещества
+saastevaara	опасность загрязняющих веществ
+saastevakuutus	страхование от загрязнения
+saastevalvonta	мониторинг загрязняющих веществ
+saastumattoman ilman alue	район чистого воздуха
+saastuminen	загрязнение
+saastuminen ; saastuminen, saaste	загрязнение
+saastumisen biologinen vaikutus	биологический результат загрязнения
+saastumisen ehkäisy	предотвращение загрязнения
+saastumisen seuranta	мониторинг загрязнения
+saastumisen vähentämiseen tarkoitetut välineet	оборудование для снижения уровня загрязнения
+saastumisriski	риск загрязнения
+saastumista koskeva lainsäädäntö	законодательство по вопросам загрязнения окружающей среды
+saastunut aine	загрязненное вещество
+saastunut alue	загрязненный участок
+saastunut maaperä	загрязненная почва
+saastuttamaton auto	"чистый" автомобиль ; чистый автомобиль
+saastuttamaton energianlähde	источник энергии, не загрязняющий окружающую среду
+saastuttamaton polttoaine	топливо, не загрязняющее окружающую среду
+saastuttavat aineet, saasteet	загрязняющее вещество
+saavuttaa	достигать
+sade	атмосферные осадки
+sade ; vesisade	дождь
+sadelaskeuma, sadesidonta	выпадение дождя
+sademetsä	дождевой лес
+sademäärän lisäys; saostumisen lisäys ; saostumisen lisäys ; sademäärän lisäys	усиление выпадения осадков (метеорол.) ; усиление выпадения осадков
+sadevesi	дождевая вода
+sadevesiviemärijärjestelmä	система для стока дождевой воды
+sadonkorjuu, korjata sato ; sadonkorjuu ; korjata sato	урожай
+safiiri	сапфир
+sahajauho	древесные опилки
+sahara	cахара
+saippua	мыло
+sairaala	больница
+sairaalajäte	отходы больниц
+sairas rakennus -oireyhtymä	синдром вредного помещения
+sakaali	шакал
+sakko, rangaistus, uhkasakko ; sakko ; rangaistus ; uhkasakko	штраф
+saksa ; saksan kieli	немецкий
+saksalainen	немец ; немка
+saksalainen	немецкий
+saksofoni	саксофон
+salamanterit; lämmityslaitteet ; salamanterit	саламандра
+salaojitusjärjestelmä, viemäriverkko	система дренажа
+salaperäinen	таинственный
+sallittu riskin taso	приемлемый уровень риска
+sallitun altistuksen raja	допустимый уровень воздействия (ПДК)
+samarium	самарий
+sameus	замутненность
+sammakkoeläimet	амфибии
+sammakot	лягушка
+sammalet	мох
+sammalet	бриофиты (мхи и печеночники) ; бриофиты
+samppanja	шампанское
+sana	слово
+sanakirja	словарь
+sanakirja ; sanakirja; sanasto ; sanasto	лексикон
+sananvapaus	cвобода слова
+sanaristikko	кроссворд
+sanasto	словарь
+sanasto	глоссарий
+saniaiset	папоротник
+saniteettilaitteet	санитарно-техническое оборудование
+sanomalehti	газета
+sanskrit	санскрит
+saostaminen ; saostaminen, saostuminen, sakka ; saostuminen ; sakka	осаждение (хим.) ; осаждение
+saostuma; kerrostuma; laskeuma	отложение осадочных материалов
+saostuminen höytäleinä	флоккуляция
+sappirakko	желчный пузырь
+sardiinit	сардина
+sarvikuono	носорог
+sata	сто
+satama	бухта
+sateenkaari	радуга
+satunnainen saaste	загрязнение в результате аварии
+savi	глина
+savu	дым
+savukaasu, palokaasu, poistokaasu	отходящий газ
+savupiippu	труба
+savupiippujen liiallinen korkeus	чрезмерная высота труб
+savupiipun korkeus	высота трубы
+savusumu	смог
+savusumuvaroitus	предупреждение о смоге
+seaborgium	сиборгий
+sedimentologia	седиментология
+seepra	зебра
+seinä	стена
+seisminen aktiivisuus	сейсмическая активность
+sekalainen	сортированный
+sekalannoite, komposti	компост
+sekametsä	смешанный лес
+sekatuote	неоднородный продукт
+sekaviemäröinti	комбинированная сточная система
+sekoittaminen, sekoitus; seostuminen ; sekoittaminen ; sekoitus ; seostuminen	смешивание
+sekoittuvuus	способность к смешиванию
+seksologia	cексология
+sekstantti	секстант
+seleeni	селен
+selkeytysliete	осадочный ил
+selkäjänteiset	хордовые
+selkärangattomat	беспозвоночное
+selkärankaiset	позвоночные
+selleri	сельдерей
+selluloosa	целлюлоза
+selluloosateollisuus	целлюлозная промышленность
+sementin valmistus	производство цемента
+sementti	цемент
+sementtiteollisuus	цементная промышленность
+servetti ; lautasliina	салфетка
+seurannan kriteeri	критерий мониторинга
+seuranta	мониторинг
+seurantatekniikka	приемы мониторинга
+seurantatiedot	данные мониторинга
+seurantaverkko	сеть станций мониторинга
+seurantavälineet	оборудование для мониторинга
+seurata	быть внимательным
+seutukaava, alueellinen suunnitelma	региональный план
+sfinksi	сфинкс
+siemen	семя
+siemenkasvit	явнобрачное растение
+siemens	сименс
+sienet	мицеты
+sieni	гриб
+sieni	грибы
+sienieläimet	губки
+sienijuuri	микориза
+sienimyrkky, sienituhoaine	фунгицид
+sienitiede	микология
+sierain	ноздря
+siipikarja	птицеводство
+siipikarjan kasvatus	птицеводческое фермерское хозяйство
+siirtomaa	колония
+siirtotyövoima	мигрирующая рабочая сила
+siirtymäalkuaineet	переходный химический элемент
+siistaus, painovärin poisto	удаление типографской краски
+siitepöly	пыльца
+siivoaminen	расчистка
+sijoitus	инвестиция
+sikala	свиноводческое хозяйство
+sikari	сигара
+sikotauti	заушница
+silikoni ; pii	кремний
+silkki	шёлк
+silmä	глаз
+silmälasit	oчки
+silppurijäte	дезинтегратор отходов
+silta	мост
+siltti, muta, pohjalieju; liejuuntua, madaltua ; siltti ; muta ; pohjalieju ; liejuuntua ; madaltua	силт
+simpanssi	шимпанзе
+simpukanviljely	разведение моллюсков
+simpukka	моллюски и ракообразные
+simulointi, jäljittely	математическое моделирование
+sinfonia	симфония
+sinilevä	сине-зеленые водоросли
+sininen	синий ; голубой
+sinkki	цинк
+sipuli	лук
+sipulikasvien viljely	культивация луковиц
+sisäeritteinen	эндокринная система
+sisäeritysoppi	эндокринология
+sisävesi	внутренние водоемы
+sisävesien uimavesi	пресная вода, пригодная для купания
+sisävesikalastus	рыбная ловля на внутренних водоемах
+sisävesiliikenne	навигация по внутренним водным путям
+sisävesiliikenne	транспортировка по внутренним водным путям
+sisävesivarat	пресноводные ресурсы
+sisäympäristö	окружающая среда помещений
+sisäänvirtaus, tulva ; tulva ; sisäänvirtaus	приток воды
+sitruuna	лимон
+siviililentoliikenne	движение гражданского  воздушного транспорта
+siviilioikeus, yksityisoikeus ; siviilioikeus ; yksityisoikeus	гражданское право
+siviilisääty	семейное положение
+sivu	страница
+sivusaalis	сопутствующий улов
+sivutuote	сопутствующий продукт
+sivuvaikutus	побочный эффект
+skandium	скандий
+slovakki	словацкий
+sloveeni	словенский
+sodankäyntimateriaalin hävittäminen	утилизация материалов военного назначения
+soitin ; instrumentti	инструмент
+sokeri	сахар
+solu ; solu	клетка ; клетка
+soluelin	органоиды
+soluoppi	цитология
+sopeutumisaika	период адаптации
+sopimus	соглашение
+sopimus	контракт
+sopimus	международный договор
+sopimus	конвенция
+sora	гравий
+sorakuoppa, soranottopaikka	гравийный карьер
+sormi	палец
+sorptio	сорбция
+sorsalinnut	лебеди, гуси и утки
+sosiaalihuolto	социальное благосостояние
+sosiaalinen käyttäytyminen	социальное поведение
+sosiaalinen tutkimus	опрос общественного мнения
+sosiaalipsykologia	социальная психология
+sosiaaliryhmä	социальная группа
+sosiaalitieteet	общественная наука
+sosiaaliturva	социальная защита
+sosiologia	социология
+sota	война
+sotaharjoitusten aiheuttamat vahingot	ущерб от военных маневров
+sotilaallinen toiminta	военные действия
+sotilaalliset näkökohdat	военные аспекты
+sotilaalliset varusteet	военное оборудование
+sotilasalue	военная зона
+sotilaslentoliikenne	движение военного воздушного транспорта
+soveltava ekologia	прикладная экология
+soveltava ravitsemustiede	прикладная диететика
+soveltava tiede	прикладная наука
+soveltava tutkimus	прикладное исследование
+sterilointi	стерилизация
+steroidi	стероид
+strontium	стронций
+strutsi	страус
+substantiivi	имя существительное
+sudenkorennot	стрекоза
+suhdannekehitys	экономическая тенденция
+suisto	дельта реки
+sukellusvene	подводная лодка
+sukka	носок
+sukkulamadot	нематоды
+sukupuuttoon kuoleminen	исчезновение (экологическое) ; исчезновение
+sukupuuttoon kuollut laji	исчезнувшие виды
+sulaminen, sulatus ; sulaminen ; sulatus	таяние
+sulkeminen	закрытие
+summata	прибавить
+sumu	туман
+sumu ; usva, sumu, huuru ; usva ; huuru	дымка
+sunnuntai	воскресенье
+suodatin	фильтр
+suodatus, suodattaminen	фильтрация
+suodatuspuristuskakku	осадок на фильтре
+suoja hätätilanteen varalta	аварийное убежище
+suojausjärjestelmä	система экологической охраны
+suojeltava joensuualue	охраняемые территории эстуариев
+suojeltu laji	охраняемые виды
+suojeltu maisema	охраняемый ландшафт
+suojeltu rannikkoalue	охраняемая морская зона
+suojelu naapureilta	охрана от соседей
+suojelualue	заказник ; заповедник, заказник ; заповедник
+suojelualue ; suojelualue, rauhoitettu alue ; rauhoitettu alue	охраняемый район
+suojelupolitiikka	политика сохранения природных ресурсов
+suojelutoimenpide	предохранительная мера
+suolainen vesi	морская вода
+suolan poisto vedestä	опреснение воды
+suolanpoisto	опреснение
+suolanpoistolaitos	опреснительная установка
+suomen kieli ; suomi	финский
+suorasiipiset	прямокрылые
+suositus	рекомендация
+suotautuminen; imeytyminen	инфильтрация
+susi	волк
+suunnitelma	план
+suunnitelma suuronnettomuuksien varalta	чрезвычайный план на случай стихийного бедствия
+suunnittelu	планирование
+suuntaus ; suuntaus; suora linja ; suora linja	упорядочение
+suurehko onnettomuus	крупная авария
+suuren riskin sisältävä laitos	объект с высокой степенью риска
+suuri polttolaitos	крупный промышленный завод, работающий на основе сжигания топлива
+suuri riski	высокий уровень риска
+suurin sallittu pitoisuus	максимально допустимая концентрация
+suurjännitelinja	высоковольтная линия
+suurkasvi, makrofyytti	макрофит
+suurkaupunki	метрополия
+suurlähettiläs	посол
+suuronnettomuudet	стихийное бедствие
+suuronnettomuuksien ehkäisy	предупреждение стихийных бедствий
+suuronnettomuuksien puhdistustoimet	устранение последствий стихийного бедствия
+suuronnettomuuksien valvontapalvelu	служба по борьбе со стихийными бедствиями
+suurriista	крупное животное как объект охоты
+suurvahinko	катастрофа
+suuseksi ; oraaliseksi	оральный секс
+syanaatti	цианат
+syanidi	цианид
+sydän	сердце
+sydän ja verisuonet	сердечно-сосудистая система
+sydän- ja verisuonitauti	сердечно-сосудистое заболевание
+symbioosi	симбиоз
+synagoga	синагога
+syntaksi ; lauseoppi	синтаксис
+syntyvyyden säännöstely	контроль за рождаемостью
+sytotoksisuus	цитотоксичность
+syvennys; hammaskuoppa; mehiläiskenno ; syvennys ; hammaskuoppa ; mehiläiskenno	альвеола
+syyn ja seurauksen suhde	причинно-следственная взаимосвязь
+syyskuu	сентябрь
+syyttäminen	судебное преследование
+syödä	есть
+syöpä	рак
+syöpäriski	риск онкологического заболевания
+sähkö	электричество
+sähköajoneuvo	электромобиль
+sähköenergiahuolto	обеспечение электроэнергией
+sähköinen ilmoitustaulu	электронная доска объявлений
+sähköinen tietoverkko	электронная информационная сеть
+sähköjohto, sähköjohtolinja	линия электропередачи
+sähkökinetiikka	электрокинетика
+sähkölaitos	электростанция
+sähkömagnetismi	электродинамика
+sähkön tuottaminen	производство электроэнергии
+sähkön tuottamisen kustannukset	стоимость производства электроэнергии
+sähkönkulutus	потребление электричества
+sähköparisto	аккумулятор
+sähköposti	электронная почта
+sähkötalous	электроэнергетика
+sähkötavarateollisuus	производство электротехнических изделий
+sähkötekniikka	электротехника
+sähkötekninen teollisuus	электротехническая промышленность
+sähkötekniset varusteet	электротехническое оборудование
+sähköteollisuus	производство электроэнергии
+sähkövoima	сила тока
+sähköyhtiö	электроэнергетическая компания
+säiliö	контейнер
+säiliö, allas; tekojärvi; säiliökivilaji	водоем
+säiliöalus, tankkilaiva, tankkeri ; säiliöalus ; tankkilaiva ; tankkeri	танкер
+säiliöauto	грузовик для перевозки жидких грузов или газов
+säilyttäminen	сохранение
+säilyttää	заказник
+säilytysaine; kyllästysaine	консервант
+säkkipilli	волынка
+säteily ; säteily; säteilytys ; säteilytys	облучение
+säteily ; säteilyt	излучение ; радиация
+säteilyaltistus	воздействие радиации
+säteilyannos	доза радиации
+säteilyfysiikka	радиофизика
+säteilysairaus	лучевая болезнь
+säteilysuojelu, säteilysuojaus	защита от радиации
+säteilysuojelulainsäädäntö	законы в области защиты от радиации
+säteilyvaikutukset	эффект от радиации
+säteilyvaurio, säteilyvahinko	ущерб от радиации
+sää	погода
+säädä	приспособить
+sääilmiöt	метеорологический феномен
+säännös maanjäristysten vaikutusten vähentämiseksi	антисейсмические нормативы
+säätiede, ilmatiede	метеорология
+t  EY:n asetus ympäristönhallinnasta	постановление ЕС об экоменеджменте и аудите
+tadžikki	таджикский
+tahnamainen jäte	пастообразные отходы
+tai	или
+taide	искусство
+taimen	форель
+taimisto, taimitarha ; taimitarha ; taimisto	теплица (разведение растений) ; теплица
+taiteilija	артист
+taito; alus; voima-aggregaatti ; taito ; alus ; voima-aggregaatti	ремесло
+taivas	небо
+taksonomia, luokittelu	таксономия
+tallium	таллий
+taloudellinen analyysi	экономический анализ
+taloudellinen elinkelpoisuus	экономическая жизнеспособность
+taloudellinen hallintaväline	инструмент экономического управления
+taloudellinen kannustin	экономический стимул
+taloudellinen kasvu	экономический рост
+taloudellinen kehitys	экономическое развитие
+taloudellinen keskittyminen	рыночная концентрация
+taloudellinen kilpailu	экономическая конкуренция
+taloudellinen rakenne	экономическая структура
+taloudellinen tila, taloudellinen asema ; taloudellinen tila ; taloudellinen asema	экономическая ситуация
+taloudellinen toiminta	экономическая деятельность
+taloudellinen tuki	экономическая помощь
+taloudellinen väline	экономический инструмент
+taloudellis-ekologinen tehokkuus	экономико-экологическая эффективность
+taloudelliset oikeudet	экономические права
+taloudelliset suhteet ulkomaihin	внешние экономические связи
+taloudellisten ennusteiden tekeminen	экономическое прогнозирование
+talouden ala	экономический сектор
+talouksien vaikutus ympäristöön	воздействие быта на окружающую среду
+talous	семья
+talous ; talous; säästäväisyys ; säästäväisyys	экономика
+talousarvio	бюджет
+talousjärjestelmä	экономическая система
+talousjätevesi, asumisjätevesi	бытовые жидкие отходы
+talousjätteet, asumisjäte ; talousjätteet ; asumisjäte	бытовой мусор
+talousmaakunta	экономический регион
+talousmaantiede	экономическая география
+talouspolitiikka	экономическая политика
+talouspolttoöljy, paloöljytisle ; paloöljytisle ; talouspolttoöljy	бытовое жидкое топливо
+talousrakennus	сельскохозяйственное строение
+taloussuunnitelma, säästösuunnitelma	экономический план
+taloussuunnittelu	экономическое планирование
+taloutta koskevat tiedot	экономические данные
+talvehtiminen	зимовка
+talvi	зима
+tamili	тамильский
+tamma	кобыла
+tammet	дуб
+tammikuu	январь
+tanniini	танин
+tanska	датский
+tanssi	танец
+tanssisali	бальный зал
+tantaali	тантал
+tarhakäärmeet	змеи
+tarina	история
+tarjoilija	кельнер ; официант
+tarkastus	инспекция
+tarkastuspalvelu ; valvontapalvelu	инспекционная служба
+tarkkaavainen	внимательный
+tarkoituksenmukainen tekniikka	приемлемая технология
+tarttuva tauti	инфекционное заболевание
+tartunta, tartutus	инфекция
+tartuntatauti	инфекционные заболевания
+tarve	потребность, необходимость ; потребность ; необходимость
+tasainen lähde	неопределенный источник загрязнения
+tasalämpöinen eläin	теплокровное животное
+tasanko	равнина
+tasoitusmaksu, tasausmaksu	компенсационный налог
+tasoitustoimenpide	компенсационная мера
+tataari	tатарский ; татарский
+taudin syy	причина болезни
+taudit	болезнь
+taustakohina, taustamelu	фоновый шум
+taustasäteily	фоновый уровень радиации
+taustataso	фоновый уровень
+tautia aiheuttava mikrobi	патоген
+tautia aiheuttava organismi	патогенный организм
+tavanomainen energia	традиционный источник энергии
+tavaraluettelo; varasto, kokonaismäärä	опись
+tavarankuljetus	фрахтовый транспорт
+tavarat	товары
+tavarat ja palvelut	товары и услуги
+technetium	технеций
+tee	чай
+teesi, väite; väitöskirja	тезис
+tehdas, tuotantolaitos ; tehdas ; tuotantolaitos	промышленное предприятие (здание) ; промышленное предприятие
+tehdaslaitteet	промышленное оборудование
+tehdastuotanto, teollinen valmistus	промышленное производство
+tehdasvalmiste, teollisuustuote ; tehdasvalmiste ; teollisuustuote	промышленный продукт
+tehdä	делать ; сделать
+teho	мощность
+tehokarjanhoito	интенсивное животноводство
+tehokkuuden parantaminen	повышение эффективности
+tehokkuuden taso	уровень эффективности
+tehokkuuskriteeri	критерий эффективности
+tehoviljely	интенсивное фермерское хозяйство
+tehtaan varusteet	заводское оборудование
+tehtävä ; toimi	задача
+tekniikan arviointi	оценка технологии
+tekniikkia, teknologia ; tekniikkia ; teknologia	технология
+teknillinen viljelyskasvi	промышленная культура
+teknologian siirto	передача технологии
+tekojärvi	искусственное озеро
+tekokuu	искусственный спутник
+tekstiiliteollisuus	текстильная промышленность
+televisio	телевизор
+televisio	телевидение
+televisio-ohjelma	телевизионная программа
+telluuri	теллур
+teloittaja	палач
+telugu	телугу
+tennis	теннис
+teokratia	теократия
+teollinen materiaali	промышленный материал
+teollinen suunnittelu	промышленное планирование
+teollinen toiminta	промышленная деятельность
+teollinen valmistaminen	промышленное производство
+teollinen valmistus	производственная деятельность
+teollisoikeuksien suojelu	права на промышленную собственность
+teollistuminen, teollistaminen	индустриализация
+teollisuuden aiheuttama saastuminen	загрязнение от промышленной деятельности
+teollisuuden jätevesi, teollisuuspäästö	промышленные стоки
+teollisuuden vaikutus ympäristöön	воздействие промышленности на окружающую среду
+teollisuuden vyöhykejako	промышленное районирование
+teollisuuden ympäristöpolitiikka	промышленная политика в области окружающей среды
+teollisuus	промышленность
+teollisuus	торговля промышленными товарами и товарами производственного назначения
+teollisuusalue	промышленный район
+teollisuusalue	промышленная площадка
+teollisuusjoutomaa	заброшенная промышленная территория
+teollisuusjäte	промышленные отходы
+teollisuusjätevesi	сточные промышленные воды
+teollisuuskaatopaikka	сброс промышленного мусора
+teollisuuskasvi	техническая сельскохозяйственная культура
+teollisuuslainsäädäntö	законодательство, регулирующее деятельность промышленности
+teollisuuslaitos	промышленная установка
+teollisuuslaitosten sijainti	размещение предприятий
+teollisuusliete	промышленный отстой
+teollisuusliitto; elinkeinoyhdistys	промышленная ассоциация
+teollisuusmelu	промышленный шум
+teollisuuspolitiikka, elinkeinopolitiikka	промышленная политика
+teollisuusprosessit	промышленный процесс
+teollisuuspäästö	газообразные промышленные выбросы
+teollisuusrakennus	производственное здание
+teollisuustaloustiede, toimialatutkimus	экономика промышленности
+teollisuustuotantoa koskevat tilastot	статистика промышленного производства
+teollisuusyhteiskunta	промышленное общество
+teollisuusympäristö	промышленная среда
+teologia	богословие
+teratogeeni	тератоген
+terbium	тербий
+termiitit	термит
+terminologia	терминология
+termiset laitteet	тепловое оборудование
+termodynamiikka	термодинамика
+terracotta	терракота
+terveyden ja ympäristön suhde	взаимосвязь здоровья и окружающей среды
+terveydenhoito, -huolto	здравоохранение
+terveydenhoitoammatti	профессия в области здравоохранения
+terveydenhuoltolainsäädäntö	законодательство в области здравоохранения
+terveydentila	физические условия
+terveys	здоровье
+terveyspalvelu	учреждение здравоохранения
+terveyspalvelu	услуги здравоохранения
+terveysriski	опасность здоровью
+terveyteen liittyvä biotekniikka	биотехнология в области здоровья
+terveyttä koskeva määräys	нормативный документ в области здравоохранения
+teräs	сталь
+testosteroni	тестостерон
+teuraseläin	животные для забоя
+teurastaa	забивать
+teurastaja	мясник
+teurastamo	бойня
+teurastamo	скотобойня
+thai	тайский
+tie	дорога
+tie ; tie, tielinja; väylä; reitti ; tielinja ; väylä ; reitti	маршрут
+tie- ja vesirakennus	гражданское строительство
+tiede	наука
+tiedon infrastruktuuri	информационная инфраструктура
+tiedonhakupalvelu	справочное обслуживание
+tiedonhankinta	получение данных
+tiedonlähde	источник информации
+tiedonsaanti	доступ к информации
+tiedonsiirto	передача информации
+tiedonsiirtokeskus	обмен данными
+tiedonvaihto	обмен информацией
+tiedot ympäristön tilasta	данные о состоянии окружающей среды
+tiesuola	техническая соль
+tieteellinen tutkimus	научное исследование
+tieteellinen väittely	научный спор
+tieteellinen yhteistyö	научное сотрудничество
+tieteidenvälinen tutkimus	междисциплинарные исследования
+tietoisuus ympäristöasioista	осведомленность о состоянии окружающей среды
+tietojen analysointi	анализ данных
+tietojen tallennustekniikka	технология записи данных
+tietojenkäsittely	обработка данных
+tietojenkäsittely	обработка информации
+tietojenkäsittelyjärjestelmä	система обработка данных
+tietojenkäsittelylaki	закон в области обработки данных и информации
+tietojenkäsittelyoppi, informatiikka ; informatiikka ; tietojenkäsittelyoppi	информатика
+tietojärjestelmä	информационная система
+tietokanta	база данных
+tietokeskus	центр данных
+tietokeskus	центр анализа и синтеза информации
+tietoliikenne	телекоммуникация
+tietopaketti	подборка информации
+tietopalvelu	информационная услуга
+tietopalvelukeskus	центр документации
+tietopalvelukeskus	информационный центр
+tietosanakirja	энциклопедия
+tietosuoja	защита данных
+tietotekniikka	информационная технология
+tietotekniikkateollisuus	индустрия информационных технологий
+tietoverkko	информационная сеть
+tietoväline, tiedonsiirtoväline	носитель данных
+tieverkko	сеть автомобильных дорог
+tiheikkö	кустарниковые заросли
+tiheys	плотность
+tihkuvesi, vajovesi	фильтруемая вода
+tiikeri	игр ; тигр
+tiili	кирпич
+tiistai	вторник
+tiivisteen materiaali	гидроизоляционный материал
+tiivistys; lauhduttaminen ; tiivistys ; lauhduttaminen	конденсация (процесс) ; конденсация
+tiivistäminen	прессовка
+tilasto(t), tilastotiede	статистика
+tilintarkastus	аудит
+tina	олово
+tippuri	гонорея
+tislaus	дистилляция
+tislausjäte	барда
+titaani	титан
+titaanidioksidi, titaanivalkoinen ; titaanidioksidi ; titaanivalkoinen	диоксид титана
+todellisuus	realidade ; реальность
+todistaja	свидетель
+todisteiden säilyttäminen	сохранение доказательства
+tohveli	тапочки
+toimeksianto, tehtävä; valtakirja, valtuutus	мандат
+toimiala	отрасль хозяйственной или коммерческой деятельности
+toimilupa; myyntilupa ; toimilupa ; myyntilupa	концессия
+toimintaryhmä	группа активистов
+toimintatiedot	операционные данные или информация
+toimintatutkimus	анализ процессов
+toimisto, työhuone, virka ; virka ; toimisto ; työhuone	офис
+toimittaja ; journalisti	журналист
+toimiva aine	функциональность
+toistokäsittely, jälleenkäsittely ; toistokäsittely ; jälleenkäsittely	переработка ядерного топлива
+toivo	надежда
+toksikologia, myrkkyoppi ; toksikologia ; myrkkyoppi	токсикология
+toksinen metalli	токсичный металл
+tomaatti	помидор ; томат
+topologia	топология
+torakat ; torakka	таракан
+torium	торий
+torjua	предотвращать
+torjunta-ainejäämä	остаточное количество пестицидов
+torjunta-ainevalvonnan normi	стандарты контроля за пестицидами
+torpedo	торпеда
+torstai	четверг
+torvi ; vaskitorvi	труба
+totuus	правда
+toukokuu	май
+trajektoria; liikerata, ammuksen rata	траектория
+trigonometria	тригонометрия
+tritium	тритий
+trooppinen kasvi	тропическое растение
+trooppinen metsä	тропический лес
+trooppinen sademetsä	тропический дождевой лес
+tropiikki	тропики
+tuhat	тысяча
+tuhka	зола
+tuhkaksi polttaminen, (jätteiden) poltto	сжигание
+tuhkakuppi	пепельница
+tuholaiset	вредитель
+tuholaismyrkky, torjunta-aine	пестицид
+tuholaismyrkkyjen pysyvyys	инерция пестицидов
+tuholaismyrkkyjen vuorovaikutus	взаимодействие пестицидов
+tuholaisten aiheuttama ruuan pilaantuminen	инвазия продуктов питания
+tuholaisten hävittäminen kasveista	фитосанитарная обработка
+tuholaistorjunta	контроль за вредителями
+tuholaisvaiva	инвазия вредителей
+tuhopoltto	поджог
+tukahduttaminen; hillintä; sorto	репрессия
+tukipolitiikka	политика в области экономической помощи
+tukkimetsä	строевой лес
+tulenarka tuote, helposti syttyvä tuote	горючий продукт
+tulenkestävä aine	негорючий реагент
+tuli	огонь
+tulium	тулий
+tulivuorenpurkaus	извержение вулкана
+tulivuori	вулкан
+tulkintamenetelmä	метод интерпретации
+tulli	таможенные сборы
+tullimääräys	таможенный нормативный документ
+tullitariffi, tullitaksa ; tullitariffi ; tullitaksa	таможенный тариф
+tulot	доход
+tulovero	подоходный налог
+tulppaani	тюльпан
+tulva	наводнение
+tulvaennuste	прогноз наводнения
+tulvasuojelu	защита от наводнений
+tulvasuojelu, tulvien torjunta	борьба с наводнениями
+tulvasuojeluallas	водохранилище
+tulviminen	затопление
+tundra	тундра
+tunneli	тоннель
+tunti	час
+tuoda	принести
+tuoli ; istuin	стул
+tuomio	приговор
+tuomioistuimiin pääsy	доступ к судебным органам
+tuomioistuin	суд
+tuonti	импорт
+tuontilupa, tuontilisenssi	импортная лицензия
+tuore vihannes	зеленый овощ
+tuotantopolitiikka	политика в области производства
+tuotantorakenne	структура промышленности
+tuotantotekijämarkkinat	рыночный фактор
+tuotemainonta	реклама товаров
+tuotestandardi	стандарт на продукт
+tuotetunnistus	идентификация продуктов
+tuotevastuu	ответственность за использование продукта
+tuotevertailu	сравнение продуктов
+tuottajan suorittama kompostointi	компостирование производителем
+tuottajan vastuu	ответственность производителя
+tuottavuuden kehityssuunta	тенденция производства
+tuottavuus	производительность
+tuotteen arviointi	оценка продуктов
+tuotteen hinta maatilalla	закупочная цена
+tuotteet	продукт
+tuotteita koskevat tiedot	информация о продукте
+tuotto	доход
+tupakka	табак
+tupakka ; savuke	сигарета ; папироса
+tupakointi	курение
+turbiini	турбина
+turkiseläin	пушной зверь
+turkiskauppa; turkikset	торговля пушниной
+turkki	турецкий
+turkki	мех
+turpeenkaivu, turpeenpoisto	добыча торфа
+turvallisuus	безопасность
+turve	торф
+tutka	радар
+tutkija	учёный
+tutkimus	исследование ; исследования
+tutkimus ympäristövaikutuksista	подготовка экологического обоснования проекта
+tutkimus; tunnustelu; etsintä	геологическая разведка
+tutkimushanke	исследовательский проект
+tutkimuskeskus	исследовательский центр
+tutkimuspolitiikka	политика в области научных исследований
+tuuletus, ilmanvaihto ; tuuletus ; ilmanvaihto	вентиляция
+tuuli	ветер
+tuulimylly	ветряная мельница
+tuulivoima	энергия ветра
+tyhjä	пустой
+typen kiertokulku	азотный цикл
+typen t. nitraattien poistaminen t. poistuminen	денитрификация
+typpi	азот
+typpidioksidi	диоксид азота
+typpilannoite	азотное удобрение
+typpimonoksidi	оксид азота
+typpioksidi	оксид азота
+typpioksidit	оксиды азота
+tyrmistyttävä	поразительный
+tyrmistyttää	поражать
+työ ympäristönsuojelussa	профессия, связанная с вопросами окружающей среды
+työ; työvoima ; työvoima ; työ	труд
+työllisyyden rakenne	структура занятости
+työllisyys	занятость
+työllisyys ja ympäristö	занятость и окружающая среда
+työlääketiede	производственная медицина
+työlääketiede	профессиональная медицина
+työmarkkinasuhteet	трудовые отношения
+työmarkkinat	рынок труда
+työntövoimatekniikka	двигательная технология
+työoikeus	трудовое право
+työonnettomuus	авария на производстве
+työpaikka	рабочее место
+työssä käyvä väestö	экономически активное население
+työterveydenhuolto	профессиональное здравоохранение
+työterveys	профессиональная гигиена
+työttömyys	безработица
+työturvallisuus	профессиональная техника  безопасности
+työturvallisuus, työsuojelu	техника безопасности на производстве
+työturvallisuusmääräys	нормативный документ в области техники безопасности
+työvoima	рабочая сила
+tähti	звезда
+tähtitiede	астрономия
+tärkkelys	крахмал
+täysi	полный
+täyteaine	наполнитель
+tšekki	чешский
+tšetšeeni	чеченский
+tšuvassi	чувашский язык ; чувашский
+uhanalainen eläinlaji	исчезающие виды животных
+uhanalainen kasvilaji	исчезающие виды растений
+uhanalaisten lajien luokka	исчезающий вид
+uhraus	жертва
+uimaranta	пляж
+uimarantojen puhdistus	очистка побережья
+uimavesi	водоемы для купания
+ukkonen ; jyrinä ; ykkosen jyrinä	гром
+ukkosmyrsky	гроза
+ukraina	украинский
+ulkoisten kustannusten internalisointi	внутренний экономический учет возможного экологического ущерба
+ulkomaankauppa	внешняя торговля
+ulkomainen ; vierasmaalainen	иностранный
+ulkopolitiikka	внешняя политика
+ulkotila	внешнее пространство
+ullakko	чердак
+ulostebakteerit	фекальная бактерия
+ultraviolettisäteily	ультрафиолетовое излучение
+uneksia	спать
+unessa	спящий
+uni	сон
+unihäiriö	нарушение сна
+unkari	венгерский
+ununbium	унунбий
+ununheksium	унунгексий
+ununkvadium	унунквадий
+ununoktium	унуноктий
+ununpentium	унунпентий
+ununseptium	унунсептий
+ununtrium	унунтрий
+uraani	уран
+urdu	урду
+urheilu	спорт
+uros ; sonni ; härkä	бык
+uskalias	отважный
+uskonto	религия
+uudelleenmajoitus	ремонт и строительство жилых домов
+uudismuodoste ; uudissana	неологизм
+uudisraivaus	мелиорация земель
+uudistus, uusi keksintö tai tapa ; uudistus ; uusi keksintö tai tapa	инновация
+uuni	печь
+uuni	техническая печь
+uuni ; uuni; kasvihuone; ilman esikuumennin ; kasvihuone ; ilman esikuumennin	печь
+uusi	новый
+uusi laitos	новая установка
+uusi materiaali	новый материал
+uusi teknologia	новая технология
+uusi yhteisö	новое сообщество
+uusiopaperi	бумага из отходов
+uusiutumattomat energiavarat	невозобновляемый источник энергии
+uusiutumattomat luonnonvarat	невозобновляемый ресурс
+uusiutuva energianlähde	возобновляемый источник энергии
+uusiutuva raaka-aine	возобновляемый сырьевой материал
+uusiutuvat luonnonvarat	возобновляемый ресурс
+uusivuosi	Новый год
+uusjako, tilusten sijoitus	укрупнение земель
+uutis-, tiedotuslehti ; tiedotuslehti ; uutislehti	информационный бюллетень
+uuttaminen; tukinajo; malmin louhiminen ; uuttaminen ; tukinajo ; malmin louhiminen	добыча
+uutto; suotoliukeneminen, eluutio ; uutto ; suotoliukeneminen ; eluutio	выщелачивание
+uuttokattila; mädätyssäiliö ; uuttokattila ; mädätyssäiliö	автоклав
+vaahdotus; flotaatio	флотация
+vaahdotusaine; solustusaine	пенообразующее вещество
+vaara-analyysi	анализ опасности
+vaarallinen aine	опасное вещество
+vaarallinen alue	район, подверженный риску
+vaarallinen kaatopaikka	свалка опасных отходов
+vaarallinen laitos	опасный объект
+vaarallinen tavara, vaaralliset aineet	опасные товары
+vaarallinen työskentelymateriaali	опасный рабочий материал
+vaarallisen aineen kuljetus	транспортировка опасных материалов
+vaaralliset jätteet	опасные отходы
+vaarallisia aineita koskeva lainsäädäntö	законодательство, регулирующее обращение с загрязняющими веществами
+vaarallista tavaraa koskeva laki	законы в области использования опасных товаров
+vaarallista tavaraa koskeva määräys	правила обращения с опасными товарами
+vaarallisten kemikaalien vienti	экспорт опасных химических веществ
+vaaran ennakointi	ожидание опасности
+vaarasta ilmoittaminen	обмен информацией по рискам
+vaarat	опасность
+vaatetus	одежда
+vaatetusteollisuus	производство одежды
+vaativa	трудный
+vaelluskala	мигрирующая рыба
+vahingon arviointi	оценка ущерба
+vahingon ehkäiseminen	предотвращение ущерба
+vahingon minimointi	минимизация ущерба
+vahingonkorvaus	компенсация ущерба
+vahinko	ущерб
+vahinkovakuutus	страхование от ущерба
+vaihtoehtoinen materiaali	альтернативный материал
+vaihtoehtoinen tekniikka	альтернативная технология
+vaikeasti käsiteltävä jäte	крупногабаритные мусор и отходы
+vaikeasti käsiteltävä jäte	отходы, плохо поддающиеся переработке
+vaikutuksen arviointi	оценка воздействия, экологическая экспертиза
+vaikutuksen ehkäisy	предотвращение отрицательного воздействия на окружающую среду
+vaikutuksen lähteet	источник отрицательного воздействия
+vaikutuksen minimointi	минимизация отрицательного воздействия
+vaikutuksen suunnanmuutos	обратное воздействие
+vaikutukset	эффект (воздействие) ; эффект
+vaikutus ihmiseen	воздействие на человека
+vaikutus terveyteen	воздействие на здоровье
+vaikutus työllisyyden tasoon	эффект от уровня занятости
+vaikutus ympäristöön	воздействие на окружающую среду ; последствия для окружающей среды
+vaikutus ympäristöön	последствия для окружающей среды
+vaikutusten tutkimus	исследование последствий
+vaimo ; aviovaimo	жена
+vaippa	подгузник
+vakuuttaa	утверждать
+vakuutus	страхование
+vakuutuskate, vastuukate	действие страховки
+vakuutusmaksu	страховая премия
+vakuutustoiminta	страховой бизнес
+valaanpyynti	китобойный промысел
+valaat	кит
+valaat	китовые
+valaistus	освещение
+valekuristustauti	спазмодический круп
+valintamyymälä	супермаркет
+valkaisuaine	отбеливающий реагент
+valkaisumenetelmä	процесс отбеливания
+valkaisusavi, valkaisumaa ; valkaisumaa ; valkaisusavi	отбеливающая глина
+valkoinen	белый
+valkovenäjä	белорусский
+vallankaappaus	путч ; государственный переворот
+valmisruoka	обработанный продукт питания
+valmistalo, elementtirakennus	блочное здание
+valmius suuronnettomuuksien varalle	готовность к стихийным бедствиям
+valmiussuunnitelma	план на случай чрезвычайной ситуации
+valo	свет
+valohajoaminen	фоторазложение
+valoisuus; valoteho; värin kirkkaus ; valoisuus ; valoteho ; värin kirkkaus	освещенность
+valokemiallinen reaktio	фотохимическая реакция
+valokuva	фотография
+valokuvaus	фотография
+valtakunnansuunnittelu	национальное планирование
+valtameren hyväksikäyttö	эксплуатация ресурсов океана
+valtameren ja ilman kohtaamisalue	граница между воздухом и поверхностью океана
+valtameri	океан
+valtameri-ilmasto	морской климат
+valtatie	шоссе
+valtimo	артерия
+valtio	государство
+valtion maa	сектор бесплатных услуг
+valtion raja	национальная граница
+valtion t. julkinen talous, finanssioppi	государственные финансы
+valtion tilaus	государственный контракт
+valtion velka	государственный долг
+valtionapu, tuotantopalkkio, avustus ; valtionapu ; tuotantopalkkio ; avustus	субсидия
+valtionlainan kuoletuksen ja korkojen hoito	обслуживание долга (фин.-экон.)
+valtuuslaki	регулятивный закон
+valuma-allas, sadealue, vesialue	водосбор
+valuma-alue	поле течения
+valuma-alue	паводковый сток
+valuma-alue ; vedenjakaja ; vedenjakaja; valuma-alue	водораздел
+valutusjärjestelmä	дебит реки
+valutuskenttä	поля аэрации
+valuutta	валюта
+valuuttapolitiikka	торговая политика
+valuuttasuhteet, rahasuhteet	валютно-финансовые отношения
+valvoja	служитель
+valvontatoimenpide	меры контроля
+valvotun metsästyksen vyöhyke	регионы разрешенной охоты
+valvova viranomainen	контролирующие полномочия
+vamma	повреждение
+vamma ; haava	рана
+vammainen henkilö	неполноценный человек
+vanadiini, vanadium ; vanadiini	ванадий
+vandalismi	вандализм
+vanha kerrostuma	заброшенная мусорная яма
+vanha laitos	завод с устаревшим оборудованием
+vanha saastunut alue	заброшенная площадка, представляющая опасность для окружающей среды
+vanhentunut	устаревший
+vankiloita koskeva laki	закон, регламентирующий работу тюрем
+vapaa-aika	время отдыха
+vapaa-ajan keskus	центр досуга и отдыха
+vapaa-ajan toiminta	отдых
+vapaakauppa	свободная торговля
+vapaus	свобода
+vapauttaminen, vapautuminen	эмансипация
+varainhoito, taloushallinto	управление финансами
+varastaa ; ryövätä	краcть
+varastossa pitäminen	пополнение запасов
+varmentaminen, vahvistus	сертификация
+varmistua	устанавливать
+varoitusjärjestelmä	система раннего оповещения
+varojen arviointi	оценка ресурса
+varojen suojelu	сохранение ресурсов
+varokeino tulen varalta	мера пожарной безопасности
+varotoimi, suojatoimenpide ; varotoimi ; suojatoimenpide	мера безопасности
+varovaisuusperiaate	принцип предосторожности
+varusteet	оборудование
+varusteet ; varusteet; kiinteä varustus ; kiinteä varustus	санитарно-техническое оборудование
+varvas	палец
+vasta-aine	антитело
+vastakkaisuus; vihamielisyys ; vastakkaisuus ; vihamielisyys	антагонизм
+vastalause	возражение
+vastustus	сопротивление (биологическое) ; сопротивление
+vastuu saastuttamisesta	ответственность за загрязнение
+vastuu, velvoite	ответственность
+vastuuta koskeva lainsäädäntö	законы, регулирующие ответственность
+vatti, vuorovesivyöhyke	илистый участок
+veden ekosysteemi	водная экосистема
+veden jäännösmäärä	остаточное количество воды
+veden kaasuttaminen	аэрация воды
+veden kiertokulku luonnossa	гидрологический цикл
+veden käsittely	водоподготовка
+veden suolapitoisuuden kasvu	засоление воды
+veden virtaus	расчет гидрологического потока
+veden virtausta koskeva tutkimus ja mittaus	гидрометрия
+vedenpinta, vedenkorkeus; vesivaaka	уровень воды
+vedensaanti, vedenjakelu, vedenhankinta	водоснабжение
+vedessä elävä imettäväinen	водное млекопитающее
+vedet	воды
+veitsi	нож
+vektori; tartunnanlevittäjä ; vektori ; tartunnanlevittäjä	вектор
+vektorin rasteri	преобразование растрового изображения в векторное
+velka	долг
+veloittaa	дебетовать
+veneily	лодочный спорт
+venesatama	шлюпочная гавань
+venäjä	русский ; russo
+verbi	глагол
+veren lyijypitoisuus	уровень свинца в крови
+veri	кровь
+veriplasma	плазма крови
+vero	налог
+veronkanto; kantaa veroja ; veronkanto ; kantaa veroja	сбор
+vertaileva koe	сравнительный тест
+vertailu	сравнение
+vesi	вода
+vesiekologia	экология водной среды
+vesieläin	водное животное
+vesiensuojelulainsäädäntö	законодательство по вопросам охраны водных ресурсов
+vesijohto	акведук
+vesikaivo	колодец
+vesikasvi	водное растение
+vesikehä, hydrosfääri	гидросфера
+vesikirput	водяная блоха
+vesikustannukset	стоимость водоснабжения
+vesilintu, vesilinnut	водоплавающие
+vesimylly	водяная мельница
+vesiorganismi	водный организм
+vesipumppu	водяной насос
+vesirakennustekniikka	строительство гидросооружений
+vesistötiede, limnologia ; vesistötiede ; limnologia	лимнология
+vesisäiliö	водоем
+vesitasapaino	биологический баланс воды
+vesitase	гидрологический баланс
+vesitiede, hydrologia	гидрология
+vesivarat	водный ресурс
+vesiviljely	гидрокультура
+vesiviljely; kalanviljely	аквакультура
+vesivoima	энергия ГЭС
+vesivoimalaitos	гидроэлектростанция
+vesiympäristö	водная среда
+veteraani	ветеран
+vetoeläin	рабочий скот
+veturi	локомотив
+vety	водород
+vetysulfidi, rikkivety	сероводород
+vienti	экспорт
+vientilupa	экспортная лицензия
+viestintäpolitiikka	политика в области средств связи
+viestintäteollisuus	индустрия связи
+vietnamin ; vietnam	вьетнамский
+vihannes	овощ
+vihantalannoite	трава как удобрение
+viheralue	"зеленое" пространство
+vihollinen	враг ; противник
+vihreä käytävä	"зеленый" коридор
+vihreä liike, ekologinen liike	движение экологов
+vihreä vallankumous	"зеленая" революция
+viini	вино
+viinirypäle	виноградина
+viinitarha ; viiniviljelmä	виноградник
+viisi	пять
+viitetiedot	справочная информация
+viitetietojärjestelmä	справочная информационная система
+viittomakielet	язык жестов
+viivalähde, viivasäteilijä	линейный источник
+vika	разлом
+viljavuus	плодородие почвы
+viljelemätön maa-alue	участки земли под паром
+viljely	культивация
+viljelyjärjestelmä	система культивации
+viljelykasvien käsittely	обработка сельскохозяйственных культур химикатами
+viljelymenetelmä	метод культивации
+viljelyskasvi	культивируемое растение
+viljelysmaa, maatalousmaa	сельскохозяйственные угодья
+villa	шерсть
+vioi	сливочное масло
+virallinen kieli	официальный язык ; государственный язык
+virallinen kuuleminen	официальное слушание
+viranomainen	орган власти
+virkatehtävä, virkavelvollisuus ; virkatehtävä ; virkavelvollisuus	официальная обязанность
+virkavaltaistuminen	бюрократизация
+virkistys	отдых
+virkistysalue, ulkoilualue	зона отдыха
+virkistystoiminnan vaikutus ympäristöön	воздействие индустрии отдыха на окружающую среду
+viro	эстонский ; Эстонский
+virologia, virustutkimus ; virologia ; virustutkimus	вирусология
+virta, läpivirtaus(määrä); vuoksi	течение
+virtaava vesi	потоки воды
+virtsa	моча
+virukset	вирус
+viskoosisuus, sitkaus, sitkaisuus, sitko	вязкость
+vismutti	висмут
+vitakasvit	Najadales, триостренник ; триостренник
+vitamiini	витамин
+voikukka	одуванчик
+voimaanpanolaki	законы, регулирующие реализацию
+voimalaitoksen alentaminen luokituksessa	отключение электростанции
+voimalaitos, voimala	электростанция
+voimavarojen käyttö	использование ресурсов
+voimayhtiö	электрическая компания
+voiteluaine	смазка
+voitto	доход
+vokaali	гласный звук
+volapük	волапюк
+volframi	вольфрам
+vulkanismi, vulkaaniset ilmiöt ; vulkanismi ; vulkaaniset ilmiöt	вулканический процесс
+vulkanointi, vulkkaus ; vulkanointi ; vulkkaus	вулканизация
+vuode ; peti ; sänky	кровать ; постель
+vuodenaika	сезон ; время года
+vuokraus, vuokraoikeus, vuokra-aika ; vuokraus ; vuokraoikeus ; vuokra-aika	аренда
+vuori	гора
+vuorijono	горный хребет
+vuoristoalueiden hallinta	управление горными районами
+vuoristoalueiden suojelu	охрана гор
+vuoristoilmasto	горный климат
+vuoristometsä	горный лес
+vuoristoseutu	горный район
+vuoristossa sijaitseva turistikohde	горный курорт
+vuoristotiede	орография
+vuoroveden kuljettamat levälautat	"зеленый" прилив
+vuorovesi	приливная вода
+vuorovesialue, rantavyöhyke	зона приливов и отливов
+vuorovesivoimalaitos	электростанция, работающая на энергии прилива ; электростанция на энергии прилива ; работающая на энергии прилива
+vuoroviljely	ротация сельскохозяйственных культур
+vuosipäivä	годовщина
+vuoto; suodanta ; vuoto ; suodanta	протечка
+väestö	население
+väestön koostumus	состав населения
+väestön maantieteellinen jakautuminen	географическое распределение населения
+väestönkasvu	рост населения
+väestönlaskenta	перепись населения
+väestönsuojelu	гражданская оборона
+väestörakenne	структура населения
+väestörakenteen kehitys	демографическое развитие
+väestörakenteen kehitys	демографическая эволюция
+väestötiede	демография
+vähemmistö	меньшинство
+vähennys	химическое восстановление
+vähän aikaa	ненадолго
+väkiluvun ja väestörakenteen kehitys	тенденция численности населения
+väliliha	промежность
+välineiden, instrumenttien valmistus	производство инструментов
+välineistö, varustaminen tarvittavilla kojeilla	оснащение контрольно-измерительными приборами и средствами
+välipäätös	промежуточное решение
+välissä ; keskellä	между ; посреди
+välituote, puolivalmiste	полуфабрикаты
+välitön aiheuttaja	прямой выброс
+väri ; väri ; väri	цвет ; цвет ; цвет
+värin koostumus	комбинированное цветное изображение
+värjätä, väriaine ; värjätä ; väriaine	краситель
+walloo	валлонский
+wiki	вики
+www	Всемирная сеть
+ydinase	ядерное оружие
+ydinenergia	ядерная энергия
+ydinenergialainsäädäntö	законодательство в области ядерной энергетики
+ydinenergian käyttö	использование ядерной энергии
+ydinfysiikka	ядерная физика
+ydinkoe	ядерное испытание
+ydinonnettomuuden vaara	опасность ядерной аварии
+ydinonnettomuus	ядерная авария
+ydinpolttoaine	ядерное топливо
+ydinpolttoaine-elementti	элемент ядерного топлива
+ydinreaktio	ядерная реакция
+ydinreaktori	ядерный реактор
+ydinsulautuma, ydinfuusio ; ydinsulautuma ; ydinfuusio	ядерный синтез
+ydintekninen turvallisuus	ядерная безопасность
+ydinvahingon vaara	ядерный риск
+ydinvoimala	атомная электростанция
+ydinvoimalaitos	ядерный объект
+ydinvoiman tutkimuskeskus	центр ядерных исследований
+ydinvoimasta käytävä keskustelu	дебаты по вопросам использования ядерной энергии
+yhdessä	вместе
+yhdistelmä-DNA-tekniikka; rekombinaatiotekniikka	технология на основе рекомбинантной ДНК
+yhdistetty jätevesi	смешанные сточные воды
+yhdistetty kuljetus	комбинированные перевозки
+yhdistys	ассоциация
+yhdistäminen; yhtiöittäminen ; yhdistäminen ; yhtiöittäminen	объединение
+yhdyskuntajäte	городские отходы
+yhteenlasku	сложение
+yhteensopivuus ympäristön kanssa	совместимость с условиями окружающей среды
+yhteinen hallinta	интегрированный менеджмент
+yhteinen jäteveden käsittely	очистка объединенных стоков
+yhteinen kauppapolitiikka	единая политика в области коммерческой деятельности
+yhteinen maatalouspolitiikka	"Единая сельскохозяйственная политика" ; Единая сельскохозяйственная политика
+yhteinen saastumisen torjunta	интегрированная система контроля за загрязнением окружающей среды
+yhteinen toteuttaminen	совместное исполнение
+yhteinen tuholaisten torjunta	интегрированная система контроля за вредителями
+yhteinen tullipolitiikka	единая тарифная политика
+yhteiskunnan päätös	решение Сообщества
+yhteiskunta	общество
+yhteiskunta maksaa -periaate	принцип "сообщество платит"
+yhteistyö	сотрудничество
+yhteistyöperiaate	принцип сотрудничества
+yhteistyöpolitiikka	политика сотрудничества
+yhteisvaikutus	комбинированный эффект (биол.)
+yhteisvelallinen, velalliskumppani	коллективный должник
+yhteisön oikeusjärjestelmä	правовая система ЕС
+yhteisön raha-asiat	финансы ЕС
+yhteisön säädös	закон ЕС
+yhteisön talousarvio	бюджет Сообщества
+yhteisöoikeus	законы Сообщества
+yhtenäinen luonnonsuojelualue	комплексный природный заповедник
+yhteyttää	усваивать
+yhtiö	организация бизнеса
+yhtäläistyminen; yhteyttäminen ; yhtäläistyminen ; yhteyttäminen	ассимиляция
+yhtälö	уравнение
+ykkönen ; yksi	единица
+yksi	один
+yksilöliikenne	частный транспорт
+yksilöllinen jätehuolto	индивидуальная система очистки стоков
+yksilönkehitys, ontogenia ; yksilönkehitys ; ontogenia	онтогенез ; онтогенез
+yksittäisten liikeyritysten tavoitteet	цель деятельности хозяйствующей единицы
+yksityinen hallinta-alue	сектор платных товаров и услуг
+yksityinen sektori	частный сектор
+yksityisauto, henkilöauto	частный автомобиль
+yksityismetsä	предприятие лесного хозяйства
+yksityismetsä	частный лес
+yksityisoikeus, siviilioikeus	частное право
+yksityistalous	личное домашнее хозяйство
+yksityistäminen	приватизация
+yleinen	общее
+yleinen hallinto-ohje	приказ общего административного характера
+yleinen kemia	общая химия
+yleinen kylpylä	общественная баня
+yleinen merialue	государственное морское судоходство
+yleinen mielipide	общественное мнение
+yleinen osanotto	участие общественности
+yleinen puisto	общественный парк
+yleinen pääsy maalle	общественное землепользование
+yleinen sääntö, yhteinen sääntö	общее соглашение
+yleinen turvallisuus	гражданская оборона
+yleinen vesitiealue	водные пути в государственной собственности
+yleisen syyttäjän virasto	прокуратура
+yleishyödyllinen yritystoiminta	предприятие коммунального хозяйства
+yleishyödyllisyyden julistus	объявление предприятием общественного назначения
+yleissivistävä koulutus	общее образование
+yleistä hyödyllisyyttä koskeva tutkimus	запрос по поводу общественной полезности
+ylikansoitus	перенаселенность
+ylikuormittaa; irtomaa	вскрыша
+ylimenopaikka	дорожный переход
+ylimenopaikka eläimille, riistasilta	места для перехода животных
+ylin kohta, huippukohta ; ylin kohta ; huippukohta	кульминация
+yliopisto ; yliopisto	университет ; университет
+yliopistotason koulutus	высшее образование
+ylipaino	ожирение
+ylivuotokanava	водослив
+yllättää ; hämmästyttää	удивлять
+ympäristö	окружающая среда
+ympäristöanalyysi	экологический анализ
+ympäristöarvioinnin kriteeri	критерий оценки состояния окружающей среды
+ympäristöarviointi	оценка состояния окружающей среды
+ympäristöetiikka	экологическая этика
+ympäristöhallintolaitos	административное учреждение, занимающееся вопросами окружающей среды ; административное учреждение ; занимающееся вопросами окружающей среды
+ympäristöindeksi	указатель публикаций на тему охраны окружающей среды
+ympäristöindikaattori	показатели состояния окружающей среды
+ympäristöinvestointi	инвестиции в области охраны окружающей среды
+ympäristökannustin	экономические стимулы к природоохранной деятельности
+ympäristökansalaisuus	экологически ответственная гражданская позиция
+ympäristökasvatus	экологическое образование
+ympäristökemia	химия окружающей среды
+ympäristökemikaaleja koskeva lainsäädäntö	законодательство в области влияния химикатов на окружающую среду
+ympäristökertomus	доклад о состоянии окружающей среды
+ympäristökirjanpito	финансовая оценка экологических проблем
+ympäristökoulutus	подготовка специалистов по вопросам охраны окружающей среды
+ympäristökriteeri	критерий окружающей среды
+ympäristökulttuuri	культура по отношению к окружающей среде
+ympäristökustannukset	природоохранные затраты
+ympäristölainsäädännön täytäntöönpano	приведение в исполнение законов в области охраны окружающей среды
+ympäristölainsäädäntö	право в области охраны окружающей среды
+ympäristölainsäädäntö	законодательство в области охраны окружающей среды
+ympäristölainsäädäntöprosessi	законодательный процесс в области охраны окружающей среды
+ympäristölausunto (ympäristöauditointi) ; ympäristölausunto ; ympäristöauditointi	заключение по состоянию окружающей среды (экоаудит) ; заключение по состоянию окружающей среды ; экоаудит
+ympäristölle haitallinen yritys	фирма, загрязняющая окружающую среду
+ympäristölle vaarallinen aine	вещество, опасное для окружающей среды
+ympäristölle ystävällinen	дружественный по отношению к окружающей среде
+ympäristölle ystävällinen johtaminen	экологически ответственный менеджмент
+ympäristölle ystävälliset hankinnat	закупки, не наносящие ущерба окружающей среде
+ympäristölupa	экологическое лицензирование
+ympäristölääketiede	экологическая медицина
+ympäristömarkkinat	рынок товаров и услуг, связанных с охраной окружающей среды
+ympäristömelu	природный шум
+ympäristömerkintä	экологическая маркировка
+ympäristömerkki	экоэтикетка
+ympäristömuutos	изменение окружающей среды
+ympäristön havainnointi	восприятие окружающей среды
+ympäristön historia	экологическая хронология
+ympäristön hoito	менеджмент в области охраны окружающей среды
+ympäristön kantokyky	экологическая емкость
+ympäristön kehitys	экологическое развитие
+ympäristön kemikaalit	химические вещества в окружающей среде
+ympäristön käsite	экологическая концепция
+ympäristön laadun arviointiperuste	критерий качества окружающей среды
+ympäristön laadun heikkeneminen	вырождение окружающей среды
+ympäristön laadun osoitin	показатель качества окружающей среды
+ympäristön laatu	качество окружающей среды
+ympäristön laatua koskeva normi	стандарт на качество окружающей среды
+ympäristön laatua koskeva tavoite	качественный показатель состояния окружающей среды
+ympäristön saastuminen	загрязнение окружающей среды
+ympäristön suhteen vastuullinen käyttäytyminen	поведение, ответственное по отношению к окружающей среде
+ympäristön taloudellinen arviointi	экономическая оценка природоохранной деятельности
+ympäristön terveysvaikutusten arviointi	оценка степени воздействия на здоровье населения
+ympäristön tilaa koskeva kertomus	отчет о состоянии окружающей среды
+ympäristön turvallisuus	экологическая безопасность
+ympäristön ylläpito	сохранение окружающей среды
+ympäristönseuranta	мониторинг в области охраны окружающей среды
+ympäristönsuojelu	охрана окружающей среды
+ympäristönsuojelu	контроль за состоянием окружающей среды
+ympäristönsuojelu	защита окружающей среды
+ympäristönsuojelu	контроль за загрязнением
+ympäristönsuojelu yrityksessä	охрана окружающей среды на предприятии
+ympäristönsuojelujärjestö	учреждение в области охраны окружающей среды
+ympäristönsuojelukustannukset	расходы на охрану окружающей среды
+ympäristönsuojelumääräys	приказ, касающийся охраны окружающей среды
+ympäristönsuojelussa tarvittavat laitteet	оборудование для контроля за загрязнением
+ympäristönsuojelusääntö	нормативный документ в области охраны окружающей среды
+ympäristönsuojelutekniikka	технология, защищающая окружающую среду
+ympäristönsuojelutekniikka	технология для осуществления контроля за загрязнением
+ympäristönsuojelutoimenpide	меры по контролю за уровнем загрязнения
+ympäristönsuojeluvirasto	агентство по защите окружающей среды
+ympäristönsuojeluyhdistys	ассоциация по защите окружающей среды
+ympäristönsuunnittelu	планирование в области охраны окружающей среды
+ympäristönsuunnittelu, ympäristöarkkitehtuuri	экологически устойчивая архитектура
+ympäristöntutkimus	исследования по вопросам окружающей среды
+ympäristönäytepankki	банк образцов природных элементов
+ympäristöohjelma	экологическая программа
+ympäristöongelmien ratkaiseminen	решение экологических проблем
+ympäristöonnettomuus	экологическая авария
+ympäristöopetus	экологическое обучение
+ympäristöpolitiikan väline	инструмент политики по охране окружающей среды
+ympäristöpolitiikka	политика в области охраны окружающей среды ; экологическая политика
+ympäristöpsykologia	экологическая психология
+ympäristöpörssi	торговля экологически чистыми товарами
+ympäristörahasto	финансовые средства на охрану окружающей среды
+ympäristörikkomus	нарушение норм в отношении окружающей среды
+ympäristörikoksia koskeva lainsäädäntö	право, регулирующее экологические преступления
+ympäristörikollisuus	экологические преступления
+ympäristörikos	экологическое преступление
+ympäristöriski	экологический риск
+ympäristöriskien arviointi	оценка экологического риска
+ympäristösodankäynti	экологическая война
+ympäristösuunnitelma	план по охране окружающей среды
+ympäristötalous	экономика окружающей среды
+ympäristötalousasiat	вопрос экономики окружающей среды
+ympäristötekniikka	средства и методы охраны окружающей среды
+ympäristötekniikka	экологичная технология
+ympäristöteollisuus	промышленность, имеющая отношение к охране окружающей среды
+ympäristöterminologia	терминология в области экологии
+ympäristöterveydensuojelu	охрана санитарного состояния окружающей среды
+ympäristöterveys	санитарное состояние окружающей среды
+ympäristöterveysvaara	отрицательные факторы, влияющие на окружающую среду и здоровье человека
+ympäristötiede	наука об окружающей среде
+ympäristötieto	информация об окружающей среде
+ympäristötietoisuus, ympäristöliike	экологический принцип
+ympäristötietojenkäsittely	информатика в области охраны окружающей среды
+ympäristötietojärjestelmä	информационная система по вопросам окружающей среды
+ympäristötietoverkko	информационная сеть по вопросам окружающей среды
+ympäristötilasto	экологическая статистика
+ympäristötuki	субсидия на экологию
+ympäristötutkimus	аналитический обзор в области окружающей среды
+ympäristövaara	экологическая угроза
+ympäristövahinko	ущерб, нанесенный окружающей среде
+ympäristövaikutus	воздействие на окружающую среду
+ympäristövaikutusten arviointi	экологическая экспертиза (местн.)
+ympäristövaikutusten arviointi	оценка воздействия на окружающую среду, экологическая экспертиза
+ympäristövaikutusten arviointiohje	директива ЕС по экологической экспертизе
+ympäristövaikutusten arviointiselostus	заключение экологической экспертизы
+ympäristövaikutusten tarkastus	проведение экологической ревизии
+ympäristövalmiussuunnitelma	разработка планов действий при экологических авариях
+ympäristöyritys	экологическое учреждение
+ympäristöä koskevat tiedot	данные о состоянии окружающей среды
+ympäristöä säästävä tuote	экологически чистый продукт
+ympäristöön kertyvä epäpuhtaus	бионакопительное загрязняющее вещество
+ympäristöön liittyvä sairaus	болезни, обусловленные воздействием окружающей среды ; обусловленные воздействием окружающей среды
+ympäristöön liittyvä vastuu	экологическая ответственность
+ympäristöön rikastuva tekijä	биоконцентрирующий фактор
+yrittäjä	предприниматель
+yrityksen sulkeminen	закрытие фирмы
+yritykset	фирма
+yrityspolitiikka	политика компании
+yritysrakenne	структура компании
+yritysten ympäristötalous	экологичная экономика частных компаний
+ytterbium	иттербий
+yttrium	иттрий
+zirkonium	цирконий
+zoonoosi	зооноз
+zulu	зулу ; зулусский
+äkillinen	вдруг ; неожиданный
+äyriäiseläimet	ракообразные
+äänen mittaus	измерение уровня звука
+äänenvaimennus, meluntorjunta	снижение уровня шума
+äänestys	голосование
+ääni	звук
+äänieristys	звукоизоляция
+äänieristys	акустический комфорт
+äänisuodatin	акустический фильтр
+äänitaso	уровень звука
+ääntämys ; ääntäminen	произношение
+öljylautta	нефтяная пленка
+öljyn pohjasakka	сточная вода маслобоен, производящих оливковое масло
+öljyn uuttaminen	добыча нефти
+öljynetsintä	разведка нефти
+öljynjalostamo	нефтеперерабатывающий завод
+öljynjäännösten talteenotto	рекуперация нефтяных остатков
+öljynkeruualus	нефтесборное судно
+öljynkulutus	потребление нефти
+öljynporaus	бурение нефтяных скважин
+öljyntuotanto	производство нефти
+öljypohjainen energia	производство энергии, базирующееся на переработке нефти
+öljypuomi	боновое заграждение
+öljyputki	нефтепровод
+öljysaaste	нефтяное загрязнение
+öljysaasteen torjunta	уменьшение нефтяного загрязнения
+öljytankkeri	нефтяной танкер
+öljyteollisuus	нефтяная промышленность
+öljyvahinko	авария, связанная с разливом нефти ; связанная с разливом нефти ; авария с разливом нефти
+öljyvahinko, öljypäästö	разлив нефти
+öljyyn pohjautuva kemikaali, petrokemikaali	нефтехимический продукт
+öljyä sitova aine	нефтесвязующее вещество
+öly- ja rasvateollisuus	производство пищевого масла и жиров
