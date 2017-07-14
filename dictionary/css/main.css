@@ -11,8 +11,7 @@ body>div{padding:0;xmargin:auto;xbackground:#eee;position:absolute;top:0;left:0;
     top:0px;
     position: absolute;
     line-height:16px;
-    
-    
+    color:#fff;
 }
 
 #clear_btn:before {
@@ -24,7 +23,7 @@ body>div{padding:0;xmargin:auto;xbackground:#eee;position:absolute;top:0;left:0;
     margin: 22px;
     display: block;
     background:#999;
-    color:white;
+    color:#fff !important;
     border-radius: 50%;
 }
 
