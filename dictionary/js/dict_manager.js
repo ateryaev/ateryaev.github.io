@@ -61,7 +61,7 @@ function DictMan(dict) {
     this.findFirstIdx = function(tofind) {
         if (tofind=="") return 0;
         tofind = nrm(tofind);
-        console.log("FINDING:"+tofind)
+        //console.log("FINDING:"+tofind)
         var idx0 = 0;
         var idx1 = len-1;
         var idx = Math.floor(idx1/2);
@@ -82,16 +82,16 @@ function DictMan(dict) {
             if (idx==idx0) idx = idx1;
             
             cmp = compare(tofind, this.getWordFrom(idx));
-            console.log("find "+tofind+" ", idx0, idx, idx1);
+            //console.log("find "+tofind+" ", idx0, idx, idx1);
             if (i > 50) break;
             i++;
         }
         
-        console.log("find "+tofind+" in "+i+" steps ", idx, len);
+        //console.log("find "+tofind+" in "+i+" steps ", idx, len);
         //return 0;
         //console.log(dict[idx][1], tofind, dict[idx][1].startsWith(tofind));
         if (!nrm((this.getWordFrom(idx))).startsWith(tofind)) {
-            console.log("NOTHING?");
+            //console.log("NOTHING?");
             //return len;
             return this.findFirstIdx(tofind.substr(0,tofind.length-1));
         }

@@ -5,81 +5,59 @@ body>div{padding:0;xmargin:auto;xbackground:#eee;position:absolute;top:0;left:0;
 * {font-family:Helvetica,tahoma;font-size:15px;}
 * {box-sizing:border-box;}
 
-i.fa {display: block;
-    line-height:60px;
-    width:60px;
-    text-align: center;
-    #background: red;
-    padding:0;
-    margin: 0;
-    font-size:15px;
+#clear_btn {
+    display: block;
+    right:0px;
+    top:0px;
     position: absolute;
+    line-height:16px;
+    
+    
 }
+
+#clear_btn:before {
+    font-size:11px;
+    content: "\2716";
+    font-style: normal;
+    text-align: center;
+    width:16px;
+    margin: 22px;
+    display: block;
+    background:#999;
+    color:white;
+    border-radius: 50%;
+}
+
+#load_next {
+    text-align: center;
+}
+
+#load_next:before {
+    text-align: center;
+    content: '\22EF';
+    color: #999;
+}
+
 #result {
-    xmargin-top: 60px;
     overflow-y:auto;
     -webkit-overflow-scrolling: touch;
     position:fixed;
     top:60px;left:0;right:0;bottom:0;
 }
 
-#result>div>div, #load_next, #load_prev {
-    xmargin-left: 40px;
+#result>div>div, #load_next {
     padding: 10px 20px;
-    xpadding-right:10px;
     line-height: 20px;
-    xborder-bottom:1px solid #ddd;
-    #border-left: 3px solid rgba(0,0,0,0.05);
-    #border-right: 3px solid rgba(0,0,0,0.05);
-
-
 }
  
 #result>div>div.notmatch{
     background: #eee;
     color: #999;
 }
-#load_next b, #load_prev b {
-    color: #999;
-}
-#load_next.pressed b, #load_prev.pressed b{
-    color: #000;
-}
-
-#load_next, #load_prev {
-    border: 0px;
-}
-#result>div>div:nth-child(odd) {
-    xbackground: rgba(0,0,0,0.05);
-    #border-left: 3px solid rgba(0,0,0,0.1);
-    #border-right: 3px solid rgba(0,0,0,0.1);
-    xpadding-left:15px;
-
-}
-#result>div>div>i.fa {
-    display: none;
-    xbackground: red;
-    right:0;
-    margin-top: -50px;
-    display: none;    
-}
-#result>div>div>i.fa.star {display: none;}
-#result>div>div>i.fa { display: inline-block;}
-
-#result>div>div.star>i.fa {display: none;}
-#result>div>div.star>i.fa.star { display: inline-block;}
 
 
 #result>div>div>span {
     display: block;
-    xwidth: calc(50% - 40px);
-    xoutline: 1px solid red;
-    xbackground: #000;
-    xpadding: 10px;
-    xline-height: 20px;
-    margin-right: 50px;
-    xmargin-top: 0px;
-    xborder-left:2px solid gray;
 }
 
 input[type=text] {
@@ -94,11 +72,10 @@ input[type=text] {
     line-height:26px;
     width:calc(100% - 20px);
     border: 2px solid #acf;
-    xbox-shadow:none !important;
 
 }
+
 input[type=text]:focus, input[type=text]:active, input[type=text].focused {
     border: 2px solid #8ac;
     outline: 0px solid #888;
-
 }

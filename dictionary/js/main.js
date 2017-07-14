@@ -1,4 +1,5 @@
 var dictman = new DictMan(DICT);
+var STORAGE_KEY = "DICTIONARY_STORAGE_KEY_INPUT_VALUE";
 
 function onStarClick(o) {
     var now = o.parentElement.className;
@@ -6,11 +7,17 @@ function onStarClick(o) {
     return false;
 }
 
+function loadInputValue() {
+    if (!window.localStorage || !window.localStorage.getItem(STORAGE_KEY)) return "";
+    return window.localStorage.getItem(STORAGE_KEY);
+}
+function saveInputValue(val) {
+    if (!window.localStorage || !window.localStorage.setItem) return;
+    window.localStorage.setItem(STORAGE_KEY, val);
+}
+
 window.onload = function() {
     var load_next = window.document.querySelector("#load_next");
-    var load_prev = window.document.querySelector("#load_prev");
-    load_prev.style.display="none";
-    
     var clear_btn = window.document.querySelector("#clear_btn");
     var all = window.document.querySelector("#all");
     var result = window.document.querySelector("#result");
@@ -31,8 +38,7 @@ window.onload = function() {
         } else {
             item0 = "<u>"+(item0.substr(0,tofind.length))+"</u>"+item0.substr(tofind.length)
         }
-        //txt = "<span>"+item0+"</span><span ><i>"+item1+"</i></span>"
-        d.innerHTML = "<span>"+item0+"</span><span ><i>"+item1+"</i></span>";
+        d.innerHTML = "<span>"+item0+"</span><span><i>"+item1+"</i></span>";
         all.appendChild(d);
     }
     
@@ -44,12 +50,11 @@ window.onload = function() {
     }
     
     function refresh(str) {
-        tofind = str;//tofind.toLowerCase();
+        tofind = str;
         all.innerHTML = "";
         var first = dictman.findFirstIdx(tofind);
         start_idx = first;
         num_of_records = 0;
-        console.log("FIRST MATCH OF "+tofind+": "+first)
         showMaxFromIdx(first, tofind);
     }
     
@@ -70,6 +75,7 @@ window.onload = function() {
     }
 
     input.oninput = function() {
+        saveInputValue(input.value);
         var val = input.value.trim();
         refresh(val)
         result.scrollTop = 0;
@@ -77,15 +83,12 @@ window.onload = function() {
     }
 
     window.document.querySelector("form").onsubmit = function() {
-        console.log("submit")
+        //console.log("submit")
         input.blur();
         return false;
     }
-    input.value = ""
+    input.value = loadInputValue();
     input.oninput();
-    //ontouchstart='this.focus()'
-    //input.onclick = function(e) {e.preventDefault();}
-    //input.onmousedown = function(e) {e.preventDefault();}
     
     clear_btn.ontouchend = clear_btn.onmouseup = function() {
         input.value = "";

@@ -1,46 +1,33 @@
 <!DOCTYPE html>
-<html>
-<title>Dictionary</title>
+<html manifest="dictionary.manifest>
+
+<title>Suomi - Русский</title>
+<link rel="apple-touch-icon" href="icon144.png">
+<link rel="icon" sizes="144x144" href="icon144.png">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
-<!--meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/-->
 <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 <meta name="apple-touch-fullscreen" content="yes"/>
 <meta name="format-detection" content="telephone=no"/>
 <meta name="touch-fullscreen" content="yes"/>
 
-<link rel="stylesheet" href="./css/font-awesome.min.css">
 <link href="./css/main.css" rel="stylesheet"/>
 <script src="./js/dict.js"></script>
 <script src="./js/dict_manager.js"></script>
 <script src="./js/main.js"></script>
 
-    
 <body>
-    <div id="webapp_content" style="">
-        <div style="background:#acf;position:fixed;height:60px;left:0;right:0;top:0px;xborder-bottom:1px solid #eee;z-index:2;">
-            <!--i class="fa fa-bars" style="position:absolute;right:0px;top:0px;"></i-->
-            <i id="clear_btn" class="fa fa-times-circle" style="position:absolute;
-                                        xbackground:red;
-                                         right:0px;
-                                         width:60px;
-                                         top:1px;
-                                         color:#999;"></i>
-            <form><input type="text" placeholder="suomi - русский"
-                   autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/></form>
-            
+    <div id="webapp_content">
+        <div style="background:#acf;position:fixed;height:60px;left:0;right:0;top:0px;z-index:2;">
+            <form><input type="text" placeholder="suomi - русский" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/></form>
+            <i id="clear_btn"></i>
         </div>
         <div id="result" style="">
-            <div id="load_prev" style=text-align:center;>
-                <b class='fa fa-sort-up'></b>
-            </div>
-            <div id="fav"></div>
             <div id="all"></div>
-            <div id="load_next" style=text-align:center;>
-                <b class='fa fa-angle-down'></b>
-            </div>
+            <div id="load_next"></div>
         </div>
     </div>
 </body>
+
 </html>
