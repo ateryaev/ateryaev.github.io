@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html manifest="">
+
+<title>BUKANO</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=2.0, minimum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<script src="js/utils.js?"></script>
+<script src="js/model.js?"></script>
+<script src="js/ui.js?"></script>
+<script src="js/divafw.js?"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+
+<style>
+  body {padding:0;margin:0;background:#8ac;}
+  div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
+  div.view.scroll { z-index:-1;}
+  * {font-family:'Roboto Condensed',sans-serif;box-sizing:border-box;}
+  input,input:active {-webkit-appearance:none;appearance:none;width:100%;border:0px;outline:0px;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);}
+</style>
+
+<script>
+
+var M = new Model();
+
+window.onload = function() {
+
+    {
+        var deviceWidth = Math.round(document.documentElement.clientWidth);
+        var deviceHeight = Math.round(document.documentElement.clientHeight);
+        if (Math.min(deviceWidth,deviceHeight)>640) {
+            document.querySelector("meta[name=viewport]").content = "initial-scale=2, user-scalable=no,maximum-scale=2.0";
+        }
+    }
+
+    var timer = null;
+    var login, sendPlayReq, showGame;
+    var wnd = [];
+  
+
+    function switchWnd(wndname) {
+        for(var w in wnd) { AFW.removeChild(wnd[w]); }
+        AFW.appendChild(wnd[wndname]);
+        return wnd[wndname];
+    }
+    
+    /////////// WINDOWS ///////////////
+
+    function showError(msg, action) {
+        window.clearTimeout(timer);
+        var w = switchWnd("error");
+        w.setError(msg);
+        w.setAction(action);
+    }
+
+    function showResults() {
+        switchWnd("result").sync();
+        if (M.isWaiting()) {
+            timer = window.setTimeout(sendResultReq, 2000);
+        }
+    }
+
+    function showGame() {
+        window.clearTimeout(timer);
+        switchWnd("game");
+    }
+
+    function showLogin() {
+        window.clearTimeout(timer);
+        var w = switchWnd("login");
+        w.focus();
+        return w;
+    }
+
+    function showLoading() {
+        window.clearTimeout(timer);
+        switchWnd("loading")
+    }
+
+    /////////// SENDERS ///////////////
+
+    function login(sender) {
+        var isSameLoginInModel = (sender.getLogin() == M.getUserName());
+
+        if (!M.needSignUp() && isSameLoginInModel) {
+            sendResultReq();
+        }
+        else {
+            sendUserCreate(sender);
+        }
+    }
+
+    function sendUserCreate(sender) {
+        var isTooShort = sender.getLogin().length<3;
+        if (isTooShort) {
+            var generatedName = "Guest" + (Math.round(Math.random()*10000));
+            sender.setLogin(generatedName);
+            showError("USE 3+ NUMS OR LETTERS FOR NAME", showLogin);
+            return;
+        }
+        showLoading();
+        RestApi.get(["user", sender.getLogin()], handleUserCreate);
+    }
+
+    function sendResultReq() {
+        RestApi.get(["result",M.getUserId()], handlePlayResp);
+    }
+
+    function sendPlayReq(choice) {
+        showLoading();
+        RestApi.get(["play",M.getUserId(),choice], handlePlayResp);
+    }
+    
+    /////////// HANDLERS ///////////////
+    
+    function handleUserCreate(json) {
+        if (!json || !json.status) json = {status:"UNKNOWN ERROR"};
+        switch (json.status) {
+            case "NETWORK ERROR":
+            case "UNKNOWN ERROR":
+                showError(json.status, showLogin);
+                break;
+            case "OK":
+                M.reset();
+                M.setUserId(json.userid);
+                showResults();
+                break;
+        }
+    }
+    
+    function handlePlayResp(json) {
+        if (!json || !json.status) json = {status:"UNKNOWN ERROR"};
+
+        switch (json.status) {
+            case "LOGIN ERROR":
+                M.reset();
+                showError(json.status, showLogin);
+                break;
+            case "UNKNOWN ERROR":
+                showError(json.status, showResults);
+                break;
+            case "OK":
+                M.setResults(json.results);
+                showResults();
+                break;
+            case "ALREADY PLAYING ERROR":
+                M.setResults(json.results);
+                showError(json.status, showResults);
+                break;
+        }
+    }
+  
+  
+    wnd = {
+        login:   new WindowLogin(login),
+        error:   new WindowError(),
+        loading: new WindowLoading(),
+        game:    new WindowGamePlay(sendPlayReq),
+        result:  new WindowResult(showGame)
+    };
+  
+    showLogin().setLogin(M.getUserName());
+
+} //onload
+
+</script>
+
+<body>
+<div id="viewport" style="position:fixed;top:0;left:0;bottom:0;right:0;"></div>
+</body>
+
+</html>
