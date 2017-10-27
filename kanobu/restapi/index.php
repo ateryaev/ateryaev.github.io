@@ -2,6 +2,8 @@
 require '../../Slim/Slim.php';
 \Slim\Slim::registerAutoloader();
 
+header('Access-Control-Allow-Origin: *'); 
+
 $db = new SQLite3('game.db');
 createDB();
 

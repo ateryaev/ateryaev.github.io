@@ -9,7 +9,7 @@ var RestApi = new function() {
     this.get = function (args, okHandler, errorHandler) {
         
         var xhr = new XMLHttpRequest();
-        var url = "restapi";//http://localhost:999/";
+        var url = "https://ahotoha.000webhostapp.com/kanobu/restapi";
         
         for (var param of args) url += "/"+param;
         LOG("RestApi.get "+url);
