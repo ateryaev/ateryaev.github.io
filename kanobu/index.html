@@ -87,6 +87,7 @@ window.onload = function() {
         var isSameLoginInModel = (sender.getLogin() == M.getUserName());
 
         if (!M.needSignUp() && isSameLoginInModel) {
+            showLoading();
             sendResultReq();
         }
         else {
