@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html manifest="">
+
+<title>JSRUN</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, user-scalable=0">
+    <!--maximum-scale=2.0, minimum-scale=1.0-->
+<meta name="format-detection" content="telephone=no">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<script src="js/utils.js"></script>
+<script src="js/example.js"></script>
+<script src="js/runner.js"></script>
+<script src="js/afw.js"></script>
+<script src="js/afw.textarea.js"></script>
+
+<style>
+html,body {padding:0;margin:0;background:#000;height:100%;overflow-y:scroll;-webkit-overflow-scrolling: touch;}
+div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
+div.view.scroll { z-index:-1;}
+* {box-sizing:border-box;font:18px monospace;}
+textarea,input,input:active {-webkit-appearance:none;appearance:none;width:100%;border:0px;outline:0px;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);border:0;border-radius:0}
+svg{display:block;margin:0;padding:0;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing:border-box;}
+textarea {width:100%;height:100%;display:block;padding:5px 10px;}
+</style>
+
+<script>
+
+var JsRunButton = function(bounds, txt, act) {
+    var fg = bounds.color?bounds.color:"#fff";
+    var bg = bounds.background?bounds.background:"#000";
+
+    var lbl_txt = new AFW.Label({top:0,right:0,left:0,bottom:0,color:fg}, txt);
+
+    this.setColors = function(pbg,pfg) {
+        bg = pbg;
+        fg = pfg;
+        this.setBackground(bg);lbl_txt.setForeground(fg);
+    }
+    
+    AFW.Button.call(this, bounds, act, 
+                    function() {this.setBackground(fg);lbl_txt.setForeground(bg);}, 
+                    function() {this.setBackground(bg);lbl_txt.setForeground(fg);});
+    this.appendChild(lbl_txt);
+
+    this.getTxt = function() {return txt;}
+
+    this.activate = function() {
+        this.setActive(true);
+        this.setBackground(bg);
+        lbl_txt.setForeground(fg);
+    }.bind(this);
+
+    this.deactivate = function() {
+        this.setActive(false);
+        this.setBackground("#ddd");
+        lbl_txt.setForeground("#fff");
+    }.bind(this);
+
+    this.activate();
+}
+
+var JSRUN = {};
+    
+function loadState() {
+    JSRUN = getLocalStorageValue("JSRUN");
+    if (!JSRUN) {
+        JSRUN = {outIsOn:true, programmText: programms,currentProgramm:0}
+    }
+    JSRUN.programmText[0] = example; //always the same
+    console.log(JSRUN)
+}
+    
+loadState();
+    
+    
+window.onload = function() {
+    AFW.default.fontSize="auto";
+    
+    var btnW = 60;
+    
+    var view_logo = new AFW.Label({top:0,left:0,width:60,height:60,background:"#000",color:"#440",font:"italic bold 32px arial"},"JS");
+    var view_print = new AFW.Textarea({bottom:0,top:0,right:0,left:60,top:"50%",background:"#ddd",xborder:"10px solid white"});
+    var btn_run = new JsRunButton( {right:0,top:0,width:btnW,height:60,margin:0,background:"green",color:"#fff"}, "RUN", run);
+    var btn_out = new JsRunButton( {left:0,bottom:0,width:btnW,height:60,margin:0,background:"#ddd",color:"#000", borderRight:"1px dotted rgba(0,0,0,0.2)"}, "OUT", toggleOut);
+    var view_code_out = new AFW.View({top:60,left:60, right:0,bottom:0});
+    var view_wrappers = new AFW.View({top:0,height:60,left:60,right:60});
+
+    
+    view_print.setReadonly(true);
+   
+    wrappers = ['"_"', '(_)', '{_}', '[_]', 'for(i=0;i<10;i++){\n  _\n}', 'if ( _ ) {\n  \n}', '=', '!', '>', '<', '+', '/', '*', ';','.'];
+	  view_wrappers.getHtmlDiv().style.overflow="hidden";
+    
+    for (i in wrappers) {
+        var btn = new JsRunButton( {left:i*btnW,top:0,width:btnW,height:60,background:"#000", color:"#faa"}, wrappers[i].substr(0,3).replace("_",""), wrap);
+        btn.wrapper = wrappers[i];
+        view_wrappers.appendChild(btn);
+    }
+    
+    
+    var tab = [];
+    var tabsToShow = 6;
+    
+    for(var i=0;i<tabsToShow;i++) {
+        var t = {};
+        var isLastTab = (i==tabsToShow-1);
+        var btnTxt = isLastTab?"??":("0"+(i+1));
+        var txtPrg = isLastTab?JSRUN.programmText[0]:JSRUN.programmText[i+1];
+        var btnStyle = {left:0,top:60+60*i,width:btnW,height:60,margin:0,background:"#fff",color:"#4a4",borderRight:"1px dotted rgba(0,0,0,0.2)"};
+
+        t.btn = new JsRunButton(btnStyle, btnTxt, switchTab);
+        t.btn.tabIndex = i;
+        
+        t.txt = new AFW.Textarea({top:0,left:0,right:0,bottom:0,background:"#fff"});
+        t.txt.title = btnTxt;
+        t.txt.setValue(txtPrg);
+        t.txt.scrollTop();
+        t.txt.onblur = function() {AFW.removeChild(view_wrappers);}
+        t.txt.onfocus = function() {AFW.appendChild(view_wrappers);}
+        view_code_out.appendChild(t.txt);
+        tab[i] = t;
+        AFW.appendChild(t.btn);
+    }
+    
+    
+    
+    
+    AFW.appendChild(view_code_out);
+    AFW.appendChild(btn_run);
+    AFW.appendChild(btn_out);
+    AFW.appendChild(view_logo);
+
+    function saveState() {
+        for(var i=0;i<tabsToShow-1;i++) {
+            JSRUN.programmText[i+1] = tab[i].txt.getValue();
+        }
+        setLocalStorageValue("JSRUN", JSRUN);
+    }
+    
+    function currentEditor() {
+        return tab[JSRUN.currentProgramm].txt;
+    }
+    
+    function switchTab(sender) {
+        JSRUN.currentProgramm = sender.tabIndex;
+        var nofTabs = tab.length;
+        for(var i=0;i<nofTabs;i++) {
+            if (i==JSRUN.currentProgramm) continue;
+            tab[i].btn.setColors("#000", "#4a4");
+            view_code_out.removeChild(tab[i].txt);
+        }
+        
+        tab[JSRUN.currentProgramm].btn.setColors("#fff", "#4a4");
+        view_code_out.appendChild(tab[JSRUN.currentProgramm].txt);
+        tab[JSRUN.currentProgramm].txt.focus();
+    }
+    
+    function toggleOut() {
+        if (!JSRUN.outIsOn) {
+            activateOut();
+        } else {
+            deactivateOut()
+        }
+    }
+    
+    function activateOut() {
+        btn_out.setColors("#ddd", "#000");
+        AFW.appendChild(view_print);
+        view_code_out.applyStyles({bottom:"49.9%"});
+        view_print.scrollBottom();
+        JSRUN.outIsOn = true;
+        tab[JSRUN.currentProgramm].txt.focus();
+    }
+    
+    function deactivateOut() {
+        btn_out.setColors("#000","#ddd");
+        AFW.removeChild(view_print);
+        view_code_out.applyStyles({bottom:0})
+        JSRUN.outIsOn = false;
+    }
+    
+    switchTab(tab[JSRUN.currentProgramm].btn);
+
+    toggleOut();toggleOut();
+    
+    
+    RUNNER_ENV.appendToLog = function(txt) {view_print.setValue(view_print.getValue()+txt+"\n");}
+    RUNNER_ENV.clearLog = function() {view_print.setValue("");RUNNER_ENV.appendToLog("=== START "+currentEditor().title + " ===");}
+    
+    var running= false;
+    function run() {
+        if (running) return;
+        saveState();
+        running = true;
+        activateOut();
+        RUNNER_ENV.clearLog();
+        
+        window.setTimeout( function() {
+            RUN(currentEditor().getValue());
+            RUNNER_ENV.appendToLog("==== END "+currentEditor().title +" ====");
+            view_print.scrollBottom();
+            running= false;
+        }, 200);
+    }
+    
+    function wrap(sender) {
+        if (sender.wrapper.split("_").length==2)
+            currentEditor().wrapAtCaret(sender.wrapper.split("_")[0], sender.wrapper.split("_")[1]);   
+        else
+            currentEditor().wrapAtCaret(sender.wrapper, "");   
+    }
+    
+
+} //onload
+</script>
+
+<body>
+<div id="viewport" style="position:fixed;top:0;left:0;bottom:0;right:0;"></div>
+</body>
+
+</html>
