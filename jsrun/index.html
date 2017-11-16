@@ -66,7 +66,7 @@ var JSRUN = {};
 function loadState() {
     JSRUN = getLocalStorageValue("JSRUN");
     if (!JSRUN) {
-        JSRUN = {outIsOn:true, programmText: programms,currentProgramm:0}
+        JSRUN = {outIsOn:false,programmText:programms,currentProgramm:0}
     }
     JSRUN.programmText[0] = example; //always the same
     console.log(JSRUN)
@@ -183,7 +183,8 @@ window.onload = function() {
     
     switchTab(tab[JSRUN.currentProgramm].btn);
 
-    toggleOut();toggleOut();
+    //toggleOut();toggleOut();
+    deactivateOut()
     
     
     RUNNER_ENV.appendToLog = function(txt) {view_print.setValue(view_print.getValue()+txt+"\n");}
