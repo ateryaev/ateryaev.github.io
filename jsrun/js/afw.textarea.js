@@ -12,7 +12,7 @@ AFW.Textarea = function(p_styles, p_oninput) {
     htmlTextarea.autocomplete="off";
     htmlTextarea.autocorrect="off";
     htmlTextarea.autocapitalize="off";
-    htmlTextarea.spellcheck="false";
+    htmlTextarea.spellcheck=false;
     
     htmlTextarea.style.display="block";
     htmlTextarea.style.width="100%";
