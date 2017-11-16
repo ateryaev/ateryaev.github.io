@@ -9,9 +9,9 @@ AFW.Textarea = function(p_styles, p_oninput) {
     //getCodeElement().onblur = function() {AFW.removeChild(view_wrappers);}
     //getCodeElement().onfocus = function() {AFW.appendChild(view_wrappers);}
     
-    htmlTextarea.autocomplete="off";
-    htmlTextarea.autocorrect="off";
-    htmlTextarea.autocapitalize="off";
+    htmlTextarea.autocomplete=false;
+    htmlTextarea.autocorrect=false;
+    htmlTextarea.autocapitalize="none";
     htmlTextarea.spellcheck=false;
     
     htmlTextarea.style.display="block";
