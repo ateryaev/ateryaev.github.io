@@ -90,7 +90,7 @@ window.onload = function() {
     
     view_print.setReadonly(true);
    
-    wrappers = ['"_"', '(_)', '{_}', '[_]', 'for(i=0;i<10;i++){\n  _\n}', 'if ( _ ) {\n  \n}', '=', '!', '>', '<', '+', '/', '*', ';','.'];
+    wrappers = ['"_"', '(_)', '{_}', '[_]', 'for(i=0;i<10;i++){\n  _\n}', 'if ( 2 > 1 ) {\n  _\n}', '=', '!', '>', '<', '+', '/', '*', ';','.'];
 	  view_wrappers.getHtmlDiv().style.overflow="hidden";
     
     for (i in wrappers) {
@@ -183,12 +183,28 @@ window.onload = function() {
     
     switchTab(tab[JSRUN.currentProgramm].btn);
 
-    //toggleOut();toggleOut();
     deactivateOut()
     
     
-    RUNNER_ENV.appendToLog = function(txt) {view_print.setValue(view_print.getValue()+txt+"\n");}
-    RUNNER_ENV.clearLog = function() {view_print.setValue("");RUNNER_ENV.appendToLog("=== START "+currentEditor().title + " ===");}
+    ////////////////////
+    var prints = [];
+    
+    //RUNNER_ENV.appendToLog = function(txt) {view_print.setValue(view_print.getValue()+txt+"\n");}
+    //RUNNER_ENV.clearLog = function() {view_print.setValue("");RUNNER_ENV.appendToLog("=== START "+currentEditor().title + " ===");}
+    
+    RUNNER_ENV.appendToLog = function(txt) {prints.push(txt);}
+    RUNNER_ENV.clearLog = function() {prints = [];view_print.setValue("=== START "+currentEditor().title + " ===\n");}
+    
+    function flushPrints() {
+        var txt = prints.shift();
+        if (txt) {
+            view_print.setValue(txt+"\n"+view_print.getValue());
+            view_print.scrollTop();
+            //view_print.setValue(""+view_print.getValue()+txt+"\n");
+            //view_print.scrollBottom();
+            window.setTimeout( flushPrints, 10);
+        }
+    }
     
     var running= false;
     function run() {
@@ -196,15 +212,19 @@ window.onload = function() {
         saveState();
         running = true;
         activateOut();
-        RUNNER_ENV.clearLog();
+        RUNNER_ENV.appendToLog("=== START "+currentEditor().title + " ===");
+        flushPrints();
+        //RUNNER_ENV.clearLog();
         
         window.setTimeout( function() {
             RUN(currentEditor().getValue());
             RUNNER_ENV.appendToLog("==== END "+currentEditor().title +" ====");
             view_print.scrollBottom();
+            flushPrints();
             running= false;
         }, 200);
     }
+    ///////////////////////////////
     
     function wrap(sender) {
         if (sender.wrapper.split("_").length==2)

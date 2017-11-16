@@ -7,12 +7,18 @@ var RUNNER_ENV = {
 
 function RUN(code) {
 
+    
     function isNormalInteger(str) {
         var n = Math.floor(Number(str));
         return String(n) === str && n >= 0;
     }
+    var numOfPrints = 0;
+    
     function print(txt) {
-        RUNNER_ENV.appendToLog(txt);
+        numOfPrints++;
+        if (numOfPrints>500) throw("ERROR: Too many prints");
+        RUNNER_ENV.appendToLog(("00"+numOfPrints).substr(("00"+numOfPrints).length-3)+": "+txt);
+        
     }
 
     function clear() {
@@ -24,7 +30,6 @@ function RUN(code) {
         a = Math.floor(a)
         return a;
     }
-    
     
     function alert(msg) {
         print("ALERT: "+msg);
@@ -46,8 +51,8 @@ function RUN(code) {
     try {
         eval(code);
     } catch (ex) {
-        print(ex);
-        console.log(ex.message)
-        console.log(ex.stack)
+        RUNNER_ENV.appendToLog(ex);
+        //console.log(ex.message)
+        //console.log(ex.stack)
     }
 }
