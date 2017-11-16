@@ -90,7 +90,7 @@ window.onload = function() {
     
     view_print.setReadonly(true);
    
-    wrappers = ['"_"', '(_)', '{_}', '[_]', 'for(i=0;i<10;i++){\n  _\n}', 'if ( 2 > 1 ) {\n  _\n}', '=', '!', '>', '<', '+', '/', '*', ';','.'];
+    wrappers = ['"_"', '(_)', '{_}', '[_]', 'for(i=0;i<10;i++){\n  _\n}', 'if (  ) {\n  _\n}', '=', '!', '>', '<', '+', '/', '*', ';','.',','];
 	  view_wrappers.getHtmlDiv().style.overflow="hidden";
     
     for (i in wrappers) {
@@ -171,7 +171,7 @@ window.onload = function() {
         view_code_out.applyStyles({bottom:"49.9%"});
         view_print.scrollBottom();
         JSRUN.outIsOn = true;
-        tab[JSRUN.currentProgramm].txt.focus();
+        currentEditor().blur();
     }
     
     function deactivateOut() {
