@@ -136,10 +136,14 @@ window.onload = function() {
     AFW.appendChild(view_logo);
     AFW.appendChild(view_logo2);
     
+    var txtChangeTimer = null;
     function onTxtChange() {
-        
-        tab[JSRUN.currentProgramm].saved = (JSRUN.programmText[JSRUN.currentProgramm] == tab[JSRUN.currentProgramm].txt.getValue());
-        syncButtons()
+        if (txtChangeTimer) return;
+        txtChange = window.setTimeout(function() {
+            tab[JSRUN.currentProgramm].saved = (JSRUN.programmText[JSRUN.currentProgramm] == tab[JSRUN.currentProgramm].txt.getValue());
+            syncButtons();
+            txtChangeTimer = null;
+        }, 300);
     }
     
     function syncButtons() {

@@ -83,7 +83,7 @@ AFW.Textarea = function(p_styles, p_oninput) {
     }
     
     this.blur = function() {htmlTextarea.blur();}
-    this.focus = function() {htmlTextarea.blur();htmlTextarea.focus();}
+    this.focus = function() {/*htmlTextarea.blur();*/htmlTextarea.focus();}
     
     this.scrollBottom = function() {htmlTextarea.scrollTop = htmlTextarea.scrollHeight;}
     this.scrollTop = function() {htmlTextarea.scrollTop = 0; htmlTextarea.selectionStart=0; htmlTextarea.selectionEnd=0;}
