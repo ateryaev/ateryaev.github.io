@@ -78,7 +78,7 @@ loadState();
 window.onload = function() {
     AFW.default.fontSize="auto";
     
-    var WIDTH = 43;
+    var WIDTH = 57;
     
     var view_logo = new AFW.Label({top:0,left:0,width:WIDTH,height:WIDTH/2,background:"#444",color:"#ddd",font:"italic bold 12px arial"},"JS");
     var view_logo2 = new AFW.Label({top:WIDTH/2,left:0,width:WIDTH,height:WIDTH/2,background:"#bbb",color:"#222",font:"italic bold 10px arial"},"runner");
@@ -121,15 +121,12 @@ window.onload = function() {
         t.txt.setValue(txtPrg);
         t.txt.scrollTop();
         t.txt.onblur = function() {AFW.removeChild(view_wrappers);}
-        t.txt.onfocus = function() {AFW.appendChild(view_wrappers);}
+        t.txt.onfocus = function() {AFW.appendChild(view_wrappers);deactivateOut();}
         view_code_out.appendChild(t.txt);
         tab[i] = t;
         AFW.appendChild(t.btn);
     }
-    
-    
-    
-    
+
     AFW.appendChild(view_code_out);
     AFW.appendChild(btn_run);
     AFW.appendChild(btn_out);
@@ -145,7 +142,7 @@ window.onload = function() {
             txtChangeTimer = null;
         }, 300);
     }
-    
+
     function syncButtons() {
         var nofTabs = tab.length;
         for(var i=0;i<nofTabs;i++) {
@@ -172,23 +169,23 @@ window.onload = function() {
         setLocalStorageValue("JSRUN", JSRUN);
         tab[JSRUN.currentProgramm].saved = true;
     }
-    
+
     function currentEditor() {
         return tab[JSRUN.currentProgramm].txt;
     }
-    
+
     function onTabLongPress() {
         if (currentEditor().getValue() == "") {
             currentEditor().wrapAtCaret(programms[JSRUN.currentProgramm], "");
-        } else if (currentEditor().isSelectedAll()) {
-            currentEditor().wrapAtCaret("", "");
         } else {
+            currentEditor().focus();
             currentEditor().selectAll();
-            
+            currentEditor().wrapAtCaret("", "");
         }
     }
     
     function switchTab(sender) {
+        if (JSRUN.currentProgramm == sender.tabIndex) return;
         JSRUN.currentProgramm = sender.tabIndex;
         var nofTabs = tab.length;
         for(var i=0;i<nofTabs;i++) {
@@ -197,14 +194,12 @@ window.onload = function() {
             view_code_out.removeChild(tab[i].txt);
             tab[i].btn.setLongPressAction(null, 1000);
         }
-        
+
         tab[JSRUN.currentProgramm].btn.setColors("#fff", "#4a4");
         view_code_out.appendChild(tab[JSRUN.currentProgramm].txt);
-        tab[JSRUN.currentProgramm].txt.focus();
+        //tab[JSRUN.currentProgramm].txt.focus();
         tab[JSRUN.currentProgramm].btn.setLongPressAction(onTabLongPress, 1000);
-        
         t.btn.setLongPressAction(onTabLongPress, 1000);
-        
         syncButtons();
     }
     
@@ -232,11 +227,11 @@ window.onload = function() {
         JSRUN.outIsOn = false;
     }
     
-    switchTab(tab[JSRUN.currentProgramm].btn);
-
+    var initProgramm = JSRUN.currentProgramm;
+    JSRUN.currentProgramm = -1;
+    switchTab(tab[initProgramm].btn);
     deactivateOut()
-    
-    
+
     ////////////////////
     var prints = [];
     
