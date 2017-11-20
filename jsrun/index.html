@@ -5,7 +5,7 @@
 <link rel="icon" sizes="200x200" href="icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, user-scalable=0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=0">
     <!--maximum-scale=2.0, minimum-scale=1.0-->
 <meta name="format-detection" content="telephone=no">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -78,18 +78,22 @@ loadState();
 window.onload = function() {
     AFW.default.fontSize="auto";
     
-    var WIDTH = 43;
+    var WIDTH = 57;
     
     var view_logo = new AFW.Label({top:0,left:0,width:WIDTH,height:WIDTH/2,background:"#444",color:"#ddd",font:"italic bold 12px arial"},"JS");
     var view_logo2 = new AFW.Label({top:WIDTH/2,left:0,width:WIDTH,height:WIDTH/2,background:"#bbb",color:"#222",font:"italic bold 10px arial"},"runner");
-    
+
     var view_print = new AFW.Textarea({bottom:0,top:0,right:0,left:WIDTH,top:"50%",background:"#ddd",xborder:"10px solid white"});
-    var btn_run = new JsRunButton( {right:0,top:0,width:WIDTH,height:WIDTH,margin:0,background:"green",color:"#fff"}, "RUN", run);
     var btn_out = new JsRunButton( {left:0,bottom:0,width:WIDTH,height:WIDTH,margin:0,background:"#ddd",color:"#000", borderRight:"1px dotted rgba(0,0,0,0.2)"}, "OUT", toggleOut);
     var view_code_out = new AFW.View({top:WIDTH,left:WIDTH, right:0,bottom:0});
-    var view_wrappers = new AFW.View({top:0,height:WIDTH,left:WIDTH,right:WIDTH});
+    var view_wrappers = new AFW.View({top:0,height:WIDTH,left:0,right:WIDTH});
+    var btn_run = new JsRunButton( {right:0,top:0,width:WIDTH,height:WIDTH,margin:0,background:"green",color:"#fff"}, "RUN", run);
+    var view_fixed_header = new AFW.View({top:0,height:WIDTH,left:WIDTH,right:0});
+    //view_fixed_header.appendChild(view_wrappers);
+    view_fixed_header.appendChild(btn_run);
 
-    
+    window.setInterval(function() {view_fixed_header.applyStyles({top:Math.max(0, window.document.body.scrollTop)})}, 50);
+
     view_print.setReadonly(true);
    
     wrappers = ['"_"', '(_)', '{_}', '[_]', 'for(i=0;i<10;i++){\n  _\n}', 'if (  ) {\n  _\n}', '=', '!', '>', '<', '+', '/', '*', ';','.',','];
@@ -120,18 +124,15 @@ window.onload = function() {
         t.txt.title = btnTxt;
         t.txt.setValue(txtPrg);
         t.txt.scrollTop();
-        t.txt.onblur = function() {AFW.removeChild(view_wrappers);}
-        t.txt.onfocus = function() {AFW.appendChild(view_wrappers);}
+        t.txt.onblur = function() {view_fixed_header.removeChild(view_wrappers);}
+        t.txt.onfocus = function() {view_fixed_header.appendChild(view_wrappers);deactivateOut();}
         view_code_out.appendChild(t.txt);
         tab[i] = t;
         AFW.appendChild(t.btn);
     }
-    
-    
-    
-    
+
     AFW.appendChild(view_code_out);
-    AFW.appendChild(btn_run);
+    AFW.appendChild(view_fixed_header);
     AFW.appendChild(btn_out);
     AFW.appendChild(view_logo);
     AFW.appendChild(view_logo2);
@@ -145,7 +146,7 @@ window.onload = function() {
             txtChangeTimer = null;
         }, 300);
     }
-    
+
     function syncButtons() {
         var nofTabs = tab.length;
         for(var i=0;i<nofTabs;i++) {
@@ -172,39 +173,38 @@ window.onload = function() {
         setLocalStorageValue("JSRUN", JSRUN);
         tab[JSRUN.currentProgramm].saved = true;
     }
-    
+
     function currentEditor() {
         return tab[JSRUN.currentProgramm].txt;
     }
-    
+
     function onTabLongPress() {
         if (currentEditor().getValue() == "") {
             currentEditor().wrapAtCaret(programms[JSRUN.currentProgramm], "");
-        } else if (currentEditor().isSelectedAll()) {
-            currentEditor().wrapAtCaret("", "");
         } else {
+            currentEditor().focus();
             currentEditor().selectAll();
-            
+            currentEditor().wrapAtCaret("", "");
         }
     }
     
     function switchTab(sender) {
+        if (JSRUN.currentProgramm == sender.tabIndex) return;
         JSRUN.currentProgramm = sender.tabIndex;
         var nofTabs = tab.length;
         for(var i=0;i<nofTabs;i++) {
             if (i==JSRUN.currentProgramm) continue;
+            tab[i].txt.blur();
             tab[i].btn.setColors("#000", "#4a4");
             view_code_out.removeChild(tab[i].txt);
             tab[i].btn.setLongPressAction(null, 1000);
         }
-        
+
         tab[JSRUN.currentProgramm].btn.setColors("#fff", "#4a4");
         view_code_out.appendChild(tab[JSRUN.currentProgramm].txt);
-        tab[JSRUN.currentProgramm].txt.focus();
+        //tab[JSRUN.currentProgramm].txt.focus();
         tab[JSRUN.currentProgramm].btn.setLongPressAction(onTabLongPress, 1000);
-        
         t.btn.setLongPressAction(onTabLongPress, 1000);
-        
         syncButtons();
     }
     
@@ -232,11 +232,11 @@ window.onload = function() {
         JSRUN.outIsOn = false;
     }
     
-    switchTab(tab[JSRUN.currentProgramm].btn);
-
+    var initProgramm = JSRUN.currentProgramm;
+    JSRUN.currentProgramm = -1;
+    switchTab(tab[initProgramm].btn);
     deactivateOut()
-    
-    
+
     ////////////////////
     var prints = [];
     
