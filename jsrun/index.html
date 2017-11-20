@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html manifest="">
-
 <title>JSRUN</title>
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="icon" sizes="200x200" href="icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, user-scalable=0">
@@ -19,7 +20,7 @@
 html,body {padding:0;margin:0;background:#000;height:100%;overflow-y:scroll;-webkit-overflow-scrolling: touch;}
 div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
 div.view.scroll { z-index:-1;}
-* {box-sizing:border-box;font:18px monospace;}
+* {box-sizing:border-box;font:16px monospace;}
 textarea,input,input:active {-webkit-appearance:none;appearance:none;width:100%;border:0px;outline:0px;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);border:0;border-radius:0}
 svg{display:block;margin:0;padding:0;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing:border-box;}
 textarea {width:100%;height:100%;display:block;padding:5px 10px;}
@@ -28,48 +29,47 @@ textarea {width:100%;height:100%;display:block;padding:5px 10px;}
 <script>
 
 var JsRunButton = function(bounds, txt, act) {
+    var _this = this;
     var fg = bounds.color?bounds.color:"#fff";
     var bg = bounds.background?bounds.background:"#000";
-
+    var longPressAction = null;
+    var longPressActionDelay = 2000;
     var lbl_txt = new AFW.Label({top:0,right:0,left:0,bottom:0,color:fg}, txt);
 
+    function longPressActionFunc() {
+        if (longPressAction) longPressAction(_this);
+        //console.log("longPressActionFunc")
+    }
+    
     this.setColors = function(pbg,pfg) {
         bg = pbg;
         fg = pfg;
         this.setBackground(bg);lbl_txt.setForeground(fg);
     }
-    
+    var superPressTimer = null;
     AFW.Button.call(this, bounds, act, 
-                    function() {this.setBackground(fg);lbl_txt.setForeground(bg);}, 
-                    function() {this.setBackground(bg);lbl_txt.setForeground(fg);});
+                    function() {this.setBackground(fg);lbl_txt.setForeground(bg);if (!superPressTimer) superPressTimer=setTimeout(longPressActionFunc, longPressActionDelay)}, 
+                    function() {this.setBackground(bg);lbl_txt.setForeground(fg);clearTimeout(superPressTimer);superPressTimer=null;});
     this.appendChild(lbl_txt);
 
     this.getTxt = function() {return txt;}
+    this.setTxt = function(new_txt) {txt = new_txt;lbl_txt.setHtml(txt);}
 
-    this.activate = function() {
-        this.setActive(true);
-        this.setBackground(bg);
-        lbl_txt.setForeground(fg);
-    }.bind(this);
 
-    this.deactivate = function() {
-        this.setActive(false);
-        this.setBackground("#ddd");
-        lbl_txt.setForeground("#fff");
-    }.bind(this);
-
-    this.activate();
+    
+    this.setLongPressAction = function(p_longact, p_delay) {
+        longPressAction = p_longact;
+        longPressActionDelay = p_delay;
+    }
 }
 
-var JSRUN = {};
+var JSRUN;// = {};
     
 function loadState() {
     JSRUN = getLocalStorageValue("JSRUN");
     if (!JSRUN) {
         JSRUN = {outIsOn:false,programmText:programms,currentProgramm:0}
     }
-    JSRUN.programmText[0] = example; //always the same
-    console.log(JSRUN)
 }
     
 loadState();
@@ -78,14 +78,16 @@ loadState();
 window.onload = function() {
     AFW.default.fontSize="auto";
     
-    var btnW = 60;
+    var WIDTH = 43;
     
-    var view_logo = new AFW.Label({top:0,left:0,width:60,height:60,background:"#000",color:"#440",font:"italic bold 32px arial"},"JS");
-    var view_print = new AFW.Textarea({bottom:0,top:0,right:0,left:60,top:"50%",background:"#ddd",xborder:"10px solid white"});
-    var btn_run = new JsRunButton( {right:0,top:0,width:btnW,height:60,margin:0,background:"green",color:"#fff"}, "RUN", run);
-    var btn_out = new JsRunButton( {left:0,bottom:0,width:btnW,height:60,margin:0,background:"#ddd",color:"#000", borderRight:"1px dotted rgba(0,0,0,0.2)"}, "OUT", toggleOut);
-    var view_code_out = new AFW.View({top:60,left:60, right:0,bottom:0});
-    var view_wrappers = new AFW.View({top:0,height:60,left:60,right:60});
+    var view_logo = new AFW.Label({top:0,left:0,width:WIDTH,height:WIDTH/2,background:"#444",color:"#ddd",font:"italic bold 12px arial"},"JS");
+    var view_logo2 = new AFW.Label({top:WIDTH/2,left:0,width:WIDTH,height:WIDTH/2,background:"#bbb",color:"#222",font:"italic bold 10px arial"},"runner");
+    
+    var view_print = new AFW.Textarea({bottom:0,top:0,right:0,left:WIDTH,top:"50%",background:"#ddd",xborder:"10px solid white"});
+    var btn_run = new JsRunButton( {right:0,top:0,width:WIDTH,height:WIDTH,margin:0,background:"green",color:"#fff"}, "RUN", run);
+    var btn_out = new JsRunButton( {left:0,bottom:0,width:WIDTH,height:WIDTH,margin:0,background:"#ddd",color:"#000", borderRight:"1px dotted rgba(0,0,0,0.2)"}, "OUT", toggleOut);
+    var view_code_out = new AFW.View({top:WIDTH,left:WIDTH, right:0,bottom:0});
+    var view_wrappers = new AFW.View({top:0,height:WIDTH,left:WIDTH,right:WIDTH});
 
     
     view_print.setReadonly(true);
@@ -94,7 +96,7 @@ window.onload = function() {
 	  view_wrappers.getHtmlDiv().style.overflow="hidden";
     
     for (i in wrappers) {
-        var btn = new JsRunButton( {left:i*btnW,top:0,width:btnW,height:60,background:"#000", color:"#faa"}, wrappers[i].substr(0,3).replace("_",""), wrap);
+        var btn = new JsRunButton( {left:i*WIDTH,top:0,width:WIDTH,height:WIDTH,background:"#000", color:"#faa"}, wrappers[i].substr(0,3).replace("_",""), wrap);
         btn.wrapper = wrappers[i];
         view_wrappers.appendChild(btn);
     }
@@ -105,15 +107,16 @@ window.onload = function() {
     
     for(var i=0;i<tabsToShow;i++) {
         var t = {};
-        var isLastTab = (i==tabsToShow-1);
-        var btnTxt = isLastTab?"??":("0"+(i+1));
-        var txtPrg = isLastTab?JSRUN.programmText[0]:JSRUN.programmText[i+1];
-        var btnStyle = {left:0,top:60+60*i,width:btnW,height:60,margin:0,background:"#fff",color:"#4a4",borderRight:"1px dotted rgba(0,0,0,0.2)"};
-
+        t.saved = true;
+        var btnTxt = ("0"+(i));
+        var txtPrg = JSRUN.programmText[i]?JSRUN.programmText[i]:"";
+        var btnStyle = {left:0,top:WIDTH+WIDTH*i,width:WIDTH,height:WIDTH,margin:0,borderRight:"1px dotted rgba(0,0,0,0.2)"};
         t.btn = new JsRunButton(btnStyle, btnTxt, switchTab);
+        t.btn.setColors("#fff", "#4a4");
         t.btn.tabIndex = i;
         
-        t.txt = new AFW.Textarea({top:0,left:0,right:0,bottom:0,background:"#fff"});
+        
+        t.txt = new AFW.Textarea({top:0,left:0,right:0,bottom:0,background:"#fff"}, onTxtChange);
         t.txt.title = btnTxt;
         t.txt.setValue(txtPrg);
         t.txt.scrollTop();
@@ -131,16 +134,54 @@ window.onload = function() {
     AFW.appendChild(btn_run);
     AFW.appendChild(btn_out);
     AFW.appendChild(view_logo);
+    AFW.appendChild(view_logo2);
+    
+    function onTxtChange() {
+        
+        tab[JSRUN.currentProgramm].saved = (JSRUN.programmText[JSRUN.currentProgramm] == tab[JSRUN.currentProgramm].txt.getValue());
+        syncButtons()
+    }
+    
+    function syncButtons() {
+        var nofTabs = tab.length;
+        for(var i=0;i<nofTabs;i++) {
+            var btnTxt = "0"+i;
+            if (tab[i].saved) {
+                tab[i].btn.setTxt(btnTxt);
+                if (i==JSRUN.currentProgramm) {
+                    btn_run.setTxt("RUN");
+                    btn_run.setColors("#4a4", "#fff");
+                }
+            } else {
+                tab[i].btn.setTxt("<span style=visibility:hidden>*</span>"+btnTxt + "<span style=visibility:visible>*</span>");
+                if (i==JSRUN.currentProgramm) {
+                    btn_run.setTxt("SAVE");
+                    btn_run.setColors("#46a", "#fff");  
+                } 
+
+            }
+        }
+    }
 
     function saveState() {
-        for(var i=0;i<tabsToShow-1;i++) {
-            JSRUN.programmText[i+1] = tab[i].txt.getValue();
-        }
+        JSRUN.programmText[JSRUN.currentProgramm] = tab[JSRUN.currentProgramm].txt.getValue();
         setLocalStorageValue("JSRUN", JSRUN);
+        tab[JSRUN.currentProgramm].saved = true;
     }
     
     function currentEditor() {
         return tab[JSRUN.currentProgramm].txt;
+    }
+    
+    function onTabLongPress() {
+        if (currentEditor().getValue() == "") {
+            currentEditor().wrapAtCaret(programms[JSRUN.currentProgramm], "");
+        } else if (currentEditor().isSelectedAll()) {
+            currentEditor().wrapAtCaret("", "");
+        } else {
+            currentEditor().selectAll();
+            
+        }
     }
     
     function switchTab(sender) {
@@ -150,11 +191,17 @@ window.onload = function() {
             if (i==JSRUN.currentProgramm) continue;
             tab[i].btn.setColors("#000", "#4a4");
             view_code_out.removeChild(tab[i].txt);
+            tab[i].btn.setLongPressAction(null, 1000);
         }
         
         tab[JSRUN.currentProgramm].btn.setColors("#fff", "#4a4");
         view_code_out.appendChild(tab[JSRUN.currentProgramm].txt);
         tab[JSRUN.currentProgramm].txt.focus();
+        tab[JSRUN.currentProgramm].btn.setLongPressAction(onTabLongPress, 1000);
+        
+        t.btn.setLongPressAction(onTabLongPress, 1000);
+        
+        syncButtons();
     }
     
     function toggleOut() {
@@ -189,9 +236,6 @@ window.onload = function() {
     ////////////////////
     var prints = [];
     
-    //RUNNER_ENV.appendToLog = function(txt) {view_print.setValue(view_print.getValue()+txt+"\n");}
-    //RUNNER_ENV.clearLog = function() {view_print.setValue("");RUNNER_ENV.appendToLog("=== START "+currentEditor().title + " ===");}
-    
     RUNNER_ENV.appendToLog = function(txt) {prints.push(txt);}
     RUNNER_ENV.clearLog = function() {prints = [];view_print.setValue("=== START "+currentEditor().title + " ===\n");}
     
@@ -209,7 +253,11 @@ window.onload = function() {
     var running= false;
     function run() {
         if (running) return;
-        saveState();
+        if (!tab[JSRUN.currentProgramm].saved) {
+            saveState();
+            syncButtons();
+            return;
+        }
         running = true;
         activateOut();
         RUNNER_ENV.appendToLog("=== START "+currentEditor().title + " ===");

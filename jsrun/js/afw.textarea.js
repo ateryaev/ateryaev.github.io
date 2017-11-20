@@ -6,9 +6,6 @@ AFW.Textarea = function(p_styles, p_oninput) {
 
     var htmlTextarea = document.createElement("textarea");
     
-    //getCodeElement().onblur = function() {AFW.removeChild(view_wrappers);}
-    //getCodeElement().onfocus = function() {AFW.appendChild(view_wrappers);}
-    
     htmlTextarea.autocomplete=false;
     htmlTextarea.autocorrect=false;
     htmlTextarea.autocapitalize="none";
@@ -58,6 +55,9 @@ AFW.Textarea = function(p_styles, p_oninput) {
         var target = this;
         return target.split(search).join(replacement);
     };
+    
+    this.selectAll = function() {htmlTextarea.selectionStart=0;htmlTextarea.selectionEnd=htmlTextarea.value.length;}
+    this.isSelectedAll = function() {return (htmlTextarea.selectionStart==0&&htmlTextarea.selectionEnd==htmlTextarea.value.length);}
     
     this.wrapAtCaret = function (text1, text2) {
         var startPos = htmlTextarea.selectionStart;
