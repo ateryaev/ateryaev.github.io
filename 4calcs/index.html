@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html manifest="">
+
+<title>4CALCS</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=2.0, minimum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<script src="js/utils.js?"></script>
+<script src="js/divafw.js?"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+
+<style>
+  body {padding:0;margin:0;background:#8ac;}
+  div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
+  div.view.scroll { z-index:-1;}
+  * {font-family:monospace,'Roboto Condensed',sans-serif;box-sizing:border-box;}
+  input,input:active {-webkit-appearance:none;appearance:none;width:100%;border:0px;outline:0px;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);}
+    svg{display:block;margin:0;padding:0;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
+</style>
+
+<script>
+window.onload = function() {
+    {
+        var deviceWidth = Math.round(document.documentElement.clientWidth);
+        var deviceHeight = Math.round(document.documentElement.clientHeight);
+        if (Math.min(deviceWidth,deviceHeight)>640) {
+            document.querySelector("meta[name=viewport]").content = "initial-scale=2, user-scalable=no,maximum-scale=2.0";
+        }
+    }
+    
+    var btn_txt = {"*":"&times;", "/":"&divide;"}
+    
+    var CalcButton = function(col, row, txt) {
+        var lbl_txt = new AFW.Label({top:0,right:0,left:0,bottom:0,color:"#fff"}, btn_txt[txt]?btn_txt[txt]:txt);
+        
+        AFW.Button.call(this, {top:row*80,left:col*80,width:80,height:80,background:"#000"}, calcButtonAction, function() {this.setBackground("#eee");lbl_txt.setForeground("#000");}, function() {this.setBackground("#222");lbl_txt.setForeground("#eee");});
+        this.appendChild(lbl_txt);
+        
+        this.getTxt = function() {return txt;}
+
+        this.activate = function() {
+            this.setActive(true);
+            this.setBackground("#222");
+            lbl_txt.setForeground("#eee");
+        }.bind(this);
+
+        this.deactivate = function() {
+            this.setActive(false);
+            this.setBackground("#ddd");
+            lbl_txt.setForeground("#fff");
+        }.bind(this);
+
+        this.activate();
+    }
+    var display_txt = "0";
+    
+    function calcButtonAction(sender) {
+        var btn = sender.getTxt();
+        if (btn == "=") {
+            display_txt = eval(display_txt);
+        } else if (btn == "C") {
+            display_txt = "";
+        } else if (btn == "<") {
+            display_txt = display_txt.substr(0, display_txt.length-1);
+        } else {
+        
+            display_txt += btn;
+        }
+        view_display.getHtmlDiv().innerHTML = display_txt;
+    }
+    
+    var view_calc = new AFW.View({top:0,left:0,width:320,height:480, background:"#fff"});
+    var view_buttons = new AFW.View({top:80,left:0, background:"#fff"});
+    var view_display = new AFW.View({top:0,left:0, right:0, height:80,background:"#ffd"});
+    
+    
+    var buttons = ["CM%<","789/", "456*", "123-", "0.=+"];
+    
+    for (var row in buttons) {
+        for (var col in buttons[row]) {
+            var b0 = new CalcButton(col,row, buttons[row][col]);
+            view_buttons.appendChild(b0);
+        }
+    }
+    view_display.getHtmlDiv().innerHTML = display_txt;
+    view_calc.appendChild(view_buttons);
+    view_calc.appendChild(view_display);
+    AFW.appendChild(view_calc);
+
+} //onload
+
+</script>
+
+<body>
+<div id="viewport" style="position:fixed;top:0;left:0;bottom:0;right:0;"></div>
+</body>
+
+</html>
