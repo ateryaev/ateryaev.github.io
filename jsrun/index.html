@@ -124,6 +124,7 @@ window.onload = function() {
         t.txt.title = btnTxt;
         t.txt.setValue(txtPrg);
         t.txt.scrollTop();
+
         t.txt.onblur = function() {view_fixed_header.removeChild(view_wrappers);}
         t.txt.onfocus = function() {view_fixed_header.appendChild(view_wrappers);deactivateOut();}
         view_code_out.appendChild(t.txt);
