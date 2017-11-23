@@ -26,9 +26,7 @@ function RUN(code) {
     }
 
     function random(from, to) {
-        a = from + Math.random()*(to-from+1);
-        a = Math.floor(a)
-        return a;
+        return Math.floor(from + Math.random()*(to-from+1));
     }
     
     function alert(msg) {
