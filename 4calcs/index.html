@@ -14,7 +14,7 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
 
 <style>
-  body {padding:0;margin:0;background:#8ac;}
+  body {padding:0;margin:0;background:#000;}
   div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
   div.view.scroll { z-index:-1;}
   * {font-family:verdana,sans-serif;box-sizing:border-box;}
@@ -24,16 +24,23 @@
 <script src="js/calc.js"></script>
 <script>
 window.onload = function() {
-    var calc = new CALC();
+    var deviceWidth = Math.round(document.documentElement.clientWidth);
+    var deviceHeight = Math.round(document.documentElement.clientHeight);
+
     
+    var SIZE = Math.min(deviceWidth/4,deviceHeight/6.4);
+    AFW.default.fontSize = SIZE/4;
     var formula = new Formula("0");
     
+    
+    
+    
     {
-        var deviceWidth = Math.round(document.documentElement.clientWidth);
-        var deviceHeight = Math.round(document.documentElement.clientHeight);
-        if (Math.min(deviceWidth,deviceHeight)>640) {
-            document.querySelector("meta[name=viewport]").content = "initial-scale=2, user-scalable=no,maximum-scale=2.0";
-        }
+        
+//        if (Math.min(deviceWidth,deviceHeight)>640) {
+//            document.querySelector("meta[name=viewport]").content = "initial-scale=2, user-scalable=no,maximum-scale=2.0";
+//        }
+        console.log(SIZE)
     }
     
     var btn_txt = {"*":"&times;", "/":"&divide;"}
@@ -53,10 +60,10 @@ window.onload = function() {
         }
         
         var lbl_txt = new AFW.Label({top:0,right:0,left:0,bottom:0,color:"#fff"}, btn_txt[txt]?btn_txt[txt]:txt);
-        var width = txt=="0"?159:79;
-        var height = txt=="="?159:79;
+        var width = txt=="0"?SIZE*2-1:SIZE-1;
+        var height = txt=="="?SIZE*2-1:SIZE-1;
         
-        AFW.Button.call(this, {top:row*80+1,left:col*80+1,width:width,height:height,background:"#000"}, calcButtonAction, function() {this.setBackground("#eee");lbl_txt.setForeground("#000");}, function() {this.setBackground(bgcolor);lbl_txt.setForeground(fgcolor);});
+        AFW.Button.call(this, {top:row*SIZE+1,left:col*SIZE+1,width:width,height:height,background:"#000"}, calcButtonAction, function() {this.setBackground("#eee");lbl_txt.setForeground("#000");}, function() {this.setBackground(bgcolor);lbl_txt.setForeground(fgcolor);});
         this.appendChild(lbl_txt);
         
         this.getTxt = function() {return txt;}
@@ -105,18 +112,17 @@ window.onload = function() {
             show = formula.getDisplay();
         }
         
-        
+        if (show=="") show="0"
         lbl_display.setHtml(show);
         lbl_history.setHtml(last_result);
     }
     
-    var view_calc = new AFW.View({top:0,left:0,width:320,height:548, background:"#29272C"});
-    var view_buttons = new AFW.View({bottom:0,left:0, height:80*5});
+    var view_calc = new AFW.View({top:0,left:0,bottom:0,right:0, width:SIZE*4, background:"#29272C"});
+    var view_buttons = new AFW.View({bottom:1,right:0,height:SIZE*5,width:SIZE*4});
+    var view_display = new AFW.View({top:0,bottom:SIZE*5,left:0,right:SIZE/8,xbackground:"red"});
     
-    var view_display = new AFW.View({top:0,bottom:80*5,left:0, right:10,xbackground:"red"});
-    
-    var lbl_history = new AFW.Label({bottom:80,right:0,color:"#888",textAlign:"right",fontSize:"75%"}, "");
-    var lbl_display = new AFW.Label({bottom:0,right:0,height:80,color:"#c93",fontSize:"150%"}, "0,11234");
+    var lbl_history = new AFW.Label({bottom:SIZE*.75,right:0,color:"#888",textAlign:"right",fontSize:"75%"}, "");
+    var lbl_display = new AFW.Label({bottom:0,right:0,height:SIZE*.75,color:"#c93",fontSize:"150%"}, "0,11234");
     view_display.appendChild(lbl_display);
     view_display.appendChild(lbl_history);
     
@@ -131,7 +137,6 @@ window.onload = function() {
         }
     }
     lbl_display.setHtml("0");
-    //view_display.getHtmlDiv().innerHTML = display_txt;
     view_calc.appendChild(view_buttons);
     view_calc.appendChild(view_display);
     AFW.appendChild(view_calc);
