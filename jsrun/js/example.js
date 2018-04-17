@@ -41,34 +41,34 @@ print("Hello " + name +"!")
 ,
 
 `\
-//PROGRAMM 01
+//Projekti 01
 name = "Sisu"
 print("Hello " + name +"!")
 
 `
 ,
 `\
-//PROGRAMM 02
+//Projekti 02
 `
 ,
 `\
-//PROGRAMM 03
+//Projekti 03
 `
 ,
 `\
-//PROGRAMM 04
+//Projekti 04
 `
 ,
 `\
-//PROGRAMM 05
-//HELLO WORLD EXAMPLE
+// 05
+//Ensimaiset askeleet
 
 clear()
 print("Hello JSRUN!")
 name = prompt("Name?")
 alert("Hello " + name)
 
-//FOR AND IF EXAMPLE
+//Opetellaan FOR ja IF
 
 for(j=0;j<10;j++) {
   x = j*j
@@ -80,14 +80,14 @@ for(j=0;j<10;j++) {
   }
 }
 
-//GUESS NUM EXAMPLE
+//Arvaa numero peli
 
 num1 = random(1,3)
 num2 = prompt("Guess Number 1..3")
 if (num1 == num2) {
-  alert("YOU WIN :)")
+  alert("Sina voitit :)")
 } else {
-  alert("YOU LOOSE :(")
+  alert("Sina havisit :(")
 }
 `
 ];
