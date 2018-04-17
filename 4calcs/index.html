@@ -17,13 +17,17 @@
   body {padding:0;margin:0;background:#8ac;}
   div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
   div.view.scroll { z-index:-1;}
-  * {font-family:monospace,'Roboto Condensed',sans-serif;box-sizing:border-box;}
+  * {font-family:verdana,sans-serif;box-sizing:border-box;}
   input,input:active {-webkit-appearance:none;appearance:none;width:100%;border:0px;outline:0px;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);}
     svg{display:block;margin:0;padding:0;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
 </style>
-
+<script src="js/calc.js"></script>
 <script>
 window.onload = function() {
+    var calc = new CALC();
+    
+    var formula = new Formula("0");
+    
     {
         var deviceWidth = Math.round(document.documentElement.clientWidth);
         var deviceHeight = Math.round(document.documentElement.clientHeight);
@@ -35,17 +39,34 @@ window.onload = function() {
     var btn_txt = {"*":"&times;", "/":"&divide;"}
     
     var CalcButton = function(col, row, txt) {
-        var lbl_txt = new AFW.Label({top:0,right:0,left:0,bottom:0,color:"#fff"}, btn_txt[txt]?btn_txt[txt]:txt);
         
-        AFW.Button.call(this, {top:row*80,left:col*80,width:80,height:80,background:"#000"}, calcButtonAction, function() {this.setBackground("#eee");lbl_txt.setForeground("#000");}, function() {this.setBackground("#222");lbl_txt.setForeground("#eee");});
+        var bgcolor = "#405060";
+        var fgcolor = "#ddd";
+        
+        if ("0123456789, ".indexOf(txt)>-1) {
+            bgcolor="#404448";
+        } 
+        if (txt=="<") {
+            bgcolor="#485868";
+        } else if (txt=="C") {
+            bgcolor="#c93";
+        }
+        
+        var lbl_txt = new AFW.Label({top:0,right:0,left:0,bottom:0,color:"#fff"}, btn_txt[txt]?btn_txt[txt]:txt);
+        var width = txt=="0"?159:79;
+        var height = txt=="="?159:79;
+        
+        AFW.Button.call(this, {top:row*80+1,left:col*80+1,width:width,height:height,background:"#000"}, calcButtonAction, function() {this.setBackground("#eee");lbl_txt.setForeground("#000");}, function() {this.setBackground(bgcolor);lbl_txt.setForeground(fgcolor);});
         this.appendChild(lbl_txt);
         
         this.getTxt = function() {return txt;}
 
+        
+        
         this.activate = function() {
             this.setActive(true);
-            this.setBackground("#222");
-            lbl_txt.setForeground("#eee");
+            this.setBackground(bgcolor);
+            lbl_txt.setForeground(fgcolor);
         }.bind(this);
 
         this.deactivate = function() {
@@ -57,36 +78,60 @@ window.onload = function() {
         this.activate();
     }
     var display_txt = "0";
+    var last_result = "";
     
     function calcButtonAction(sender) {
+        var dgts = "0123456789.,"
+        var oprs = "+-/*"
         var btn = sender.getTxt();
-        if (btn == "=") {
-            display_txt = eval(display_txt);
-        } else if (btn == "C") {
-            display_txt = "";
-        } else if (btn == "<") {
-            display_txt = display_txt.substr(0, display_txt.length-1);
-        } else {
         
-            display_txt += btn;
+        var show = "";
+        var hist = "";
+        
+        if (btn == "C") {
+            formula = new Formula("0");
+            show = formula.getDisplay();
+        } else if (btn == "=") {
+            var result = formula.evaluate();
+            show = "= "+result;
+            
+            last_result += "<br>"+formula.getDisplay() + " = "+result;
+            formula = new Formula(result);
+        } else if (dgts.indexOf(btn)>-1) {
+            formula.addDigit(btn);
+            show = formula.getDisplay();
+        } else if (oprs.indexOf(btn)>-1) {
+            formula.setOperator(btn);
+            show = formula.getDisplay();
         }
-        view_display.getHtmlDiv().innerHTML = display_txt;
+        
+        
+        lbl_display.setHtml(show);
+        lbl_history.setHtml(last_result);
     }
     
-    var view_calc = new AFW.View({top:0,left:0,width:320,height:480, background:"#fff"});
-    var view_buttons = new AFW.View({top:80,left:0, background:"#fff"});
-    var view_display = new AFW.View({top:0,left:0, right:0, height:80,background:"#ffd"});
+    var view_calc = new AFW.View({top:0,left:0,width:320,height:548, background:"#29272C"});
+    var view_buttons = new AFW.View({bottom:0,left:0, height:80*5});
+    
+    var view_display = new AFW.View({top:0,bottom:80*5,left:0, right:10,xbackground:"red"});
+    
+    var lbl_history = new AFW.Label({bottom:80,right:0,color:"#888",textAlign:"right",fontSize:"75%"}, "");
+    var lbl_display = new AFW.Label({bottom:0,right:0,height:80,color:"#c93",fontSize:"150%"}, "0,11234");
+    view_display.appendChild(lbl_display);
+    view_display.appendChild(lbl_history);
     
     
-    var buttons = ["CM%<","789/", "456*", "123-", "0.=+"];
+    var buttons = ["C/*<","789+", "456-", "123=", "0 ,"];
     
     for (var row in buttons) {
         for (var col in buttons[row]) {
+            if (buttons[row][col] == " ") continue;
             var b0 = new CalcButton(col,row, buttons[row][col]);
             view_buttons.appendChild(b0);
         }
     }
-    view_display.getHtmlDiv().innerHTML = display_txt;
+    lbl_display.setHtml("0");
+    //view_display.getHtmlDiv().innerHTML = display_txt;
     view_calc.appendChild(view_buttons);
     view_calc.appendChild(view_display);
     AFW.appendChild(view_calc);
