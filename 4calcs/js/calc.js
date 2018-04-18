@@ -72,56 +72,56 @@ function Formula(defaultNumber) {
         return eval(this.getDisplay()) + "";
     }
 }
-
-function Stack() {
-    var stack = [new Formula("0")];
-    
-    this.getCurrentFormula = function() {
-        return stack[stack.length-1];
-    }
-    
-    this.startNewFormula = function() {
-        var lastEval = this.getCurrentFormula().evaluate();
-        return stack[stack.push(new Formula(lastEval))-1];
-    }
-    
-    this.getDisplay = function() {
-        var str = "";
-        for (var i=0;i<stack.length;i++) {
-            var formula = stack[i];
-            str += formula.getDisplay();
-            if (i < stack.length-1) {
-                str += " = " + formula.evaluate() + " ";
-            }
-        }
-        
-        return str;
-    }
-}
-
-
-var CALC = function() {
-    
-    var stack = new Stack();
-    
-    this.addDigit = function(chr) {
-        var formula = stack.getCurrentFormula();
-        formula.addDigit(chr);
-    }
-    
-    this.addOperator = function(chr) {
-        var formula = stack.getCurrentFormula();
-        formula.setOperator(chr);
-    }
-    
-    this.solve = function() {
-        stack.startNewFormula();
-    }
-    
-    this.getDisplay = function() {
-        return stack.getDisplay();
-    }
-}
+//
+//function Stack() {
+//    var stack = [new Formula("0")];
+//    
+//    this.getCurrentFormula = function() {
+//        return stack[stack.length-1];
+//    }
+//    
+//    this.startNewFormula = function() {
+//        var lastEval = this.getCurrentFormula().evaluate();
+//        return stack[stack.push(new Formula(lastEval))-1];
+//    }
+//    
+//    this.getDisplay = function() {
+//        var str = "";
+//        for (var i=0;i<stack.length;i++) {
+//            var formula = stack[i];
+//            str += formula.getDisplay();
+//            if (i < stack.length-1) {
+//                str += " = " + formula.evaluate() + " ";
+//            }
+//        }
+//        
+//        return str;
+//    }
+//}
+//
+//
+//var CALC = function() {
+//    
+//    var stack = new Stack();
+//    
+//    this.addDigit = function(chr) {
+//        var formula = stack.getCurrentFormula();
+//        formula.addDigit(chr);
+//    }
+//    
+//    this.addOperator = function(chr) {
+//        var formula = stack.getCurrentFormula();
+//        formula.setOperator(chr);
+//    }
+//    
+//    this.solve = function() {
+//        stack.startNewFormula();
+//    }
+//    
+//    this.getDisplay = function() {
+//        return stack.getDisplay();
+//    }
+//}
 
 
 /////////////////////////////
@@ -181,4 +181,4 @@ function testCALC() {
     
 }
 
-testCALC();
+//testCALC();
