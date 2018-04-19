@@ -17,7 +17,7 @@
   body {padding:0;margin:0;background:#000;}
   div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
   div.view.scroll { z-index:-1;}
-  * {font-family:monospace,verdana,sans-serif;box-sizing:border-box;}
+  * {font-family:"Courier New"; xfont-weight:bold;Helvetica,sans-serif;box-sizing:border-box;}
   input,input:active {-webkit-appearance:none;appearance:none;width:100%;border:0px;outline:0px;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);}
     svg{display:block;margin:0;padding:0;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
 </style>
@@ -44,30 +44,29 @@ window.onload = function() {
         console.log(SIZE, SIZEW)
     }
     
-    var btn_txt = {"*":"&times;", "/":"&divide;", "n":"+/-"}
+    var btn_txt = {"*":"&times;", "/":"&divide;", "n":"+/-", "<":"del"}
     
     var CalcButton = function(col, row, txt) {
         
-        var bgcolor = "#405060";
+        var bgcolor = "#456";
         var fgcolor = "#ddd";
         
         if ("0123456789, n".indexOf(txt)>-1) {
-            bgcolor="#404448";
+            bgcolor="#444";
         } 
         if (txt=="<") {
-            txt = "&larr;"
-            bgcolor="#485868";
+            bgcolor="#846";
         } else if (txt=="C") {
-            bgcolor="#c93";
-        } else if (txt=="-") {
-            txt = "-"
+            bgcolor="#c33";
+        } else if (txt=="=") {
+            bgcolor="#468";
         }
         
         var lbl_txt = new AFW.Label({top:0,right:0,left:0,bottom:0,color:"#fff"}, btn_txt[txt]?btn_txt[txt]:txt);
-        var width = txt=="000"?SIZEW*2-1:SIZEW-1;
-        var height = txt=="==="?SIZE*2-1:SIZE-1;
+        var width = "25%";
+        var height = txt=="="?"40%":"20%";
         
-        AFW.Button.call(this, {top:row*20+"%",left:col*25+"%",width:"25%",height:"20%",border:"1px solid #000"}, calcButtonAction, function() {this.setBackground("#eee");lbl_txt.setForeground("#000");}, function() {this.setBackground(bgcolor);lbl_txt.setForeground(fgcolor);});
+        AFW.Button.call(this, {top:row*20+"%",left:col*25+"%",width:width,height:height,borderRight:"1px solid #000",borderBottom:"1px solid #000"}, calcButtonAction, function() {this.setBackground("#eee");lbl_txt.setForeground("#000");}, function() {this.setBackground(bgcolor);lbl_txt.setForeground(fgcolor);});
         this.appendChild(lbl_txt);
         
         this.getTxt = function() {return txt;}
@@ -100,7 +99,7 @@ window.onload = function() {
         
         res = res.replace(/ \+ /g,"<span style='color:#39c'>&plus;</span>");
         res = res.replace(/ \= /g,"<span style='color:#39c'>=</span>");
-        res = res.replace(/\./g,"<span style='margin:-"+(SIZE/20)+"px;'>.</span>");
+        //res = res.replace(/\./g,"<span style='margin:-"+(SIZE/20)+"px;'>.</span>");
         res = res.replace(/ \/ /g,"&divide;");
         return res;
     }
@@ -114,7 +113,7 @@ window.onload = function() {
         res = res.replace(/ \+ /g,"&plus;");
         res = res.replace(/ \= /g,"=");
         res = res.replace(/ \/ /g,"&divide;");
-        res = res.replace(/\./g,"<span style='margin:-"+(SIZE/40)+"px;'>.</span>");
+        //res = res.replace(/\./g,"<span style='margin:-"+(SIZE/40)+"px;'>.</span>");
         return res;
     }
     
@@ -125,6 +124,7 @@ window.onload = function() {
         
         var show = "";
         var hist = "";
+        console.log(btn);
         
         if (btn == "C") {
             formula = new Formula("0");
@@ -132,7 +132,6 @@ window.onload = function() {
         } else if (btn == "=") {
             var result = formula.evaluate();
             show = " = "+result;
-            
             last_result += "<br>"+formula.getDisplay() + " = "+result;
             formula = new Formula(result);
         } else if (dgts.indexOf(btn)>-1) {
@@ -141,6 +140,9 @@ window.onload = function() {
             show = formula.getDisplay();
         } else if (oprs.indexOf(btn)>-1) {
             formula.setOperator(btn);
+            show = formula.getDisplay();
+        } else if (btn == "<") {
+            formula.backspace();
             show = formula.getDisplay();
         }
         
@@ -152,7 +154,7 @@ window.onload = function() {
     
     var view_calc = new AFW.View({top:0,left:0,bottom:0,right:0, width:SIZEW*4, background:"#111"});
     
-    var view_buttons = new AFW.View({bottom:0,right:0,height:SIZE*5+2,left:0,border:"1px solid #111"});
+    var view_buttons = new AFW.View({bottom:0,right:0,height:SIZE*5+2,left:0,borderLeft:"1px solid #000", borderTop:"1px solid #000"});
     
     var view_display = new AFW.View({top:0,bottom:SIZE*5,left:0,right:SIZE/8});
     
@@ -162,7 +164,7 @@ window.onload = function() {
     view_display.appendChild(lbl_history);
     
     
-    var buttons = ["C<%/","789*", "456-", "123+", "n0,="];
+    var buttons = ["C*/<","789+", "456-", "123=", "n0, "];
     
     for (var row in buttons) {
         for (var col in buttons[row]) {

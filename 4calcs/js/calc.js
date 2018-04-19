@@ -5,9 +5,6 @@ function Number(defaultNumber) {
     function isDot(chr) { return (chr == "."); }
     function isMinus(chr) { return (chr == "-"); }
     
-    function isNegative() { return (num != "" && isMinus(num[0])); }
-    
-    
     function hasDot() { return (num.indexOf(".") > -1); }
     
     function changeSign() {
@@ -21,6 +18,13 @@ function Number(defaultNumber) {
         else if (isDot(chr) && num == "") num = "0.";
         else if (isMinus(chr)) changeSign();
         else num += chr;
+    }
+    this.backspace = function() {
+        if (num!= "") {
+            num = num.slice(0, -1);
+        } else if (sign!="") {
+            sign = "";
+        }
     }
     
     this.getDisplay = function() {return sign+num;}
@@ -46,6 +50,13 @@ function NumberOperator(defaultNumber) {
     this.addDigit = function(chr) {num.addDigit(chr);}
     this.setOperator = function(chr) {num.finalize();opr.set(chr);}
     this.getDisplay = function() {return num.getDisplay() + opr.getDisplay();}
+    this.backspace = function() {
+        if (opr.isSet()) {
+            opr.set("");
+        } else {
+            num.backspace();
+        }
+    }
 }
 
 function Formula(defaultNumber) {
@@ -71,58 +82,14 @@ function Formula(defaultNumber) {
         if (this.getDisplay()=="") this.addDigit("0");
         return eval(this.getDisplay()) + "";
     }
+    
+    this.backspace = function() {
+        lastNumOpr().backspace();
+        if (lastNumOpr().getDisplay() == "" && formula.length>1) {
+            formula.pop();
+        }
+    }
 }
-//
-//function Stack() {
-//    var stack = [new Formula("0")];
-//    
-//    this.getCurrentFormula = function() {
-//        return stack[stack.length-1];
-//    }
-//    
-//    this.startNewFormula = function() {
-//        var lastEval = this.getCurrentFormula().evaluate();
-//        return stack[stack.push(new Formula(lastEval))-1];
-//    }
-//    
-//    this.getDisplay = function() {
-//        var str = "";
-//        for (var i=0;i<stack.length;i++) {
-//            var formula = stack[i];
-//            str += formula.getDisplay();
-//            if (i < stack.length-1) {
-//                str += " = " + formula.evaluate() + " ";
-//            }
-//        }
-//        
-//        return str;
-//    }
-//}
-//
-//
-//var CALC = function() {
-//    
-//    var stack = new Stack();
-//    
-//    this.addDigit = function(chr) {
-//        var formula = stack.getCurrentFormula();
-//        formula.addDigit(chr);
-//    }
-//    
-//    this.addOperator = function(chr) {
-//        var formula = stack.getCurrentFormula();
-//        formula.setOperator(chr);
-//    }
-//    
-//    this.solve = function() {
-//        stack.startNewFormula();
-//    }
-//    
-//    this.getDisplay = function() {
-//        return stack.getDisplay();
-//    }
-//}
-
 
 /////////////////////////////
 
