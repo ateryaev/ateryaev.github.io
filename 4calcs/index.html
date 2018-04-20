@@ -8,194 +8,72 @@
 <meta name="format-detection" content="telephone=no">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
-<script src="js/utils.js?"></script>
-<script src="js/divafw.js?"></script>
-
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+<script src="js/ui.js"></script>
+<script src="js/divafw.js"></script>
 
 <style>
-  body {padding:0;margin:0;background:#000;}
-  div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
-  div.view.scroll { z-index:-1;}
-  * {font-family:"Courier New"; xfont-weight:bold;Helvetica,sans-serif;box-sizing:border-box;}
-  input,input:active {-webkit-appearance:none;appearance:none;width:100%;border:0px;outline:0px;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);}
+    body {padding:0;margin:0;background:#000;}
+    div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
+    div.view.scroll { z-index:-1;}
+    * {font-family:"Courier New";box-sizing:border-box;}
+    input,input:active {-webkit-appearance:none;appearance:none;width:100%;border:0px;outline:0px;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);}
     svg{display:block;margin:0;padding:0;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
 </style>
 <script src="js/calc.js"></script>
 <script>
 window.onload = function() {
-    var deviceWidth = Math.round(document.documentElement.clientWidth);
-    var deviceHeight = Math.round(document.documentElement.clientHeight);
-
-    
-    var SIZE = Math.min(deviceWidth/4,deviceHeight/6.4);
-    var SIZEW = Math.min(deviceWidth/4, 100*SIZE*1.5);
-    AFW.default.fontSize = SIZE/3.5;
-    var formula = new Formula("0");
-    
-    
-    
-    
-    {
-        
-//        if (Math.min(deviceWidth,deviceHeight)>640) {
-//            document.querySelector("meta[name=viewport]").content = "initial-scale=2, user-scalable=no,maximum-scale=2.0";
-//        }
-        console.log(SIZE, SIZEW)
-    }
-    
-    var btn_txt = {"*":"&times;", "/":"&divide;", "n":"+/-", "<":"del"}
-    
-    var CalcButton = function(col, row, txt) {
-        
-        var bgcolor = "#456";
-        var fgcolor = "#ddd";
-        
-        if ("0123456789, n".indexOf(txt)>-1) {
-            bgcolor="#444";
-        } 
-        if (txt=="<") {
-            bgcolor="#846";
-        } else if (txt=="C") {
-            bgcolor="#c33";
-        } else if (txt=="=") {
-            bgcolor="#468";
-        }
-        
-        var lbl_txt = new AFW.Label({top:0,right:0,left:0,bottom:0,color:"#fff"}, btn_txt[txt]?btn_txt[txt]:txt);
-        var width = "25%";
-        var height = txt=="="?"40%":"20%";
-        
-        AFW.Button.call(this, {top:row*20+"%",left:col*25+"%",width:width,height:height,borderRight:"1px solid #000",borderBottom:"1px solid #000"}, calcButtonAction, function() {this.setBackground("#eee");lbl_txt.setForeground("#000");}, function() {this.setBackground(bgcolor);lbl_txt.setForeground(fgcolor);});
-        this.appendChild(lbl_txt);
-        
-        this.getTxt = function() {return txt;}
-
-        
-        
-        this.activate = function() {
-            this.setActive(true);
-            this.setBackground(bgcolor);
-            lbl_txt.setForeground(fgcolor);
-        }.bind(this);
-
-        this.deactivate = function() {
-            this.setActive(false);
-            this.setBackground("#ddd");
-            lbl_txt.setForeground("#fff");
-        }.bind(this);
-
-        this.activate();
-    }
-    var display_txt = "0";
-    var last_result = "";
-    
-    function formulaToHtml(formula) {
-        var res = formula;
-        res = res.replace(/ \* /g,"<span style='color:#39c'>&times;</span>");
-        res = res.replace(/ \/ /g,"<span style='color:#39c'>&divide;</span>");
-        res = res.replace(/ - /g,"<span style='color:#39c'>&minus;</span>");
-        res = res.replace(/-/g,"&#x2011;");
-        
-        res = res.replace(/ \+ /g,"<span style='color:#39c'>&plus;</span>");
-        res = res.replace(/ \= /g,"<span style='color:#39c'>=</span>");
-        //res = res.replace(/\./g,"<span style='margin:-"+(SIZE/20)+"px;'>.</span>");
-        res = res.replace(/ \/ /g,"&divide;");
-        return res;
-    }
-    
-    function historyToHtml(history) {
-        var res = history;
-        res = res.replace(/ \* /g, "&times");
-        res = res.replace(/ \/ /g, "&divide;");
-        res = res.replace(/ - /g, "&minus;");
-        res = res.replace(/-/g,"&#x2011;");
-        res = res.replace(/ \+ /g,"&plus;");
-        res = res.replace(/ \= /g,"=");
-        res = res.replace(/ \/ /g,"&divide;");
-        //res = res.replace(/\./g,"<span style='margin:-"+(SIZE/40)+"px;'>.</span>");
-        return res;
-    }
-    
-    function calcButtonAction(sender) {
-        var dgts = "0123456789.,n"
-        var oprs = "+-/*"
-        var btn = sender.getTxt();
-        
-        var show = "";
-        var hist = "";
-        console.log(btn);
-        
-        if (btn == "C") {
-            formula = new Formula("0");
-            show = formula.getDisplay();
-        } else if (btn == "=") {
-            var result = formula.evaluate();
-            show = " = "+result;
-            last_result += "<br>"+formula.getDisplay() + " = "+result;
-            formula = new Formula(result);
-        } else if (dgts.indexOf(btn)>-1) {
-            if (btn=="n") btn="-";
-            formula.addDigit(btn);
-            show = formula.getDisplay();
-        } else if (oprs.indexOf(btn)>-1) {
-            formula.setOperator(btn);
-            show = formula.getDisplay();
-        } else if (btn == "<") {
-            formula.backspace();
-            show = formula.getDisplay();
-        }
-        
-        if (show=="") show="0"
-        //show = "11 + 11"
-        lbl_display.setHtml(formulaToHtml(show));
-        lbl_history.setHtml(historyToHtml(last_result));
-    }
-    
-    var view_calc = new AFW.View({top:0,left:0,bottom:0,right:0, width:SIZEW*4, background:"#111"});
-    
-    var view_buttons = new AFW.View({bottom:0,right:0,height:SIZE*5+2,left:0,borderLeft:"1px solid #000", borderTop:"1px solid #000"});
-    
-    var view_display = new AFW.View({top:0,bottom:SIZE*5,left:0,right:SIZE/8});
-    
-    var lbl_history = new AFW.Label({bottom:SIZE*.75,right:0,color:"#888",textAlign:"right",fontSize:"75%"}, "");
-    var lbl_display = new AFW.Label({bottom:0,right:0,height:SIZE*.75,color:"#c93",fontSize:"150%"}, "0");
-    view_display.appendChild(lbl_display);
-    view_display.appendChild(lbl_history);
-    
-    
-    var buttons = ["C*/<","789+", "456-", "123=", "n0, "];
-    
-    for (var row in buttons) {
-        for (var col in buttons[row]) {
-            if (buttons[row][col] == " ") continue;
-            var b0 = new CalcButton(col,row, buttons[row][col]);
-            view_buttons.appendChild(b0);
-        }
-    }
-    //lbl_display.setHtml("11<span style='display:inline-block;background:orange;color:#000;height:30px;width:30px;border-radius:50%;line-height:30px;'>&times;</span>22");
-//    var svg = "<svg viewBox='-5 -5 20 50' style='xborder-radius:50%;xbackground:#fff;stroke:orange;width:20px;height:50px;'>";
-//    svg += "<path stroke-linecap=round stroke-width='4' d='M0,20 l10,0'/>";
-//    svg += "<path stroke-linecap=round stroke-width='4' d='M5,15 l0,10'/>";
-//    svg += "</svg>";
+//
 //    
-//    svg += "<svg viewBox='-5 -5 30 50' style='xborder-radius:50%;xbackground:#fff;stroke:orange;width:30px;height:50px;'>";
-//    svg += "<path stroke-linecap=round stroke-width='4' d='M0,20 l10,0'/>";
-//    //svg += "<path stroke-linecap=round stroke-width='4' d='M10,10 l0,20'/>";
-//    svg += "</svg>";
 //    
-//    svg += "<svg viewBox='-5 -5 30 50' style='xborder-radius:50%;xbackground:#fff;stroke:orange;width:30px;height:50px;'>";
-//    svg += "<path stroke-linecap='round' stroke-linejoin='round' fill=none  stroke-width='4' d='M0,0 l20,0 l0,20 l-20,0  l0,20 l20,0'/>";
-//    svg += "</svg>";
-//    svg += "<svg viewBox='-5 -5 30 50' style='xborder-radius:50%;xbackground:#fff;stroke:orange;width:30px;height:50px;'>";
-//    svg += "<path stroke-linecap='butt' stroke-linejoin='butt' fill=none  stroke-width='4' d='M0,20 l20,-20 l0,40'/>";
-//    svg += "</svg>";
-//    lbl_display.setHtml("= (2<span style='margin:0 -5px;opacity:0.5'>'</span>111+-22<span style='margin:0 -5px;opacity:1.0'>.</span>02&times;1&divide;)");
-//    lbl_display.setHtml(formulaToHtml("10000 / 50 + 0.78 * 1 - -0 = "));
-    lbl_display.setHtml(formulaToHtml("0"));
-    view_calc.appendChild(view_buttons);
-    view_calc.appendChild(view_display);
-    AFW.appendChild(view_calc);
+//    function formulaToHtml(formula) {
+//        var res = formula;
+//        res = res.replace(/ \* /g,"<span style='color:#39c'>&times;</span>");
+//        res = res.replace(/ \/ /g,"<span style='color:#39c'>&divide;</span>");
+//        res = res.replace(/ - /g,"<span style='color:#39c'>&minus;</span>");
+//        res = res.replace(/-/g,"&#x2011;");
+//        
+//        res = res.replace(/ \+ /g,"<span style='color:#39c'>&plus;</span>");
+//        res = res.replace(/ \= /g,"<span style='color:#39c'>=</span>");
+//        //res = res.replace(/\./g,"<span style='margin:-"+(SIZE/20)+"px;'>.</span>");
+//        res = res.replace(/ \/ /g,"&divide;");
+//        return res;
+//    }
+//    
+//    function historyToHtml(history) {
+//        var res = history;
+//        res = res.replace(/ \* /g, "&times");
+//        res = res.replace(/ \/ /g, "&divide;");
+//        res = res.replace(/ - /g, "&minus;");
+//        res = res.replace(/-/g,"&#x2011;");
+//        res = res.replace(/ \+ /g,"&plus;");
+//        res = res.replace(/ \= /g,"=");
+//        res = res.replace(/ \/ /g,"&divide;");
+//        //res = res.replace(/\./g,"<span style='margin:-"+(SIZE/40)+"px;'>.</span>");
+//        return res;
+//    }
+//    
+
+    var formula = new Formula();
+    var ui = new CalcUI();
+    
+    function actionEqual() {
+        var result = formula.evaluate();
+        ui.setHistory(formula.getDisplay() + " = " + result);
+        formula.reset(result);
+        ui.setDisplay(" = "+result);
+    }
+    
+    ui.onDigit = function(digit) {formula.addDigit(digit);}
+    ui.onOperator = function(oper) {formula.setOperator(oper);}
+    ui.onBackspace = function() {formula.backspace();}
+    ui.onClear = function() {formula.reset(0);}
+    ui.onEqual = actionEqual;
+
+    formula.onChange = function() {ui.setDisplay(formula.getDisplay());}
+    
+    AFW.appendChild(ui);
+
+    
 
 } //onload
 

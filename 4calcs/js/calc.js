@@ -1,75 +1,80 @@
-function Number(defaultNumber) {
+function Formula() {
     
-    var num = "";
-    var sign = "";
-    function isDot(chr) { return (chr == "."); }
-    function isMinus(chr) { return (chr == "-"); }
+    var defaultNumber = 0;
+    this.onChange = function(){};
     
-    function hasDot() { return (num.indexOf(".") > -1); }
-    
-    function changeSign() {
-        sign = (sign==""?"-":"");
-    }
-    
-    this.addDigit = function(chr) {
-        if (chr==",") chr = "."
-        if (num == "0" && !isDot(chr)) num = chr
-        else if (isDot(chr) && hasDot()) return;
-        else if (isDot(chr) && num == "") num = "0.";
-        else if (isMinus(chr)) changeSign();
-        else num += chr;
-    }
-    this.backspace = function() {
-        if (num!= "") {
-            num = num.slice(0, -1);
-        } else if (sign!="") {
-            sign = "";
+    function Number() {
+
+        var num = "";
+        var sign = "";
+        function isDot(chr) { return (chr == "."); }
+        function isMinus(chr) { return (chr == "-"); }
+
+        function hasDot() { return (num.indexOf(".") > -1); }
+
+        function changeSign() {
+            sign = (sign==""?"-":"");
+        }
+
+        this.addDigit = function(chr) {
+            if (chr==",") chr = "."
+            if (num == "0" && !isDot(chr) && !isMinus(chr)) num = chr;
+            else if (isDot(chr) && hasDot()) return;
+            else if (isDot(chr) && num == "") num = "0.";
+            else if (isMinus(chr)) changeSign();
+            else num += chr;
+        }
+        this.backspace = function() {
+            if (num!= "") {
+                num = num.slice(0, -1);
+            } else if (sign!="") {
+                sign = "";
+            }
+        }
+
+        this.getDisplay = function() {return sign+num;}
+        this.finalize = function() {
+            if (num == "") num = defaultNumber;
+            num = eval(num)+"";
         }
     }
-    
-    this.getDisplay = function() {return sign+num;}
-    this.finalize = function() {
-        if (num == "") num = defaultNumber;
-        num = eval(num)+"";
+
+    function Operator() {
+        var oper = "";
+
+        this.set = function(chr) {oper = chr;}
+        this.isSet = function() { return (oper != "");}
+        this.getDisplay = function() {return oper==""?"":(" " +oper+ " ");}
     }
-}
 
-function Operator() {
-    var oper = "";
-    
-    this.set = function(chr) {oper = chr;}
-    this.isSet = function() { return (oper != "");}
-    this.getDisplay = function() {return oper==""?"":(" " +oper+ " ");}
-}
+    function NumberOperator() {
+        var num = new Number();
+        var opr = new Operator();
 
-function NumberOperator(defaultNumber) {
-    var num = new Number(defaultNumber);
-    var opr = new Operator();
-    
-    this.canAddDigit = function() {return !opr.isSet();}
-    this.addDigit = function(chr) {num.addDigit(chr);}
-    this.setOperator = function(chr) {num.finalize();opr.set(chr);}
-    this.getDisplay = function() {return num.getDisplay() + opr.getDisplay();}
-    this.backspace = function() {
-        if (opr.isSet()) {
-            opr.set("");
-        } else {
-            num.backspace();
+        this.canAddDigit = function() {return !opr.isSet();}
+        this.addDigit = function(chr) {num.addDigit(chr);}
+        this.setOperator = function(chr) {num.finalize();opr.set(chr);}
+        this.getDisplay = function() {return num.getDisplay() + opr.getDisplay();}
+        this.backspace = function() {
+            if (opr.isSet()) {
+                opr.set("");
+            } else {
+                num.backspace();
+            }
         }
     }
-}
 
-function Formula(defaultNumber) {
-    var formula = [new NumberOperator(defaultNumber)];
+    var formula = [new NumberOperator()];
     
     function lastNumOpr() {return formula[formula.length-1];}
     
     this.addDigit  = function(chr) {
-        if (!lastNumOpr().canAddDigit()) formula.push(new NumberOperator(defaultNumber));
+        if (!lastNumOpr().canAddDigit()) formula.push(new NumberOperator());
         lastNumOpr().addDigit(chr);
+        this.onChange();
     }
     
-    this.setOperator  = function(chr) {lastNumOpr().setOperator(chr);}
+    this.setOperator  = function(chr) {lastNumOpr().setOperator(chr);this.onChange();}
     
     this.getDisplay = function() {
         var str = "";
@@ -80,7 +85,8 @@ function Formula(defaultNumber) {
     this.evaluate = function() {
         this.setOperator("");
         if (this.getDisplay()=="") this.addDigit("0");
-        return eval(this.getDisplay()) + "";
+        defaultNumber = eval(this.getDisplay());
+        return defaultNumber + "";
     }
     
     this.backspace = function() {
@@ -88,6 +94,13 @@ function Formula(defaultNumber) {
         if (lastNumOpr().getDisplay() == "" && formula.length>1) {
             formula.pop();
         }
+        this.onChange();
+    }
+    
+    this.reset = function(num) {
+        defaultNumber = num;
+        formula = [new NumberOperator()];
+        this.onChange();
     }
 }
 
