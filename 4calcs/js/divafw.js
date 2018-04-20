@@ -3,7 +3,7 @@ AFW = {};
 AFW.default = {
     color:"black",
     background:"transparent",
-    fontSize:22,
+    fontSize:"inherit",
     padding:0,
     textAlign:"center",
     top:"auto",
