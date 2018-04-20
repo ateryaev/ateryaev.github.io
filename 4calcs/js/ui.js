@@ -42,7 +42,7 @@ function CalcUI() {
     var view_buttons = new AFW.View({bottom:0,right:0,left:1});
     
 
-    var lbl_display = new AFW.Label({bottom:0,right:"2%",color:"#c93",fontSize:"150%"}, "");
+    var lbl_display = new AFW.Label({bottom:0,right:"2%",color:"#c93",fontSize:"150%"}, "0+2-4");
     var lbl_history = new AFW.Label({bottom:0,right:"2%",color:"#888",textAlign:"right",fontSize:"75%"}, "0=0");
     
     
@@ -88,30 +88,14 @@ function CalcUI() {
     
     
     this.setDisplay = function(formulaText) {
-        var res = formulaText;
-        res = res.replace(/ \* /g,"<span style='color:#39c'>&times;</span>");
-        res = res.replace(/ \/ /g,"<span style='color:#39c'>&divide;</span>");
-        res = res.replace(/ - /g,"<span style='color:#39c'>&minus;</span>");
-        res = res.replace(/-/g,"&#x2011;");
-        res = res.replace(/ \+ /g,"<span style='color:#39c'>&plus;</span>");
-        res = res.replace(/ \= /g,"<span style='color:#39c'>=</span>");
-        res = res.replace(/ \/ /g,"&divide;");
-        lbl_display.setHtml(res);
+        lbl_display.setHtml(formulaText);
     }
     
     this.setHistory = function(historyText) {
-        var res = historyText;
-        res = res.replace(/ \* /g, "&times");
-        res = res.replace(/ \/ /g, "&divide;");
-        res = res.replace(/ - /g, "&minus;");
-        res = res.replace(/-/g,"&#x2011;");
-        res = res.replace(/ \+ /g,"&plus;");
-        res = res.replace(/ \= /g,"=");
-        res = res.replace(/ \/ /g,"&divide;");
-        lbl_history.setHtml(res);
+        lbl_history.setHtml(historyText);
     }
     
-    this.setHistory("");
+    this.setHistory("99+9=1<br>6-6=0");
     
     this.resize = function(w, h) {
         var SIZE = Math.min(w/4, h/6.4);
