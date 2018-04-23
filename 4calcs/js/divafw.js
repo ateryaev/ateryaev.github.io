@@ -41,8 +41,8 @@ AFW.makeViewTouchable = function(view) {
     
     function setLastTouchPoint(e) {
         var bb = view.getHtmlDiv().getBoundingClientRect();
-        last_y = (e.touches?e.touches[0].pageY:e.pageY) - bb.top -window.scrollY;
-        last_x = (e.touches?e.touches[0].pageX:e.pageX) - bb.left-window.scrollX;
+        last_y = (e.targetTouches?e.targetTouches[0].pageY:e.pageY) - bb.top -window.scrollY;
+        last_x = (e.targetTouches?e.targetTouches[0].pageX:e.pageX) - bb.left-window.scrollX;
     }
     
     
@@ -74,15 +74,15 @@ AFW.makeViewTouchable = function(view) {
     }
 	
     view.addTouchEndListner = function(callback) {
-        function otTouchEnd(e) {
+        function onTouchEnd(e) {
             if (!pressed_inside) return;
             pressed_inside = false;
             callback.bind(view)(last_x, last_y)
             e.preventDefault();
             return false;
         }
-        this.getHtmlDiv().addEventListener("touchend", otTouchEnd);
-        this.getHtmlDiv().addEventListener("mouseup", otTouchEnd);
+        this.getHtmlDiv().addEventListener("touchend", onTouchEnd);
+        this.getHtmlDiv().addEventListener("mouseup", onTouchEnd);
     }
 	
     view.addTouchCancelListner = function(callback) {
