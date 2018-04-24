@@ -82,10 +82,11 @@ function Formula() {
         return str;
     }
     
-    this.evaluate = function() {
+    this.evaluate = function(func) {
+        if (!func) func = function(e) {return e;}
         this.setOperator("");
         if (this.getDisplay()=="") this.addDigit("0");
-        defaultNumber = eval(this.getDisplay());
+        defaultNumber = func(eval(this.getDisplay()));
         return defaultNumber + "";
     }
     

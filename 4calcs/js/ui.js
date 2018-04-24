@@ -2,7 +2,7 @@ function CalcUI() {
     
     var DIGITS = "0123456789.n";
     var OPEATORS = "+-*/";
-    var EQUAL = "=";
+    var EQUAL = "=si";
     var BACKSPACE = "<";
     var CLEAR = "C";
     
@@ -22,7 +22,13 @@ function CalcUI() {
     var othis = this;
     
     function btnToHTML(chr) {
-        var btn_txt = {"*":"&times;", "/":"&divide;", "n":"+/-", "<":"del"}
+        var btn_txt = {"*":"&times;", 
+                       "/":"&divide;", 
+                       "n":"&plusmn;", 
+                       "<":"del", 
+                       "pow":"<sup style='color:transparent;font-size:50%;'>y</sup>x<sup style='font-size:50%;'>y</sup>", 
+                       "i":"<sup>1</sup>/<sub>X<sub>",
+                       "s":"&radic;"}
         return btn_txt[chr]?btn_txt[chr]:chr;
     }
     
@@ -38,12 +44,12 @@ function CalcUI() {
     };
     
 
-    AFW.View.call(this, {top:0,left:0, background:"black"});
+    AFW.View.call(this, {top:0,left:0,right:0,bottom:0,background:"#222"});
     var view_buttons = new AFW.View({bottom:0,right:0,left:1});
     
 
-    var lbl_display = new AFW.Label({bottom:0,right:"2%",color:"#c93",fontSize:"150%"}, "");
-    var lbl_history = new AFW.Label({bottom:0,right:"2%",color:"#888",textAlign:"right",fontSize:"75%"}, "0=0");
+    var lbl_display = new AFW.Label({bottom:0,right:"0%",color:"#c93",fontSize:"150%"}, "");
+    var lbl_history = new AFW.Label({bottom:0,right:"0%",color:"#888",textAlign:"right",fontSize:"75%"}, "0=0");
     
     
     
@@ -72,6 +78,7 @@ function CalcUI() {
     }
     
     var buttons = ["C*/<","789+", "456-", "123=", "n0. "];
+    //var buttons = ["Csi*","789/", "456+", "123-", "n0.="];
     
     for (var row in buttons) {
         for (var col in buttons[row]) {
@@ -114,12 +121,17 @@ function CalcUI() {
         if (history[history.length-1] == res) return;
         history.push(res);
         lbl_history.setHtml(history.join("<br>"));
+        
     }
     
     this.setHistory("<i><small style='opacity:0.5'>Calculator by Anton Teryaev</small></i>");
     this.setDisplay(0);
     
-    this.resize = function(w, h) {
+    this.resize = function(upsidedown) {
+        
+        var w = this.getHtmlDiv().parentElement.offsetWidth;
+        var h = this.getHtmlDiv().parentElement.offsetHeight;
+        //console.log(this.getHtmlDiv().parentElement, this.getHtmlDiv().parentNode);
         var SIZE = Math.min(w/4, h/6.4);
         var SIZEW = w/4;
         var baseFontSize = Math.round(SIZE/3.5);
@@ -129,13 +141,13 @@ function CalcUI() {
         this.setStyle("width", w);
         this.setStyle("height", h);
         this.setStyle("fontSize", baseFontSize);
-        //console.log(baseFontSize)
+        this.setStyle("transform", upsidedown?"rotate(180deg)":"");
     }
     
-    window.onresize = function() {
-        this.resize(document.documentElement.clientWidth, document.documentElement.clientHeight);
-    }.bind(this);
-
-    window.onresize();
+//    window.onresize = function() {
+//        this.resize(document.documentElement.clientWidth/2, document.documentElement.clientHeight);
+//    }.bind(this);
+//
+//    window.onresize();
 
 }

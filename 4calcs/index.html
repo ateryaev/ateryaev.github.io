@@ -15,63 +15,72 @@
     body {padding:0;margin:0;background:#000;}
     div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
     div.view.scroll { z-index:-1;}
-    * {font-family:"Courier New";box-sizing:border-box;}
+    * {font-family:xarial,xverdana,"Courier New";box-sizing:border-box;}
     input,input:active {-webkit-appearance:none;appearance:none;width:100%;border:0px;outline:0px;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);}
     svg{display:block;margin:0;padding:0;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
 </style>
 <script src="js/calc.js"></script>
 <script>
 window.onload = function() {
-//
-//    
-//    
-//    function formulaToHtml(formula) {
-//        var res = formula;
-//        res = res.replace(/ \* /g,"<span style='color:#39c'>&times;</span>");
-//        res = res.replace(/ \/ /g,"<span style='color:#39c'>&divide;</span>");
-//        res = res.replace(/ - /g,"<span style='color:#39c'>&minus;</span>");
-//        res = res.replace(/-/g,"&#x2011;");
-//        
-//        res = res.replace(/ \+ /g,"<span style='color:#39c'>&plus;</span>");
-//        res = res.replace(/ \= /g,"<span style='color:#39c'>=</span>");
-//        //res = res.replace(/\./g,"<span style='margin:-"+(SIZE/20)+"px;'>.</span>");
-//        res = res.replace(/ \/ /g,"&divide;");
-//        return res;
-//    }
-//    
-//    function historyToHtml(history) {
-//        var res = history;
-//        res = res.replace(/ \* /g, "&times");
-//        res = res.replace(/ \/ /g, "&divide;");
-//        res = res.replace(/ - /g, "&minus;");
-//        res = res.replace(/-/g,"&#x2011;");
-//        res = res.replace(/ \+ /g,"&plus;");
-//        res = res.replace(/ \= /g,"=");
-//        res = res.replace(/ \/ /g,"&divide;");
-//        //res = res.replace(/\./g,"<span style='margin:-"+(SIZE/40)+"px;'>.</span>");
-//        return res;
-//    }
-//    
-
-    var formula = new Formula();
-    var ui = new CalcUI();
     
-    function actionEqual() {
-        var result = formula.evaluate();
-        ui.setHistory(formula.getDisplay() + " = " + result);
-        formula.reset(result);
-        ui.setDisplay(" = "+result);
+    
+    function createUI() {
+        var formula = new Formula();
+        var ui = new CalcUI();
+
+        function actionEqual(equalType) {
+
+            var func = {"=":[function(e){return e;}, "", ""], 
+                         "s":[function(e){return Math.sqrt(e);}, "&radic;(", ")"], 
+                         "i":[function(e){return (1/e);}, "1/(", ")"]
+                        }[equalType];
+
+
+            var result = formula.evaluate(func[0]);
+            ui.setHistory(func[1]+formula.getDisplay() +func[2] + " = " + result);
+            formula.reset(result);
+            ui.setDisplay(" = "+result);
+        }
+
+        ui.onDigit = function(digit) {formula.addDigit(digit);}
+        ui.onOperator = function(oper) {formula.setOperator(oper);}
+        ui.onBackspace = function() {formula.backspace();}
+        ui.onClear = function() {formula.reset(0);}
+        ui.onEqual = actionEqual;
+
+        formula.onChange = function() {ui.setDisplay(formula.getDisplay());}
+        return ui;
     }
     
-    ui.onDigit = function(digit) {formula.addDigit(digit);}
-    ui.onOperator = function(oper) {formula.setOperator(oper);}
-    ui.onBackspace = function() {formula.backspace();}
-    ui.onClear = function() {formula.reset(0);}
-    ui.onEqual = actionEqual;
+    var ui = [createUI(), createUI(), createUI()];
 
-    formula.onChange = function() {ui.setDisplay(formula.getDisplay());}
     
-    AFW.appendChild(ui);
+    var ui_holder = [new AFW.View({top:0,left:0, right:"50%",marginRight:"0.5%", bottom:"0"}), 
+                     new AFW.View({top:0,right:0,marginleft:"0.5%", left:"50%", bottom:"0"}),
+                     new AFW.View({top:0,right:0,bottom:0,left:0})
+                    ];
+    ui_holder[0].appendChild(ui[0]);
+    ui_holder[1].appendChild(ui[1]);
+    ui_holder[2].appendChild(ui[2]);
+    
+    
+
+    window.onresize = function() {
+        AFW.removeChild(ui_holder[0]);
+        AFW.removeChild(ui_holder[1]);
+        AFW.removeChild(ui_holder[2]);
+        if (document.documentElement.clientWidth > document.documentElement.clientHeight) {
+            AFW.appendChild(ui_holder[0]);
+            AFW.appendChild(ui_holder[1]);
+            ui[0].resize();
+            ui[1].resize(true);
+        } else {
+            AFW.appendChild(ui_holder[2]);
+            ui[2].resize();
+        }
+    };
+
+    window.onresize();
 
     
 
@@ -80,7 +89,7 @@ window.onload = function() {
 </script>
 
 <body>
-<div id="viewport" style="position:fixed;top:0;left:0;bottom:0;right:0;"></div>
+<div id="viewport" style="position:fixed;top:0;left:0;bottom:0;right:0;xbackground:#fff"></div>
 </body>
 
 </html>
