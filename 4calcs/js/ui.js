@@ -44,7 +44,7 @@ function CalcUI() {
     };
     
 
-    AFW.View.call(this, {top:0,left:0,right:0,bottom:0,background:"#222"});
+    AFW.View.call(this, {top:0,left:0,right:0,bottom:0,background:"#000"});
     var view_buttons = new AFW.View({bottom:0,right:0,left:1});
     
 

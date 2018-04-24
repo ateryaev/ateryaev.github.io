@@ -8,21 +8,21 @@
 <meta name="format-detection" content="telephone=no">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
-<script src="js/ui.js"></script>
 <script src="js/divafw.js"></script>
-
+<script src="js/ui.js"></script>
+<script src="js/calc.js"></script>
+    
 <style>
-    body {padding:0;margin:0;background:#000;}
+    body {padding:0;margin:0;background:#222;}
     div.view {position:absolute;margin:auto;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
     div.view.scroll { z-index:-1;}
-    * {font-family:xarial,xverdana,"Courier New";box-sizing:border-box;}
+    * {font-family:"Courier New";box-sizing:border-box;}
     input,input:active {-webkit-appearance:none;appearance:none;width:100%;border:0px;outline:0px;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);}
     svg{display:block;margin:0;padding:0;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;box-sizing: border-box;}
 </style>
-<script src="js/calc.js"></script>
+
 <script>
 window.onload = function() {
-    
     
     function createUI() {
         var formula = new Formula();
@@ -63,7 +63,6 @@ window.onload = function() {
     ui_holder[1].appendChild(ui[1]);
     ui_holder[2].appendChild(ui[2]);
     
-    
 
     window.onresize = function() {
         AFW.removeChild(ui_holder[0]);
@@ -72,24 +71,20 @@ window.onload = function() {
         if (document.documentElement.clientWidth > document.documentElement.clientHeight) {
             AFW.appendChild(ui_holder[0]);
             AFW.appendChild(ui_holder[1]);
-            ui[0].resize();
-            ui[1].resize(true);
+            window.setTimeout(function() {ui[0].resize();ui[1].resize(true);}, 1);
         } else {
             AFW.appendChild(ui_holder[2]);
-            ui[2].resize();
+            window.setTimeout(function() {ui[2].resize();}, 1);
         }
     };
 
     window.onresize();
 
-    
-
 } //onload
-
 </script>
 
 <body>
-<div id="viewport" style="position:fixed;top:0;left:0;bottom:0;right:0;xbackground:#fff"></div>
+<div id="viewport" style="position:fixed;top:0;left:0;bottom:0;right:0;"></div>
 </body>
 
 </html>
