@@ -4,7 +4,8 @@
 <title>4CALCS</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=2.0, minimum-scale=1.0">
+<!--meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=2.0, minimum-scale=1.0"-->
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="format-detection" content="telephone=no">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
@@ -68,6 +69,10 @@ window.onload = function() {
         AFW.removeChild(ui_holder[0]);
         AFW.removeChild(ui_holder[1]);
         AFW.removeChild(ui_holder[2]);
+        
+        document.getElementById("viewport").style.width = document.documentElement.clientWidth+"px";
+        document.getElementById("viewport").style.height = document.documentElement.clientHeight+"px";
+        
         if (document.documentElement.clientWidth > document.documentElement.clientHeight) {
             AFW.appendChild(ui_holder[0]);
             AFW.appendChild(ui_holder[1]);
@@ -84,7 +89,7 @@ window.onload = function() {
 </script>
 
 <body>
-<div id="viewport" style="position:fixed;top:0;left:0;bottom:0;right:0;"></div>
+<div id="viewport" style="position:fixed;top:0;left:0;"></div>
 </body>
 
 </html>
